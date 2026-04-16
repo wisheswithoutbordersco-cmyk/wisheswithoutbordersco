@@ -114,7 +114,6 @@ const fadeUp = {
 };
 
 export default function Home() {
-  const [featuredCheckingOut, setFeaturedCheckingOut] = useState(false);
   const [footerEmail, setFooterEmail] = useState("");
   const [footerSubmitted, setFooterSubmitted] = useState(false);
   const footerSubscribe = trpc.shop.subscribeNewsletter.useMutation();
@@ -178,29 +177,6 @@ export default function Home() {
     }
   }
 
-  const checkoutMutation = trpc.shop.createCheckout.useMutation();
-
-  async function handleFeaturedBuy() {
-    setFeaturedCheckingOut(true);
-    try {
-      const origin = window.location.origin;
-      const result = await checkoutMutation.mutateAsync({
-        productId: "fr_birthday_mom",
-        cartItems: [{ productId: "fr_birthday_mom", name: "France Birthday Card for Mom", price: 599 }],
-        successUrl: `${origin}/order-success`,
-        cancelUrl: `${origin}/`,
-      });
-      if (result.url) {
-        window.open(result.url, "_blank");
-        toast.success("Redirecting to secure checkout...");
-      }
-    } catch (err: unknown) {
-      const msg = err instanceof Error ? err.message : "Checkout failed. Please try again.";
-      toast.error(msg);
-    } finally {
-      setFeaturedCheckingOut(false);
-    }
-  }
 
   return (
     <div className="min-h-screen bg-[#faf8f4]">
@@ -383,63 +359,6 @@ export default function Home() {
         </motion.div>
       </section>
 
-      <hr className="gold-divider" />
-
-      {/* ════════════════════════════════════════════════════════════════════
-          FEATURED CARD OF THE WEEK
-          ════════════════════════════════════════════════════════════════════ */}
-      <section className="bg-gradient-to-b from-[#f5f0e8] to-[#faf8f4] py-14 px-4">
-        <div className="max-w-5xl mx-auto">
-          <motion.div
-            className="flex flex-col md:flex-row items-stretch bg-white rounded-3xl shadow-xl overflow-hidden border border-[#e8dfc8]/60"
-            initial="hidden"
-            whileInView="visible"
-            viewport={{ once: true, margin: "-50px" }}
-            variants={fadeUp}
-            custom={0}
-          >
-            <div className="md:w-2/5 w-full flex-shrink-0 relative group overflow-hidden">
-              <img
-                src="https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/fr_birthday_mom_4f0c002c.png"
-                alt="Featured Card — France Birthday Mom"
-                className="w-full h-72 md:h-full object-cover group-hover:scale-105 transition-transform duration-700"
-                onError={(e) => {
-                  (e.target as HTMLImageElement).src = "https://placehold.co/600x400/1a2744/d4af37?text=Featured+Card";
-                }}
-              />
-              <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent" />
-            </div>
-            <div className="flex-1 px-6 md:px-10 py-8 md:py-10 flex flex-col justify-center">
-              <span className="inline-flex items-center gap-1.5 bg-gradient-to-r from-[#d4af37] to-amber-400 text-[#1a2744] text-xs font-bold px-4 py-1.5 rounded-full mb-5 uppercase tracking-wide w-fit">
-                <Sparkles className="w-3.5 h-3.5" />
-                Featured Card of the Week
-              </span>
-              <h2 className="text-2xl md:text-3xl font-bold font-serif text-[#1a2744] mb-3">
-                France — Birthday Mom
-              </h2>
-              <p className="text-gray-500 text-sm mb-7 leading-relaxed">
-                A beautiful French-themed birthday card for Mom, featuring the Eiffel Tower, lavender fields, and a heartfelt message in French. Perfect for anyone celebrating a French heritage.
-              </p>
-              <div className="flex items-center gap-3 flex-wrap">
-                <button
-                  onClick={handleFeaturedBuy}
-                  disabled={featuredCheckingOut}
-                  className="bg-[#d4af37] text-[#1a2744] font-bold px-7 py-3 rounded-full hover:bg-[#c9a227] transition-all duration-200 text-sm disabled:opacity-60 disabled:cursor-not-allowed shadow-md hover:shadow-lg"
-                >
-                  {featuredCheckingOut ? "Redirecting..." : "Buy Now — $5.99"}
-                </button>
-                <Link
-                  href="/birthday"
-                  className="inline-flex items-center gap-1.5 px-6 py-3 rounded-full border-2 border-[#1a2744] text-[#1a2744] font-bold text-sm hover:bg-[#1a2744] hover:text-white transition-all duration-200"
-                >
-                  Browse all cards
-                  <ArrowRight className="w-3.5 h-3.5" />
-                </Link>
-              </div>
-            </div>
-          </motion.div>
-        </div>
-      </section>
 
       <hr className="gold-divider" />
 
