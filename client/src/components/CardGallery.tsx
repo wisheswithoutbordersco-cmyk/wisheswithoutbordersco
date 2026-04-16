@@ -1,6 +1,6 @@
 import { useState, useEffect, useRef } from "react";
 import { Input } from "@/components/ui/input";
-import { Search, ShoppingCart } from "lucide-react";
+import { Search, ShoppingCart, Printer } from "lucide-react";
 import { ProductModal, type ProductInfo } from "@/components/ProductModal";
 
 type CardItem = {
@@ -18,6 +18,8 @@ type Props = {
   priceInCents?: number;
   category?: string;
   descriptionTemplate?: (card: CardItem) => string;
+  /** Optional callback — when provided, an "Order Physical Print" button appears on each card */
+  onOrderPrint?: (card: CardItem) => void;
 };
 
 function defaultDescription(card: CardItem, title: string): string {
@@ -31,6 +33,7 @@ export function CardGallery({
   priceInCents = 599,
   category = "greeting_card",
   descriptionTemplate,
+  onOrderPrint,
 }: Props) {
   const [search, setSearch] = useState(() => {
     if (typeof window !== "undefined") {
@@ -72,11 +75,11 @@ export function CardGallery({
   }
 
   return (
-    <div className="min-h-screen bg-[#F8F5EF]">
+    <div className="min-h-screen bg-[#faf8f4]">
       {/* Page Header */}
-      <div className="bg-[#0A1A2F] text-white py-10 px-4 text-center">
+      <div className="bg-[#1a2744] text-white py-10 px-4 text-center">
         <h1 className="text-3xl md:text-4xl font-bold font-serif mb-2">{title}</h1>
-        {subtitle && <p className="text-[#C9A86A] text-lg">{subtitle}</p>}
+        {subtitle && <p className="text-[#d4af37] text-lg">{subtitle}</p>}
         <p className="text-white/70 text-sm mt-2">
           {cards.length} cards available &middot; ${(priceInCents / 100).toFixed(2)} each &middot; Instant PDF Download &middot; Print at Home
         </p>
@@ -90,7 +93,7 @@ export function CardGallery({
             placeholder="Search by country..."
             value={search}
             onChange={(e) => setSearch(e.target.value)}
-            className="border-[#C9A86A]/40 focus:border-[#C9A86A]"
+            className="border-[#d4af37]/40 focus:border-[#d4af37]"
           />
         </div>
 
@@ -103,34 +106,50 @@ export function CardGallery({
           {filtered.map((card, idx) => (
             <div
               key={`${card.id}-${idx}`}
-              className="group bg-white rounded-xl shadow-sm hover:shadow-md transition-all duration-200 overflow-hidden border border-gray-100 cursor-pointer"
-              onClick={() => handleCardClick(card)}
+              className="group bg-white rounded-xl shadow-sm hover:shadow-md transition-all duration-200 overflow-hidden border border-gray-100"
             >
-              <div className="relative overflow-hidden" style={{ aspectRatio: "3/4" }}>
+              <div
+                className="relative overflow-hidden cursor-pointer"
+                style={{ aspectRatio: "3/4" }}
+                onClick={() => handleCardClick(card)}
+              >
                 <img
                   src={card.image}
                   alt={`${card.country}${card.variant ? ` — ${card.variant}` : ""} card`}
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                   loading="lazy"
                   onError={(e) => {
-                    const img = e.target as HTMLImageElement;
-                      img.src = "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='400' fill='%230A1A2F'%3E%3Crect width='300' height='400'/%3E%3Ctext x='150' y='180' text-anchor='middle' fill='%23C9A86A' font-size='14' font-family='sans-serif'%3EWishes Without%3C/text%3E%3Ctext x='150' y='200' text-anchor='middle' fill='%23C9A86A' font-size='14' font-family='sans-serif'%3EBorders Co%3C/text%3E%3Ctext x='150' y='240' text-anchor='middle' fill='%23C9A86A' font-size='28'%3E%F0%9F%8C%8D%3C/text%3E%3C/svg%3E";
+                    (e.target as HTMLImageElement).src =
+                      "https://placehold.co/300x400/f5f0e8/1a2744?text=Card";
                   }}
                 />
                 {/* Hover overlay */}
-                <div className="absolute inset-0 bg-[#0A1A2F]/0 group-hover:bg-[#0A1A2F]/30 transition-all duration-200 flex items-center justify-center">
-                  <div className="opacity-0 group-hover:opacity-100 transition-opacity duration-200 bg-white text-[#0A1A2F] text-xs font-bold px-3 py-1.5 rounded-full shadow-lg flex items-center gap-1">
+                <div className="absolute inset-0 bg-[#1a2744]/0 group-hover:bg-[#1a2744]/30 transition-all duration-200 flex items-center justify-center">
+                  <div className="opacity-0 group-hover:opacity-100 transition-opacity duration-200 bg-white text-[#1a2744] text-xs font-bold px-3 py-1.5 rounded-full shadow-lg flex items-center gap-1">
                     <ShoppingCart className="w-3 h-3" />
                     View & Buy
                   </div>
                 </div>
               </div>
               <div className="p-2 text-center">
-                <p className="text-xs font-semibold text-[#0A1A2F] truncate">{card.country}</p>
+                <p className="text-xs font-semibold text-[#1a2744] truncate">{card.country}</p>
                 {card.variant && card.variant !== "Standard" && (
-                  <p className="text-xs text-[#C9A86A]">{card.variant}</p>
+                  <p className="text-xs text-[#d4af37]">{card.variant}</p>
                 )}
-                <p className="text-xs text-[#C9A86A] font-bold mt-0.5">${(priceInCents / 100).toFixed(2)}</p>
+                <p className="text-xs text-[#d4af37] font-bold mt-0.5">${(priceInCents / 100).toFixed(2)}</p>
+                {/* Order Physical Print button — only shown when onOrderPrint is provided */}
+                {onOrderPrint && (
+                  <button
+                    onClick={(e) => {
+                      e.stopPropagation();
+                      onOrderPrint(card);
+                    }}
+                    className="mt-1.5 w-full flex items-center justify-center gap-1 bg-[#1a2744] text-white text-[10px] font-semibold py-1.5 rounded-full hover:bg-[#243560] transition-colors"
+                  >
+                    <Printer className="w-2.5 h-2.5" />
+                    Order Physical Print
+                  </button>
+                )}
               </div>
             </div>
           ))}
@@ -142,14 +161,19 @@ export function CardGallery({
         <ProductModal
           product={selectedProduct}
           onClose={() => setSelectedProduct(null)}
+          onOrderPrint={
+            onOrderPrint
+              ? () => {
+                  const card = cards.find((c) => c.id === selectedProduct.productId);
+                  if (card) {
+                    setSelectedProduct(null);
+                    onOrderPrint(card);
+                  }
+                }
+              : undefined
+          }
         />
       )}
-
-      {/* Footer */}
-      <footer className="bg-[#0A1A2F] border-t border-white/10 text-white/50 text-center py-6 text-xs">
-        <p className="italic text-[#C9A86A]/70 text-sm mb-3">Send a piece of home, back home.</p>
-        All products are instant digital downloads · Print at home · wisheswithoutbordersco.com
-      </footer>
     </div>
   );
 }

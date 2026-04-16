@@ -1,133 +1,213 @@
+import { useState } from "react";
 import { NavBar } from "@/components/NavBar";
-import { Link } from "wouter";
-
-const PRINT_SHOP_CATEGORIES = [
-  {
-    href: "/print-shop/wall-art",
-    title: "Wall Art",
-    subtitle: "Cultural prints for every room",
-    icon: "🖼️",
-  },
-  {
-    href: "/print-shop/country",
-    title: "Country Prints",
-    subtitle: "Celebrate your heritage",
-    icon: "🌍",
-  },
-  {
-    href: "/print-shop/kids",
-    title: "Kids' Room",
-    subtitle: "Bright, joyful, educational",
-    icon: "🎨",
-  },
-  {
-    href: "/print-shop/teacher",
-    title: "Teacher Prints",
-    subtitle: "Classroom-ready cultural art",
-    icon: "📚",
-  },
-  {
-    href: "/print-shop/holidays",
-    title: "Holiday Prints",
-    subtitle: "Seasonal celebrations worldwide",
-    icon: "🎉",
-  },
-  {
-    href: "/print-shop/special-editions",
-    title: "Special Editions",
-    subtitle: "Limited & collector prints",
-    icon: "✨",
-  },
-];
+import { WALL_ART_PRINTS } from "@/lib/productData";
+import { Search, Printer, Truck, Package, Globe } from "lucide-react";
+import {
+  PhysicalPrintModal,
+  type PhysicalPrintProduct,
+} from "@/components/PhysicalPrintModal";
 
 export default function PrintShopPage() {
+  const [search, setSearch] = useState("");
+  const [selectedProduct, setSelectedProduct] =
+    useState<PhysicalPrintProduct | null>(null);
+
+  const filtered = WALL_ART_PRINTS.filter((c) =>
+    c.country.toLowerCase().includes(search.toLowerCase()),
+  );
+
+  function handleCardClick(card: (typeof WALL_ART_PRINTS)[number]) {
+    setSelectedProduct({
+      productId: card.id,
+      name: card.name,
+      image: card.image,
+      country: card.country,
+    });
+  }
+
   return (
-    <div className="min-h-screen bg-[#F8F5EF]">
+    <div className="min-h-screen bg-[#faf8f4]">
       <NavBar />
 
       {/* Hero */}
-      <div className="bg-[#0A1A2F] py-16 px-4 text-center">
-        <div className="max-w-3xl mx-auto">
-          <p className="text-[#C9A86A] text-xs font-bold uppercase tracking-widest mb-3">
-            Wishes Without Borders Co
-          </p>
-          <h1 className="text-4xl md:text-5xl font-bold font-serif text-white leading-tight mb-4">
-            The Print Shop
-          </h1>
-          <p className="text-white/70 text-lg max-w-xl mx-auto">
-            Museum-quality cultural prints, delivered to your door — powered by Gelato.
-          </p>
+      <div className="bg-[#1a2744] text-white py-12 px-4 text-center">
+        <div className="flex items-center justify-center gap-2 mb-3">
+          <Printer className="w-6 h-6 text-[#d4af37]" />
+          <span className="text-[#d4af37] font-semibold text-xs uppercase tracking-widest">
+            WishesWithoutBordersco Print Shop
+          </span>
+        </div>
+        <h1 className="text-3xl md:text-4xl font-bold font-serif mb-2">
+          Physical Wall Art Prints
+        </h1>
+        <p className="text-[#d4af37] text-lg mb-2">
+          30 Countries · Museum-Quality Matte Posters
+        </p>
+        <p className="text-white/60 text-sm max-w-2xl mx-auto">
+          Order a professionally printed wall art poster shipped directly to your
+          door. Produced by Gelato's global print network — printed at the
+          facility nearest to you for fast, eco-friendly delivery.
+        </p>
+      </div>
+
+      {/* Features bar */}
+      <div className="bg-[#d4af37]">
+        <div className="max-w-5xl mx-auto px-4 py-3 flex flex-wrap justify-center gap-x-6 gap-y-1.5 text-[#1a2744] text-xs font-semibold">
+          <span className="flex items-center gap-1 whitespace-nowrap">
+            <Printer className="w-3.5 h-3.5" /> Premium Matte Print
+          </span>
+          <span className="flex items-center gap-1 whitespace-nowrap">
+            <Package className="w-3.5 h-3.5" /> 2 Sizes: 8×10" &amp; 11×14"
+          </span>
+          <span className="flex items-center gap-1 whitespace-nowrap">
+            <Truck className="w-3.5 h-3.5" /> Ships Worldwide
+          </span>
+          <span className="flex items-center gap-1 whitespace-nowrap">
+            <Globe className="w-3.5 h-3.5" /> 30 Countries Available
+          </span>
         </div>
       </div>
 
-      {/* Coming Soon Banner */}
-      <div className="bg-[#C9A86A] py-4 px-4 text-center">
-        <p className="text-[#0A1A2F] font-bold text-sm">
-          🚀 Coming Soon — Launching with Gelato Print-on-Demand
-        </p>
-      </div>
+      {/* Search + Grid */}
+      <div className="max-w-7xl mx-auto px-4 py-8">
+        {/* Pricing callout */}
+        <div className="max-w-xl mx-auto mb-6 bg-white rounded-2xl shadow-sm border border-[#e8dfc8] p-4 text-center">
+          <p className="text-sm text-[#1a2744] font-semibold mb-1">
+            Simple Pricing — No Hidden Fees
+          </p>
+          <div className="flex items-center justify-center gap-6">
+            <div>
+              <span className="text-2xl font-bold text-[#1a2744]">$9.99</span>
+              <span className="text-xs text-gray-500 ml-1">8×10" print</span>
+            </div>
+            <div className="w-px h-8 bg-gray-200" />
+            <div>
+              <span className="text-2xl font-bold text-[#1a2744]">$14.99</span>
+              <span className="text-xs text-gray-500 ml-1">11×14" print</span>
+            </div>
+          </div>
+          <p className="text-xs text-gray-400 mt-2">
+            Shipping calculated at checkout · Secure payment via Stripe
+          </p>
+        </div>
 
-      {/* Category Grid */}
-      <div className="max-w-5xl mx-auto px-6 py-16">
-        <h2 className="text-2xl font-bold font-serif text-[#0A1A2F] text-center mb-2">
-          Browse by Category
-        </h2>
-        <p className="text-center text-gray-500 text-sm mb-10">
-          Explore what's coming to the Print Shop
-        </p>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-          {PRINT_SHOP_CATEGORIES.map((cat) => (
-            <Link
-              key={cat.href}
-              href={cat.href}
-              className="group bg-white rounded-2xl border border-[#e8dfc8] p-8 flex flex-col items-center text-center hover:shadow-lg hover:border-[#C9A86A] transition-all"
+        {/* Search */}
+        <div className="flex items-center gap-2 max-w-md mx-auto mb-8">
+          <Search className="text-gray-400 w-4 h-4 shrink-0" />
+          <input
+            placeholder="Search by country..."
+            value={search}
+            onChange={(e) => setSearch(e.target.value)}
+            className="w-full border border-[#d4af37]/40 focus:border-[#d4af37] rounded-lg px-3 py-2 text-sm outline-none transition-colors"
+          />
+        </div>
+
+        {filtered.length === 0 && (
+          <p className="text-center text-gray-500 py-12">
+            No prints found for &ldquo;{search}&rdquo;
+          </p>
+        )}
+
+        {/* Product Grid */}
+        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-4">
+          {filtered.map((card, idx) => (
+            <div
+              key={`${card.id}-${idx}`}
+              className="group bg-white rounded-xl shadow-sm hover:shadow-md transition-all duration-200 overflow-hidden border border-gray-100 cursor-pointer"
+              onClick={() => handleCardClick(card)}
             >
-              <span className="text-4xl mb-4">{cat.icon}</span>
-              <h3 className="text-lg font-bold font-serif text-[#0A1A2F] mb-1 group-hover:text-[#C9A86A] transition-colors">
-                {cat.title}
-              </h3>
-              <p className="text-gray-500 text-sm">{cat.subtitle}</p>
-              <span className="mt-4 text-xs font-semibold text-[#C9A86A] uppercase tracking-widest">
-                Coming Soon
-              </span>
-            </Link>
+              <div
+                className="relative overflow-hidden"
+                style={{ aspectRatio: "3/4" }}
+              >
+                <img
+                  src={card.image}
+                  alt={`${card.country} wall art print`}
+                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                  loading="lazy"
+                  onError={(e) => {
+                    (e.target as HTMLImageElement).src =
+                      "https://placehold.co/300x400/f5f0e8/1a2744?text=Art";
+                  }}
+                />
+                {/* Hover overlay */}
+                <div className="absolute inset-0 bg-[#1a2744]/0 group-hover:bg-[#1a2744]/30 transition-all duration-200 flex items-center justify-center">
+                  <div className="opacity-0 group-hover:opacity-100 transition-opacity duration-200 bg-white text-[#1a2744] text-xs font-bold px-3 py-1.5 rounded-full shadow-lg flex items-center gap-1">
+                    <Printer className="w-3 h-3" />
+                    Order Print
+                  </div>
+                </div>
+              </div>
+              <div className="p-2 text-center">
+                <p className="text-xs font-semibold text-[#1a2744] truncate">
+                  {card.country}
+                </p>
+                <p className="text-xs text-gray-400 mt-0.5">
+                  From{" "}
+                  <span className="text-[#d4af37] font-bold">$9.99</span>
+                </p>
+              </div>
+            </div>
           ))}
         </div>
       </div>
 
-      {/* Gelato Partnership Note */}
-      <div className="bg-[#F8F5EF] py-12 px-6">
-        <div className="max-w-3xl mx-auto text-center">
-          <h2 className="text-2xl font-bold font-serif text-[#0A1A2F] mb-3">
-            Powered by Gelato
+      {/* How It Works */}
+      <div className="bg-[#1a2744] py-12 px-4">
+        <div className="max-w-4xl mx-auto">
+          <h2 className="text-2xl font-bold font-serif text-white text-center mb-8">
+            How Physical Prints Work
           </h2>
-          <p className="text-gray-600 text-sm leading-relaxed max-w-xl mx-auto">
-            Every print will be fulfilled through Gelato's global print network — museum-quality paper,
-            archival inks, and delivery to 200+ countries. No inventory. No waste. Just beautiful prints
-            that celebrate culture.
-          </p>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            {[
+              {
+                step: "01",
+                icon: "🎨",
+                title: "Choose Your Art",
+                desc: "Pick your country and select your preferred print size — 8×10\" or 11×14\".",
+              },
+              {
+                step: "02",
+                icon: "💳",
+                title: "Secure Checkout",
+                desc: "Enter your shipping address and pay securely via Stripe. No account needed.",
+              },
+              {
+                step: "03",
+                icon: "📦",
+                title: "Delivered to You",
+                desc: "Gelato prints your poster at the nearest facility and ships it directly to your door.",
+              },
+            ].map((item) => (
+              <div
+                key={item.step}
+                className="flex flex-col items-center text-center"
+              >
+                <div className="relative mb-4">
+                  <span className="text-4xl">{item.icon}</span>
+                  <span className="absolute -top-2 -right-4 bg-[#d4af37] text-[#1a2744] text-xs font-bold w-6 h-6 rounded-full flex items-center justify-center">
+                    {item.step}
+                  </span>
+                </div>
+                <h3 className="text-white font-bold text-base mb-1">
+                  {item.title}
+                </h3>
+                <p className="text-white/60 text-sm leading-relaxed">
+                  {item.desc}
+                </p>
+              </div>
+            ))}
+          </div>
         </div>
       </div>
 
-      {/* Footer */}
-      <footer className="bg-[#0A1A2F] text-white/60 text-center py-10 text-sm px-6">
-        <div className="border-t border-white/10 pt-6 max-w-5xl mx-auto">
-          <p className="text-white font-semibold mb-1">Wishes Without Borders Co</p>
-          <p>Multicultural prints &amp; digital products · Powered by Gelato</p>
-          <p className="mt-1">
-            <a href="mailto:info@wisheswithoutbordersco.com" className="text-[#C9A86A] hover:underline">
-              info@wisheswithoutbordersco.com
-            </a>
-          </p>
-          <div className="mt-4 flex flex-wrap justify-center gap-4 text-xs">
-            <Link href="/" className="hover:text-[#C9A86A] transition-colors">Home</Link>
-            <Link href="/print-shop" className="hover:text-[#C9A86A] transition-colors">Print Shop</Link>
-            <Link href="/birthday" className="hover:text-[#C9A86A] transition-colors">Digital Shop</Link>
-            <Link href="/kids-classroom" className="hover:text-[#C9A86A] transition-colors">Kids</Link>
-            <Link href="/kids-classroom" className="hover:text-[#C9A86A] transition-colors">Teachers</Link>
-          </div>
-        </div>
-      </footer>
+      {/* Physical Print Modal */}
+      {selectedProduct && (
+        <PhysicalPrintModal
+          product={selectedProduct}
+          onClose={() => setSelectedProduct(null)}
+        />
+      )}
     </div>
   );
 }

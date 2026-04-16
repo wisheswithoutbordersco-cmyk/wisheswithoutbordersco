@@ -11,14 +11,14 @@ export default function MyOrdersPage() {
   });
 
   return (
-    <div className="min-h-screen bg-[#F8F5EF]">
+    <div className="min-h-screen bg-[#faf8f4]">
       <NavBar />
 
       {/* Header */}
-      <div className="bg-[#0A1A2F] text-white py-10 px-4 text-center">
+      <div className="bg-[#1a2744] text-white py-10 px-4 text-center">
         <div className="flex items-center justify-center gap-2 mb-2">
-          <Package className="w-6 h-6 text-[#C9A86A]" />
-          <span className="text-[#C9A86A] font-semibold text-sm uppercase tracking-widest">
+          <Package className="w-6 h-6 text-[#d4af37]" />
+          <span className="text-[#d4af37] font-semibold text-sm uppercase tracking-widest">
             My Orders
           </span>
         </div>
@@ -31,9 +31,9 @@ export default function MyOrdersPage() {
       <div className="max-w-3xl mx-auto px-4 py-10">
         {/* Not logged in */}
         {!userLoading && !user && (
-          <div className="bg-white rounded-2xl shadow-md p-12 text-center border border-[#C9A86A]/20">
-            <LogIn className="w-14 h-14 text-[#C9A86A] mx-auto mb-4" />
-            <h2 className="text-2xl font-bold font-serif text-[#0A1A2F] mb-3">
+          <div className="bg-white rounded-2xl shadow-md p-12 text-center border border-[#d4af37]/20">
+            <LogIn className="w-14 h-14 text-[#d4af37] mx-auto mb-4" />
+            <h2 className="text-2xl font-bold font-serif text-[#1a2744] mb-3">
               Sign In to View Orders
             </h2>
             <p className="text-gray-600 text-base leading-relaxed mb-6">
@@ -45,7 +45,7 @@ export default function MyOrdersPage() {
               or email us at{" "}
               <a
                 href="mailto:info@wisheswithoutbordersco.com"
-                className="text-[#C9A86A] font-semibold hover:underline"
+                className="text-[#d4af37] font-semibold hover:underline"
               >
                 info@wisheswithoutbordersco.com
               </a>
@@ -56,7 +56,7 @@ export default function MyOrdersPage() {
         {/* Loading */}
         {(userLoading || isLoading) && (
           <div className="flex items-center justify-center py-20">
-            <Loader2 className="w-8 h-8 animate-spin text-[#C9A86A]" />
+            <Loader2 className="w-8 h-8 animate-spin text-[#d4af37]" />
           </div>
         )}
 
@@ -69,9 +69,9 @@ export default function MyOrdersPage() {
 
         {/* No orders */}
         {user && data && data.orders.length === 0 && (
-          <div className="bg-white rounded-2xl shadow-md p-12 text-center border border-[#C9A86A]/20">
+          <div className="bg-white rounded-2xl shadow-md p-12 text-center border border-[#d4af37]/20">
             <Package className="w-14 h-14 text-gray-300 mx-auto mb-4" />
-            <h2 className="text-xl font-bold font-serif text-[#0A1A2F] mb-3">
+            <h2 className="text-xl font-bold font-serif text-[#1a2744] mb-3">
               No Orders Yet
             </h2>
             <p className="text-gray-600 mb-6">
@@ -79,7 +79,7 @@ export default function MyOrdersPage() {
             </p>
             <Link
               href="/birthday"
-              className="inline-flex items-center gap-2 bg-[#C9A86A] text-[#0A1A2F] font-bold px-6 py-3 rounded-full hover:bg-[#c49b2a] transition-colors"
+              className="inline-flex items-center gap-2 bg-[#d4af37] text-[#1a2744] font-bold px-6 py-3 rounded-full hover:bg-[#c49b2a] transition-colors"
             >
               Browse Cards
             </Link>
@@ -107,7 +107,7 @@ export default function MyOrdersPage() {
                     ) : (
                       <XCircle className="w-4 h-4 text-red-400 shrink-0" />
                     )}
-                    <p className="font-semibold text-[#0A1A2F] truncate">{order.productName}</p>
+                    <p className="font-semibold text-[#1a2744] truncate">{order.productName}</p>
                   </div>
                   <div className="flex items-center gap-3 text-xs text-gray-500">
                     <span>${(order.amountCents / 100).toFixed(2)}</span>
@@ -131,7 +131,7 @@ export default function MyOrdersPage() {
                 {order.downloadUrl ? (
                   <a
                     href={order.downloadUrl}
-                    className="flex items-center gap-2 bg-[#C9A86A] hover:bg-[#c49b2a] text-[#0A1A2F] font-bold px-4 py-2 rounded-full text-sm transition-colors shrink-0"
+                    className="flex items-center gap-2 bg-[#d4af37] hover:bg-[#c49b2a] text-[#1a2744] font-bold px-4 py-2 rounded-full text-sm transition-colors shrink-0"
                   >
                     <Download className="w-4 h-4" />
                     Download
@@ -150,8 +150,8 @@ export default function MyOrdersPage() {
       </div>
 
       {/* Footer */}
-      <footer className="bg-[#0A1A2F] border-t border-white/10 text-white/50 text-center py-6 text-xs mt-12">
-        <p className="italic text-[#C9A86A]/70 text-sm mb-3">Send a piece of home, back home.</p>
+      <footer className="bg-[#1a2744] border-t border-white/10 text-white/50 text-center py-6 text-xs mt-12">
+        <p className="italic text-[#d4af37]/70 text-sm mb-3">Send a piece of home, back home.</p>
         All products are instant digital downloads · Print at home · wisheswithoutbordersco.com
       </footer>
     </div>

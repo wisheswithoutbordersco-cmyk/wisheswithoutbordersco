@@ -1,4 +1,4 @@
-import { X, ShoppingCart, Download, Shield, Zap, Loader2, CheckCircle } from "lucide-react";
+import { X, ShoppingCart, Download, Star, Shield, Zap, Loader2, CheckCircle, Printer } from "lucide-react";
 import { useCart } from "@/contexts/CartContext";
 import { trpc } from "@/lib/trpc";
 import { toast } from "sonner";
@@ -17,9 +17,11 @@ export type ProductInfo = {
 type Props = {
   product: ProductInfo | null;
   onClose: () => void;
+  /** Optional callback — when provided, an "Order Physical Print" button appears */
+  onOrderPrint?: () => void;
 };
 
-export function ProductModal({ product, onClose }: Props) {
+export function ProductModal({ product, onClose, onOrderPrint }: Props) {
   const { addItem, items } = useCart();
   const [checkingOut, setCheckingOut] = useState(false);
   const checkoutMutation = trpc.shop.createCheckout.useMutation();
@@ -78,18 +80,17 @@ export function ProductModal({ product, onClose }: Props) {
       <div className="fixed inset-0 z-50 flex items-center justify-center p-4 pointer-events-none">
         <div
           className="bg-white rounded-2xl shadow-2xl w-full max-w-2xl max-h-[90vh] overflow-y-auto pointer-events-auto"
-          style={{ animation: "slideUp 0.3s ease-out" }}
           onClick={(e) => e.stopPropagation()}
         >
           {/* Header */}
-          <div className="flex items-center justify-between px-5 py-4 border-b rounded-t-2xl" style={{ background: "#0A1A2F" }}>
+          <div className="flex items-center justify-between px-5 py-4 border-b bg-[#1a2744] text-white rounded-t-2xl">
             <div className="flex items-center gap-2">
-              <ShoppingCart className="w-4 h-4" style={{ color: "#C9A86A" }} />
-              <span className="text-sm font-semibold uppercase tracking-widest" style={{ color: "#C9A86A", fontFamily: "'DM Sans', sans-serif" }}>
-                {product.category ? product.category.replace(/_/g, " ") : "Digital Product"}
+              <ShoppingCart className="w-4 h-4 text-[#d4af37]" />
+              <span className="text-sm font-semibold text-[#d4af37]">
+                {product.category ? product.category.replace(/_/g, " ").toUpperCase() : "DIGITAL PRODUCT"}
               </span>
             </div>
-            <button onClick={onClose} className="transition-opacity hover:opacity-60" style={{ color: "rgba(255,255,255,0.7)" }}>
+            <button onClick={onClose} className="hover:opacity-70 transition-opacity">
               <X className="w-5 h-5" />
             </button>
           </div>
@@ -98,14 +99,14 @@ export function ProductModal({ product, onClose }: Props) {
           <div className="flex flex-col sm:flex-row gap-6 p-6">
             {/* Image */}
             <div className="shrink-0 mx-auto sm:mx-0">
-              <div className="w-48 sm:w-56 rounded-xl overflow-hidden" style={{ aspectRatio: "3/4", boxShadow: "0 8px 32px rgba(10,26,47,0.14)", border: "1px solid rgba(201,168,106,0.18)" }}>
+              <div className="w-48 sm:w-56 rounded-xl overflow-hidden shadow-lg border border-gray-100" style={{ aspectRatio: "3/4" }}>
                 <img
                   src={product.image}
                   alt={product.name}
                   className="w-full h-full object-cover"
                   onError={(e) => {
-                    const img = e.target as HTMLImageElement;
-                      img.src = "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='400' fill='%230A1A2F'%3E%3Crect width='300' height='400'/%3E%3Ctext x='150' y='180' text-anchor='middle' fill='%23C9A86A' font-size='14' font-family='sans-serif'%3EWishes Without%3C/text%3E%3Ctext x='150' y='200' text-anchor='middle' fill='%23C9A86A' font-size='14' font-family='sans-serif'%3EBorders Co%3C/text%3E%3Ctext x='150' y='240' text-anchor='middle' fill='%23C9A86A' font-size='28'%3E%F0%9F%8C%8D%3C/text%3E%3C/svg%3E";
+                    (e.target as HTMLImageElement).src =
+                      "https://placehold.co/300x400/f5f0e8/1a2744?text=Card";
                   }}
                 />
               </div>
@@ -115,44 +116,55 @@ export function ProductModal({ product, onClose }: Props) {
             <div className="flex-1 flex flex-col gap-4">
               <div>
                 {product.country && (
-                  <p className="text-sm font-semibold uppercase tracking-widest mb-1" style={{ color: "#C9A86A", fontFamily: "'DM Sans', sans-serif" }}>
+                  <p className="text-sm text-[#d4af37] font-semibold uppercase tracking-wide mb-1">
                     {product.country}
                   </p>
                 )}
-                <h2 className="text-xl font-bold leading-tight" style={{ color: "#0A1A2F", fontFamily: "'Playfair Display', serif" }}>
+                <h2 className="text-xl font-bold text-[#1a2744] leading-tight">
                   {product.name}
                 </h2>
-                <div className="mt-2 mb-1" style={{ height: "1px", width: "48px", background: "linear-gradient(90deg, #C9A86A, transparent)" }} />
-                <p className="text-xs" style={{ color: "rgba(10,26,47,0.4)", fontFamily: "'DM Sans', sans-serif" }}>Instant Digital Download</p>
+                <div className="flex items-center gap-1 mt-1">
+                  {[1,2,3,4,5].map((s) => (
+                    <Star key={s} className="w-3.5 h-3.5 fill-[#d4af37] text-[#d4af37]" />
+                  ))}
+                  <span className="text-xs text-gray-500 ml-1">Digital Download</span>
+                </div>
               </div>
 
-              {/* Price — real price only, no fake discount */}
+              {/* Price */}
               <div className="flex items-baseline gap-2">
-                <span className="text-3xl font-bold" style={{ color: "#0A1A2F", fontFamily: "'Playfair Display', serif" }}>
+                <span className="text-3xl font-bold text-[#1a2744]">
                   ${(product.price / 100).toFixed(2)}
                 </span>
-                <span className="text-sm" style={{ color: "rgba(10,26,47,0.4)", fontFamily: "'DM Sans', sans-serif" }}>USD</span>
+                <span className="text-sm text-gray-500 line-through">
+                  ${((product.price / 100) * 1.5).toFixed(2)}
+                </span>
+                <span className="text-xs bg-green-100 text-green-700 font-semibold px-2 py-0.5 rounded-full">
+                  33% OFF
+                </span>
               </div>
 
               {/* Description */}
               {product.description && (
-                <p className="text-sm leading-relaxed" style={{ color: "rgba(10,26,47,0.6)", fontFamily: "'DM Sans', sans-serif" }}>
+                <p className="text-sm text-gray-600 leading-relaxed">
                   {product.description}
                 </p>
               )}
 
               {/* Features */}
               <div className="grid grid-cols-1 gap-2">
-                {[
-                  { Icon: Zap,      text: "Instant PDF download — available immediately after purchase" },
-                  { Icon: Download, text: "Print at home or at any print shop (Walgreens, CVS, FedEx)" },
-                  { Icon: Shield,   text: "Secure checkout via Stripe — no account required" },
-                ].map(({ Icon, text }) => (
-                  <div key={text} className="flex items-center gap-2 text-xs" style={{ color: "rgba(10,26,47,0.55)", fontFamily: "'DM Sans', sans-serif" }}>
-                    <Icon className="w-3.5 h-3.5 shrink-0" style={{ color: "#C9A86A" }} />
-                    <span>{text}</span>
-                  </div>
-                ))}
+                <div className="flex items-center gap-2 text-xs text-gray-600">
+                  <Zap className="w-3.5 h-3.5 text-[#d4af37] shrink-0" />
+                  <span>Instant PDF download — available immediately after purchase</span>
+                </div>
+                <div className="flex items-center gap-2 text-xs text-gray-600">
+                  <Download className="w-3.5 h-3.5 text-[#d4af37] shrink-0" />
+                  <span>Print at home or at any print shop (Walgreens, CVS, FedEx)</span>
+                </div>
+                <div className="flex items-center gap-2 text-xs text-gray-600">
+                  <Shield className="w-3.5 h-3.5 text-[#d4af37] shrink-0" />
+                  <span>Secure checkout via Stripe — no account required</span>
+                </div>
               </div>
 
               {/* CTA Buttons */}
@@ -160,10 +172,7 @@ export function ProductModal({ product, onClose }: Props) {
                 <button
                   onClick={handleBuyNow}
                   disabled={checkingOut || checkoutMutation.isPending}
-                  className="w-full flex items-center justify-center gap-2 font-bold py-3 rounded-full disabled:opacity-60 text-sm"
-                  style={{ background: "#C9A86A", color: "#0A1A2F", fontFamily: "'DM Sans', sans-serif", transition: "transform 0.2s ease, box-shadow 0.2s ease" }}
-                  onMouseEnter={(e) => { const el = e.currentTarget as HTMLButtonElement; el.style.transform = "translateY(-2px)"; el.style.boxShadow = "0 6px 20px rgba(201,168,106,0.3)"; }}
-                  onMouseLeave={(e) => { const el = e.currentTarget as HTMLButtonElement; el.style.transform = "translateY(0)"; el.style.boxShadow = "none"; }}
+                  className="w-full flex items-center justify-center gap-2 bg-[#d4af37] hover:bg-[#c49b2a] text-[#1a2744] font-bold py-3 rounded-full transition-colors disabled:opacity-60 text-sm"
                 >
                   {checkingOut || checkoutMutation.isPending ? (
                     <Loader2 className="w-4 h-4 animate-spin" />
@@ -176,10 +185,7 @@ export function ProductModal({ product, onClose }: Props) {
                 <button
                   onClick={handleAddToCart}
                   disabled={alreadyInCart}
-                  className="w-full flex items-center justify-center gap-2 font-bold py-2.5 rounded-full disabled:opacity-50 text-sm"
-                  style={{ border: "2px solid #0A1A2F", color: "#0A1A2F", background: "transparent", fontFamily: "'DM Sans', sans-serif", transition: "transform 0.2s ease, background 0.2s ease, color 0.2s ease" }}
-                  onMouseEnter={(e) => { if (!alreadyInCart) { const el = e.currentTarget as HTMLButtonElement; el.style.transform = "translateY(-2px)"; el.style.background = "#0A1A2F"; el.style.color = "#fff"; } }}
-                  onMouseLeave={(e) => { const el = e.currentTarget as HTMLButtonElement; el.style.transform = "translateY(0)"; el.style.background = "transparent"; el.style.color = "#0A1A2F"; }}
+                  className="w-full flex items-center justify-center gap-2 border-2 border-[#1a2744] text-[#1a2744] font-bold py-2.5 rounded-full hover:bg-[#1a2744] hover:text-white transition-colors disabled:opacity-50 text-sm"
                 >
                   {alreadyInCart ? (
                     <>
@@ -193,17 +199,27 @@ export function ProductModal({ product, onClose }: Props) {
                     </>
                   )}
                 </button>
+
+                {/* Order Physical Print — only for wall art */}
+                {onOrderPrint && (
+                  <button
+                    onClick={onOrderPrint}
+                    className="w-full flex items-center justify-center gap-2 bg-[#1a2744] text-white font-bold py-2.5 rounded-full hover:bg-[#243560] transition-colors text-sm"
+                  >
+                    <Printer className="w-4 h-4" />
+                    Order Physical Print — from $9.99
+                  </button>
+                )}
               </div>
             </div>
           </div>
 
           {/* Footer */}
           <div className="px-6 pb-5">
-            <div className="rounded-xl p-3 text-center" style={{ background: "#F8F5EF" }}>
-              <p className="text-xs" style={{ color: "rgba(10,26,47,0.5)", fontFamily: "'DM Sans', sans-serif" }}>
-                <strong style={{ color: "#0A1A2F" }}>Wishes Without Borders Co</strong> — Multicultural greeting cards celebrating the world's cultures.{" "}
-                Questions? Email{" "}
-                <a href="mailto:info@wisheswithoutbordersco.com" className="hover:underline" style={{ color: "#C9A86A" }}>info@wisheswithoutbordersco.com</a>
+            <div className="bg-[#faf8f4] rounded-xl p-3 text-center">
+              <p className="text-xs text-gray-500">
+                <strong className="text-[#1a2744]">Wishes Without Borders</strong> — Multicultural greeting cards celebrating 30+ countries.
+                Questions? Email <a href="mailto:info@wisheswithoutbordersco.com" className="text-[#d4af37] hover:underline">info@wisheswithoutbordersco.com</a>
               </p>
             </div>
           </div>

@@ -1,180 +1,79 @@
 import { NavBar } from "@/components/NavBar";
-import { Link } from "wouter";
+import { Globe } from "lucide-react";
 
 export default function TermsOfService() {
   return (
-    <div className="min-h-screen" style={{ background: "#0A1A2F" }}>
+    <div className="min-h-screen bg-[#fdfbf7]">
       <NavBar />
 
-      {/* Hero header */}
-      <div className="py-12 px-4 text-center" style={{ borderBottom: "1px solid rgba(255,255,255,0.08)" }}>
-        <h1
-          className="text-3xl md:text-4xl font-bold mb-2"
-          style={{ color: "#F8F5EF", fontFamily: "'Playfair Display', serif" }}
-        >
-          Terms of Service
-        </h1>
-        <p className="text-sm" style={{ color: "#C9A86A", fontFamily: "'DM Sans', sans-serif" }}>
-          <strong>Wishes Without Borders Co.</strong>
-        </p>
-        <p className="text-xs mt-1" style={{ color: "rgba(248,245,239,0.5)", fontFamily: "'DM Sans', sans-serif" }}>
-          Last Updated: April 13, 2026
-        </p>
-      </div>
+      <main className="py-12 px-4">
+        <div className="max-w-3xl mx-auto bg-white p-8 md:p-12 rounded-2xl shadow-sm border border-[#1a2744]/10">
+          <h1 className="text-4xl md:text-5xl font-bold text-[#1a2744] mb-8 font-serif">Terms of Service</h1>
 
-      {/* Content */}
-      <div className="max-w-3xl mx-auto px-6 py-14">
-        <p className="mb-10 leading-relaxed" style={{ color: "rgba(248,245,239,0.85)", fontFamily: "'DM Sans', sans-serif" }}>
-          Please read these Terms of Service carefully before purchasing from or using wisheswithoutbordersco.com. By
-          accessing our website or purchasing our products, you agree to be bound by these terms.
-        </p>
+          <div className="prose prose-lg max-w-none text-[#1a2744]/80 space-y-6">
+            <p className="text-sm font-bold text-[#d4af37] uppercase tracking-wider">Last Updated: April 15, 2026</p>
 
-        {/* Section 1 */}
-        <section className="mb-10">
-          <h2 className="text-xl font-bold mb-4" style={{ color: "#C9A86A", fontFamily: "'Playfair Display', serif" }}>
-            1. About Us
-          </h2>
-          <p style={{ color: "rgba(248,245,239,0.85)", fontFamily: "'DM Sans', sans-serif" }}>
-            Wishes Without Borders Co. is owned and operated by Jump 448 LLC, a limited liability company based in
-            Statesboro, Georgia. Our website sells digital download products including multicultural greeting cards, wall
-            art, flashcards, workbooks, children's books, cookbooks, and related educational materials.
-          </p>
-        </section>
-
-        {/* Section 2 */}
-        <section className="mb-10">
-          <h2 className="text-xl font-bold mb-4" style={{ color: "#C9A86A", fontFamily: "'Playfair Display', serif" }}>
-            2. Digital Products & Instant Downloads
-          </h2>
-          <p style={{ color: "rgba(248,245,239,0.85)", fontFamily: "'DM Sans', sans-serif" }}>
-            All products sold on wisheswithoutbordersco.com are digital downloads only. No physical items are shipped.
-            Upon completing a purchase you will receive an email with your download link. Your PDF files will be available
-            for immediate download. Download links are valid for 30 days from the date of purchase.
-          </p>
-        </section>
-
-        {/* Section 3 */}
-        <section className="mb-10">
-          <h2 className="text-xl font-bold mb-4" style={{ color: "#C9A86A", fontFamily: "'Playfair Display', serif" }}>
-            3. License & Permitted Use
-          </h2>
-          <p className="mb-4" style={{ color: "rgba(248,245,239,0.85)", fontFamily: "'DM Sans', sans-serif" }}>
-            When you purchase a digital product you receive a personal, non-exclusive, non-transferable license for
-            personal use only. You may print the file for personal use and give it as a gift.
-          </p>
-          <p className="mb-4" style={{ color: "rgba(248,245,239,0.85)", fontFamily: "'DM Sans', sans-serif" }}>
-            You may <strong style={{ color: "#F8F5EF" }}>NOT</strong> resell, redistribute, share, or use the files
-            commercially. School License holders receive expanded rights as outlined in their specific license agreement.
-          </p>
-        </section>
-
-        {/* Section 4 */}
-        <section className="mb-10">
-          <h2 className="text-xl font-bold mb-4" style={{ color: "#C9A86A", fontFamily: "'Playfair Display', serif" }}>
-            4. Refund Policy
-          </h2>
-          <p style={{ color: "rgba(248,245,239,0.85)", fontFamily: "'DM Sans', sans-serif" }}>
-            All sales are final due to the instant digital nature of our products. If you did not receive your download
-            link within 24 hours, or if the file is corrupted, contact{" "}
-            <a href="mailto:info@wisheswithoutbordersco.com" className="hover:underline" style={{ color: "#C9A86A" }}>
-              info@wisheswithoutbordersco.com
-            </a>{" "}
-            with your order number and we will resolve it promptly.
-          </p>
-        </section>
-
-        {/* Section 5 */}
-        <section className="mb-10">
-          <h2 className="text-xl font-bold mb-4" style={{ color: "#C9A86A", fontFamily: "'Playfair Display', serif" }}>
-            5. Pricing
-          </h2>
-          <p className="mb-3" style={{ color: "rgba(248,245,239,0.85)", fontFamily: "'DM Sans', sans-serif" }}>
-            All prices are in USD.
-          </p>
-          <ul className="list-disc pl-6 space-y-1" style={{ color: "rgba(248,245,239,0.8)", fontFamily: "'DM Sans', sans-serif" }}>
-            <li>Greeting Cards: $5.99</li>
-            <li>Flashcards: $8.99</li>
-            <li>Workbooks: $11.99</li>
-            <li>Wall Art: $9.99 (8x10) / $14.99 (11x14)</li>
-            <li>Children's Books: $14.99</li>
-            <li>Cookbooks: $14.99</li>
-            <li>School License: $299/year</li>
-          </ul>
-        </section>
-
-        {/* Section 6 */}
-        <section className="mb-10">
-          <h2 className="text-xl font-bold mb-4" style={{ color: "#C9A86A", fontFamily: "'Playfair Display', serif" }}>
-            6. Intellectual Property
-          </h2>
-          <p style={{ color: "rgba(248,245,239,0.85)", fontFamily: "'DM Sans', sans-serif" }}>
-            All designs, illustrations, text, logos, and product images are the intellectual property of Wishes Without
-            Borders Co. and Jump 448 LLC. All rights reserved. Unauthorized reproduction or distribution is strictly
-            prohibited.
-          </p>
-        </section>
-
-        {/* Section 7 */}
-        <section className="mb-10">
-          <h2 className="text-xl font-bold mb-4" style={{ color: "#C9A86A", fontFamily: "'Playfair Display', serif" }}>
-            7. Limitation of Liability
-          </h2>
-          <p style={{ color: "rgba(248,245,239,0.85)", fontFamily: "'DM Sans', sans-serif" }}>
-            To the fullest extent permitted by law, Wishes Without Borders Co. and Jump 448 LLC shall not be liable for
-            any indirect, incidental, or consequential damages. Our total liability shall not exceed the amount paid for
-            the product in question.
-          </p>
-        </section>
-
-        {/* Section 8 */}
-        <section className="mb-10">
-          <h2 className="text-xl font-bold mb-4" style={{ color: "#C9A86A", fontFamily: "'Playfair Display', serif" }}>
-            8. Governing Law
-          </h2>
-          <p style={{ color: "rgba(248,245,239,0.85)", fontFamily: "'DM Sans', sans-serif" }}>
-            These terms are governed by the laws of the State of Georgia. Any disputes shall be subject to the
-            jurisdiction of the courts of Bulloch County, Georgia.
-          </p>
-        </section>
-
-        {/* Section 9 */}
-        <section className="mb-10">
-          <h2 className="text-xl font-bold mb-4" style={{ color: "#C9A86A", fontFamily: "'Playfair Display', serif" }}>
-            9. Contact Us
-          </h2>
-          <div className="mt-3" style={{ color: "rgba(248,245,239,0.85)", fontFamily: "'DM Sans', sans-serif" }}>
-            <p className="font-semibold" style={{ color: "#F8F5EF" }}>Wishes Without Borders Co.</p>
-            <p>Jump 448 LLC</p>
-            <p>Statesboro, Georgia</p>
             <p>
-              Email:{" "}
-              <a href="mailto:info@wisheswithoutbordersco.com" className="hover:underline" style={{ color: "#C9A86A" }}>
-                info@wisheswithoutbordersco.com
-              </a>
+              Welcome to Wishes Without Borders Co. By accessing or using our website and purchasing our products, you agree to be bound by these Terms of Service. Please read them carefully.
+            </p>
+
+            <h2 className="text-2xl font-bold text-[#1a2744] font-serif mt-8 mb-4">1. Digital Products and Downloads</h2>
+            <p>
+              Our digital products (including greeting cards, flashcards, and activity kits) are provided as instant PDF downloads. Due to the nature of digital products, all sales are final and non-refundable once the download link has been provided.
             </p>
             <p>
-              Website:{" "}
-              <a href="https://wisheswithoutbordersco.com" className="hover:underline" style={{ color: "#C9A86A" }}>
-                wisheswithoutbordersco.com
-              </a>
+              When you purchase a digital product, you are granted a personal, non-exclusive, non-transferable license to use the product for personal, non-commercial purposes. You may not resell, redistribute, or share the digital files.
+            </p>
+
+            <h2 className="text-2xl font-bold text-[#1a2744] font-serif mt-8 mb-4">2. Intellectual Property</h2>
+            <p>
+              All content on this website, including but not limited to designs, artwork, text, graphics, logos, and images, is the property of Wishes Without Borders Co and is protected by copyright and other intellectual property laws. You may not reproduce, modify, or distribute our content without our explicit written permission.
+            </p>
+
+            <h2 className="text-2xl font-bold text-[#1a2744] font-serif mt-8 mb-4">3. User Conduct</h2>
+            <p>
+              You agree to use our website only for lawful purposes and in a manner that does not infringe the rights of, restrict, or inhibit anyone else's use and enjoyment of the website.
+            </p>
+
+            <h2 className="text-2xl font-bold text-[#1a2744] font-serif mt-8 mb-4">4. Pricing and Availability</h2>
+            <p>
+              All prices are subject to change without notice. We reserve the right to modify or discontinue any product at any time. We shall not be liable to you or any third party for any modification, price change, suspension, or discontinuance of our products.
+            </p>
+
+            <h2 className="text-2xl font-bold text-[#1a2744] font-serif mt-8 mb-4">5. Disclaimer of Warranties</h2>
+            <p>
+              Our products and website are provided "as is" and "as available" without any warranties of any kind, either express or implied. We do not warrant that our website will be uninterrupted, secure, or error-free.
+            </p>
+
+            <h2 className="text-2xl font-bold text-[#1a2744] font-serif mt-8 mb-4">6. Limitation of Liability</h2>
+            <p>
+              In no event shall Wishes Without Borders Co be liable for any direct, indirect, incidental, special, or consequential damages arising out of or in any way connected with the use of our website or products.
+            </p>
+
+            <h2 className="text-2xl font-bold text-[#1a2744] font-serif mt-8 mb-4">7. Contact Information</h2>
+            <p>
+              If you have any questions about these Terms of Service, please contact us at:
+              <br />
+              <a href="mailto:info@wisheswithoutbordersco.com" className="text-[#d4af37] hover:underline font-bold">info@wisheswithoutbordersco.com</a>
             </p>
           </div>
-        </section>
-      </div>
+        </div>
+      </main>
 
       {/* Footer */}
-      <footer className="py-8 text-center text-sm" style={{ borderTop: "1px solid rgba(255,255,255,0.08)" }}>
-        <div className="flex justify-center gap-6 mb-4" style={{ fontFamily: "'DM Sans', sans-serif" }}>
-          <Link href="/privacy-policy" className="hover:underline" style={{ color: "rgba(255,255,255,0.5)" }}>
-            Privacy Policy
-          </Link>
-          <Link href="/" className="hover:underline" style={{ color: "rgba(255,255,255,0.5)" }}>
-            Home
-          </Link>
+      <footer className="bg-[#1a2744] text-white/60 text-center py-10 text-sm">
+        <div className="border-t border-white/10 pt-6">
+          <div className="flex items-center justify-center gap-2 mb-2">
+            <Globe className="w-4 h-4 text-[#d4af37]" />
+            <span className="text-white font-semibold">Wishes Without Borders Co</span>
+          </div>
+          <p>Multicultural greeting cards & educational tools · All products are instant digital downloads</p>
+          <p className="mt-1">
+            <a href="mailto:info@wisheswithoutbordersco.com" className="text-[#d4af37] hover:underline">
+              info@wisheswithoutbordersco.com
+            </a>
+          </p>
         </div>
-        <p style={{ color: "rgba(255,255,255,0.25)", fontFamily: "'DM Sans', sans-serif" }}>
-          © 2026 Wishes Without Borders Co. · All rights reserved.
-        </p>
       </footer>
     </div>
   );

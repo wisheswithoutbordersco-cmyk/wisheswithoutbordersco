@@ -32,23 +32,23 @@ export default function AdminSubscribersPage() {
 
   if (authLoading) {
     return (
-      <div className="min-h-screen bg-[#F8F5EF]">
+      <div className="min-h-screen bg-[#f5f0e8]">
         <NavBar />
-        <div className="flex items-center justify-center h-64 text-[#0A1A2F]">Loading…</div>
+        <div className="flex items-center justify-center h-64 text-[#1a2744]">Loading…</div>
       </div>
     );
   }
 
   if (!user || user.role !== "admin") {
     return (
-      <div className="min-h-screen bg-[#F8F5EF]">
+      <div className="min-h-screen bg-[#f5f0e8]">
         <NavBar />
         <div className="max-w-md mx-auto mt-24 text-center px-4">
           <div className="bg-white rounded-2xl p-10 shadow-sm border border-[#e8dfc8]">
-            <Globe className="w-10 h-10 text-[#C9A86A] mx-auto mb-4" />
-            <h1 className="text-2xl font-bold font-serif text-[#0A1A2F] mb-2">Admin Only</h1>
+            <Globe className="w-10 h-10 text-[#d4af37] mx-auto mb-4" />
+            <h1 className="text-2xl font-bold font-serif text-[#1a2744] mb-2">Admin Only</h1>
             <p className="text-gray-500 text-sm mb-6">You need admin access to view this page.</p>
-            <Link href="/" className="text-[#C9A86A] hover:underline text-sm font-semibold">← Back to Home</Link>
+            <Link href="/" className="text-[#d4af37] hover:underline text-sm font-semibold">← Back to Home</Link>
           </div>
         </div>
       </div>
@@ -58,14 +58,14 @@ export default function AdminSubscribersPage() {
   const totalPages = data ? Math.ceil(data.total / pageSize) : 1;
 
   return (
-    <div className="min-h-screen bg-[#F8F5EF]">
+    <div className="min-h-screen bg-[#f5f0e8]">
       <NavBar />
       <div className="max-w-5xl mx-auto px-4 py-10">
         {/* Header */}
         <div className="flex items-center justify-between mb-8 flex-wrap gap-4">
           <div>
-            <h1 className="text-3xl font-bold font-serif text-[#0A1A2F] flex items-center gap-3">
-              <Users className="w-8 h-8 text-[#C9A86A]" />
+            <h1 className="text-3xl font-bold font-serif text-[#1a2744] flex items-center gap-3">
+              <Users className="w-8 h-8 text-[#d4af37]" />
               Newsletter Subscribers
             </h1>
             <p className="text-gray-500 text-sm mt-1">
@@ -75,7 +75,7 @@ export default function AdminSubscribersPage() {
           <button
             onClick={downloadCsv}
             disabled={!data?.subscribers?.length}
-            className="flex items-center gap-2 bg-[#0A1A2F] text-white font-semibold text-sm px-5 py-2.5 rounded-full hover:bg-[#243460] transition-colors disabled:opacity-40"
+            className="flex items-center gap-2 bg-[#1a2744] text-white font-semibold text-sm px-5 py-2.5 rounded-full hover:bg-[#243460] transition-colors disabled:opacity-40"
           >
             <Download className="w-4 h-4" />
             Export CSV
@@ -89,25 +89,25 @@ export default function AdminSubscribersPage() {
               {
                 label: "Total Subscribers",
                 value: data.total,
-                icon: <Users className="w-5 h-5 text-[#C9A86A]" />,
+                icon: <Users className="w-5 h-5 text-[#d4af37]" />,
               },
               {
                 label: "From Order Success",
                 value: data.subscribers.filter((s) => s.source === "order_success").length,
-                icon: <Mail className="w-5 h-5 text-[#C9A86A]" />,
+                icon: <Mail className="w-5 h-5 text-[#d4af37]" />,
                 note: "this page",
               },
               {
                 label: "From Homepage Footer",
                 value: data.subscribers.filter((s) => s.source === "homepage_footer").length,
-                icon: <Globe className="w-5 h-5 text-[#C9A86A]" />,
+                icon: <Globe className="w-5 h-5 text-[#d4af37]" />,
                 note: "this page",
               },
             ].map((stat, i) => (
               <div key={i} className="bg-white rounded-2xl p-5 border border-[#e8dfc8] shadow-sm flex items-center gap-4">
-                <div className="bg-[#F8F5EF] rounded-full p-2">{stat.icon}</div>
+                <div className="bg-[#f5f0e8] rounded-full p-2">{stat.icon}</div>
                 <div>
-                  <p className="text-2xl font-bold text-[#0A1A2F]">{stat.value}</p>
+                  <p className="text-2xl font-bold text-[#1a2744]">{stat.value}</p>
                   <p className="text-xs text-gray-500">{stat.label}</p>
                 </div>
               </div>
@@ -123,7 +123,7 @@ export default function AdminSubscribersPage() {
             <div className="flex items-center justify-center h-40 text-red-500 text-sm">Failed to load subscribers.</div>
           ) : !data?.subscribers?.length ? (
             <div className="flex flex-col items-center justify-center h-40 text-gray-400 text-sm gap-2">
-              <Mail className="w-8 h-8 text-[#C9A86A] opacity-50" />
+              <Mail className="w-8 h-8 text-[#d4af37] opacity-50" />
               <p>No subscribers yet.</p>
             </div>
           ) : (
@@ -131,7 +131,7 @@ export default function AdminSubscribersPage() {
               <div className="overflow-x-auto">
                 <table className="w-full text-sm">
                   <thead>
-                    <tr className="bg-[#0A1A2F] text-white/80 text-xs uppercase tracking-wide">
+                    <tr className="bg-[#1a2744] text-white/80 text-xs uppercase tracking-wide">
                       <th className="text-left px-5 py-3 font-semibold">#</th>
                       <th className="text-left px-5 py-3 font-semibold">Email</th>
                       <th className="text-left px-5 py-3 font-semibold">Source</th>
@@ -145,7 +145,7 @@ export default function AdminSubscribersPage() {
                         className={idx % 2 === 0 ? "bg-white" : "bg-[#faf8f3]"}
                       >
                         <td className="px-5 py-3 text-gray-400">{(page - 1) * pageSize + idx + 1}</td>
-                        <td className="px-5 py-3 text-[#0A1A2F] font-medium">{sub.email}</td>
+                        <td className="px-5 py-3 text-[#1a2744] font-medium">{sub.email}</td>
                         <td className="px-5 py-3">
                           <span
                             className={`inline-block px-2.5 py-0.5 rounded-full text-xs font-semibold ${
@@ -182,7 +182,7 @@ export default function AdminSubscribersPage() {
                   <button
                     onClick={() => setPage((p) => Math.max(1, p - 1))}
                     disabled={page === 1}
-                    className="text-sm text-[#0A1A2F] font-semibold disabled:opacity-30 hover:text-[#C9A86A] transition-colors"
+                    className="text-sm text-[#1a2744] font-semibold disabled:opacity-30 hover:text-[#d4af37] transition-colors"
                   >
                     ← Previous
                   </button>
@@ -192,7 +192,7 @@ export default function AdminSubscribersPage() {
                   <button
                     onClick={() => setPage((p) => Math.min(totalPages, p + 1))}
                     disabled={page === totalPages}
-                    className="text-sm text-[#0A1A2F] font-semibold disabled:opacity-30 hover:text-[#C9A86A] transition-colors"
+                    className="text-sm text-[#1a2744] font-semibold disabled:opacity-30 hover:text-[#d4af37] transition-colors"
                   >
                     Next →
                   </button>

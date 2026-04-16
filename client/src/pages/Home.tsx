@@ -1,44 +1,100 @@
 import { Link } from "wouter";
 import { useState, useRef, useEffect } from "react";
 import { NavBar } from "@/components/NavBar";
-import { BRAND, DIGITAL_PRODUCTS } from "@/lib/productData";
-import { Globe, BookOpen, Baby, Heart, GraduationCap, Star, Flower2, Sun, Smile, Ribbon, Search, ShoppingCart } from "lucide-react";
+import { BRAND } from "@/lib/productData";
+import { Globe, BookOpen, Baby, Heart, GraduationCap, Star, Flower2, Sun, Smile, Ribbon, Search, Sparkles, Printer } from "lucide-react";
 import { trpc } from "@/lib/trpc";
 import { toast } from "sonner";
 
-const ECOSYSTEM_TILES = [
-  { href: "/birthday",       title: "Digital Downloads",     whisper: "Instant PDF · Print at home",          icon: "⬇️", badge: "1,927+ Cards"   },
-  { href: "/print-shop",     title: "Print Shop",            whisper: "Launching with Gelato",                icon: "🖼️", badge: "Coming Soon"   },
-  { href: "/kids-classroom", title: "Kids' Books",           whisper: "Cultural learning for little ones",    icon: "📚", badge: "Coming Soon"     },
-  { href: "/kids-classroom", title: "Teacher SEL Kits",      whisper: "Classroom-ready cultural tools",       icon: "🎓", badge: "Coming Soon"     },
-  { href: "/birthday",       title: "Global Greeting Cards", whisper: "188 countries · 13 card types",        icon: "🌍", badge: "188 Countries"  },
-  { href: "/coming-soon",    title: "Subscriptions",         whisper: "Monthly cultural card bundles",        icon: "✉️", badge: "Coming Soon"   },
+// 8 top-level product categories shown in the visual Browse by Category grid
+const BROWSE_CATEGORIES = [
+  {
+    href: "/birthday",
+    title: "Greeting Cards",
+    desc: "183 countries · Birthday, Anniversary, Sympathy & more",
+    badge: "2,567 Cards",
+    image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/fr_birthday_mom_4f0c002c.png",
+  },
+  {
+    href: "/graduation",
+    title: "Graduation Cards",
+    desc: "181 countries · Boy, Girl & Congratulations designs",
+    badge: "429 Cards",
+    image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/australia_graduation_boy_41de4040.png",
+  },
+  {
+    href: "/activity-workbooks",
+    title: "Activity Workbooks",
+    desc: "177 countries · Cultural learning for kids & families",
+    badge: "177 Books",
+    image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/uk_birthday_mom_35350808.png",
+  },
+  {
+    href: "/flashcards",
+    title: "Flashcards",
+    desc: "World flags, capitals & cultural facts",
+    badge: "466 Flashcards",
+    // Real flashcard front image from Google Drive
+    image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/card_06_brazil_front_0a20dc98.png",
+  },
+  {
+    href: "/coloring-books",
+    title: "Coloring Books",
+    desc: "Africa & Americas editions · Cultural art for all ages",
+    badge: "2 Books",
+    image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/coloring_africa_cover.png",
+  },
+  {
+    href: "/cookbooks",
+    title: "Cookbooks",
+    desc: "Multicultural recipes from around the world",
+    badge: "New",
+    // Real cookbook display mockup from Google Drive
+    image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/Around_the_World_Series_Display_Mockup_dce3067e.png",
+  },
+  {
+    href: "/baby-shower",
+    title: "Baby Shower Games",
+    desc: "10, 20, 30 & 40 game packs · Print at home",
+    badge: "New",
+    // Using Australia graduation congrats card as stand-in until baby shower mockup is available
+    image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/australia_graduation_congrats_536f42b4.png",
+  },
+  {
+    href: "/print-shop",
+    title: "Print Shop",
+    desc: "30 countries · Physical wall art posters shipped to you",
+    badge: "Now Live",
+    image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/BH_birthday_mom_wall_art_8x10_427a59ed.jpg",
+  },
 ];
 
 const CATEGORIES = [
-  { href: "/birthday",         icon: Star,          title: "Birthday Cards",        desc: "183 countries · For Mom, Dad, Son & Daughter",   color: "bg-[#c0392b]", badge: "732 Cards",  image: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/hGMYxDgNFYKPyHsQ.png" },
-  { href: "/anniversary",      icon: Heart,         title: "Anniversary Cards",     desc: "182 countries · Celebrate love & commitment",    color: "bg-[#8e44ad]", badge: "182 Cards",  image: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/ljMpFqDvvsppUCye.png" },
-  { href: "/graduation",       icon: GraduationCap, title: "Graduation Cards",      desc: "181 countries · Boy, Girl & Congrats designs",   color: "bg-[#1a3a5c]", badge: "429 Cards",  image: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/EthVxYncoasrglOu.png" },
-  { href: "/congratulations",  icon: Smile,         title: "Congratulations Cards", desc: "183 countries · Vibrant celebration designs",    color: "bg-[#27ae60]", badge: "183 Cards",  image: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/NAUSTwxtLHXctwYN.png" },
-  { href: "/thank-you",        icon: Ribbon,        title: "Thank You Cards",       desc: "182 countries · Express gratitude beautifully",  color: "bg-[#C9A86A]", badge: "182 Cards",  image: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/MoXLVIswhUKelaoh.png" },
-  { href: "/thinking-of-you",  icon: Heart,          title: "Thinking of You",      desc: "48 countries · Let someone know you care",       color: "bg-[#e74c3c]", badge: "48 Cards",  image: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/PGldwkbsXcDsdfWK.png" },
-  { href: "/get-well",         icon: Sun,           title: "Get Well Soon Cards",   desc: "182 countries · Send healing wishes",            color: "bg-[#e67e22]", badge: "182 Cards",  image: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/wJbYssMMJMMeUrmJ.png" },
-  { href: "/sympathy",         icon: Heart,         title: "Sympathy Cards",        desc: "182 countries · Comfort & compassion",           color: "bg-[#7f8c8d]", badge: "182 Cards",  image: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/jKZVtdYbYdEsJvuG.png" },
-  { href: "/mothers-day",      icon: Flower2,       title: "Mother's Day Cards",    desc: "157 countries · Honor moms worldwide",           color: "bg-[#e91e8c]", badge: "157 Cards",  image: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/CdMQAhOLulBvPpoH.png" },
-  { href: "/fathers-day",      icon: Star,          title: "Father's Day Cards",    desc: "157 countries · Celebrate dads everywhere",      color: "bg-[#0A1A2F]", badge: "157 Cards",  image: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/MgKUuglFKxjndAwT.png" },
-  { href: "/new-year",         icon: Star,          title: "New Year Cards",        desc: "182 countries · Ring in the new year",           color: "bg-[#2c3e50]", badge: "182 Cards",  image: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/hGMYxDgNFYKPyHsQ.png" },
-  { href: "/in-loving-memory", icon: Heart,         title: "In Loving Memory",      desc: "182 countries · Honor those we have lost",       color: "bg-[#4a4a4a]", badge: "182 Cards",  image: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/otsBlfJRKABgLvfl.png" },
-  { href: "/coloring-books",   icon: BookOpen,      title: "Coloring Books",        desc: "Africa & Americas editions · Cultural art",      color: "bg-[#2ecc71]", badge: "2 Books",    image: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/AgwcVNlhaHqImIzH.png" },
-  { href: "/cookbooks",        icon: BookOpen,      title: "Cookbooks",             desc: "Multicultural recipes from around the world",    color: "bg-[#e74c3c]", badge: "Coming Soon", image: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/NToGAkZpVLAUzWzo.png" },
-  { href: "/baby-shower",      icon: Baby,          title: "Baby Shower Games",     desc: "Cultural baby shower game bundles",              color: "bg-[#f39c12]", badge: "Coming Soon", image: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/uvafdvnjaEcMavYL.png" },
+  { href: "/birthday",        icon: Star,          title: "Birthday Cards",        desc: "183 countries · For Mom, Dad, Son & Daughter", color: "bg-[#c0392b]",  badge: "732 Cards" },
+  { href: "/anniversary",     icon: Heart,          title: "Anniversary Cards",     desc: "182 countries · Celebrate love & commitment",  color: "bg-[#8e44ad]",  badge: "182 Cards" },
+  { href: "/graduation",      icon: GraduationCap,  title: "Graduation Cards",      desc: "181 countries · Boy, Girl & Congrats designs", color: "bg-[#1a3a5c]",  badge: "429 Cards" },
+  { href: "/congratulations", icon: Smile,          title: "Congratulations Cards", desc: "183 countries · Vibrant celebration designs",  color: "bg-[#27ae60]",  badge: "183 Cards" },
+  { href: "/thank-you",       icon: Ribbon,         title: "Thank You Cards",       desc: "182 countries · Express gratitude beautifully", color: "bg-[#d4af37]",  badge: "182 Cards" },
+  { href: "/thinking-of-you", icon: Flower2,        title: "Thinking of You",       desc: "32 countries · Let someone know you care",    color: "bg-[#2980b9]",  badge: "32 Cards" },
+  { href: "/get-well",        icon: Sun,            title: "Get Well Soon Cards",   desc: "182 countries · Send healing wishes",          color: "bg-[#e67e22]",  badge: "182 Cards" },
+  { href: "/sympathy",        icon: Heart,          title: "Sympathy Cards",        desc: "182 countries · Comfort & compassion",         color: "bg-[#7f8c8d]",  badge: "182 Cards" },
+  { href: "/mothers-day",     icon: Flower2,        title: "Mother's Day Cards",    desc: "157 countries · Honor moms worldwide",         color: "bg-[#e91e8c]",  badge: "157 Cards" },
+  { href: "/fathers-day",     icon: Star,           title: "Father's Day Cards",    desc: "157 countries · Celebrate dads everywhere",    color: "bg-[#1a2744]",  badge: "157 Cards" },
+  { href: "/new-year",         icon: Sparkles,       title: "Happy New Year Cards",  desc: "32 countries · Ring in the New Year",          color: "bg-[#b8860b]",  badge: "32 Cards" },
+  { href: "/print-shop",         icon: Printer,        title: "Print Shop",             desc: "30 countries · Physical wall art prints shipped to you", color: "bg-[#b8860b]", badge: "Now Live" },
+  { href: "/baby-shower",     icon: Baby,           title: "Baby Shower Games",     desc: "10, 20, 30 & 40 game packs — print at home",  color: "bg-[#8b1a4a]",  badge: "New" },
 ];
 
-const ALL_COUNTRIES = ["Afghanistan","Albania","Algeria","Angola","Antigua and Barbuda","Argentina","Armenia","Australia","Austria","Azerbaijan","Bahamas","Bahrain","Bangladesh","Barbados","Belarus","Belgium","Belize","Benin","Bhutan","Bolivia","Bosnia and Herzegovina","Botswana","Brazil","Bulgaria","Burkina Faso","Burundi","Cambodia","Cameroon","Canada","Cape Verde","Central African Republic","Chad","Chile","China","Colombia","Comoros","Costa Rica","Croatia","Cuba","Cyprus","Czech Republic","Democratic Republic of Congo","Denmark","Djibouti","Dominica","Dominican Republic","Dubai","Ecuador","Egypt","El Salvador","Equatorial Guinea","Eritrea","Estonia","Eswatini","Ethiopia","Fiji","Finland","France","Gabon","Gambia","Georgia","Germany","Ghana","Greece","Grenada","Guatemala","Guinea","Guinea Bissau","Guyana","Haiti","Honduras","Hungary","Iceland","India","Indonesia","Iran","Iraq","Ireland","Italy","Ivory Coast","Jamaica","Japan","Jordan","Kazakhstan","Kenya","Kiribati","Korea","Kosovo","Kuwait","Kyrgyzstan","Latvia","Lebanon","Lesotho","Liberia","Libya","Lithuania","Luxembourg","Madagascar","Malawi","Malaysia","Maldives","Mali","Malta","Mauritania","Mauritius","Moldova","Mongolia","Montenegro","Morocco","Mozambique","Myanmar","Namibia","Nauru","Nepal","Netherlands","New Zealand","Nicaragua","Niger","Nigeria","North Korea","North Macedonia","Norway","Oman","Pakistan","Palau","Panama","Papua New Guinea","Paraguay","Peru","Philippines","Poland","Portugal","Puerto Rico","Qatar","Republic of Congo","Romania","Russia","Rwanda","Saint Kitts and Nevis","Saint Lucia","Saint Vincent and the Grenadines","Samoa","Sao Tome and Principe","Saudi Arabia","Senegal","Serbia","Seychelles","Sierra Leone","Slovakia","Slovenia","Solomon Islands","Somalia","South Africa","South Sudan","Spain","Sri Lanka","Sudan","Suriname","Sweden","Switzerland","Syria","Taiwan","Tajikistan","Tanzania","Thailand","Timor Leste","Togo","Tonga","Trinidad Tobago","Tunisia","Turkey","Turkmenistan","Tuvalu","Uganda","Ukraine","United Kingdom","Uruguay","Uzbekistan","Vanuatu","Venezuela","Vietnam","Yemen","Zambia","Zimbabwe"];
+// Full list of countries available in the catalog
+const ALL_COUNTRIES = ["Afghanistan","Albania","Algeria","Angola","Antigua","Argentina","Aruba","Australia","Austria","Azerbaijan","Bahamas","Bahrain","Bangladesh","Barbados","Belarus","Belgium","Belize","Benin","Bhutan","Bolivia","Bosnia","Botswana","Brazil","Brunei","Bulgaria","Burkina Faso","Cambodia","Cameroon","Canada","Cape Verde","Chad","Chile","China","Colombia","Comoros","Costa Rica","Cote d'Ivoire","Croatia","Cuba","Curacao","Czech Republic","Denmark","Djibouti","Dominica","Dominican Republic","Ecuador","Egypt","El Salvador","Eritrea","Estonia","Ethiopia","Fiji","Finland","France","Georgia","Germany","Ghana","Greece","Grenada","Guatemala","Guinea","Guyana","Haiti","Honduras","Hungary","India","Indonesia","Iran","Iraq","Ireland","Italy","Ivory Coast","Jamaica","Japan","Jordan","Kazakhstan","Kenya","Kiribati","Kosovo","Kuwait","Kyrgyzstan","Laos","Latvia","Lebanon","Liberia","Libya","Lithuania","Luxembourg","Madagascar","Malaysia","Maldives","Mali","Marshall Islands","Martinique","Mauritania","Mauritius","Mexico","Micronesia","Moldova","Mongolia","Montenegro","Morocco","Mozambique","Myanmar","Namibia","Nauru","Nepal","Netherlands","New Zealand","Nicaragua","Niger","Nigeria","North Macedonia","Norway","Oman","Pakistan","Palau","Palestine","Panama","Papua New Guinea","Paraguay","Peru","Philippines","Poland","Portugal","Puerto Rico","Qatar","Romania","Russia","Rwanda","Saint Kitts","Saint Lucia","Saint Vincent","Samoa","Saudi Arabia","Senegal","Serbia","Seychelles","Sierra Leone","Singapore","Slovakia","Slovenia","Solomon Islands","Somalia","South Africa","South Korea","Spain","Sri Lanka","Sudan","Suriname","Sweden","Switzerland","Syria","Tajikistan","Tanzania","Thailand","Timor Leste","Togo","Tonga","Trinidad Tobago","Tunisia","Turkey","Turkmenistan","UAE","USA","Uganda","Ukraine","United Kingdom","Uruguay","Uzbekistan","Vanuatu","Venezuela","Vietnam","Western Sahara","Yemen","Zambia","Zimbabwe"];
 
 export default function Home() {
+  const [featuredCheckingOut, setFeaturedCheckingOut] = useState(false);
   const [footerEmail, setFooterEmail] = useState("");
   const [footerSubmitted, setFooterSubmitted] = useState(false);
   const footerSubscribe = trpc.shop.subscribeNewsletter.useMutation();
+
+  // Country search state
   const [countryQuery, setCountryQuery] = useState("");
   const [showSuggestions, setShowSuggestions] = useState(false);
   const [selectedCategory, setSelectedCategory] = useState("birthday");
@@ -50,7 +106,6 @@ export default function Home() {
     { key: "graduation",      label: "Graduation" },
     { key: "congratulations", label: "Congrats" },
     { key: "thank-you",       label: "Thank You" },
-    { key: "thinking-of-you", label: "Thinking of You" },
     { key: "sympathy",        label: "Sympathy" },
     { key: "get-well",        label: "Get Well" },
     { key: "mothers-day",     label: "Mother's Day" },
@@ -61,6 +116,7 @@ export default function Home() {
     ? ALL_COUNTRIES.filter((c) => c.toLowerCase().includes(countryQuery.toLowerCase())).slice(0, 8)
     : [];
 
+  // Close dropdown when clicking outside
   useEffect(() => {
     function handleClickOutside(e: MouseEvent) {
       if (searchRef.current && !searchRef.current.contains(e.target as Node)) {
@@ -97,73 +153,91 @@ export default function Home() {
       toast.error("Something went wrong. Please try again.");
     }
   }
+  const checkoutMutation = trpc.shop.createCheckout.useMutation();
+
+  async function handleFeaturedBuy() {
+    setFeaturedCheckingOut(true);
+    try {
+      const origin = window.location.origin;
+      const result = await checkoutMutation.mutateAsync({
+        productId: "fr_birthday_mom",
+        cartItems: [{ productId: "fr_birthday_mom", name: "France Birthday Card for Mom", price: 599 }],
+        successUrl: `${origin}/order-success`,
+        cancelUrl: `${origin}/`,
+      });
+      if (result.url) {
+        window.open(result.url, "_blank");
+        toast.success("Redirecting to secure checkout...");
+      }
+    } catch (err: unknown) {
+      const msg = err instanceof Error ? err.message : "Checkout failed. Please try again.";
+      toast.error(msg);
+    } finally {
+      setFeaturedCheckingOut(false);
+    }
+  }
 
   return (
-    <div className="min-h-screen" style={{ background: "#F8F5EF" }}>
+    <div className="min-h-screen bg-[#faf8f4]">
       <NavBar />
 
-      {/* ─── HERO ─── */}
-      <div className="relative overflow-hidden" style={{ background: "#0A1A2F" }}>
-        {/* Subtle noise texture overlay at ~3% opacity */}
-        <div
-          className="absolute inset-0 pointer-events-none"
-          style={{
-            backgroundImage:
-              "url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='300'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='300' height='300' filter='url(%23n)' opacity='0.08'/%3E%3C/svg%3E\")",
-            opacity: 0.35,
-          }}
-        />
-        <div className="relative max-w-7xl mx-auto px-8 md:px-14 py-20 md:py-28 flex flex-col md:flex-row items-center gap-14">
+      {/* Hero Banner */}
+      <div className="relative bg-[#1a2744] overflow-hidden">
+        <div className="absolute inset-0 opacity-10">
+          <div className="absolute inset-0 bg-gradient-to-br from-[#d4af37] to-transparent" />
+        </div>
+        <div className="relative max-w-7xl mx-auto px-4 py-8 md:py-12 flex flex-col md:flex-row items-center gap-6">
           <div className="text-center md:text-left flex-1">
-            <p
-              className="text-xs font-bold uppercase mb-5"
-              style={{ color: "#C9A86A", letterSpacing: "0.25em", fontFamily: "'DM Sans', sans-serif" }}
-            >
-              Wishes Without Borders Co
-            </p>
-            <h1
-              className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-5"
-              style={{ color: "#fff", fontFamily: "'Playfair Display', serif" }}
-            >
-              For every culture.<br />
-              <span style={{ color: "#C9A86A" }}>For every moment.</span>
+            <div className="flex items-center gap-2 justify-center md:justify-start mb-4">
+              <Globe className="w-8 h-8 text-[#d4af37]" />
+              <span className="text-[#d4af37] font-semibold text-sm uppercase tracking-widest">Wishes Without Borders Co</span>
+            </div>
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold font-serif text-white leading-tight mb-4">
+              Cards That Speak<br />
+              <span className="text-[#d4af37]">Every Language</span>
             </h1>
-            <p
-              className="text-base md:text-lg max-w-xl mb-10"
-              style={{ color: "rgba(255,255,255,0.55)", fontFamily: "'DM Sans', sans-serif", lineHeight: 1.75 }}
-            >
-              Multicultural greeting cards, prints, children's books, and classroom tools — celebrating the world's cultures, one card at a time.
+            <p className="text-white/70 text-lg md:text-xl max-w-xl mb-6">
+              Multicultural greeting cards, children's books, and classroom tools — celebrating the world's cultures, one card at a time.
             </p>
 
-            {/* Country search bar */}
-            <div ref={searchRef} className="relative mb-8 max-w-lg">
-              <form
-                onSubmit={handleCountrySearch}
-                className="flex items-center rounded-full overflow-visible transition-colors"
-                style={{
-                  background: "rgba(255,255,255,0.07)",
-                  border: "1px solid rgba(255,255,255,0.14)",
-                }}
-              >
-                <Search className="w-5 h-5 ml-4 shrink-0" style={{ color: "rgba(255,255,255,0.35)" }} />
+            {/* Country Search Bar */}
+            <div ref={searchRef} className="relative mb-6 max-w-lg">
+              {/* Category pill selector */}
+              <div className="flex flex-wrap gap-1.5 mb-2">
+                {SEARCH_CATEGORIES.map((cat) => (
+                  <button
+                    key={cat.key}
+                    type="button"
+                    onClick={() => setSelectedCategory(cat.key)}
+                    className={`px-3 py-1 rounded-full text-xs font-semibold transition-colors ${
+                      selectedCategory === cat.key
+                        ? "bg-[#d4af37] text-[#1a2744]"
+                        : "bg-white/10 text-white/70 hover:bg-white/20"
+                    }`}
+                  >
+                    {cat.label}
+                  </button>
+                ))}
+              </div>
+              <form onSubmit={handleCountrySearch} className="flex items-center bg-white/10 border border-white/20 rounded-full overflow-visible focus-within:border-[#d4af37] transition-colors">
+                <Search className="w-5 h-5 text-white/50 ml-4 shrink-0" />
                 <input
                   type="text"
                   value={countryQuery}
                   onChange={(e) => { setCountryQuery(e.target.value); setShowSuggestions(true); }}
                   onFocus={() => setShowSuggestions(true)}
                   placeholder="Search by country… e.g. Japan, Brazil"
-                  className="flex-1 bg-transparent text-sm px-3 py-3.5 outline-none"
-                  style={{ color: "#fff", fontFamily: "'DM Sans', sans-serif" }}
+                  className="flex-1 bg-transparent text-white placeholder-white/40 text-sm px-3 py-3 outline-none"
                   autoComplete="off"
                 />
                 <button
                   type="submit"
-                  className="m-1 px-5 py-2 font-bold text-sm rounded-full transition-colors shrink-0"
-                  style={{ background: "#C9A86A", color: "#0A1A2F", fontFamily: "'DM Sans', sans-serif" }}
+                  className="m-1 px-4 py-2 bg-[#d4af37] text-[#1a2744] font-bold text-sm rounded-full hover:bg-[#c9a227] transition-colors shrink-0"
                 >
                   Find Cards
                 </button>
               </form>
+              {/* Autocomplete dropdown */}
               {showSuggestions && countrySuggestions.length > 0 && (
                 <ul className="absolute top-full left-0 right-0 mt-1 bg-white rounded-2xl shadow-xl border border-gray-100 overflow-hidden z-50">
                   {countrySuggestions.map((country) => (
@@ -171,10 +245,9 @@ export default function Home() {
                       <button
                         type="button"
                         onMouseDown={() => handleCountrySelect(country)}
-                        className="w-full text-left px-4 py-2.5 text-sm flex items-center gap-2 transition-colors hover:bg-[#F8F5EF]"
-                        style={{ color: "#0A1A2F", fontFamily: "'DM Sans', sans-serif" }}
+                        className="w-full text-left px-4 py-2.5 text-sm text-[#1a2744] hover:bg-[#f5f0e8] flex items-center gap-2 transition-colors"
                       >
-                        <Globe className="w-3.5 h-3.5 shrink-0" style={{ color: "#C9A86A" }} />
+                        <Globe className="w-3.5 h-3.5 text-[#d4af37] shrink-0" />
                         {country}
                       </button>
                     </li>
@@ -183,37 +256,27 @@ export default function Home() {
               )}
             </div>
 
-            {/* CTAs */}
             <div className="flex flex-wrap gap-3 justify-center md:justify-start">
               <Link
                 href="/birthday"
-                className="px-9 py-3.5 font-bold rounded-full transition-colors text-sm"
-                style={{ background: "#C9A86A", color: "#0A1A2F", fontFamily: "'DM Sans', sans-serif" }}
+                className="px-8 py-3 bg-[#d4af37] text-[#1a2744] font-bold rounded-full hover:bg-[#c9a227] transition-colors text-sm"
               >
-                Shop Digital
+                Browse Cards
               </Link>
-              <Link
-                href="/print-shop"
-                className="px-9 py-3.5 font-semibold rounded-full transition-colors text-sm"
-                style={{
-                  background: "rgba(255,255,255,0.07)",
-                  border: "1px solid rgba(255,255,255,0.15)",
-                  color: "#fff",
-                  fontFamily: "'DM Sans', sans-serif",
-                }}
+              <a
+                href="mailto:info@wisheswithoutbordersco.com"
+                className="px-8 py-3 bg-white/10 text-white font-semibold rounded-full hover:bg-white/20 transition-colors text-sm"
               >
-                Shop Prints
-              </Link>
+                Contact Us
+              </a>
             </div>
           </div>
-
-          {/* Logo */}
           {BRAND.logo && (
-            <div className="shrink-0 opacity-90">
+            <div className="shrink-0">
               <img
                 src={BRAND.logo}
                 alt="Wishes Without Borders Co logo"
-                className="w-44 md:w-60 object-contain"
+                className="w-48 md:w-64 object-contain"
                 onError={(e) => { (e.target as HTMLImageElement).style.display = "none"; }}
               />
             </div>
@@ -221,411 +284,204 @@ export default function Home() {
         </div>
       </div>
 
-      {/* Whisper tagline */}
-      <p
-        className="text-center italic text-sm py-4"
-        style={{ color: "#C9A86A", opacity: 0.7, background: "#F8F5EF", fontFamily: "'Playfair Display', serif" }}
-      >
-        Because Mama deserves to hear it in her language.
-      </p>
-
-      {/* Stats bar */}
-      <div className="overflow-x-auto" style={{ background: "#C9A86A" }}>
-        <div
-          className="flex items-center justify-start md:justify-center gap-x-5 px-6 py-2.5 min-w-max mx-auto text-xs font-semibold"
-          style={{ color: "#0A1A2F", fontFamily: "'DM Sans', sans-serif" }}
-        >
-          <span className="whitespace-nowrap">🌍 188 Countries</span>
-          <span className="whitespace-nowrap">🃏 1,927+ Cards</span>
-          <span className="whitespace-nowrap">📚 Workbooks</span>
-          <span className="whitespace-nowrap">🎉 Baby Shower</span>
-          <span className="whitespace-nowrap">⚡ Instant PDF</span>
-          <span className="whitespace-nowrap">🖨️ Print at Home</span>
+      {/* Stats Bar */}
+      <div className="bg-[#d4af37]">
+        <div className="max-w-7xl mx-auto px-3 py-3 grid grid-cols-2 sm:grid-cols-3 md:flex md:flex-wrap md:justify-center gap-x-4 gap-y-1.5 text-[#1a2744] text-xs font-semibold">
+          <span className="text-center whitespace-nowrap">🌍 195 Countries</span>
+          <span className="text-center whitespace-nowrap">🎴 2,567 Individual Cards</span>
+          <span className="text-center whitespace-nowrap">📚 Activity Workbooks</span>
+          <span className="text-center whitespace-nowrap">🎉 Baby Shower Games</span>
+          <span className="text-center whitespace-nowrap">⚡ Instant PDF Download</span>
+          <span className="text-center whitespace-nowrap">🖨️ Print at Home</span>
         </div>
       </div>
 
+      {/* Gold divider */}
       <hr className="gold-divider" />
 
-      {/* ─── ECOSYSTEM GRID ─── */}
-      <div className="py-16 px-6" style={{ background: "#F8F5EF" }}>
+      {/* Featured Card of the Week */}
+      <div className="bg-[#f5f0e8] py-12 px-4">
         <div className="max-w-5xl mx-auto">
-          <h2
-            className="text-2xl md:text-3xl font-bold text-center mb-2"
-            style={{ color: "#0A1A2F", fontFamily: "'Playfair Display', serif" }}
-          >
-            Everything We Make
-          </h2>
-          <p className="text-center text-sm mb-10" style={{ color: "rgba(10,26,47,0.45)", fontFamily: "'DM Sans', sans-serif" }}>
-            One mission — celebrating every culture, for every moment.
-          </p>
-          <div className="grid grid-cols-2 sm:grid-cols-3 gap-5">
-            {ECOSYSTEM_TILES.map((tile) => (
-              <Link
-                key={tile.title}
-                href={tile.href}
-                className="group bg-white rounded-2xl p-6 flex flex-col items-center text-center hover:shadow-lg transition-all"
-                style={{ border: "1px solid rgba(201,168,106,0.2)" }}
-              >
-                <span className="text-3xl mb-3">{tile.icon}</span>
-                <h3
-                  className="font-bold text-sm mb-1 transition-colors group-hover:opacity-70"
-                  style={{ color: "#0A1A2F", fontFamily: "'Playfair Display', serif" }}
+          <div className="flex flex-col md:flex-row items-center gap-8 bg-white rounded-3xl shadow-lg overflow-hidden border border-[#e8dfc8]">
+            {/* Card image */}
+            <div className="md:w-2/5 w-full flex-shrink-0">
+              <img
+                src="https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/fr_birthday_mom_4f0c002c.png"
+                alt="Featured Card — France Birthday Mom"
+                className="w-full h-72 md:h-full object-cover"
+                onError={(e) => {
+                  (e.target as HTMLImageElement).src = "https://placehold.co/600x400/1a2744/d4af37?text=Featured+Card";
+                }}
+              />
+            </div>
+            {/* Text content */}
+            <div className="flex-1 px-6 py-8 md:py-10">
+              <span className="inline-block bg-[#d4af37] text-[#1a2744] text-xs font-bold px-3 py-1 rounded-full mb-4 uppercase tracking-wide">
+                ✨ Featured Card of the Week
+              </span>
+              <h2 className="text-2xl md:text-3xl font-bold font-serif text-[#1a2744] mb-2">
+                France — Birthday Mom
+              </h2>
+              <p className="text-gray-500 text-sm mb-6 leading-relaxed">
+                A beautiful French-themed birthday card for Mom, featuring the Eiffel Tower, lavender fields, and a heartfelt message in French. Perfect for anyone celebrating a French heritage.
+              </p>
+              <div className="flex items-center gap-4 flex-wrap">
+                <button
+                  onClick={handleFeaturedBuy}
+                  disabled={featuredCheckingOut}
+                  className="bg-[#d4af37] text-[#1a2744] font-bold px-6 py-3 rounded-full hover:bg-[#c9a227] transition-colors text-sm disabled:opacity-60 disabled:cursor-not-allowed"
                 >
-                  {tile.title}
-                </h3>
-                <p className="text-xs mb-2" style={{ color: "rgba(10,26,47,0.4)", fontFamily: "'DM Sans', sans-serif" }}>
-                  {tile.whisper}
-                </p>
-                <span
-                  className="text-[10px] font-bold uppercase tracking-widest px-2 py-0.5 rounded-full"
-                  style={{ color: "#C9A86A", background: "rgba(201,168,106,0.1)" }}
-                >
-                  {tile.badge}
-                </span>
-              </Link>
-            ))}
-          </div>
-        </div>
-      </div>
-
-      <hr className="gold-divider" />
-
-      {/* ─── CARD GALLERY WITH FILTER PILLS ─── */}
-      <div className="py-14 px-6" style={{ background: "#F8F5EF" }}>
-        <div className="max-w-7xl mx-auto">
-          <h2
-            className="text-2xl md:text-3xl font-bold text-center mb-2"
-            style={{ color: "#0A1A2F", fontFamily: "'Playfair Display', serif" }}
-          >
-            All Card Types
-          </h2>
-          <p className="text-center text-sm mb-5" style={{ color: "rgba(10,26,47,0.45)", fontFamily: "'DM Sans', sans-serif" }}>
-            Browse all greeting card occasions — $5.99 each · Instant PDF Download
-          </p>
-          <div className="flex flex-wrap gap-2 justify-center mb-8">
-            {SEARCH_CATEGORIES.map((cat) => (
-              <button
-                key={cat.key}
-                type="button"
-                onClick={() => setSelectedCategory(cat.key)}
-                className="px-4 py-1.5 rounded-full text-xs font-semibold transition-colors"
-                style={
-                  selectedCategory === cat.key
-                    ? { background: "#C9A86A", color: "#0A1A2F", fontFamily: "'DM Sans', sans-serif" }
-                    : { background: "#fff", border: "1px solid rgba(201,168,106,0.3)", color: "rgba(10,26,47,0.6)", fontFamily: "'DM Sans', sans-serif" }
-                }
-              >
-                {cat.label}
-              </button>
-            ))}
-          </div>
-          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4">
-            {CATEGORIES.map((cat) => {
-              const Icon = cat.icon;
-              return (
+                  {featuredCheckingOut ? "Redirecting..." : "Buy Now — $5.99"}
+                </button>
                 <Link
-                  key={cat.href + cat.title}
-                  href={cat.href}
-                  className="group relative bg-white rounded-2xl shadow-sm hover:shadow-lg transition-all duration-200 overflow-hidden flex flex-col items-center text-center"
-                  style={{ border: "1px solid rgba(201,168,106,0.18)" }}
+                  href="/birthday"
+                  className="inline-block px-6 py-3 rounded-full border-2 border-[#1a2744] text-[#1a2744] font-bold text-sm hover:bg-[#1a2744] hover:text-white transition-colors"
                 >
-                  {cat.image ? (
-                    <div className="w-full aspect-[3/4] overflow-hidden mb-3">
-                      <img
-                        src={cat.image}
-                        alt={cat.title}
-                        className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-200" style={{ transform: 'scale(1.12)' }}
-                        onError={(e) => {
-                          const target = e.target as HTMLImageElement;
-                          target.style.display = "none";
-                          const fallback = target.parentElement?.querySelector(".icon-fallback") as HTMLElement;
-                          if (fallback) fallback.style.display = "flex";
-                        }}
-                      />
-                      <div className={`icon-fallback w-12 h-12 rounded-full ${cat.color} items-center justify-center hidden`}>
-                        <Icon className="w-6 h-6 text-white" />
-                      </div>
-                    </div>
-                  ) : (
-                    <div className="p-5 pb-0">
-                      <div className={`w-12 h-12 rounded-full ${cat.color} flex items-center justify-center mb-3 group-hover:scale-110 transition-transform`}>
-                        <Icon className="w-6 h-6 text-white" />
-                      </div>
-                    </div>
-                  )}
-                  <div className="px-4 pb-4">
-                    <h3 className="font-bold text-sm leading-tight mb-1" style={{ color: "#0A1A2F", fontFamily: "'Playfair Display', serif" }}>
-                      {cat.title}
-                    </h3>
-                    <p className="text-xs leading-tight mb-2" style={{ color: "rgba(10,26,47,0.4)", fontFamily: "'DM Sans', sans-serif" }}>
-                      {cat.desc}
-                    </p>
-                    <span
-                      className="px-2.5 py-0.5 text-xs font-semibold rounded-full"
-                      style={{ background: "rgba(201,168,106,0.15)", color: "#9a7a3a" }}
-                    >
-                      {cat.badge}
-                    </span>
-                  </div>
+                  Browse all birthday cards
                 </Link>
-              );
-            })}
-          </div>
-        </div>
-      </div>
-
-      <hr className="gold-divider" />
-
-      {/* ─── PRINT SHOP FEATURE ─── */}
-      <div className="py-24 px-6" style={{ background: "#F8F5EF" }}>
-        <div className="max-w-6xl mx-auto">
-          {/* Whisper background text */}
-          <div className="relative">
-            <p
-              className="absolute inset-0 flex items-center justify-center text-center font-bold select-none pointer-events-none"
-              style={{
-                color: "#0A1A2F",
-                opacity: 0.04,
-                fontSize: "clamp(4rem, 12vw, 9rem)",
-                fontFamily: "'Playfair Display', serif",
-                letterSpacing: "-0.02em",
-                lineHeight: 1,
-              }}
-            >
-              Print Shop
-            </p>
-            <div className="relative flex flex-col md:flex-row items-center gap-14 pt-4">
-              {/* Editorial framed print mockup */}
-              <div className="flex-1 flex justify-center">
-                <div className="relative w-full max-w-xs">
-                  {/* Frame */}
-                  <div
-                    className="rounded-2xl overflow-hidden shadow-2xl"
-                    style={{ background: "#fff", border: "1px solid rgba(201,168,106,0.18)" }}
-                  >
-                    <div className="p-5" style={{ background: "#FAFAF8" }}>
-                      <div
-                        className="aspect-[4/5] rounded-xl flex items-center justify-center"
-                        style={{
-                          background: "linear-gradient(145deg, #F8F5EF 0%, #EDE8DC 100%)",
-                          border: "10px solid #fff",
-                          boxShadow: "0 6px 40px rgba(10,26,47,0.08)",
-                        }}
-                      >
-                        <div className="text-center px-6">
-                          <p
-                            className="font-bold text-xl mb-2"
-                            style={{ color: "#0A1A2F", fontFamily: "'Playfair Display', serif" }}
-                          >
-                            Wall Art
-                          </p>
-                          <div className="w-10 h-0.5 mx-auto mb-3" style={{ background: "#C9A86A" }} />
-                          <p
-                            className="text-xs uppercase tracking-widest"
-                            style={{ color: "#C9A86A", fontFamily: "'DM Sans', sans-serif" }}
-                          >
-                            Museum Quality
-                          </p>
-                          <p
-                            className="text-xs mt-5"
-                            style={{ color: "#0A1A2F", opacity: 0.35, fontFamily: "'DM Sans', sans-serif" }}
-                          >
-                            Gelato Print Network
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                    <div
-                      className="px-5 py-3 flex items-center justify-between"
-                      style={{ borderTop: "1px solid rgba(201,168,106,0.12)" }}
-                    >
-                      <span
-                        className="text-xs font-semibold uppercase tracking-widest"
-                        style={{ color: "#C9A86A", fontFamily: "'DM Sans', sans-serif" }}
-                      >
-                        Coming Soon
-                      </span>
-                      <span
-                        className="text-xs"
-                        style={{ color: "#0A1A2F", opacity: 0.35, fontFamily: "'DM Sans', sans-serif" }}
-                      >
-                        via Gelato
-                      </span>
-                    </div>
-                  </div>
-                  {/* Decorative accent */}
-                  <div
-                    className="absolute -bottom-4 -right-4 w-20 h-20 rounded-full"
-                    style={{ background: "#C9A86A", opacity: 0.08 }}
-                  />
-                </div>
-              </div>
-
-              {/* Text + CTAs */}
-              <div className="flex-1 text-center md:text-left">
-                <p
-                  className="text-xs font-bold uppercase mb-4"
-                  style={{ color: "#C9A86A", letterSpacing: "0.25em", fontFamily: "'DM Sans', sans-serif" }}
-                >
-                  Coming Soon
-                </p>
-                <h2
-                  className="text-3xl md:text-4xl font-bold mb-5"
-                  style={{ color: "#0A1A2F", fontFamily: "'Playfair Display', serif" }}
-                >
-                  The Print Shop<br />is Coming
-                </h2>
-                <p
-                  className="text-base mb-8 max-w-md"
-                  style={{ color: "rgba(10,26,47,0.55)", fontFamily: "'DM Sans', sans-serif", lineHeight: 1.75 }}
-                >
-                  Museum-quality cultural wall art, country prints, and kids room prints — delivered to your door through Gelato's global print network. No inventory, no waste. Just beautiful prints that celebrate culture.
-                </p>
-                <div className="flex flex-col sm:flex-row gap-3 justify-center md:justify-start">
-                  <Link
-                    href="/print-shop"
-                    className="px-8 py-3.5 font-bold rounded-full transition-colors text-sm"
-                    style={{ background: "#0A1A2F", color: "#C9A86A", fontFamily: "'DM Sans', sans-serif" }}
-                  >
-                    Preview the Print Shop
-                  </Link>
-                  <Link
-                    href="/print-shop/wall-art"
-                    className="px-8 py-3.5 font-semibold rounded-full transition-colors text-sm"
-                    style={{ border: "1px solid rgba(10,26,47,0.18)", color: "#0A1A2F", fontFamily: "'DM Sans', sans-serif" }}
-                  >
-                    Wall Art
-                  </Link>
-                  <Link
-                    href="/print-shop/country"
-                    className="px-8 py-3.5 font-semibold rounded-full transition-colors text-sm"
-                    style={{ border: "1px solid rgba(10,26,47,0.18)", color: "#0A1A2F", fontFamily: "'DM Sans', sans-serif" }}
-                  >
-                    Country Prints
-                  </Link>
-                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
 
+      {/* Gold divider */}
       <hr className="gold-divider" />
 
-      {/* ─── NEW ARRIVALS: DIGITAL PRODUCTS ─── */}
-      <div className="py-20 px-6" style={{ background: "#F8F5EF" }}>
+      {/* Browse by Category — visual image grid */}
+      <div className="bg-[#f5f0e8] py-12 px-4">
         <div className="max-w-7xl mx-auto">
-          <h2 className="text-3xl md:text-4xl font-bold text-center mb-3" style={{ color: "#0A1A2F", fontFamily: "'Playfair Display', serif" }}>New Arrivals</h2>
-          <p className="text-center mb-8">
-            <span className="inline-flex items-center gap-1 text-[10px] font-bold uppercase tracking-wider px-3 py-1 rounded-full" style={{ background: "rgba(201,168,106,0.15)", color: "#C9A86A" }}>
-              \uD83C\uDD95 New Arrivals
-            </span>
+          <h2 className="text-2xl md:text-3xl font-bold font-serif text-[#1a2744] text-center mb-2">
+            Browse by Category
+          </h2>
+          <p className="text-center text-gray-500 text-sm mb-10">
+            Every product is an instant digital download — print at home, send by email, or share digitally.
           </p>
-          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4 md:gap-6">
-            {DIGITAL_PRODUCTS.map((dp) => {
-              const badgeColors: Record<string, string> = { bestseller: "bg-amber-500", staffpick: "bg-purple-600", new: "bg-emerald-500", seasonal: "bg-rose-500" };
-              return (
-                <Link
-                  key={dp.id}
-                  href={dp.slug}
-                  className="group relative bg-white rounded-2xl overflow-hidden flex flex-col transition-all duration-300 hover:scale-[1.03] hover:shadow-[0_20px_60px_rgba(201,168,106,0.25)]"
-                  style={{ border: "1px solid rgba(201,168,106,0.18)" }}
-                >
-                  <div className="relative w-full aspect-[3/4] overflow-hidden">
-                    <img src={dp.image} alt={dp.title} className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" loading="lazy" />
-                    <span className={`absolute top-3 left-3 ${badgeColors[dp.badgeType] || "bg-emerald-500"} text-white text-[10px] font-bold px-2.5 py-1 rounded-full uppercase tracking-wider shadow-md`}>
-                      {dp.badge}
-                    </span>
-                    <div className="absolute inset-0 bg-gradient-to-t from-[#0A1A2F]/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end justify-center pb-5">
-                      <span className="bg-[#C9A86A] text-[#0A1A2F] text-xs font-bold px-5 py-2 rounded-full shadow-lg flex items-center gap-1.5">
-                        <ShoppingCart className="w-3.5 h-3.5" />
-                        View Product
-                      </span>
-                    </div>
-                  </div>
-                  <div className="p-4 flex-1 flex flex-col">
-                    <h3 className="font-bold text-sm leading-tight mb-1" style={{ color: "#0A1A2F", fontFamily: "'Playfair Display', serif" }}>{dp.title}</h3>
-                    <p className="text-xs leading-tight mb-2 flex-1" style={{ color: "rgba(10,26,47,0.5)", fontFamily: "'DM Sans', sans-serif" }}>
-                      {dp.categoryLabel}
-                    </p>
-                    <div className="flex items-center justify-between">
-                      <span className="text-xs font-bold" style={{ color: "#C9A86A" }}>${(dp.price / 100).toFixed(2)}</span>
-
-                    </div>
-                  </div>
-                </Link>
-              );
-            })}
+          <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 gap-5">
+            {BROWSE_CATEGORIES.map((cat) => (
+              <Link
+                key={cat.href}
+                href={cat.href}
+                className="group relative rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 border border-gray-100"
+              >
+                {/* Card image */}
+                <div className="relative overflow-hidden" style={{ aspectRatio: "4/3" }}>
+                  <img
+                    src={cat.image}
+                    alt={cat.title}
+                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                    onError={(e) => {
+                      (e.target as HTMLImageElement).src =
+                        `https://placehold.co/400x300/1a2744/d4af37?text=${encodeURIComponent(cat.title)}`;
+                    }}
+                  />
+                  {/* Dark gradient overlay */}
+                  <div className="absolute inset-0 bg-gradient-to-t from-[#1a2744]/80 via-[#1a2744]/20 to-transparent" />
+                  {/* Badge */}
+                  <span className="absolute top-3 right-3 bg-[#d4af37] text-[#1a2744] text-xs font-bold px-2.5 py-1 rounded-full shadow">
+                    {cat.badge}
+                  </span>
+                </div>
+                {/* Text below image */}
+                <div className="bg-[#f5f0e8] px-4 py-3">
+                  <h3 className="font-bold text-[#1a2744] text-sm leading-tight line-clamp-2">{cat.title}</h3>
+                  <p className="text-gray-400 text-xs mt-0.5 leading-tight line-clamp-2">{cat.desc}</p>
+                  <span className="inline-block mt-2 text-xs font-semibold text-[#d4af37] group-hover:underline">
+                    Shop now →
+                  </span>
+                </div>
+              </Link>
+            ))}
           </div>
         </div>
       </div>
 
+      {/* Gold divider */}
       <hr className="gold-divider" />
 
-      {/* ─── HOW IT WORKS ─── */}
-      <div className="py-22 px-6" style={{ background: "#0A1A2F" }}>
+      {/* Category Grid */}
+      <div className="bg-[#f5f0e8] py-8 px-4">
+      <div className="max-w-7xl mx-auto">
+        <h2 className="text-2xl md:text-3xl font-bold font-serif text-[#1a2744] text-center mb-2">
+          All Card Types
+        </h2>
+        <p className="text-center text-gray-500 text-sm mb-8">
+          Browse all greeting card occasions — $5.99 each · Instant PDF Download
+        </p>
+
+        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4">
+          {CATEGORIES.map((cat) => {
+            const Icon = cat.icon;
+            return (
+              <Link
+                key={cat.href}
+                href={cat.href}
+                className="group relative bg-white rounded-2xl shadow-sm hover:shadow-lg transition-all duration-200 overflow-hidden border border-[#e8dfc8] p-5 flex flex-col items-center text-center"
+              >
+                <div className={`w-12 h-12 rounded-full ${cat.color} flex items-center justify-center mb-3 group-hover:scale-110 transition-transform`}>
+                  <Icon className="w-6 h-6 text-white" />
+                </div>
+                <h3 className="font-bold text-[#1a2744] text-sm leading-tight mb-1 line-clamp-2">{cat.title}</h3>
+                <p className="text-gray-400 text-xs leading-tight mb-2 line-clamp-2">{cat.desc}</p>
+                <span className="px-2.5 py-0.5 bg-[#d4af37]/20 text-[#b8860b] text-xs font-semibold rounded-full">
+                  {cat.badge}
+                </span>
+              </Link>
+            );
+          })}
+        </div>
+      </div>
+      </div>
+
+      {/* Gold divider */}
+      <hr className="gold-divider" />
+
+      {/* How It Works */}
+      <div className="bg-[#1a2744] py-14 px-4">
         <div className="max-w-5xl mx-auto">
-          {/* Whisper text */}
-          <p
-            className="text-center font-bold select-none pointer-events-none mb-0"
-            style={{
-              color: "#C9A86A",
-              opacity: 0.05,
-              fontSize: "clamp(3.5rem, 10vw, 7rem)",
-              fontFamily: "'Playfair Display', serif",
-              lineHeight: 1,
-            }}
-          >
-            How It Works
-          </p>
-          <h2
-            className="text-2xl md:text-3xl font-bold text-center mb-2 -mt-8"
-            style={{ color: "#fff", fontFamily: "'Playfair Display', serif" }}
-          >
+          <h2 className="text-2xl md:text-3xl font-bold font-serif text-white text-center mb-2">
             How It Works
           </h2>
-          <p
-            className="text-center text-sm mb-14"
-            style={{ color: "rgba(255,255,255,0.4)", fontFamily: "'DM Sans', sans-serif" }}
-          >
+          <p className="text-center text-white/60 text-sm mb-12">
             Get your card in 3 easy steps — no shipping, no waiting.
           </p>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {[
-              { step: "01", icon: "🔍", title: "Browse",       desc: "Choose your country, occasion, and card type from our collection of 1,927+ cards across 188 countries." },
-              { step: "02", icon: "⬇️", title: "Download",     desc: "Complete your secure checkout and receive your PDF instantly — no account required." },
-              { step: "03", icon: "🖨️", title: "Print & Send", desc: "Print at home on any printer, or send the PDF digitally by email or text. Ready in minutes." },
+              {
+                step: "01",
+                icon: "🔍",
+                title: "Browse",
+                desc: "Choose your country, occasion, and card type from our collection of 2,567+ cards across 195 countries.",
+              },
+              {
+                step: "02",
+                icon: "⬇️",
+                title: "Download",
+                desc: "Complete your secure checkout and receive your PDF instantly — no account required.",
+              },
+              {
+                step: "03",
+                icon: "🖨️",
+                title: "Print & Send",
+                desc: "Print at home on any printer, or send the PDF digitally by email or text. Ready in minutes.",
+              },
             ].map((item) => (
               <div key={item.step} className="flex flex-col items-center text-center">
                 <div className="relative mb-5">
                   <span className="text-5xl">{item.icon}</span>
-                  <span
-                    className="absolute -top-2 -right-4 text-xs font-bold w-6 h-6 rounded-full flex items-center justify-center"
-                    style={{ background: "#C9A86A", color: "#0A1A2F" }}
-                  >
+                  <span className="absolute -top-2 -right-4 bg-[#d4af37] text-[#1a2744] text-xs font-bold w-6 h-6 rounded-full flex items-center justify-center">
                     {item.step}
                   </span>
                 </div>
-                <h3
-                  className="font-bold text-lg mb-2"
-                  style={{ color: "#fff", fontFamily: "'Playfair Display', serif" }}
-                >
-                  {item.title}
-                </h3>
-                <p
-                  className="text-sm leading-relaxed"
-                  style={{ color: "rgba(255,255,255,0.4)", fontFamily: "'DM Sans', sans-serif" }}
-                >
-                  {item.desc}
-                </p>
+                <h3 className="text-white font-bold text-lg mb-2">{item.title}</h3>
+                <p className="text-white/60 text-sm leading-relaxed">{item.desc}</p>
               </div>
             ))}
           </div>
-          <div className="text-center mt-14">
+          <div className="text-center mt-10">
             <Link
               href="/birthday"
-              className="inline-block font-bold px-10 py-4 rounded-full transition-colors text-sm"
-              style={{ background: "#C9A86A", color: "#0A1A2F", fontFamily: "'DM Sans', sans-serif" }}
+              className="inline-block bg-[#d4af37] text-[#1a2744] font-bold px-8 py-3 rounded-full hover:bg-[#c9a227] transition-colors text-sm"
             >
               Start Shopping →
             </Link>
@@ -633,21 +489,61 @@ export default function Home() {
         </div>
       </div>
 
+      {/* Gold divider */}
       <hr className="gold-divider" />
 
-      {/* ─── FOOTER ─── */}
-      <footer className="py-14 px-6" style={{ background: "#0A1A2F" }}>
-        <div className="max-w-md mx-auto mb-10 text-center">
-          <p className="font-semibold text-base mb-1" style={{ color: "#fff", fontFamily: "'Playfair Display', serif" }}>
-            Stay in the loop
-          </p>
-          <p className="text-xs mb-4" style={{ color: "rgba(255,255,255,0.4)", fontFamily: "'DM Sans', sans-serif" }}>
-            New countries and products added every month. Be the first to know.
-          </p>
+      {/* Testimonials */}
+      <div className="bg-[#f5f0e8] py-16 px-4">
+        <div className="max-w-5xl mx-auto">
+          <h2 className="text-3xl font-bold font-serif text-[#1a2744] text-center mb-2">
+            What Our Customers Say
+          </h2>
+          <p className="text-center text-gray-500 text-sm mb-10">Real stories from families around the world</p>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+            {[
+              {
+                quote: "I sent my Nigerian grandmother a birthday card in Yoruba and she cried happy tears. She said it was the most thoughtful gift she'd ever received.",
+                name: "Adaeze O.",
+                location: "Houston, TX",
+                card: "Nigerian Birthday Card",
+              },
+              {
+                quote: "Finally a card that actually represents my culture. The Mexican Mother's Day card was absolutely beautiful — my mom framed it.",
+                name: "Sofia R.",
+                location: "Los Angeles, CA",
+                card: "Mexican Mother's Day Card",
+              },
+              {
+                quote: "I use the activity workbooks in my 4th grade classroom. My students love learning about different countries. The quality is outstanding.",
+                name: "Ms. Tamara K.",
+                location: "Atlanta, GA",
+                card: "Activity Workbooks",
+              },
+            ].map((t, i) => (
+              <div key={i} className="bg-white rounded-2xl p-6 shadow-sm border border-[#e8dfc8] flex flex-col">
+                <div className="text-[#d4af37] text-3xl leading-none mb-3">&ldquo;</div>
+                <p className="text-gray-700 text-sm leading-relaxed flex-1 italic">{t.quote}</p>
+                <div className="mt-5 pt-4 border-t border-[#e8dfc8]">
+                  <p className="font-bold text-[#1a2744] text-sm">{t.name}</p>
+                  <p className="text-gray-400 text-xs">{t.location} &middot; <span className="text-[#d4af37]">{t.card}</span></p>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </div>
+
+      {/* Gold divider */}
+      <hr className="gold-divider" />
+
+      {/* Footer */}
+      <footer className="bg-[#1a2744] text-white/60 text-center py-10 text-sm">
+        {/* Email capture */}
+        <div className="max-w-md mx-auto mb-8 px-4">
+          <p className="text-white font-semibold text-base mb-1">Stay in the loop</p>
+          <p className="text-white/50 text-xs mb-4">New countries and products added every month. Be the first to know.</p>
           {footerSubmitted ? (
-            <p className="font-semibold text-sm" style={{ color: "#C9A86A" }}>
-              You are on the list — we will be in touch!
-            </p>
+            <p className="text-[#d4af37] font-semibold text-sm">You're on the list — we'll be in touch!</p>
           ) : (
             <form onSubmit={handleFooterSubscribe} className="flex gap-2">
               <input
@@ -656,87 +552,31 @@ export default function Home() {
                 placeholder="your@email.com"
                 value={footerEmail}
                 onChange={(e) => setFooterEmail(e.target.value)}
-                className="flex-1 rounded-full px-4 py-2 text-sm outline-none transition-colors"
-                style={{
-                  background: "rgba(255,255,255,0.07)",
-                  border: "1px solid rgba(255,255,255,0.15)",
-                  color: "#fff",
-                  fontFamily: "'DM Sans', sans-serif",
-                }}
+                className="flex-1 bg-white/10 border border-white/20 rounded-full px-4 py-2 text-sm text-white placeholder-white/40 focus:outline-none focus:border-[#d4af37] transition-colors"
               />
               <button
                 type="submit"
                 disabled={footerSubscribe.isPending}
-                className="font-bold text-sm px-5 py-2 rounded-full transition-colors whitespace-nowrap disabled:opacity-60"
-                style={{ background: "#C9A86A", color: "#0A1A2F", fontFamily: "'DM Sans', sans-serif" }}
+                className="bg-[#d4af37] text-[#1a2744] font-bold text-sm px-5 py-2 rounded-full hover:bg-[#c9a227] transition-colors disabled:opacity-60 whitespace-nowrap"
               >
                 {footerSubscribe.isPending ? "..." : "Notify Me"}
               </button>
             </form>
           )}
         </div>
-        <p
-          className="italic text-sm mb-10 text-center"
-          style={{ color: "rgba(201,168,106,0.6)", fontFamily: "'Playfair Display', serif" }}
-        >
-          Send a piece of home, back home.
-        </p>
-        <div className="max-w-5xl mx-auto pt-8" style={{ borderTop: "1px solid rgba(255,255,255,0.08)" }}>
-          <div className="flex flex-wrap justify-center gap-x-6 gap-y-2 mb-6 text-sm">
-            {[
-              { href: "/",              label: "About" },
-              { href: "/print-shop",   label: "Print Shop" },
-              { href: "/birthday",     label: "Digital Shop" },
-              { href: "/kids-classroom", label: "Kids" },
-              { href: "/kids-classroom", label: "Teachers" },
-              { href: "mailto:info@wisheswithoutbordersco.com", label: "Contact", isExternal: true },
-              { href: "/privacy-policy", label: "Privacy Policy" },
-              { href: "/terms-of-service", label: "Terms of Service" },
-            ].map((item) =>
-              item.isExternal ? (
-                <a
-                  key={item.label}
-                  href={item.href}
-                  className="transition-colors hover:opacity-80"
-                  style={{ color: "rgba(255,255,255,0.5)", fontFamily: "'DM Sans', sans-serif" }}
-                >
-                  {item.label}
-                </a>
-              ) : (
-                <Link
-                  key={item.label}
-                  href={item.href}
-                  className="transition-colors hover:opacity-80"
-                  style={{ color: "rgba(255,255,255,0.5)", fontFamily: "'DM Sans', sans-serif" }}
-                >
-                  {item.label}
-                </Link>
-              )
-            )}
-          </div>
+        <div className="border-t border-white/10 pt-6">
           <div className="flex items-center justify-center gap-2 mb-2">
-            <Globe className="w-4 h-4" style={{ color: "#C9A86A" }} />
-            <span className="font-semibold" style={{ color: "#fff", fontFamily: "'Playfair Display', serif" }}>
-              Wishes Without Borders Co
-            </span>
+            <Globe className="w-4 h-4 text-[#d4af37]" />
+            <span className="text-white font-semibold">Wishes Without Borders Co</span>
           </div>
-          <p
-            className="text-center text-xs"
-            style={{ color: "rgba(255,255,255,0.35)", fontFamily: "'DM Sans', sans-serif" }}
-          >
-            Multicultural greeting cards &amp; educational tools · All products are instant digital downloads
-          </p>
-          <p className="mt-1 text-center">
+          <p>Multicultural greeting cards & educational tools · All products are instant digital downloads</p>
+          <p className="mt-1">
             <a
               href="mailto:info@wisheswithoutbordersco.com"
-              className="text-sm hover:underline"
-              style={{ color: "#C9A86A" }}
+              className="text-[#d4af37] hover:underline"
             >
               info@wisheswithoutbordersco.com
             </a>
-          </p>
-          <p className="mt-4 text-center text-xs" style={{ color: "rgba(255,255,255,0.25)", fontFamily: "'DM Sans', sans-serif" }}>
-            © 2026 Wishes Without Borders Co · Anthony & Latisha Lane · All rights reserved.
           </p>
         </div>
       </footer>

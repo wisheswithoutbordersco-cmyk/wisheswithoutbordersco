@@ -1,0 +1,27 @@
+{
+  "version": "7",
+  "dialect": "mysql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "5",
+      "when": 1775450214266,
+      "tag": "0000_greedy_ted_forrester",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "5",
+      "when": 1775450449924,
+      "tag": "0001_large_lilandra",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "5",
+      "when": 1775596759118,
+      "tag": "0002_nervous_sabretooth",
+      "breakpoints": true
+    }
+  ]
+}

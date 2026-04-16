@@ -1,0 +1,56 @@
+# Project TODO
+
+- [x] Copy 26 client pages from backup to scaffold
+- [x] Copy 7 custom components (NavBar, CardGallery, CartDrawer, ProductModal, ErrorBoundary, CartContext, ThemeContext)
+- [x] Copy productData.ts (17,980 lines, 2,567+ products) to client/src/lib/
+- [x] Copy App.tsx with all routes
+- [x] Copy index.css with brand styling
+- [x] Copy 6 server files (routers.ts, db.ts, storage.ts, downloadTokens.ts, stripeWebhook.ts, downloadRoute.ts)
+- [x] Copy Drizzle schema and 3 migrations
+- [x] Copy shared types
+- [x] Copy config files (drizzle.config.ts, components.json)
+- [x] Update server/_core/index.ts to register Stripe webhook (before express.json) and download route (after express.json)
+- [x] Add Stripe integration via webdev_add_feature
+- [x] Set environment secrets (STRIPE_SECRET_KEY, STRIPE_WEBHOOK_SECRET, DOWNLOAD_SECRET)
+- [x] Run database migrations
+- [x] Apply brand styling: Navy #1a2744, Gold #d4af37, Cream #f5f0e8, Playfair Display + DM Sans fonts
+- [x] Run TypeScript check (npx tsc --noEmit) — zero errors required
+- [x] Save checkpoint and deliver for publishing
+- [x] Fix Greeting Cards category thumbnail — replaced with Italy birthday mom watercolor card (flat, no hands)
+- [x] Fix Activity Workbooks category thumbnail — replaced with Japan Activity Workbook cover
+- [x] Fix Coloring Books category thumbnail — replaced with Africa Edition coloring book cover
+- [x] Fix Baby Shower Games category thumbnail — replaced with generated baby shower games flat-lay
+- [x] Fix Cookbooks category thumbnail — replaced with Around the World in 195 Dishes cover
+- [x] Verify all 5 thumbnails display correctly on homepage
+- [x] Run TypeScript check — zero errors confirmed
+- [x] Create backup tar.gz and upload to Google Drive > WWB Website Assets > Website Backup
+- [x] Fix #1: Change "Wishes Without Borders" to "Wishes Without Borders Co" everywhere (navbar, footer, thank you page, etc.)
+- [x] Fix #2: Change email from info@wisheswithoutborders.com to info@wisheswithoutbordersco.com everywhere
+- [x] Fix #3: Remove 9 category pill buttons from hero, move them above Browse by Category as filter tabs
+- [x] Fix #4: Reduce hero navy section height/padding
+- [x] Fix #5: Replace featured card image with clean flat Italy birthday mom card
+- [x] Fix #6: Remove fake testimonials, replaced with "Be the first to leave a review" placeholder
+- [x] Fix #7: Expanded Thinking of You cards from 32 to 181 entries (matching all GET_WELL countries)
+- [x] Fix #8: Removed Children's Books and Baby Shower Games from All Card Types section
+- [x] Fix #9: Added margins and rounded corners to How It Works and Footer navy sections
+- [x] Fix #10: Download page already uses shared NavBar with full 3-section nav — confirmed matching
+- [x] Run npx tsc --noEmit — zero errors confirmed
+- [x] Backup as project-source-fixes2.tar.gz uploaded to Google Drive > WWB Website Assets > Website Backup
+- [x] Audit current Wall Art nav links, placeholder pages, and available assets
+- [x] Build Wall Art product data arrays — 840 products (30 countries × 14 occasions × 2 sizes)
+- [x] Build WallArtPage with occasion/size/country filters matching card gallery pattern
+- [x] Wire routes and 840 server PRODUCTS entries for wall art checkout/download
+- [x] Verify Wall Art pages browseable by country with correct pricing ($9.99)
+- [x] Run npx tsc --noEmit — zero errors
+- [x] Run all tests — 8 passed (3 files)
+- [x] Backup as project-source-wallart.tar.gz uploaded to Google Drive > WWB Website Assets > Website Backup
+- [x] Fix #1: Featured Card — updated to real France birthday mom image and correct product ID
+- [x] Fix #2: Replaced How It Works emojis with clean inline SVG icons (search, download, printer)
+- [x] Fix #3: Added Thinking of You to Browse by Category filter tabs
+- [x] Fix #4: Audited all card counts — badges match actual productData array sizes
+- [x] Fix #5: Replaced Graduation thumbnail with France graduation girl card
+- [x] Fix #6: Split Birthday into 4 categories with real France card thumbnails and images
+- [x] Fix #7: Made with Manus banner is platform-level preview mode — disappears on publish
+- [x] Run npx tsc --noEmit — zero errors confirmed
+- [x] Run all tests — 8 passed (3 files)
+- [ ] Backup to Google Drive > WWB Website Assets > Website Backup

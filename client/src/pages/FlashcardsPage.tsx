@@ -12,7 +12,7 @@ const FLASHCARD_SETS = [
     id: "flashcard_set1",
     name: "World Cultures Flashcards — Set 1",
     subtitle: "Countries A–F",
-    image: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/FnnlepQaenWYFbqN.png",
+    image: `${CDN3}/af_birthday_mom_5243b6eb.png`,
     price: 999,
     badge: "New",
     description: "Educational flashcards covering countries A–F. Each card features the flag, capital, language, and a cultural fact. Perfect for classrooms and families. Instant PDF download.",
@@ -22,7 +22,7 @@ const FLASHCARD_SETS = [
     id: "flashcard_set2",
     name: "World Cultures Flashcards — Set 2",
     subtitle: "Countries G–N",
-    image: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/AoCtIqXLYPVhnsqd.png",
+    image: `${CDN3}/gh_birthday_mom_a398a264.png`,
     price: 999,
     badge: "New",
     description: "Educational flashcards covering countries G–N. Each card features the flag, capital, language, and a cultural fact. Perfect for classrooms and families. Instant PDF download.",
@@ -32,7 +32,7 @@ const FLASHCARD_SETS = [
     id: "flashcard_set3",
     name: "World Cultures Flashcards — Set 3",
     subtitle: "Countries O–Z",
-    image: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/jCWexpHJkcPMPWCt.png",
+    image: `${CDN3}/za_birthday_mom_b067c579.png`,
     price: 999,
     badge: "New",
     description: "Educational flashcards covering countries O–Z. Each card features the flag, capital, language, and a cultural fact. Perfect for classrooms and families. Instant PDF download.",
@@ -66,12 +66,12 @@ export default function FlashcardsPage() {
   }
 
   return (
-    <div className="min-h-screen bg-[#F8F5EF]">
+    <div className="min-h-screen bg-[#faf8f4]">
       <NavBar />
-      <div className="bg-[#0A1A2F] text-white py-10 px-4 text-center">
+      <div className="bg-[#1a2744] text-white py-10 px-4 text-center">
         <div className="flex items-center justify-center gap-2 mb-2">
-          <Layers className="w-6 h-6 text-[#C9A86A]" />
-          <span className="text-[#C9A86A] font-semibold text-sm uppercase tracking-widest">Flashcards</span>
+          <Layers className="w-6 h-6 text-[#d4af37]" />
+          <span className="text-[#d4af37] font-semibold text-sm uppercase tracking-widest">Flashcards</span>
         </div>
         <h1 className="text-3xl md:text-4xl font-bold font-serif mb-2">World Cultures Flashcards</h1>
         <p className="text-white/70 text-lg max-w-xl mx-auto">
@@ -98,7 +98,7 @@ export default function FlashcardsPage() {
                 })
               }
             >
-              <div className="relative overflow-hidden bg-[#F8F5EF]" style={{ aspectRatio: "3/4" }}>
+              <div className="relative overflow-hidden bg-[#f5f0e8]" style={{ aspectRatio: "3/4" }}>
                 <img
                   src={set.image}
                   alt={set.name}
@@ -106,26 +106,26 @@ export default function FlashcardsPage() {
                   loading="lazy"
                 />
                 {set.badge && (
-                  <span className="absolute top-2 left-2 bg-[#C9A86A] text-[#0A1A2F] text-[10px] font-bold px-2 py-0.5 rounded-full">
+                  <span className="absolute top-2 left-2 bg-[#d4af37] text-[#1a2744] text-[10px] font-bold px-2 py-0.5 rounded-full">
                     {set.badge}
                   </span>
                 )}
-                <div className="absolute inset-0 bg-[#0A1A2F]/0 group-hover:bg-[#0A1A2F]/30 transition-all duration-200 flex items-center justify-center">
-                  <div className="opacity-0 group-hover:opacity-100 transition-opacity duration-200 bg-white text-[#0A1A2F] text-xs font-bold px-3 py-1.5 rounded-full shadow-lg flex items-center gap-1">
+                <div className="absolute inset-0 bg-[#1a2744]/0 group-hover:bg-[#1a2744]/30 transition-all duration-200 flex items-center justify-center">
+                  <div className="opacity-0 group-hover:opacity-100 transition-opacity duration-200 bg-white text-[#1a2744] text-xs font-bold px-3 py-1.5 rounded-full shadow-lg flex items-center gap-1">
                     <ShoppingCart className="w-3 h-3" />
                     View & Buy
                   </div>
                 </div>
               </div>
               <div className="p-4">
-                <p className="text-xs text-[#C9A86A] font-semibold mb-1">{set.subtitle}</p>
-                <h3 className="text-sm font-bold text-[#0A1A2F] leading-tight mb-2">{set.name}</h3>
+                <p className="text-xs text-[#d4af37] font-semibold mb-1">{set.subtitle}</p>
+                <h3 className="text-sm font-bold text-[#1a2744] leading-tight mb-2">{set.name}</h3>
                 <div className="flex items-center justify-between">
-                  <span className="text-[#C9A86A] font-bold">$9.99</span>
+                  <span className="text-[#d4af37] font-bold">$9.99</span>
                   <button
                     onClick={(e) => { e.stopPropagation(); handleBuy(set); }}
                     disabled={checkingOut === set.id}
-                    className="bg-[#C9A86A] hover:bg-[#c9a227] text-[#0A1A2F] text-xs font-bold px-3 py-1.5 rounded-full transition-colors flex items-center gap-1 disabled:opacity-60"
+                    className="bg-[#d4af37] hover:bg-[#c9a227] text-[#1a2744] text-xs font-bold px-3 py-1.5 rounded-full transition-colors flex items-center gap-1 disabled:opacity-60"
                   >
                     <ShoppingCart className="w-3 h-3" />
                     {checkingOut === set.id ? "…" : "Buy"}

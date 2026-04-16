@@ -43,23 +43,23 @@ export default function AdminOrdersPage() {
 
   if (authLoading) {
     return (
-      <div className="min-h-screen bg-[#F8F5EF]">
+      <div className="min-h-screen bg-[#f5f0e8]">
         <NavBar />
-        <div className="flex items-center justify-center h-64 text-[#0A1A2F]">Loading…</div>
+        <div className="flex items-center justify-center h-64 text-[#1a2744]">Loading…</div>
       </div>
     );
   }
 
   if (!user || user.role !== "admin") {
     return (
-      <div className="min-h-screen bg-[#F8F5EF]">
+      <div className="min-h-screen bg-[#f5f0e8]">
         <NavBar />
         <div className="max-w-md mx-auto mt-24 text-center px-4">
           <div className="bg-white rounded-2xl p-10 shadow-sm border border-[#e8dfc8]">
-            <Globe className="w-10 h-10 text-[#C9A86A] mx-auto mb-4" />
-            <h1 className="text-2xl font-bold font-serif text-[#0A1A2F] mb-2">Admin Only</h1>
+            <Globe className="w-10 h-10 text-[#d4af37] mx-auto mb-4" />
+            <h1 className="text-2xl font-bold font-serif text-[#1a2744] mb-2">Admin Only</h1>
             <p className="text-gray-500 text-sm mb-6">You need admin access to view this page.</p>
-            <Link href="/" className="text-[#C9A86A] hover:underline text-sm font-semibold">← Back to Home</Link>
+            <Link href="/" className="text-[#d4af37] hover:underline text-sm font-semibold">← Back to Home</Link>
           </div>
         </div>
       </div>
@@ -70,15 +70,15 @@ export default function AdminOrdersPage() {
   const totalRevenue = data ? (data.totalRevenueCents / 100).toFixed(2) : "0.00";
 
   return (
-    <div className="min-h-screen bg-[#F8F5EF]">
+    <div className="min-h-screen bg-[#f5f0e8]">
       <NavBar />
       <div className="max-w-6xl mx-auto px-4 py-10">
 
         {/* Header */}
         <div className="flex items-center justify-between mb-8 flex-wrap gap-4">
           <div>
-            <h1 className="text-3xl font-bold font-serif text-[#0A1A2F] flex items-center gap-3">
-              <ShoppingBag className="w-8 h-8 text-[#C9A86A]" />
+            <h1 className="text-3xl font-bold font-serif text-[#1a2744] flex items-center gap-3">
+              <ShoppingBag className="w-8 h-8 text-[#d4af37]" />
               Orders Dashboard
             </h1>
             <p className="text-gray-500 text-sm mt-1">
@@ -87,13 +87,13 @@ export default function AdminOrdersPage() {
           </div>
           <div className="flex items-center gap-3 flex-wrap">
             {/* Admin nav links */}
-            <Link href="/admin/subscribers" className="text-sm text-[#0A1A2F] font-semibold hover:text-[#C9A86A] transition-colors">
+            <Link href="/admin/subscribers" className="text-sm text-[#1a2744] font-semibold hover:text-[#d4af37] transition-colors">
               → Subscribers
             </Link>
             <button
               onClick={downloadCsv}
               disabled={!data?.orders?.length}
-              className="flex items-center gap-2 bg-[#0A1A2F] text-white font-semibold text-sm px-5 py-2.5 rounded-full hover:bg-[#243460] transition-colors disabled:opacity-40"
+              className="flex items-center gap-2 bg-[#1a2744] text-white font-semibold text-sm px-5 py-2.5 rounded-full hover:bg-[#243460] transition-colors disabled:opacity-40"
             >
               <Download className="w-4 h-4" />
               Export CSV
@@ -105,11 +105,11 @@ export default function AdminOrdersPage() {
         {data && (
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-8">
             <div className="bg-white rounded-2xl p-5 border border-[#e8dfc8] shadow-sm flex items-center gap-4">
-              <div className="bg-[#F8F5EF] rounded-full p-2">
-                <TrendingUp className="w-5 h-5 text-[#C9A86A]" />
+              <div className="bg-[#f5f0e8] rounded-full p-2">
+                <TrendingUp className="w-5 h-5 text-[#d4af37]" />
               </div>
               <div>
-                <p className="text-2xl font-bold text-[#0A1A2F]">{data.total}</p>
+                <p className="text-2xl font-bold text-[#1a2744]">{data.total}</p>
                 <p className="text-xs text-gray-500">Total Orders</p>
               </div>
             </div>
@@ -118,7 +118,7 @@ export default function AdminOrdersPage() {
                 <DollarSign className="w-5 h-5 text-green-600" />
               </div>
               <div>
-                <p className="text-2xl font-bold text-[#0A1A2F]">${totalRevenue}</p>
+                <p className="text-2xl font-bold text-[#1a2744]">${totalRevenue}</p>
                 <p className="text-xs text-gray-500">Total Revenue (Paid)</p>
               </div>
             </div>
@@ -127,7 +127,7 @@ export default function AdminOrdersPage() {
                 <ShoppingBag className="w-5 h-5 text-green-600" />
               </div>
               <div>
-                <p className="text-2xl font-bold text-[#0A1A2F]">
+                <p className="text-2xl font-bold text-[#1a2744]">
                   {data.orders.filter((o) => o.status === "paid").length}
                 </p>
                 <p className="text-xs text-gray-500">Paid (this page)</p>
@@ -144,8 +144,8 @@ export default function AdminOrdersPage() {
               onClick={() => { setStatusFilter(s); setPage(1); }}
               className={`px-4 py-1.5 rounded-full text-sm font-semibold transition-colors ${
                 statusFilter === s
-                  ? "bg-[#0A1A2F] text-white"
-                  : "bg-white text-[#0A1A2F] border border-[#e8dfc8] hover:border-[#C9A86A]"
+                  ? "bg-[#1a2744] text-white"
+                  : "bg-white text-[#1a2744] border border-[#e8dfc8] hover:border-[#d4af37]"
               }`}
             >
               {s.charAt(0).toUpperCase() + s.slice(1)}
@@ -161,7 +161,7 @@ export default function AdminOrdersPage() {
             <div className="flex items-center justify-center h-40 text-red-500 text-sm">Failed to load orders.</div>
           ) : !data?.orders?.length ? (
             <div className="flex flex-col items-center justify-center h-40 text-gray-400 text-sm gap-2">
-              <ShoppingBag className="w-8 h-8 text-[#C9A86A] opacity-50" />
+              <ShoppingBag className="w-8 h-8 text-[#d4af37] opacity-50" />
               <p>No orders found.</p>
             </div>
           ) : (
@@ -169,7 +169,7 @@ export default function AdminOrdersPage() {
               <div className="overflow-x-auto">
                 <table className="w-full text-sm">
                   <thead>
-                    <tr className="bg-[#0A1A2F] text-white/80 text-xs uppercase tracking-wide">
+                    <tr className="bg-[#1a2744] text-white/80 text-xs uppercase tracking-wide">
                       <th className="text-left px-4 py-3 font-semibold">#</th>
                       <th className="text-left px-4 py-3 font-semibold">Customer Email</th>
                       <th className="text-left px-4 py-3 font-semibold">Product</th>
@@ -185,13 +185,13 @@ export default function AdminOrdersPage() {
                         className={idx % 2 === 0 ? "bg-white" : "bg-[#faf8f3]"}
                       >
                         <td className="px-4 py-3 text-gray-400 text-xs">{order.id}</td>
-                        <td className="px-4 py-3 text-[#0A1A2F] font-medium">
+                        <td className="px-4 py-3 text-[#1a2744] font-medium">
                           {order.customerEmail ?? <span className="text-gray-400 italic">—</span>}
                         </td>
                         <td className="px-4 py-3 text-gray-700 max-w-[200px] truncate" title={order.productName}>
                           {order.productName}
                         </td>
-                        <td className="px-4 py-3 text-[#0A1A2F] font-semibold">
+                        <td className="px-4 py-3 text-[#1a2744] font-semibold">
                           ${(order.amountCents / 100).toFixed(2)}
                         </td>
                         <td className="px-4 py-3">
@@ -216,7 +216,7 @@ export default function AdminOrdersPage() {
                   <button
                     onClick={() => setPage((p) => Math.max(1, p - 1))}
                     disabled={page === 1}
-                    className="text-sm text-[#0A1A2F] font-semibold disabled:opacity-30 hover:text-[#C9A86A] transition-colors"
+                    className="text-sm text-[#1a2744] font-semibold disabled:opacity-30 hover:text-[#d4af37] transition-colors"
                   >
                     ← Previous
                   </button>
@@ -224,7 +224,7 @@ export default function AdminOrdersPage() {
                   <button
                     onClick={() => setPage((p) => Math.min(totalPages, p + 1))}
                     disabled={page === totalPages}
-                    className="text-sm text-[#0A1A2F] font-semibold disabled:opacity-30 hover:text-[#C9A86A] transition-colors"
+                    className="text-sm text-[#1a2744] font-semibold disabled:opacity-30 hover:text-[#d4af37] transition-colors"
                   >
                     Next →
                   </button>

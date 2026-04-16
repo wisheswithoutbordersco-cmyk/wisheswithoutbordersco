@@ -22,7 +22,6 @@ const BUNDLES = [
     id: "grad-games-30",
     title: "30 Graduation Party Games Bundle",
     price: "$12.99",
-    pdfLink: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/pfZhsXpXeFXsihJx.pdf",
     desc: "The ultimate party pack — less than 50¢ per game! All 30 games included. Perfect for high school & college graduation parties.",
     badge: "Best Value",
     mockup: "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/mockup_01_spread_850f2127.jpg",
@@ -33,7 +32,6 @@ const BUNDLES = [
     id: "grad-games-10",
     title: "10 Graduation Party Games Bundle",
     price: "$5.99",
-    pdfLink: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/KqqsVyaRpkmlMTQe.pdf",
     desc: "Perfect starter pack — the 10 most popular graduation party games. Great for smaller gatherings.",
     badge: "Starter Pack",
     mockup: "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/mockup_01_table_b974d1b3.jpg",
@@ -77,54 +75,41 @@ export default function GraduationPage() {
   }
 
   return (
-    <div>
+    <div className="bg-[#0a0a0a] text-white">
       <NavBar />
 
-      {/* Whisper line */}
-      <p className="text-center italic text-[#C9A86A]/70 text-sm py-3 bg-[#F8F5EF]">They believed in you from across the ocean.</p>
-
-      {/* Cards Section */}
-      {GRADUATION_CARDS.length > 0 ? (
-        <CardGallery
-          cards={GRADUATION_CARDS}
-          title="Graduation Cards"
-          subtitle="Celebrate graduates from around the world — in their language, with their culture"
-          priceInCents={599}
-          category="graduation"
-        />
-      ) : (
-        <div className="bg-[#F8F5EF] py-16 px-4 text-center">
-          <div className="max-w-lg mx-auto">
-            <h2 className="text-2xl font-bold font-serif text-[#0A1A2F] mb-3">Graduation Cards</h2>
-            <p className="text-[#0A1A2F]/60 mb-4">Celebrate graduates from around the world — in their language, with their culture</p>
-            <span className="inline-block bg-[#C9A86A]/20 text-[#0A1A2F] text-sm font-semibold px-4 py-2 rounded-full">Coming Soon</span>
-          </div>
-        </div>
-      )}
+      {/* Graduation Cards Section */}
+      <CardGallery
+        cards={GRADUATION_CARDS}
+        title="Graduation Cards"
+        subtitle="Celebrate graduates from around the world — in their language, with their culture. Culturally authentic designs for a monumental milestone."
+        priceInCents={599}
+        category="graduation"
+      />
 
       {/* ── Graduation Party Games ─────────────────────────────────── */}
-      <div className="bg-[#0A1A2F] py-12 px-4">
-        <div className="max-w-7xl mx-auto">
-          <div className="text-center mb-8">
-            <div className="flex items-center justify-center gap-3 mb-3">
-              <Gamepad2 className="w-7 h-7 text-[#C9A86A]" />
-              <h2 className="text-2xl md:text-3xl font-bold font-serif text-white">
+      <section className="bg-[#0a0a0a] border-t border-white/5 py-20 px-4">
+        <div className="max-w-6xl mx-auto">
+          <div className="text-center mb-12">
+            <div className="flex items-center justify-center gap-3 mb-4">
+              <Gamepad2 className="w-8 h-8 text-[#C9A86A]" />
+              <h2 className="text-3xl md:text-4xl font-bold font-serif text-white">
                 Graduation Party Games
               </h2>
             </div>
-            <p className="text-white/70 text-sm max-w-xl mx-auto">
+            <p className="text-white/60 text-lg max-w-2xl mx-auto">
               Printable party games for high school & college graduation parties. Print at home or at any print shop. Instant PDF download.
             </p>
             {/* Bundle Toggle */}
-            <div className="flex justify-center gap-3 mt-5 flex-wrap">
+            <div className="flex justify-center gap-3 mt-8 flex-wrap">
               {BUNDLES.map((b) => (
                 <button
                   key={b.id}
                   onClick={() => setActiveBundle(b.id)}
-                  className={`px-5 py-2 rounded-full text-sm font-semibold transition-colors ${
+                  className={`px-6 py-2 rounded-full text-sm font-bold uppercase tracking-wider transition-all border ${
                     activeBundle === b.id
-                      ? "bg-[#C9A86A] text-[#0A1A2F]"
-                      : "bg-white/10 text-white hover:bg-white/20"
+                      ? "bg-[#C9A86A] text-black border-[#C9A86A]"
+                      : "bg-white/5 text-white/60 border-white/10 hover:border-[#C9A86A] hover:text-[#C9A86A]"
                   }`}
                 >
                   {b.games.length} Games — {b.price}
@@ -133,10 +118,10 @@ export default function GraduationPage() {
             </div>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-start">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-start">
             {/* Mockup Images */}
-            <div className="space-y-4">
-              <div className="rounded-2xl overflow-hidden shadow-xl">
+            <div className="space-y-6">
+              <div className="rounded-2xl overflow-hidden shadow-2xl border border-white/10">
                 <img
                   src={bundle.mockup}
                   alt={`${bundle.title} mockup`}
@@ -144,11 +129,11 @@ export default function GraduationPage() {
                   loading="lazy"
                   onError={(e) => {
                     (e.target as HTMLImageElement).src =
-                      "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='400' fill='%230A1A2F'%3E%3Crect width='300' height='400'/%3E%3Ctext x='150' y='180' text-anchor='middle' fill='%23C9A86A' font-size='14' font-family='sans-serif'%3EWishes Without%3C/text%3E%3Ctext x='150' y='200' text-anchor='middle' fill='%23C9A86A' font-size='14' font-family='sans-serif'%3EBorders Co%3C/text%3E%3Ctext x='150' y='240' text-anchor='middle' fill='%23C9A86A' font-size='28'%3E%F0%9F%8C%8D%3C/text%3E%3C/svg%3E";
+                      "https://placehold.co/600x400/1a1a1a/C9A86A?text=Party+Games";
                   }}
                 />
               </div>
-              <div className="rounded-2xl overflow-hidden shadow-xl">
+              <div className="rounded-2xl overflow-hidden shadow-2xl border border-white/10">
                 <img
                   src={bundle.mockup2}
                   alt={`${bundle.title} party mockup`}
@@ -156,7 +141,7 @@ export default function GraduationPage() {
                   loading="lazy"
                   onError={(e) => {
                     (e.target as HTMLImageElement).src =
-                      "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='400' fill='%230A1A2F'%3E%3Crect width='300' height='400'/%3E%3Ctext x='150' y='180' text-anchor='middle' fill='%23C9A86A' font-size='14' font-family='sans-serif'%3EWishes Without%3C/text%3E%3Ctext x='150' y='200' text-anchor='middle' fill='%23C9A86A' font-size='14' font-family='sans-serif'%3EBorders Co%3C/text%3E%3Ctext x='150' y='240' text-anchor='middle' fill='%23C9A86A' font-size='28'%3E%F0%9F%8C%8D%3C/text%3E%3C/svg%3E";
+                      "https://placehold.co/600x400/1a1a1a/C9A86A?text=Party+Games";
                   }}
                 />
               </div>
@@ -164,23 +149,23 @@ export default function GraduationPage() {
 
             {/* Bundle Details */}
             <div className="text-white">
-              <div className="flex items-center gap-3 mb-2">
-                <span className="px-3 py-1 bg-[#C9A86A] text-[#0A1A2F] text-xs font-bold rounded-full">
+              <div className="flex items-center gap-3 mb-4">
+                <span className="px-3 py-1 bg-[#C9A86A] text-black text-[10px] font-bold rounded-full uppercase tracking-wider">
                   {bundle.badge}
                 </span>
-                <span className="text-2xl font-bold text-[#C9A86A]">{bundle.price}</span>
+                <span className="text-3xl font-bold text-[#C9A86A]">{bundle.price}</span>
               </div>
-              <h3 className="text-xl font-bold font-serif mb-2">{bundle.title}</h3>
-              <p className="text-white/70 text-sm mb-5">{bundle.desc}</p>
+              <h3 className="text-2xl font-bold font-serif mb-4">{bundle.title}</h3>
+              <p className="text-white/60 text-base mb-8">{bundle.desc}</p>
 
               {/* Game List */}
-              <div className="bg-white/10 rounded-xl p-4 mb-5">
-                <p className="text-[#C9A86A] text-xs font-bold uppercase tracking-wider mb-3">
+              <div className="bg-white/5 border border-white/10 rounded-2xl p-6 mb-8">
+                <p className="text-[#C9A86A] text-xs font-bold uppercase tracking-widest mb-4">
                   {bundle.games.length} Games Included:
                 </p>
-                <div className="grid grid-cols-2 gap-1">
+                <div className="grid grid-cols-2 gap-2">
                   {bundle.games.map((game, i) => (
-                    <div key={i} className="flex items-center gap-1.5 text-white/80 text-xs">
+                    <div key={i} className="flex items-center gap-2 text-white/80 text-xs">
                       <span className="w-1.5 h-1.5 rounded-full bg-[#C9A86A] shrink-0" />
                       {game}
                     </div>
@@ -189,15 +174,24 @@ export default function GraduationPage() {
               </div>
 
               {/* How it works */}
-              <div className="bg-white/5 rounded-xl p-4 mb-5 text-sm text-white/70 space-y-1">
-                <p className="font-semibold text-white text-xs uppercase tracking-wider mb-2">How It Works</p>
-                <p>1. Purchase → instant download in seconds</p>
-                <p>2. Print at home or at Walgreens, CVS, or Staples</p>
-                <p>3. Print as many copies as you need!</p>
+              <div className="bg-white/5 border border-white/10 rounded-2xl p-6 mb-8 text-sm text-white/70 space-y-2">
+                <p className="font-bold text-white text-xs uppercase tracking-widest mb-3">How It Works</p>
+                <div className="flex gap-3">
+                  <span className="text-[#C9A86A] font-bold">01</span>
+                  <p>Purchase → instant download in seconds</p>
+                </div>
+                <div className="flex gap-3">
+                  <span className="text-[#C9A86A] font-bold">02</span>
+                  <p>Print at home or at any print shop</p>
+                </div>
+                <div className="flex gap-3">
+                  <span className="text-[#C9A86A] font-bold">03</span>
+                  <p>Print as many copies as you need!</p>
+                </div>
               </div>
 
               <button
-                className="w-full flex items-center justify-center gap-2 px-8 py-3 bg-[#C9A86A] text-[#0A1A2F] font-bold rounded-full hover:bg-[#c9a227] transition-colors text-sm disabled:opacity-60"
+                className="w-full flex items-center justify-center gap-2 px-8 py-4 bg-[#C9A86A] text-black font-bold rounded-xl hover:bg-[#b8975a] transition-all text-sm uppercase tracking-widest disabled:opacity-60"
                 onClick={handleBundleBuy}
                 disabled={checkingOut || checkoutMutation.isPending}
               >
@@ -211,13 +205,7 @@ export default function GraduationPage() {
             </div>
           </div>
         </div>
-      </div>
-
-      {/* Footer */}
-      <footer className="bg-[#0A1A2F] border-t border-white/10 text-white/50 text-center py-6 text-xs">
-        <p className="italic text-[#C9A86A]/70 text-sm mb-3">Send a piece of home, back home.</p>
-        All products are instant digital downloads · Print at home · wisheswithoutbordersco.com
-      </footer>
+      </section>
     </div>
   );
 }

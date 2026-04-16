@@ -1,150 +1,66 @@
-import { NavBar } from "@/components/NavBar";
-import { Image } from "lucide-react";
-import { WALL_ART_PRODUCTS } from "@/lib/productData";
-import { useCart } from "@/contexts/CartContext";
 import { useState } from "react";
-
-// Group products by country, each country has 8x10 and 11x14
-type SizeOption = "8x10" | "11x14";
+import { Link } from "wouter";
+import { NavBar } from "@/components/NavBar";
+import { CardGallery } from "@/components/CardGallery";
+import { WALL_ART_PRINTS } from "@/lib/productData";
+import { Printer } from "lucide-react";
+import {
+  PhysicalPrintModal,
+  type PhysicalPrintProduct,
+} from "@/components/PhysicalPrintModal";
 
 export default function WallArtPage() {
-  const { addItem } = useCart();
-  const [added, setAdded] = useState<string | null>(null);
-  const [selectedSizes, setSelectedSizes] = useState<Record<string, SizeOption>>({});
-
-  // Get unique countries
-  const countries = Array.from(
-    new Set(WALL_ART_PRODUCTS.map((p) => p.country))
-  ).sort();
-
-  function getProduct(country: string, size: SizeOption) {
-    return WALL_ART_PRODUCTS.find(
-      (p) => p.country === country && p.id.endsWith(size.replace("x", "x"))
-    );
-  }
-
-  function getSize(country: string): SizeOption {
-    return selectedSizes[country] ?? "8x10";
-  }
-
-  function handleAdd(country: string) {
-    const size = getSize(country);
-    const product = WALL_ART_PRODUCTS.find(
-      (p) => p.country === country && p.id.includes(size.replace("x", "x"))
-    );
-    if (!product) return;
-    addItem({
-      productId: product.id,
-      name: product.name,
-      price: product.price,
-      image: product.image,
-    });
-    setAdded(country);
-    setTimeout(() => setAdded(null), 1500);
-  }
-
-  const uniqueCountries = Array.from(new Set(WALL_ART_PRODUCTS.map(p => p.country))).sort();
+  const [printProduct, setPrintProduct] = useState<PhysicalPrintProduct | null>(null);
 
   return (
-    <div className="min-h-screen bg-[#F8F5EF]">
+    <div className="min-h-screen bg-[#faf8f4]">
       <NavBar />
 
-      {/* Hero */}
-      <div className="bg-[#0A1A2F] text-white py-12 px-4 text-center">
-        <div className="flex items-center justify-center gap-2 mb-2">
-          <Image className="w-6 h-6 text-[#C9A86A]" />
-          <span className="text-[#C9A86A] font-semibold text-sm uppercase tracking-widest">Wall Art</span>
-        </div>
-        <h1 className="text-3xl md:text-4xl font-bold font-serif mb-3">Cultural Wall Art Prints</h1>
-        <p className="text-white/70 text-lg max-w-xl mx-auto mb-4">
-          Beautiful printable wall art celebrating cultures from around the world. Choose your size. Instant digital download.
-        </p>
-        <div className="flex flex-wrap justify-center gap-4 text-sm text-white/60">
-          <span>🖼️ {uniqueCountries.length} designs · 2 sizes each</span>
-          <span>·</span>
-          <span>📐 8x10 or 11x14 format</span>
-          <span>·</span>
-          <span>⬇️ Instant PDF download</span>
-          <span>·</span>
-          <span>🖨️ Print at home</span>
+      {/* Physical Print CTA Banner — shown above the gallery */}
+      <div className="bg-[#1a2744] border-b-2 border-[#d4af37]">
+        <div className="max-w-5xl mx-auto px-4 py-3 flex flex-col sm:flex-row items-center justify-center gap-3 text-center">
+          <div className="flex items-center gap-2">
+            <Printer className="w-4 h-4 text-[#d4af37] shrink-0" />
+            <span className="text-white text-sm">
+              <strong className="text-[#d4af37]">NEW:</strong> Order physical wall art prints shipped to your door!
+            </span>
+          </div>
+          <Link
+            href="/print-shop"
+            className="inline-flex items-center gap-1.5 bg-[#d4af37] text-[#1a2744] font-bold text-xs px-4 py-1.5 rounded-full hover:bg-[#c49b2a] transition-colors shrink-0"
+          >
+            <Printer className="w-3 h-3" />
+            Visit Print Shop
+          </Link>
         </div>
       </div>
 
-      {/* Product Grid */}
-      <div className="max-w-7xl mx-auto px-4 py-12">
-        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-5">
-          {uniqueCountries.map((country) => {
-            const size = getSize(country);
-            const product = WALL_ART_PRODUCTS.find(
-              (p) => p.country === country && p.id.includes(size.replace("x", "x"))
-            );
-            if (!product) return null;
+      <CardGallery
+        cards={WALL_ART_PRINTS}
+        title="Cultural Wall Art Prints"
+        subtitle="Beautiful 8×10 printable wall art celebrating cultures from around the world"
+        priceInCents={499}
+        category="wall_art"
+        descriptionTemplate={(card) =>
+          `Stunning ${card.country} cultural wall art print — 8×10 high-resolution illustration perfect for classrooms, offices, and homes. Instant PDF download, print at home or any print shop.`
+        }
+        onOrderPrint={(card) =>
+          setPrintProduct({
+            productId: card.id,
+            name: `${card.country} Cultural Wall Art Print`,
+            image: card.image,
+            country: card.country,
+          })
+        }
+      />
 
-            return (
-              <div
-                key={country}
-                className="bg-white rounded-xl overflow-hidden shadow-sm border border-[#C9A86A]/15 hover:shadow-md transition-shadow group"
-              >
-                <div className="aspect-[4/5] overflow-hidden bg-[#F8F5EF]">
-                  <img
-                    src={product.image}
-                    alt={`${country} Cultural Wall Art`}
-                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
-                    loading="lazy"
-                  />
-                </div>
-                <div className="p-3">
-                  <p className="font-semibold text-[#0A1A2F] text-sm font-serif leading-tight mb-2">
-                    {country}
-                  </p>
-                  {/* Size selector */}
-                  <div className="flex gap-1 mb-2">
-                    {(["8x10", "11x14"] as SizeOption[]).map((s) => (
-                      <button
-                        key={s}
-                        onClick={() => setSelectedSizes((prev) => ({ ...prev, [country]: s }))}
-                        className="text-xs px-2 py-1 rounded border transition-colors"
-                        style={{
-                          background: size === s ? "#0A1A2F" : "transparent",
-                          color: size === s ? "#fff" : "#0A1A2F",
-                          borderColor: "#0A1A2F",
-                        }}
-                      >
-                        {s}
-                      </button>
-                    ))}
-                  </div>
-                  <div className="flex items-center justify-between">
-                    <span className="text-[#C9A86A] font-bold text-sm">
-                      ${(product.price / 100).toFixed(2)}
-                    </span>
-                    <button
-                      onClick={() => handleAdd(country)}
-                      className="text-xs font-semibold px-3 py-1.5 rounded-full transition-colors"
-                      style={{
-                        background: added === country ? "#2ecc71" : "#0A1A2F",
-                        color: "#fff",
-                      }}
-                    >
-                      {added === country ? "Added" : "Add"}
-                    </button>
-                  </div>
-                </div>
-              </div>
-            );
-          })}
-        </div>
-
-        <div className="mt-12 text-center">
-          <p className="text-gray-500 text-sm">
-            All wall art prints are instant digital downloads in high-resolution PDF format.
-            Print at home or at your local print shop.
-          </p>
-          <p className="text-[#C9A86A] font-semibold text-sm mt-2">
-            More countries coming soon — new prints added monthly.
-          </p>
-        </div>
-      </div>
+      {/* Physical Print Modal */}
+      {printProduct && (
+        <PhysicalPrintModal
+          product={printProduct}
+          onClose={() => setPrintProduct(null)}
+        />
+      )}
     </div>
   );
 }

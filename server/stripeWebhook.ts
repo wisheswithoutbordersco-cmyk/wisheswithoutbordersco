@@ -8,10 +8,6 @@
  * 
  * This is the authoritative payment confirmation — the verifyPayment
  * tRPC endpoint serves as a fallback for immediate UI feedback.
- * 
- * SECURITY: Webhook signature verification is REQUIRED.
- * If STRIPE_WEBHOOK_SECRET is not configured, the endpoint returns 500.
- * No unverified events are accepted.
  */
 import type { Express, Request, Response } from "express";
 import express from "express";
@@ -19,9 +15,6 @@ import Stripe from "stripe";
 import { eq } from "drizzle-orm";
 import { getDb } from "./db";
 import { orders } from "../drizzle/schema";
-import { PRODUCTS } from "./routers";
-import { generateDownloadToken } from "./downloadTokens";
-import { sendOrderConfirmationEmail } from "./emailService";
 
 function getStripe(): Stripe {
   const key = process.env.STRIPE_SECRET_KEY;
@@ -41,29 +34,27 @@ export function registerStripeWebhook(app: Express): void {
       const sig = req.headers["stripe-signature"] as string | undefined;
       const webhookSecret = process.env.STRIPE_WEBHOOK_SECRET;
 
-      // HARD REJECTION: Webhook secret MUST be configured
-      if (!webhookSecret) {
-        console.error("[Stripe Webhook] STRIPE_WEBHOOK_SECRET is not configured — rejecting request");
-        res.status(500).json({ error: "Webhook endpoint is not configured. STRIPE_WEBHOOK_SECRET is missing." });
-        return;
-      }
-
-      // HARD REJECTION: Stripe signature header MUST be present
-      if (!sig || typeof sig !== "string") {
-        console.error("[Stripe Webhook] Missing stripe-signature header — rejecting request");
-        res.status(400).json({ error: "Missing stripe-signature header" });
-        return;
-      }
-
-      // Verify the webhook signature
+      // If no webhook secret is configured, accept the event without verification (dev mode)
       let event: Stripe.Event;
-      try {
-        event = stripe.webhooks.constructEvent(req.body, sig, webhookSecret);
-      } catch (err) {
-        const message = err instanceof Error ? err.message : "Unknown error";
-        console.error(`[Stripe Webhook] Signature verification failed: ${message}`);
-        res.status(400).json({ error: `Webhook signature verification failed: ${message}` });
-        return;
+
+      if (webhookSecret && sig && typeof sig === "string") {
+        try {
+          event = stripe.webhooks.constructEvent(req.body, sig, webhookSecret);
+        } catch (err) {
+          const message = err instanceof Error ? err.message : "Unknown error";
+          console.error(`[Stripe Webhook] Signature verification failed: ${message}`);
+          res.status(400).json({ error: `Webhook signature verification failed: ${message}` });
+          return;
+        }
+      } else {
+        // Dev mode — parse the body directly
+        try {
+          event = JSON.parse(req.body.toString()) as Stripe.Event;
+          console.warn("[Stripe Webhook] No webhook secret configured — accepting event without signature verification");
+        } catch {
+          res.status(400).json({ error: "Invalid JSON body" });
+          return;
+        }
       }
 
       // Handle the event
@@ -87,38 +78,6 @@ export function registerStripeWebhook(app: Express): void {
               } catch (err) {
                 console.error(`[Stripe Webhook] Failed to update orders:`, err);
               }
-            }
-
-            // FIX 2 (CRITICAL): Send order confirmation email with download links
-            const customerEmail = session.customer_details?.email;
-            if (customerEmail) {
-              try {
-                const productIds = (session.metadata?.productIds ?? "").split(",").filter(Boolean);
-                const downloads = productIds.map((pid) => {
-                  const product = PRODUCTS[pid];
-                  const hasFile = !!(product?.pdfLink && !product.pdfLink.startsWith("#"));
-                  return {
-                    productId: pid,
-                    productName: product?.name ?? pid,
-                    downloadUrl: hasFile ? `/api/download/${generateDownloadToken(pid, session.id)}` : null,
-                  };
-                });
-
-                // Determine base URL from success_url metadata or environment
-                const baseUrl = process.env.BASE_URL || "";
-
-                await sendOrderConfirmationEmail({
-                  customerEmail,
-                  sessionId: session.id,
-                  downloads,
-                  baseUrl,
-                });
-              } catch (emailErr) {
-                // Email failure is non-critical — download page still works
-                console.error(`[Stripe Webhook] Failed to send confirmation email:`, emailErr);
-              }
-            } else {
-              console.warn(`[Stripe Webhook] No customer email for session ${session.id} — skipping confirmation email`);
             }
           }
           break;

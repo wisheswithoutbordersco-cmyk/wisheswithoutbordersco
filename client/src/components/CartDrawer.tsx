@@ -45,7 +45,7 @@ export function CartDrawer() {
       {/* Drawer */}
       <div className="fixed right-0 top-0 h-full w-full max-w-sm bg-white z-50 shadow-2xl flex flex-col">
         {/* Header */}
-        <div className="flex items-center justify-between px-5 py-4 border-b bg-[#0A1A2F] text-white">
+        <div className="flex items-center justify-between px-5 py-4 border-b bg-[#1a2744] text-white">
           <div className="flex items-center gap-2">
             <ShoppingBag className="w-5 h-5" />
             <h2 className="font-bold text-lg">Your Cart ({items.length})</h2>
@@ -72,17 +72,17 @@ export function CartDrawer() {
                   className="w-16 h-20 object-cover rounded-lg shrink-0"
                   onError={(e) => {
                     (e.target as HTMLImageElement).src =
-                      "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='400' fill='%230A1A2F'%3E%3Crect width='300' height='400'/%3E%3Ctext x='150' y='180' text-anchor='middle' fill='%23C9A86A' font-size='14' font-family='sans-serif'%3EWishes Without%3C/text%3E%3Ctext x='150' y='200' text-anchor='middle' fill='%23C9A86A' font-size='14' font-family='sans-serif'%3EBorders Co%3C/text%3E%3Ctext x='150' y='240' text-anchor='middle' fill='%23C9A86A' font-size='28'%3E%F0%9F%8C%8D%3C/text%3E%3C/svg%3E";
+                      "https://placehold.co/64x80/f5f0e8/1a2744?text=Card";
                   }}
                 />
                 <div className="flex-1 min-w-0">
-                  <p className="text-sm font-semibold text-[#0A1A2F] leading-tight line-clamp-2">
+                  <p className="text-sm font-semibold text-[#1a2744] leading-tight line-clamp-2">
                     {item.name}
                   </p>
                   {item.country && (
                     <p className="text-xs text-gray-500 mt-0.5">{item.country}</p>
                   )}
-                  <p className="text-[#C9A86A] font-bold mt-1">
+                  <p className="text-[#d4af37] font-bold mt-1">
                     ${(item.price / 100).toFixed(2)}
                   </p>
                 </div>
@@ -102,7 +102,7 @@ export function CartDrawer() {
           <div className="border-t px-4 py-4 space-y-3 bg-white">
             <div className="flex justify-between items-center text-sm text-gray-600">
               <span>Subtotal ({items.length} item{items.length > 1 ? "s" : ""})</span>
-              <span className="font-bold text-[#0A1A2F] text-base">
+              <span className="font-bold text-[#1a2744] text-base">
                 ${(total / 100).toFixed(2)}
               </span>
             </div>
@@ -112,7 +112,7 @@ export function CartDrawer() {
             <button
               onClick={handleCheckout}
               disabled={checkoutMutation.isPending}
-              className="w-full flex items-center justify-center gap-2 bg-[#C9A86A] hover:bg-[#c49b2a] text-[#0A1A2F] font-bold py-3 rounded-full transition-colors disabled:opacity-60"
+              className="w-full flex items-center justify-center gap-2 bg-[#d4af37] hover:bg-[#c49b2a] text-[#1a2744] font-bold py-3 rounded-full transition-colors disabled:opacity-60"
             >
               {checkoutMutation.isPending ? (
                 <Loader2 className="w-4 h-4 animate-spin" />
