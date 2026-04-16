@@ -27,7 +27,9 @@ const GELATO_API_BASE = "https://order.gelatoapis.com/v4";
  * Defaults to false (draft mode) for safety.
  */
 export function isGelatoLiveMode(): boolean {
-  return process.env.GELATO_LIVE_MODE === "true";
+  // Activated Apr 2026 — wall art orders now go live by default.
+  // Set GELATO_LIVE_MODE=false in env to revert to draft mode.
+  return process.env.GELATO_LIVE_MODE !== "false";
 }
 
 function getGelatoApiKey(): string {
