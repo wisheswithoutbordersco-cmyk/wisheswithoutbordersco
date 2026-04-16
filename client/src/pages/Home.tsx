@@ -15,7 +15,7 @@ const BROWSE_CATEGORIES = [
     desc: "Birthday, Anniversary, Sympathy & more — celebrating every culture",
     icon: Heart,
     gradient: "from-rose-400 to-pink-600",
-    image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/fr_birthday_mom_4f0c002c.png",
+    image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/ng_birthday_mom_9686a463.png",
   },
   {
     href: "/graduation",
@@ -39,7 +39,7 @@ const BROWSE_CATEGORIES = [
     desc: "World flags, capitals & cultural facts for curious minds",
     icon: Sparkles,
     gradient: "from-amber-400 to-orange-500",
-    image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/card_06_brazil_front_0a20dc98.png",
+    image: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/vYYfbXYjRUfVnqPN.png",
   },
   {
     href: "/coloring-books",
@@ -47,7 +47,7 @@ const BROWSE_CATEGORIES = [
     desc: "Cultural art journeys for all ages — Africa & Americas editions",
     icon: Palette,
     gradient: "from-violet-400 to-purple-600",
-    image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/coloring_africa_cover.png",
+    image: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/WrIfhPVqyZhBjgwM.png",
   },
   {
     href: "/cookbooks",
@@ -55,7 +55,7 @@ const BROWSE_CATEGORIES = [
     desc: "Multicultural recipes that bring the world to your kitchen",
     icon: CookingPot,
     gradient: "from-red-400 to-rose-600",
-    image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/Around_the_World_Series_Display_Mockup_dce3067e.png",
+    image: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/LPvccSfHERCffTVq.png",
   },
   {
     href: "/baby-shower",
@@ -305,7 +305,7 @@ export default function Home() {
                   <div className="absolute -top-3 -left-3 w-full h-full bg-white/5 rounded-2xl rotate-6 border border-white/10" />
                   <div className="absolute -top-1.5 -left-1.5 w-full h-full bg-white/10 rounded-2xl rotate-3 border border-white/10" />
                   <img
-                    src="https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/fr_birthday_mom_4f0c002c.png"
+                    src="https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/ng_birthday_mom_9686a463.png"
                     alt="Multicultural greeting card"
                     className="relative w-full rounded-2xl shadow-2xl border border-white/20"
                     onError={(e) => { (e.target as HTMLImageElement).style.display = "none"; }}
