@@ -186,12 +186,12 @@ export default function Home() {
           HERO — warm gradient, family-oriented, multicultural
           ════════════════════════════════════════════════════════════════════ */}
       <section className="relative overflow-hidden">
-        {/* Warm gradient background */}
-        <div className="absolute inset-0 bg-gradient-to-br from-[#1a2744] via-[#2c1810] to-[#4a1942]" />
-        {/* Decorative circles */}
+        {/* Warm light cream/sand gradient background */}
+        <div className="absolute inset-0 bg-gradient-to-br from-[#faf8f4] via-[#f5f0e8] to-[#fdf6ed]" />
+        {/* Decorative soft warm circles */}
         <div className="absolute top-0 right-0 w-96 h-96 bg-[#d4af37]/10 rounded-full blur-3xl -translate-y-1/2 translate-x-1/3" />
-        <div className="absolute bottom-0 left-0 w-80 h-80 bg-rose-500/10 rounded-full blur-3xl translate-y-1/2 -translate-x-1/3" />
-        <div className="absolute top-1/2 left-1/2 w-64 h-64 bg-amber-400/5 rounded-full blur-2xl -translate-x-1/2 -translate-y-1/2" />
+        <div className="absolute bottom-0 left-0 w-80 h-80 bg-rose-300/10 rounded-full blur-3xl translate-y-1/2 -translate-x-1/3" />
+        <div className="absolute top-1/2 left-1/2 w-64 h-64 bg-amber-300/10 rounded-full blur-2xl -translate-x-1/2 -translate-y-1/2" />
 
         <div className="relative max-w-7xl mx-auto px-4 py-16 md:py-24 lg:py-28">
           <div className="flex flex-col lg:flex-row items-center gap-10 lg:gap-16">
@@ -202,19 +202,17 @@ export default function Home() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.7 }}
             >
-              <div className="inline-flex items-center gap-2 bg-white/10 backdrop-blur-sm border border-white/10 rounded-full px-4 py-1.5 mb-6">
+              <div className="inline-flex items-center gap-2 bg-[#1a2744]/8 border border-[#d4af37]/30 rounded-full px-4 py-1.5 mb-6">
                 <Globe className="w-4 h-4 text-[#d4af37]" />
                 <span className="text-[#d4af37] font-semibold text-xs uppercase tracking-widest">Wishes Without Borders Co</span>
               </div>
-
-              <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold font-serif text-white leading-tight mb-5">
+              <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold font-serif text-[#1a2744] leading-tight mb-5">
                 Celebrate Every Culture,{" "}
-                <span className="bg-gradient-to-r from-[#d4af37] via-amber-300 to-[#d4af37] bg-clip-text text-transparent">
+                <span className="bg-gradient-to-r from-[#d4af37] via-amber-500 to-[#c9a227] bg-clip-text text-transparent">
                   Connect Every Heart
                 </span>
               </h1>
-
-              <p className="text-white/70 text-lg md:text-xl max-w-xl mb-8 leading-relaxed mx-auto lg:mx-0">
+              <p className="text-[#4a5568] text-lg md:text-xl max-w-xl mb-8 leading-relaxed mx-auto lg:mx-0">
                 Multicultural greeting cards, children's books, activity workbooks, and wall art — designed for families who cherish cultural connection and togetherness.
               </p>
 
@@ -229,22 +227,22 @@ export default function Home() {
                       className={`px-3 py-1 rounded-full text-xs font-semibold transition-all duration-200 ${
                         selectedCategory === cat.key
                           ? "bg-[#d4af37] text-[#1a2744] shadow-lg shadow-[#d4af37]/20"
-                          : "bg-white/10 text-white/60 hover:bg-white/20 hover:text-white/80"
+                          : "bg-[#1a2744]/8 text-[#1a2744]/60 hover:bg-[#1a2744]/15 hover:text-[#1a2744]"
                       }`}
                     >
                       {cat.label}
                     </button>
                   ))}
                 </div>
-                <form onSubmit={handleCountrySearch} className="flex items-center bg-white/10 backdrop-blur-sm border border-white/20 rounded-full overflow-visible focus-within:border-[#d4af37] transition-all duration-300 focus-within:shadow-lg focus-within:shadow-[#d4af37]/10">
-                  <Search className="w-5 h-5 text-white/50 ml-4 shrink-0" />
+                <form onSubmit={handleCountrySearch} className="flex items-center bg-white border border-[#d4af37]/30 rounded-full overflow-visible focus-within:border-[#d4af37] transition-all duration-300 focus-within:shadow-lg focus-within:shadow-[#d4af37]/10 shadow-sm">
+                  <Search className="w-5 h-5 text-[#1a2744]/40 ml-4 shrink-0" />
                   <input
                     type="text"
                     value={countryQuery}
                     onChange={(e) => { setCountryQuery(e.target.value); setShowSuggestions(true); }}
                     onFocus={() => setShowSuggestions(true)}
                     placeholder="Search by country... e.g. Japan, Nigeria, Mexico"
-                    className="flex-1 bg-transparent text-white placeholder-white/40 text-sm px-3 py-3 outline-none"
+                    className="flex-1 bg-transparent text-[#1a2744] placeholder-[#1a2744]/40 text-sm px-3 py-3 outline-none"
                     autoComplete="off"
                   />
                   <button
@@ -282,7 +280,7 @@ export default function Home() {
                 </Link>
                 <Link
                   href="/print-shop"
-                  className="inline-flex items-center gap-2 px-8 py-3.5 bg-white/10 backdrop-blur-sm text-white font-semibold rounded-full hover:bg-white/20 transition-all duration-200 text-sm border border-white/20"
+                  className="inline-flex items-center gap-2 px-8 py-3.5 bg-[#1a2744] text-white font-semibold rounded-full hover:bg-[#243352] transition-all duration-200 text-sm border border-[#1a2744]/20 shadow-sm"
                 >
                   <Printer className="w-4 h-4" />
                   Print Shop
@@ -299,14 +297,18 @@ export default function Home() {
             >
               <div className="relative w-64 md:w-80">
                 {/* Glow behind */}
-                <div className="absolute inset-0 bg-gradient-to-br from-[#d4af37]/30 to-rose-500/20 rounded-3xl blur-2xl scale-110" />
-                {/* Card stack preview */}
+                <div className="absolute inset-0 bg-gradient-to-br from-[#d4af37]/20 to-rose-300/15 rounded-3xl blur-2xl scale-110" />
+                {/* Two consistent watercolor floral cards */}
                 <div className="relative">
-                  <div className="absolute -top-3 -left-3 w-full h-full bg-white/5 rounded-2xl rotate-6 border border-white/10" />
-                  <div className="absolute -top-1.5 -left-1.5 w-full h-full bg-white/10 rounded-2xl rotate-3 border border-white/10" />
                   <img
-                    src="https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/ng_birthday_mom_9686a463.png"
-                    alt="Multicultural greeting card"
+                    src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/KpEvnavSsMJWerHP.png"
+                    alt="Watercolor sympathy greeting card"
+                    className="absolute -top-4 -left-4 w-[85%] rounded-2xl shadow-xl border border-[#d4af37]/20 opacity-70"
+                    onError={(e) => { (e.target as HTMLImageElement).style.display = "none"; }}
+                  />
+                  <img
+                    src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/TCqTBbbbDwPDevzh.png"
+                    alt="Watercolor Mother's Day greeting card"
                     className="relative w-full rounded-2xl shadow-2xl border border-white/20"
                     onError={(e) => { (e.target as HTMLImageElement).style.display = "none"; }}
                   />
@@ -477,20 +479,17 @@ export default function Home() {
       {/* ════════════════════════════════════════════════════════════════════
           HOW IT WORKS
           ════════════════════════════════════════════════════════════════════ */}
-      <section className="relative overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-br from-[#1a2744] via-[#1e2d4a] to-[#1a2744]" />
-        <div className="absolute top-0 right-0 w-96 h-96 bg-[#d4af37]/5 rounded-full blur-3xl" />
-
+      <section className="relative overflow-hidden bg-[#f5f0e8]">
+        <div className="absolute top-0 right-0 w-96 h-96 bg-[#d4af37]/8 rounded-full blur-3xl" />
         <div className="relative max-w-5xl mx-auto py-16 md:py-20 px-4">
           <div className="text-center mb-14">
-            <span className="inline-block text-[#d4af37] font-semibold text-xs uppercase tracking-widest mb-3">Simple & Easy</span>
-            <h2 className="text-3xl md:text-4xl font-bold font-serif text-white mb-3">
+            <span className="inline-block text-[#d4af37] font-semibold text-xs uppercase tracking-widest mb-3">Simple &amp; Easy</span>
+            <h2 className="text-3xl md:text-4xl font-bold font-serif text-[#1a2744] mb-3">
               How It Works
             </h2>
-            <p className="text-white/60 text-base max-w-md mx-auto">
+            <p className="text-[#4a5568] text-base max-w-md mx-auto">
               Get your card in 3 easy steps — no shipping, no waiting.
-            </p>
-          </div>
+            </p>          </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {[
@@ -532,8 +531,8 @@ export default function Home() {
                       {item.step}
                     </span>
                   </div>
-                  <h3 className="text-white font-bold text-lg mb-2">{item.title}</h3>
-                  <p className="text-white/50 text-sm leading-relaxed max-w-xs">{item.desc}</p>
+                  <h3 className="text-[#1a2744] font-bold text-lg mb-2">{item.title}</h3>
+                  <p className="text-[#4a5568] text-sm leading-relaxed max-w-xs">{item.desc}</p>
                 </motion.div>
               );
             })}
@@ -617,16 +616,9 @@ export default function Home() {
       {/* ════════════════════════════════════════════════════════════════════
           PRINT SHOP CTA
           ════════════════════════════════════════════════════════════════════ */}
-      <section className="relative overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-r from-[#2c1810] to-[#1a2744]" />
-        <div className="absolute inset-0 opacity-20">
-          <img
-            src="https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/BH_birthday_mom_wall_art_8x10_427a59ed.jpg"
-            alt=""
-            className="w-full h-full object-cover"
-            onError={(e) => { (e.target as HTMLImageElement).style.display = "none"; }}
-          />
-        </div>
+      <section className="relative overflow-hidden bg-[#faf8f4]">
+        <div className="absolute top-0 right-0 w-96 h-96 bg-[#d4af37]/8 rounded-full blur-3xl -translate-y-1/3" />
+        <div className="absolute bottom-0 left-0 w-80 h-80 bg-amber-200/20 rounded-full blur-3xl translate-y-1/3" />
         <div className="relative max-w-4xl mx-auto py-16 md:py-20 px-4 text-center">
           <motion.div
             initial="hidden"
@@ -635,14 +627,14 @@ export default function Home() {
             variants={fadeUp}
             custom={0}
           >
-            <div className="inline-flex items-center gap-2 bg-white/10 backdrop-blur-sm border border-white/10 rounded-full px-4 py-1.5 mb-6">
+            <div className="inline-flex items-center gap-2 bg-[#d4af37]/15 border border-[#d4af37]/30 rounded-full px-4 py-1.5 mb-6">
               <ImageIcon className="w-4 h-4 text-[#d4af37]" />
               <span className="text-[#d4af37] font-semibold text-xs uppercase tracking-widest">New: Print Shop</span>
             </div>
-            <h2 className="text-3xl md:text-4xl font-bold font-serif text-white mb-4">
+            <h2 className="text-3xl md:text-4xl font-bold font-serif text-[#1a2744] mb-4">
               Physical Wall Art, Delivered to Your Door
             </h2>
-            <p className="text-white/60 text-base md:text-lg max-w-2xl mx-auto mb-8 leading-relaxed">
+            <p className="text-[#4a5568] text-base md:text-lg max-w-2xl mx-auto mb-8 leading-relaxed">
               Turn your favorite multicultural designs into beautiful wall art. Printed on premium paper and shipped worldwide via Gelato — perfect for nurseries, classrooms, and living rooms.
             </p>
             <Link

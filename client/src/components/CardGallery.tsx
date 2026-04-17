@@ -118,10 +118,7 @@ export function CardGallery({
                   alt={`${card.country}${card.variant ? ` — ${card.variant}` : ""} card`}
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                   loading="lazy"
-                  onError={(e) => {
-                    (e.target as HTMLImageElement).src =
-                      "https://placehold.co/300x400/f5f0e8/1a2744?text=Card";
-                  }}
+
                 />
                 {/* Hover overlay */}
                 <div className="absolute inset-0 bg-[#1a2744]/0 group-hover:bg-[#1a2744]/30 transition-all duration-200 flex items-center justify-center">

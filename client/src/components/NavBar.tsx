@@ -1,6 +1,6 @@
 import { useState, useRef, useEffect } from "react";
 import { Link, useLocation } from "wouter";
-import { Menu, X, Globe, ShoppingCart, ChevronDown } from "lucide-react";
+import { Menu, X, Globe, ShoppingCart, ChevronDown, Printer } from "lucide-react";
 import { useCart } from "@/contexts/CartContext";
 
 // ── Greeting Cards dropdown ────────────────────────────────────────────────
@@ -29,12 +29,6 @@ const BOOKS_LINKS = [
   { href: "/children-books",      label: "Children's Books" },
   { href: "/wall-art",            label: "Wall Art" },
   { href: "/kids-classroom",      label: "Kids & Classroom" },
-  { href: "/print-shop",          label: "Print Shop" },
-];
-
-// ── Top-level flat links ───────────────────────────────────────────────────
-const TOP_LINKS = [
-  { href: "/", label: "Home" },
 ];
 
 interface DropdownProps {
@@ -115,6 +109,18 @@ export function NavBar() {
         <div className="hidden lg:flex items-center gap-1">
           <Dropdown label="Greeting Cards" links={CARD_LINKS} location={location} />
           <Dropdown label="Books & Resources" links={BOOKS_LINKS} location={location} />
+          {/* Print Shop — prominent gold standalone link */}
+          <Link
+            href="/print-shop"
+            className={`flex items-center gap-1.5 px-4 py-1.5 rounded-full text-sm font-semibold whitespace-nowrap transition-all duration-200 ${
+              location === "/print-shop"
+                ? "bg-[#d4af37] text-[#1a2744]"
+                : "bg-[#d4af37]/20 text-[#d4af37] border border-[#d4af37]/40 hover:bg-[#d4af37] hover:text-[#1a2744]"
+            }`}
+          >
+            <Printer className="w-3.5 h-3.5" />
+            Print Shop
+          </Link>
         </div>
 
         {/* Cart + Mobile hamburger */}
@@ -141,9 +147,18 @@ export function NavBar() {
         </div>
       </div>
 
-      {/* Mobile dropdown — two sections */}
+      {/* Mobile dropdown — three sections */}
       {mobileOpen && (
         <div className="lg:hidden bg-[#12203a] border-t border-white/10 px-4 py-4 space-y-4">
+          {/* Print Shop — prominent gold pill at top of mobile menu */}
+          <Link
+            href="/print-shop"
+            onClick={() => setMobileOpen(false)}
+            className="flex items-center justify-center gap-2 w-full px-4 py-2.5 rounded-full bg-[#d4af37] text-[#1a2744] font-bold text-sm"
+          >
+            <Printer className="w-4 h-4" />
+            Print Shop
+          </Link>
           {/* Greeting Cards */}
           <div>
             <p className="text-[#d4af37] text-xs font-bold uppercase tracking-widest mb-2 px-1">

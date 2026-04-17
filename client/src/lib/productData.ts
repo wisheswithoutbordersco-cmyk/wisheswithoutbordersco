@@ -90,7 +90,7 @@ export const ANNIVERSARY_CARDS: CardProduct[] = [
   {
     "id": "bh_anniversary",
     "country": "Bahrain",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/BH_birthday_mom_wall_art_8x10_427a59ed.jpg",
+    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/BH_birthday_mom_427a59ed.jpg",
     "price": 599,
     "name": "Bahrain Anniversary Card"
   },
@@ -132,14 +132,14 @@ export const ANNIVERSARY_CARDS: CardProduct[] = [
   {
     "id": "bj_anniversary",
     "country": "Benin",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/BJ_birthday_mom_wall_art_8x10_b4bb53ac.jpg",
+    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/BJ_birthday_mom_b4bb53ac.jpg",
     "price": 599,
     "name": "Benin Anniversary Card"
   },
   {
     "id": "bt_anniversary",
     "country": "Bhutan",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/BT_birthday_mom_wall_art_8x10_9118c9ac.jpg",
+    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/BT_birthday_mom_9118c9ac.jpg",
     "price": 599,
     "name": "Bhutan Anniversary Card"
   },
@@ -181,14 +181,14 @@ export const ANNIVERSARY_CARDS: CardProduct[] = [
   {
     "id": "bf_anniversary",
     "country": "Burkina Faso",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/BF_birthday_mom_wall_art_8x10_2c5b945d.jpg",
+    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/BF_birthday_mom_2c5b945d.jpg",
     "price": 599,
     "name": "Burkina Faso Anniversary Card"
   },
   {
     "id": "bi_anniversary",
     "country": "Burundi",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/BI_birthday_mom_wall_art_8x10_18366f51.jpg",
+    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/BI_birthday_mom_18366f51.jpg",
     "price": 599,
     "name": "Burundi Anniversary Card"
   },
@@ -216,7 +216,7 @@ export const ANNIVERSARY_CARDS: CardProduct[] = [
   {
     "id": "cv_anniversary",
     "country": "Cape Verde",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/CV_birthday_mom_wall_art_8x10_69488a07.jpg",
+    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/CV_birthday_mom_69488a07.jpg",
     "price": 599,
     "name": "Cape Verde Anniversary Card"
   },
@@ -230,7 +230,7 @@ export const ANNIVERSARY_CARDS: CardProduct[] = [
   {
     "id": "td_anniversary",
     "country": "Chad",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/TD_birthday_mom_wall_art_8x10_d7deeb25.jpg",
+    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/TD_birthday_mom_d7deeb25.jpg",
     "price": 599,
     "name": "Chad Anniversary Card"
   },
@@ -258,7 +258,7 @@ export const ANNIVERSARY_CARDS: CardProduct[] = [
   {
     "id": "km_anniversary",
     "country": "Comoros",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/KM_birthday_mom_wall_art_8x10_c9f7e6f5.jpg",
+    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/KM_birthday_mom_c9f7e6f5.jpg",
     "price": 599,
     "name": "Comoros Anniversary Card"
   },
@@ -300,7 +300,7 @@ export const ANNIVERSARY_CARDS: CardProduct[] = [
   {
     "id": "cd_anniversary",
     "country": "Democratic Republic of Congo",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/CD_birthday_mom_wall_art_8x10_84f68563.jpg",
+    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/CD_birthday_mom_84f68563.jpg",
     "price": 599,
     "name": "Democratic Republic of Congo Anniversary Card"
   },
@@ -314,7 +314,7 @@ export const ANNIVERSARY_CARDS: CardProduct[] = [
   {
     "id": "dj_anniversary",
     "country": "Djibouti",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/DJ_birthday_mom_wall_art_8x10_b4d9acf0.jpg",
+    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/DJ_birthday_mom_b4d9acf0.jpg",
     "price": 599,
     "name": "Djibouti Anniversary Card"
   },
@@ -370,7 +370,7 @@ export const ANNIVERSARY_CARDS: CardProduct[] = [
   {
     "id": "er_anniversary",
     "country": "Eritrea",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/ER_birthday_mom_wall_art_8x10_7dc191fa.jpg",
+    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/ER_birthday_mom_7dc191fa.jpg",
     "price": 599,
     "name": "Eritrea Anniversary Card"
   },
@@ -419,7 +419,7 @@ export const ANNIVERSARY_CARDS: CardProduct[] = [
   {
     "id": "gm_anniversary",
     "country": "Gambia",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/GM_birthday_mom_wall_art_8x10_ae89051c.jpg",
+    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/GM_birthday_mom_ae89051c.jpg",
     "price": 599,
     "name": "Gambia Anniversary Card"
   },
@@ -468,14 +468,14 @@ export const ANNIVERSARY_CARDS: CardProduct[] = [
   {
     "id": "gn_anniversary",
     "country": "Guinea",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/GN_birthday_mom_wall_art_8x10_e453fa4b.jpg",
+    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/GN_birthday_mom_e453fa4b.jpg",
     "price": 599,
     "name": "Guinea Anniversary Card"
   },
   {
     "id": "gw_anniversary",
     "country": "Guinea Bissau",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/GW_birthday_mom_wall_art_8x10_0bc3b661.jpg",
+    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/GW_birthday_mom_0bc3b661.jpg",
     "price": 599,
     "name": "Guinea Bissau Anniversary Card"
   },
@@ -545,7 +545,7 @@ export const ANNIVERSARY_CARDS: CardProduct[] = [
   {
     "id": "ci_anniversary",
     "country": "Ivory Coast",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/CI_birthday_mom_wall_art_8x10_b8da7aa2.jpg",
+    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/CI_birthday_mom_b8da7aa2.jpg",
     "price": 599,
     "name": "Ivory Coast Anniversary Card"
   },
@@ -650,7 +650,7 @@ export const ANNIVERSARY_CARDS: CardProduct[] = [
   {
     "id": "lr_anniversary",
     "country": "Liberia",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/LR_birthday_mom_wall_art_8x10_7763b744.jpg",
+    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/LR_birthday_mom_7763b744.jpg",
     "price": 599,
     "name": "Liberia Anniversary Card"
   },
@@ -678,14 +678,14 @@ export const ANNIVERSARY_CARDS: CardProduct[] = [
   {
     "id": "mg_anniversary",
     "country": "Madagascar",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/MG_birthday_mom_wall_art_8x10_37ecb072.jpg",
+    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/MG_birthday_mom_37ecb072.jpg",
     "price": 599,
     "name": "Madagascar Anniversary Card"
   },
   {
     "id": "mw_anniversary",
     "country": "Malawi",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/MW_birthday_mom_wall_art_8x10_507dfde2.jpg",
+    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/MW_birthday_mom_507dfde2.jpg",
     "price": 599,
     "name": "Malawi Anniversary Card"
   },
@@ -699,14 +699,14 @@ export const ANNIVERSARY_CARDS: CardProduct[] = [
   {
     "id": "mv_anniversary",
     "country": "Maldives",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/MV_birthday_mom_wall_art_8x10_f078becd.jpg",
+    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/MV_birthday_mom_f078becd.jpg",
     "price": 599,
     "name": "Maldives Anniversary Card"
   },
   {
     "id": "ml_anniversary",
     "country": "Mali",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/ML_birthday_mom_wall_art_8x10_1bd7129a.jpg",
+    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/ML_birthday_mom_1bd7129a.jpg",
     "price": 599,
     "name": "Mali Anniversary Card"
   },
@@ -720,7 +720,7 @@ export const ANNIVERSARY_CARDS: CardProduct[] = [
   {
     "id": "mr_anniversary",
     "country": "Mauritania",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/MR_birthday_mom_wall_art_8x10_e4ce2752.jpg",
+    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/MR_birthday_mom_e4ce2752.jpg",
     "price": 599,
     "name": "Mauritania Anniversary Card"
   },
@@ -762,7 +762,7 @@ export const ANNIVERSARY_CARDS: CardProduct[] = [
   {
     "id": "mz_anniversary",
     "country": "Mozambique",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/MZ_birthday_mom_wall_art_8x10_5499f5dd.jpg",
+    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/MZ_birthday_mom_5499f5dd.jpg",
     "price": 599,
     "name": "Mozambique Anniversary Card"
   },
@@ -818,7 +818,7 @@ export const ANNIVERSARY_CARDS: CardProduct[] = [
   {
     "id": "ne_anniversary",
     "country": "Niger",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/NE_birthday_mom_wall_art_8x10_1c2f4d6d.jpg",
+    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/NE_birthday_mom_1c2f4d6d.jpg",
     "price": 599,
     "name": "Niger Anniversary Card"
   },
@@ -937,7 +937,7 @@ export const ANNIVERSARY_CARDS: CardProduct[] = [
   {
     "id": "cg_anniversary",
     "country": "Republic of Congo",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/CG_birthday_mom_wall_art_8x10_7ca96fb8.jpg",
+    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/CG_birthday_mom_7ca96fb8.jpg",
     "price": 599,
     "name": "Republic of Congo Anniversary Card"
   },
@@ -958,7 +958,7 @@ export const ANNIVERSARY_CARDS: CardProduct[] = [
   {
     "id": "rw_anniversary",
     "country": "Rwanda",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/RW_birthday_mom_wall_art_8x10_99c6bd5d.jpg",
+    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/RW_birthday_mom_99c6bd5d.jpg",
     "price": 599,
     "name": "Rwanda Anniversary Card"
   },
@@ -1021,14 +1021,14 @@ export const ANNIVERSARY_CARDS: CardProduct[] = [
   {
     "id": "sc_anniversary",
     "country": "Seychelles",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/SC_birthday_mom_wall_art_8x10_dca3d36f.jpg",
+    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/SC_birthday_mom_dca3d36f.jpg",
     "price": 599,
     "name": "Seychelles Anniversary Card"
   },
   {
     "id": "sl_anniversary",
     "country": "Sierra Leone",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/SL_birthday_mom_wall_art_8x10_ba45d965.jpg",
+    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/SL_birthday_mom_ba45d965.jpg",
     "price": 599,
     "name": "Sierra Leone Anniversary Card"
   },
@@ -1154,14 +1154,14 @@ export const ANNIVERSARY_CARDS: CardProduct[] = [
   {
     "id": "tl_anniversary",
     "country": "Timor Leste",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/TL_birthday_mom_wall_art_8x10_1505f48c.jpg",
+    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/TL_birthday_mom_1505f48c.jpg",
     "price": 599,
     "name": "Timor Leste Anniversary Card"
   },
   {
     "id": "tg_anniversary",
     "country": "Togo",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/TG_birthday_mom_wall_art_8x10_3d4be01f.jpg",
+    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/TG_birthday_mom_3d4be01f.jpg",
     "price": 599,
     "name": "Togo Anniversary Card"
   },
@@ -1273,7 +1273,7 @@ export const ANNIVERSARY_CARDS: CardProduct[] = [
   {
     "id": "zm_anniversary",
     "country": "Zambia",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/ZM_birthday_mom_wall_art_8x10_6d8a3357.jpg",
+    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/ZM_birthday_mom_6d8a3357.jpg",
     "price": 599,
     "name": "Zambia Anniversary Card"
   },
@@ -10716,7 +10716,7 @@ export const GRADUATION_BOY_CARDS: CardProduct[] = [
   {
     "id": "brazil_graduation_boy",
     "country": "Brazil",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/brazil_graduation_boy_f7b11c65.png",
+    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/brazil_birthday_mom_f7b11c65.png",
     "price": 599,
     "name": "Brazil Graduation Card (Boy)"
   },
@@ -10758,7 +10758,7 @@ export const GRADUATION_BOY_CARDS: CardProduct[] = [
   {
     "id": "canada_graduation_boy",
     "country": "Canada",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/canada_graduation_boy_1bb7e042.png",
+    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/canada_birthday_mom_1bb7e042.png",
     "price": 599,
     "name": "Canada Graduation Card (Boy)"
   },
@@ -10793,7 +10793,7 @@ export const GRADUATION_BOY_CARDS: CardProduct[] = [
   {
     "id": "china_graduation_boy",
     "country": "China",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/china_graduation_boy_c913d995.png",
+    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/china_birthday_mom_c913d995.png",
     "price": 599,
     "name": "China Graduation Card (Boy)"
   },
@@ -10884,7 +10884,7 @@ export const GRADUATION_BOY_CARDS: CardProduct[] = [
   {
     "id": "dubai_graduation_boy",
     "country": "Dubai",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/dubai_graduation_boy_127b15f5.png",
+    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/dubai_birthday_mom_127b15f5.png",
     "price": 599,
     "name": "Dubai Graduation Card (Boy)"
   },
@@ -10898,7 +10898,7 @@ export const GRADUATION_BOY_CARDS: CardProduct[] = [
   {
     "id": "egypt_graduation_boy",
     "country": "Egypt",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/egypt_graduation_boy_4392482d.png",
+    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/egypt_birthday_mom_4392482d.png",
     "price": 599,
     "name": "Egypt Graduation Card (Boy)"
   },
@@ -10940,7 +10940,7 @@ export const GRADUATION_BOY_CARDS: CardProduct[] = [
   {
     "id": "ethiopia_graduation_boy",
     "country": "Ethiopia",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/ethiopia_graduation_boy_49f57328.png",
+    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/ethiopia_birthday_mom_49f57328.png",
     "price": 599,
     "name": "Ethiopia Graduation Card (Boy)"
   },
@@ -10961,7 +10961,7 @@ export const GRADUATION_BOY_CARDS: CardProduct[] = [
   {
     "id": "france_graduation_boy",
     "country": "France",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/france_graduation_boy_91b3b08f.png",
+    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/france_birthday_mom_91b3b08f.png",
     "price": 599,
     "name": "France Graduation Card (Boy)"
   },
@@ -10989,14 +10989,14 @@ export const GRADUATION_BOY_CARDS: CardProduct[] = [
   {
     "id": "germany_graduation_boy",
     "country": "Germany",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/germany_graduation_boy_d770d07c.png",
+    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/germany_birthday_mom_d770d07c.png",
     "price": 599,
     "name": "Germany Graduation Card (Boy)"
   },
   {
     "id": "ghana_graduation_boy",
     "country": "Ghana",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/ghana_graduation_boy_24b25fad.png",
+    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/ghana_birthday_mom_24b25fad.png",
     "price": 599,
     "name": "Ghana Graduation Card (Boy)"
   },
@@ -11017,7 +11017,7 @@ export const GRADUATION_BOY_CARDS: CardProduct[] = [
   {
     "id": "guatemala_graduation_boy",
     "country": "Guatemala",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/guatemala_graduation_boy_6e53cc6c.png",
+    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/guatemala_birthday_mom_6e53cc6c.png",
     "price": 599,
     "name": "Guatemala Graduation Card (Boy)"
   },
@@ -11059,14 +11059,14 @@ export const GRADUATION_BOY_CARDS: CardProduct[] = [
   {
     "id": "iceland_graduation_boy",
     "country": "Iceland",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/iceland_graduation_boy_d3a4e1d0.png",
+    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/iceland_birthday_mom_d3a4e1d0.png",
     "price": 599,
     "name": "Iceland Graduation Card (Boy)"
   },
   {
     "id": "india_graduation_boy",
     "country": "India",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/india_graduation_boy_b6047da0.png",
+    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/india_birthday_mom_b6047da0.png",
     "price": 599,
     "name": "India Graduation Card (Boy)"
   },
@@ -11094,7 +11094,7 @@ export const GRADUATION_BOY_CARDS: CardProduct[] = [
   {
     "id": "ireland_graduation_boy",
     "country": "Ireland",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/ireland_graduation_boy_3a081230.png",
+    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/ireland_birthday_mom_3a081230.png",
     "price": 599,
     "name": "Ireland Graduation Card (Boy)"
   },
@@ -11122,7 +11122,7 @@ export const GRADUATION_BOY_CARDS: CardProduct[] = [
   {
     "id": "japan_graduation_boy",
     "country": "Japan",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/japan_graduation_boy_7de4addd.png",
+    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/japan_birthday_mom_7de4addd.png",
     "price": 599,
     "name": "Japan Graduation Card (Boy)"
   },
@@ -11157,7 +11157,7 @@ export const GRADUATION_BOY_CARDS: CardProduct[] = [
   {
     "id": "korea_graduation_boy",
     "country": "Korea",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/korea_graduation_boy_2635c57d.png",
+    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/korea_birthday_mom_2635c57d.png",
     "price": 599,
     "name": "Korea Graduation Card (Boy)"
   },
@@ -11444,7 +11444,7 @@ export const GRADUATION_BOY_CARDS: CardProduct[] = [
   {
     "id": "philippines_graduation_boy",
     "country": "Philippines",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/philippines_graduation_boy_dde83ad9.png",
+    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/philippines_birthday_mom_dde83ad9.png",
     "price": 599,
     "name": "Philippines Graduation Card (Boy)"
   },
@@ -11493,7 +11493,7 @@ export const GRADUATION_BOY_CARDS: CardProduct[] = [
   {
     "id": "russia_graduation_boy",
     "country": "Russia",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/russia_graduation_boy_4f116c16.png",
+    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/russia_birthday_mom_4f116c16.png",
     "price": 599,
     "name": "Russia Graduation Card (Boy)"
   },
@@ -11598,7 +11598,7 @@ export const GRADUATION_BOY_CARDS: CardProduct[] = [
   {
     "id": "somalia_graduation_boy",
     "country": "Somalia",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/somalia_graduation_boy_2ce19b74.png",
+    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/somalia_birthday_mom_2ce19b74.png",
     "price": 599,
     "name": "Somalia Graduation Card (Boy)"
   },
@@ -11689,7 +11689,7 @@ export const GRADUATION_BOY_CARDS: CardProduct[] = [
   {
     "id": "thailand_graduation_boy",
     "country": "Thailand",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/thailand_graduation_boy_1a8cff14.png",
+    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/thailand_birthday_mom_1a8cff14.png",
     "price": 599,
     "name": "Thailand Graduation Card (Boy)"
   },
@@ -11731,7 +11731,7 @@ export const GRADUATION_BOY_CARDS: CardProduct[] = [
   {
     "id": "turkey_graduation_boy",
     "country": "Turkey",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/turkey_graduation_boy_878fa693.png",
+    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/turkey_birthday_mom_878fa693.png",
     "price": 599,
     "name": "Turkey Graduation Card (Boy)"
   },
@@ -11801,7 +11801,7 @@ export const GRADUATION_BOY_CARDS: CardProduct[] = [
   {
     "id": "vietnam_graduation_boy",
     "country": "Vietnam",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/vietnam_graduation_boy_159c6024.png",
+    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/vietnam_birthday_mom_159c6024.png",
     "price": 599,
     "name": "Vietnam Graduation Card (Boy)"
   },
@@ -11832,7 +11832,7 @@ export const GRADUATION_BOY_V2_CARDS: CardProduct[] = [
   {
     "id": "haiti_graduation_boy_v2",
     "country": "Haiti",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/haiti_graduation_boy_v2_b9234b82.png",
+    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/haiti_birthday_mom_b9234b82.png",
     "price": 599,
     "name": "Haiti Graduation Card (Boy) v2"
   }
@@ -11870,7 +11870,7 @@ export const GRADUATION_CONGRATS_CARDS: CardProduct[] = [
   {
     "id": "brazil_graduation_congrats",
     "country": "Brazil",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/brazil_graduation_congrats_5bc3cde1.png",
+    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/brazil_birthday_mom_5bc3cde1.png",
     "price": 599,
     "name": "Brazil Graduation Congrats Card"
   },
@@ -11891,7 +11891,7 @@ export const GRADUATION_CONGRATS_CARDS: CardProduct[] = [
   {
     "id": "canada_graduation_congrats",
     "country": "Canada",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/canada_graduation_congrats_b36419c7.png",
+    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/canada_birthday_mom_b36419c7.png",
     "price": 599,
     "name": "Canada Graduation Congrats Card"
   },
@@ -11905,7 +11905,7 @@ export const GRADUATION_CONGRATS_CARDS: CardProduct[] = [
   {
     "id": "china_graduation_congrats",
     "country": "China",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/china_graduation_congrats_f761431b.png",
+    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/china_birthday_mom_f761431b.png",
     "price": 599,
     "name": "China Graduation Congrats Card"
   },
@@ -11933,7 +11933,7 @@ export const GRADUATION_CONGRATS_CARDS: CardProduct[] = [
   {
     "id": "dubai_graduation_congrats",
     "country": "Dubai",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/dubai_graduation_congrats_7dd5a2f2.png",
+    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/dubai_birthday_mom_7dd5a2f2.png",
     "price": 599,
     "name": "Dubai Graduation Congrats Card"
   },
@@ -11947,7 +11947,7 @@ export const GRADUATION_CONGRATS_CARDS: CardProduct[] = [
   {
     "id": "egypt_graduation_congrats",
     "country": "Egypt",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/egypt_graduation_congrats_da4d5ffc.png",
+    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/egypt_birthday_mom_da4d5ffc.png",
     "price": 599,
     "name": "Egypt Graduation Congrats Card"
   },
@@ -11961,7 +11961,7 @@ export const GRADUATION_CONGRATS_CARDS: CardProduct[] = [
   {
     "id": "ethiopia_graduation_congrats",
     "country": "Ethiopia",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/ethiopia_graduation_congrats_c98efb8c.png",
+    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/ethiopia_birthday_mom_c98efb8c.png",
     "price": 599,
     "name": "Ethiopia Graduation Congrats Card"
   },
@@ -11975,21 +11975,21 @@ export const GRADUATION_CONGRATS_CARDS: CardProduct[] = [
   {
     "id": "france_graduation_congrats",
     "country": "France",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/france_graduation_congrats_143bf183.png",
+    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/france_birthday_mom_143bf183.png",
     "price": 599,
     "name": "France Graduation Congrats Card"
   },
   {
     "id": "germany_graduation_congrats",
     "country": "Germany",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/germany_graduation_congrats_a9097d75.png",
+    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/germany_birthday_mom_a9097d75.png",
     "price": 599,
     "name": "Germany Graduation Congrats Card"
   },
   {
     "id": "ghana_graduation_congrats",
     "country": "Ghana",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/ghana_graduation_congrats_f1eb1392.png",
+    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/ghana_birthday_mom_f1eb1392.png",
     "price": 599,
     "name": "Ghana Graduation Congrats Card"
   },
@@ -12003,7 +12003,7 @@ export const GRADUATION_CONGRATS_CARDS: CardProduct[] = [
   {
     "id": "guatemala_graduation_congrats",
     "country": "Guatemala",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/guatemala_graduation_congrats_0b61f283.png",
+    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/guatemala_birthday_mom_0b61f283.png",
     "price": 599,
     "name": "Guatemala Graduation Congrats Card"
   },
@@ -12024,14 +12024,14 @@ export const GRADUATION_CONGRATS_CARDS: CardProduct[] = [
   {
     "id": "iceland_graduation_congrats",
     "country": "Iceland",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/iceland_graduation_congrats_64b5dc5a.png",
+    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/iceland_birthday_mom_64b5dc5a.png",
     "price": 599,
     "name": "Iceland Graduation Congrats Card"
   },
   {
     "id": "india_graduation_congrats",
     "country": "India",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/india_graduation_congrats_f6edc2ac.png",
+    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/india_birthday_mom_f6edc2ac.png",
     "price": 599,
     "name": "India Graduation Congrats Card"
   },
@@ -12059,7 +12059,7 @@ export const GRADUATION_CONGRATS_CARDS: CardProduct[] = [
   {
     "id": "ireland_graduation_congrats",
     "country": "Ireland",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/ireland_graduation_congrats_71de8bac.png",
+    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/ireland_birthday_mom_71de8bac.png",
     "price": 599,
     "name": "Ireland Graduation Congrats Card"
   },
@@ -12080,7 +12080,7 @@ export const GRADUATION_CONGRATS_CARDS: CardProduct[] = [
   {
     "id": "japan_graduation_congrats",
     "country": "Japan",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/japan_graduation_congrats_893207c8.png",
+    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/japan_birthday_mom_893207c8.png",
     "price": 599,
     "name": "Japan Graduation Congrats Card"
   },
@@ -12094,7 +12094,7 @@ export const GRADUATION_CONGRATS_CARDS: CardProduct[] = [
   {
     "id": "korea_graduation_congrats",
     "country": "Korea",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/korea_graduation_congrats_0212bc98.png",
+    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/korea_birthday_mom_0212bc98.png",
     "price": 599,
     "name": "Korea Graduation Congrats Card"
   },
@@ -12157,7 +12157,7 @@ export const GRADUATION_CONGRATS_CARDS: CardProduct[] = [
   {
     "id": "philippines_graduation_congrats",
     "country": "Philippines",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/philippines_graduation_congrats_8eed7165.png",
+    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/philippines_birthday_mom_8eed7165.png",
     "price": 599,
     "name": "Philippines Graduation Congrats Card"
   },
@@ -12178,7 +12178,7 @@ export const GRADUATION_CONGRATS_CARDS: CardProduct[] = [
   {
     "id": "russia_graduation_congrats",
     "country": "Russia",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/russia_graduation_congrats_c48c2ca2.png",
+    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/russia_birthday_mom_c48c2ca2.png",
     "price": 599,
     "name": "Russia Graduation Congrats Card"
   },
@@ -12199,7 +12199,7 @@ export const GRADUATION_CONGRATS_CARDS: CardProduct[] = [
   {
     "id": "somalia_graduation_congrats",
     "country": "Somalia",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/somalia_graduation_congrats_4f4b4477.png",
+    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/somalia_birthday_mom_4f4b4477.png",
     "price": 599,
     "name": "Somalia Graduation Congrats Card"
   },
@@ -12241,7 +12241,7 @@ export const GRADUATION_CONGRATS_CARDS: CardProduct[] = [
   {
     "id": "thailand_graduation_congrats",
     "country": "Thailand",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/thailand_graduation_congrats_d69d5020.png",
+    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/thailand_birthday_mom_d69d5020.png",
     "price": 599,
     "name": "Thailand Graduation Congrats Card"
   },
@@ -12262,7 +12262,7 @@ export const GRADUATION_CONGRATS_CARDS: CardProduct[] = [
   {
     "id": "turkey_graduation_congrats",
     "country": "Turkey",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/turkey_graduation_congrats_b78624ac.png",
+    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/turkey_birthday_mom_b78624ac.png",
     "price": 599,
     "name": "Turkey Graduation Congrats Card"
   },
@@ -12297,7 +12297,7 @@ export const GRADUATION_CONGRATS_CARDS: CardProduct[] = [
   {
     "id": "vietnam_graduation_congrats",
     "country": "Vietnam",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/vietnam_graduation_congrats_9d27af27.png",
+    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/vietnam_birthday_mom_9d27af27.png",
     "price": 599,
     "name": "Vietnam Graduation Congrats Card"
   },
@@ -12314,7 +12314,7 @@ export const GRADUATION_CONGRATS_V2_CARDS: CardProduct[] = [
   {
     "id": "haiti_graduation_congrats_v2",
     "country": "Haiti",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/haiti_graduation_congrats_v2_965afbc1.png",
+    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/haiti_birthday_mom_965afbc1.png",
     "price": 599,
     "name": "Haiti Graduation Congrats Card v2"
   }
@@ -12478,7 +12478,7 @@ export const GRADUATION_GIRL_CARDS: CardProduct[] = [
   {
     "id": "brazil_graduation_girl",
     "country": "Brazil",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/brazil_graduation_girl_9347edc6.png",
+    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/brazil_birthday_mom_9347edc6.png",
     "price": 599,
     "name": "Brazil Graduation Card (Girl)"
   },
@@ -12520,7 +12520,7 @@ export const GRADUATION_GIRL_CARDS: CardProduct[] = [
   {
     "id": "canada_graduation_girl",
     "country": "Canada",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/canada_graduation_girl_38755cc7.png",
+    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/canada_birthday_mom_38755cc7.png",
     "price": 599,
     "name": "Canada Graduation Card (Girl)"
   },
@@ -12555,7 +12555,7 @@ export const GRADUATION_GIRL_CARDS: CardProduct[] = [
   {
     "id": "china_graduation_girl",
     "country": "China",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/china_graduation_girl_c71a6dd3.png",
+    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/china_birthday_mom_c71a6dd3.png",
     "price": 599,
     "name": "China Graduation Card (Girl)"
   },
@@ -12646,7 +12646,7 @@ export const GRADUATION_GIRL_CARDS: CardProduct[] = [
   {
     "id": "dubai_graduation_girl",
     "country": "Dubai",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/dubai_graduation_girl_1223308e.png",
+    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/dubai_birthday_mom_1223308e.png",
     "price": 599,
     "name": "Dubai Graduation Card (Girl)"
   },
@@ -12660,7 +12660,7 @@ export const GRADUATION_GIRL_CARDS: CardProduct[] = [
   {
     "id": "egypt_graduation_girl",
     "country": "Egypt",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/egypt_graduation_girl_445f6c52.png",
+    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/egypt_birthday_mom_445f6c52.png",
     "price": 599,
     "name": "Egypt Graduation Card (Girl)"
   },
@@ -12702,7 +12702,7 @@ export const GRADUATION_GIRL_CARDS: CardProduct[] = [
   {
     "id": "ethiopia_graduation_girl",
     "country": "Ethiopia",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/ethiopia_graduation_girl_cb7f08b1.png",
+    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/ethiopia_birthday_mom_cb7f08b1.png",
     "price": 599,
     "name": "Ethiopia Graduation Card (Girl)"
   },
@@ -12723,7 +12723,7 @@ export const GRADUATION_GIRL_CARDS: CardProduct[] = [
   {
     "id": "france_graduation_girl",
     "country": "France",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/france_graduation_girl_c8bc17b2.png",
+    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/france_birthday_mom_c8bc17b2.png",
     "price": 599,
     "name": "France Graduation Card (Girl)"
   },
@@ -12751,14 +12751,14 @@ export const GRADUATION_GIRL_CARDS: CardProduct[] = [
   {
     "id": "germany_graduation_girl",
     "country": "Germany",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/germany_graduation_girl_85c5552c.png",
+    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/germany_birthday_mom_85c5552c.png",
     "price": 599,
     "name": "Germany Graduation Card (Girl)"
   },
   {
     "id": "ghana_graduation_girl",
     "country": "Ghana",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/ghana_graduation_girl_c6bb1d89.png",
+    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/ghana_birthday_mom_c6bb1d89.png",
     "price": 599,
     "name": "Ghana Graduation Card (Girl)"
   },
@@ -12779,7 +12779,7 @@ export const GRADUATION_GIRL_CARDS: CardProduct[] = [
   {
     "id": "guatemala_graduation_girl",
     "country": "Guatemala",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/guatemala_graduation_girl_aa650a32.png",
+    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/guatemala_birthday_mom_aa650a32.png",
     "price": 599,
     "name": "Guatemala Graduation Card (Girl)"
   },
@@ -12821,14 +12821,14 @@ export const GRADUATION_GIRL_CARDS: CardProduct[] = [
   {
     "id": "iceland_graduation_girl",
     "country": "Iceland",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/iceland_graduation_girl_2dae3925.png",
+    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/iceland_birthday_mom_2dae3925.png",
     "price": 599,
     "name": "Iceland Graduation Card (Girl)"
   },
   {
     "id": "india_graduation_girl",
     "country": "India",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/india_graduation_girl_4f1688fc.png",
+    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/india_birthday_mom_4f1688fc.png",
     "price": 599,
     "name": "India Graduation Card (Girl)"
   },
@@ -12856,7 +12856,7 @@ export const GRADUATION_GIRL_CARDS: CardProduct[] = [
   {
     "id": "ireland_graduation_girl",
     "country": "Ireland",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/ireland_graduation_girl_9ba2a45e.png",
+    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/ireland_birthday_mom_9ba2a45e.png",
     "price": 599,
     "name": "Ireland Graduation Card (Girl)"
   },
@@ -12884,7 +12884,7 @@ export const GRADUATION_GIRL_CARDS: CardProduct[] = [
   {
     "id": "japan_graduation_girl",
     "country": "Japan",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/japan_graduation_girl_ca66b9de.png",
+    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/japan_birthday_mom_ca66b9de.png",
     "price": 599,
     "name": "Japan Graduation Card (Girl)"
   },
@@ -12919,7 +12919,7 @@ export const GRADUATION_GIRL_CARDS: CardProduct[] = [
   {
     "id": "korea_graduation_girl",
     "country": "Korea",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/korea_graduation_girl_13f494d9.png",
+    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/korea_birthday_mom_13f494d9.png",
     "price": 599,
     "name": "Korea Graduation Card (Girl)"
   },
@@ -13206,7 +13206,7 @@ export const GRADUATION_GIRL_CARDS: CardProduct[] = [
   {
     "id": "philippines_graduation_girl",
     "country": "Philippines",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/philippines_graduation_girl_5c67a9e5.png",
+    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/philippines_birthday_mom_5c67a9e5.png",
     "price": 599,
     "name": "Philippines Graduation Card (Girl)"
   },
@@ -13255,7 +13255,7 @@ export const GRADUATION_GIRL_CARDS: CardProduct[] = [
   {
     "id": "russia_graduation_girl",
     "country": "Russia",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/russia_graduation_girl_93f09eea.png",
+    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/russia_birthday_mom_93f09eea.png",
     "price": 599,
     "name": "Russia Graduation Card (Girl)"
   },
@@ -13360,7 +13360,7 @@ export const GRADUATION_GIRL_CARDS: CardProduct[] = [
   {
     "id": "somalia_graduation_girl",
     "country": "Somalia",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/somalia_graduation_girl_90b875cc.png",
+    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/somalia_birthday_mom_90b875cc.png",
     "price": 599,
     "name": "Somalia Graduation Card (Girl)"
   },
@@ -13451,7 +13451,7 @@ export const GRADUATION_GIRL_CARDS: CardProduct[] = [
   {
     "id": "thailand_graduation_girl",
     "country": "Thailand",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/thailand_graduation_girl_e34507ee.png",
+    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/thailand_birthday_mom_e34507ee.png",
     "price": 599,
     "name": "Thailand Graduation Card (Girl)"
   },
@@ -13493,7 +13493,7 @@ export const GRADUATION_GIRL_CARDS: CardProduct[] = [
   {
     "id": "turkey_graduation_girl",
     "country": "Turkey",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/turkey_graduation_girl_cd0aa363.png",
+    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/turkey_birthday_mom_cd0aa363.png",
     "price": 599,
     "name": "Turkey Graduation Card (Girl)"
   },
@@ -13563,7 +13563,7 @@ export const GRADUATION_GIRL_CARDS: CardProduct[] = [
   {
     "id": "vietnam_graduation_girl",
     "country": "Vietnam",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/vietnam_graduation_girl_f0a48de0.png",
+    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/vietnam_birthday_mom_f0a48de0.png",
     "price": 599,
     "name": "Vietnam Graduation Card (Girl)"
   },
@@ -13594,7 +13594,7 @@ export const GRADUATION_GIRL_V2_CARDS: CardProduct[] = [
   {
     "id": "haiti_graduation_girl_v2",
     "country": "Haiti",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/haiti_graduation_girl_v2_844af38a.png",
+    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/haiti_birthday_mom_844af38a.png",
     "price": 599,
     "name": "Haiti Graduation Card (Girl) v2"
   }
@@ -13924,7 +13924,7 @@ export const MOTHERS_DAY_CARDS: CardProduct[] = [
   {
     "id": "bh_mothers_day",
     "country": "Bahrain",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/BH_birthday_mom_wall_art_8x10_427a59ed.jpg",
+    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/BH_birthday_mom_427a59ed.jpg",
     "price": 599,
     "name": "Bahrain Mother's Day Card"
   },
@@ -13966,14 +13966,14 @@ export const MOTHERS_DAY_CARDS: CardProduct[] = [
   {
     "id": "bj_mothers_day",
     "country": "Benin",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/BJ_birthday_mom_wall_art_8x10_b4bb53ac.jpg",
+    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/BJ_birthday_mom_b4bb53ac.jpg",
     "price": 599,
     "name": "Benin Mother's Day Card"
   },
   {
     "id": "bt_mothers_day",
     "country": "Bhutan",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/BT_birthday_mom_wall_art_8x10_9118c9ac.jpg",
+    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/BT_birthday_mom_9118c9ac.jpg",
     "price": 599,
     "name": "Bhutan Mother's Day Card"
   },
@@ -14008,14 +14008,14 @@ export const MOTHERS_DAY_CARDS: CardProduct[] = [
   {
     "id": "bf_mothers_day",
     "country": "Burkina Faso",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/BF_birthday_mom_wall_art_8x10_2c5b945d.jpg",
+    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/BF_birthday_mom_2c5b945d.jpg",
     "price": 599,
     "name": "Burkina Faso Mother's Day Card"
   },
   {
     "id": "bi_mothers_day",
     "country": "Burundi",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/BI_birthday_mom_wall_art_8x10_18366f51.jpg",
+    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/BI_birthday_mom_18366f51.jpg",
     "price": 599,
     "name": "Burundi Mother's Day Card"
   },
@@ -14036,7 +14036,7 @@ export const MOTHERS_DAY_CARDS: CardProduct[] = [
   {
     "id": "cv_mothers_day",
     "country": "Cape Verde",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/CV_birthday_mom_wall_art_8x10_69488a07.jpg",
+    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/CV_birthday_mom_69488a07.jpg",
     "price": 599,
     "name": "Cape Verde Mother's Day Card"
   },
@@ -14050,7 +14050,7 @@ export const MOTHERS_DAY_CARDS: CardProduct[] = [
   {
     "id": "td_mothers_day",
     "country": "Chad",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/TD_birthday_mom_wall_art_8x10_d7deeb25.jpg",
+    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/TD_birthday_mom_d7deeb25.jpg",
     "price": 599,
     "name": "Chad Mother's Day Card"
   },
@@ -14071,7 +14071,7 @@ export const MOTHERS_DAY_CARDS: CardProduct[] = [
   {
     "id": "km_mothers_day",
     "country": "Comoros",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/KM_birthday_mom_wall_art_8x10_c9f7e6f5.jpg",
+    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/KM_birthday_mom_c9f7e6f5.jpg",
     "price": 599,
     "name": "Comoros Mother's Day Card"
   },
@@ -14113,7 +14113,7 @@ export const MOTHERS_DAY_CARDS: CardProduct[] = [
   {
     "id": "cd_mothers_day",
     "country": "Democratic Republic of Congo",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/CD_birthday_mom_wall_art_8x10_84f68563.jpg",
+    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/CD_birthday_mom_84f68563.jpg",
     "price": 599,
     "name": "Democratic Republic of Congo Mother's Day Card"
   },
@@ -14127,7 +14127,7 @@ export const MOTHERS_DAY_CARDS: CardProduct[] = [
   {
     "id": "dj_mothers_day",
     "country": "Djibouti",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/DJ_birthday_mom_wall_art_8x10_b4d9acf0.jpg",
+    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/DJ_birthday_mom_b4d9acf0.jpg",
     "price": 599,
     "name": "Djibouti Mother's Day Card"
   },
@@ -14169,7 +14169,7 @@ export const MOTHERS_DAY_CARDS: CardProduct[] = [
   {
     "id": "er_mothers_day",
     "country": "Eritrea",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/ER_birthday_mom_wall_art_8x10_7dc191fa.jpg",
+    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/ER_birthday_mom_7dc191fa.jpg",
     "price": 599,
     "name": "Eritrea Mother's Day Card"
   },
@@ -14211,7 +14211,7 @@ export const MOTHERS_DAY_CARDS: CardProduct[] = [
   {
     "id": "gm_mothers_day",
     "country": "Gambia",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/GM_birthday_mom_wall_art_8x10_ae89051c.jpg",
+    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/GM_birthday_mom_ae89051c.jpg",
     "price": 599,
     "name": "Gambia Mother's Day Card"
   },
@@ -14232,14 +14232,14 @@ export const MOTHERS_DAY_CARDS: CardProduct[] = [
   {
     "id": "gn_mothers_day",
     "country": "Guinea",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/GN_birthday_mom_wall_art_8x10_e453fa4b.jpg",
+    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/GN_birthday_mom_e453fa4b.jpg",
     "price": 599,
     "name": "Guinea Mother's Day Card"
   },
   {
     "id": "gw_mothers_day",
     "country": "Guinea Bissau",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/GW_birthday_mom_wall_art_8x10_0bc3b661.jpg",
+    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/GW_birthday_mom_0bc3b661.jpg",
     "price": 599,
     "name": "Guinea Bissau Mother's Day Card"
   },
@@ -14302,7 +14302,7 @@ export const MOTHERS_DAY_CARDS: CardProduct[] = [
   {
     "id": "ci_mothers_day",
     "country": "Ivory Coast",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/CI_birthday_mom_wall_art_8x10_b8da7aa2.jpg",
+    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/CI_birthday_mom_b8da7aa2.jpg",
     "price": 599,
     "name": "Ivory Coast Mother's Day Card"
   },
@@ -14379,7 +14379,7 @@ export const MOTHERS_DAY_CARDS: CardProduct[] = [
   {
     "id": "lr_mothers_day",
     "country": "Liberia",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/LR_birthday_mom_wall_art_8x10_7763b744.jpg",
+    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/LR_birthday_mom_7763b744.jpg",
     "price": 599,
     "name": "Liberia Mother's Day Card"
   },
@@ -14407,14 +14407,14 @@ export const MOTHERS_DAY_CARDS: CardProduct[] = [
   {
     "id": "mg_mothers_day",
     "country": "Madagascar",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/MG_birthday_mom_wall_art_8x10_37ecb072.jpg",
+    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/MG_birthday_mom_37ecb072.jpg",
     "price": 599,
     "name": "Madagascar Mother's Day Card"
   },
   {
     "id": "mw_mothers_day",
     "country": "Malawi",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/MW_birthday_mom_wall_art_8x10_507dfde2.jpg",
+    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/MW_birthday_mom_507dfde2.jpg",
     "price": 599,
     "name": "Malawi Mother's Day Card"
   },
@@ -14428,14 +14428,14 @@ export const MOTHERS_DAY_CARDS: CardProduct[] = [
   {
     "id": "mv_mothers_day",
     "country": "Maldives",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/MV_birthday_mom_wall_art_8x10_f078becd.jpg",
+    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/MV_birthday_mom_f078becd.jpg",
     "price": 599,
     "name": "Maldives Mother's Day Card"
   },
   {
     "id": "ml_mothers_day",
     "country": "Mali",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/ML_birthday_mom_wall_art_8x10_1bd7129a.jpg",
+    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/ML_birthday_mom_1bd7129a.jpg",
     "price": 599,
     "name": "Mali Mother's Day Card"
   },
@@ -14449,7 +14449,7 @@ export const MOTHERS_DAY_CARDS: CardProduct[] = [
   {
     "id": "mr_mothers_day",
     "country": "Mauritania",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/MR_birthday_mom_wall_art_8x10_e4ce2752.jpg",
+    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/MR_birthday_mom_e4ce2752.jpg",
     "price": 599,
     "name": "Mauritania Mother's Day Card"
   },
@@ -14491,7 +14491,7 @@ export const MOTHERS_DAY_CARDS: CardProduct[] = [
   {
     "id": "mz_mothers_day",
     "country": "Mozambique",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/MZ_birthday_mom_wall_art_8x10_5499f5dd.jpg",
+    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/MZ_birthday_mom_5499f5dd.jpg",
     "price": 599,
     "name": "Mozambique Mother's Day Card"
   },
@@ -14540,7 +14540,7 @@ export const MOTHERS_DAY_CARDS: CardProduct[] = [
   {
     "id": "ne_mothers_day",
     "country": "Niger",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/NE_birthday_mom_wall_art_8x10_1c2f4d6d.jpg",
+    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/NE_birthday_mom_1c2f4d6d.jpg",
     "price": 599,
     "name": "Niger Mother's Day Card"
   },
@@ -14645,7 +14645,7 @@ export const MOTHERS_DAY_CARDS: CardProduct[] = [
   {
     "id": "cg_mothers_day",
     "country": "Republic of Congo",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/CG_birthday_mom_wall_art_8x10_7ca96fb8.jpg",
+    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/CG_birthday_mom_7ca96fb8.jpg",
     "price": 599,
     "name": "Republic of Congo Mother's Day Card"
   },
@@ -14659,7 +14659,7 @@ export const MOTHERS_DAY_CARDS: CardProduct[] = [
   {
     "id": "rw_mothers_day",
     "country": "Rwanda",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/RW_birthday_mom_wall_art_8x10_99c6bd5d.jpg",
+    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/RW_birthday_mom_99c6bd5d.jpg",
     "price": 599,
     "name": "Rwanda Mother's Day Card"
   },
@@ -14722,14 +14722,14 @@ export const MOTHERS_DAY_CARDS: CardProduct[] = [
   {
     "id": "sc_mothers_day",
     "country": "Seychelles",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/SC_birthday_mom_wall_art_8x10_dca3d36f.jpg",
+    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/SC_birthday_mom_dca3d36f.jpg",
     "price": 599,
     "name": "Seychelles Mother's Day Card"
   },
   {
     "id": "sl_mothers_day",
     "country": "Sierra Leone",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/SL_birthday_mom_wall_art_8x10_ba45d965.jpg",
+    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/SL_birthday_mom_ba45d965.jpg",
     "price": 599,
     "name": "Sierra Leone Mother's Day Card"
   },
@@ -14841,14 +14841,14 @@ export const MOTHERS_DAY_CARDS: CardProduct[] = [
   {
     "id": "tl_mothers_day",
     "country": "Timor Leste",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/TL_birthday_mom_wall_art_8x10_1505f48c.jpg",
+    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/TL_birthday_mom_1505f48c.jpg",
     "price": 599,
     "name": "Timor Leste Mother's Day Card"
   },
   {
     "id": "tg_mothers_day",
     "country": "Togo",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/TG_birthday_mom_wall_art_8x10_3d4be01f.jpg",
+    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/TG_birthday_mom_3d4be01f.jpg",
     "price": 599,
     "name": "Togo Mother's Day Card"
   },
@@ -14939,7 +14939,7 @@ export const MOTHERS_DAY_CARDS: CardProduct[] = [
   {
     "id": "zm_mothers_day",
     "country": "Zambia",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/ZM_birthday_mom_wall_art_8x10_6d8a3357.jpg",
+    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/ZM_birthday_mom_6d8a3357.jpg",
     "price": 599,
     "name": "Zambia Mother's Day Card"
   },
@@ -19023,43 +19023,70 @@ export const ACTIVITY_WORKBOOKS: WorkbookProduct[] = [
   { id: "workbook_zimbabwe", country: "Zimbabwe", name: "Zimbabwe Activity Workbook", price: 999, image: "" },
 ];
 
-// ── Wall Art Prints (30 countries — physical print-on-demand via Gelato) ─────
+// ── Wall Art Prints (52 designs — 4 premium countries with cultural wall art) ─────
 export interface WallArtPrint {
   id: string;
   country: string;
   name: string;
   image: string;
+  design: string;
 }
 
 export const WALL_ART_PRINTS: WallArtPrint[] = [
-  { id: "bh_wall_art", country: "Bahrain",       name: "Bahrain Cultural Wall Art Print",       image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/BH_birthday_mom_wall_art_8x10_427a59ed.jpg" },
-  { id: "bj_wall_art", country: "Benin",         name: "Benin Cultural Wall Art Print",         image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/BJ_birthday_mom_wall_art_8x10_b4bb53ac.jpg" },
-  { id: "bt_wall_art", country: "Bhutan",        name: "Bhutan Cultural Wall Art Print",        image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/BT_birthday_mom_wall_art_8x10_9118c9ac.jpg" },
-  { id: "bf_wall_art", country: "Burkina Faso",  name: "Burkina Faso Cultural Wall Art Print",  image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/BF_birthday_mom_wall_art_8x10_2c5b945d.jpg" },
-  { id: "bi_wall_art", country: "Burundi",       name: "Burundi Cultural Wall Art Print",       image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/BI_birthday_mom_wall_art_8x10_18366f51.jpg" },
-  { id: "cv_wall_art", country: "Cape Verde",    name: "Cape Verde Cultural Wall Art Print",    image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/CV_birthday_mom_wall_art_8x10_69488a07.jpg" },
-  { id: "td_wall_art", country: "Chad",          name: "Chad Cultural Wall Art Print",          image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/TD_birthday_mom_wall_art_8x10_d7deeb25.jpg" },
-  { id: "km_wall_art", country: "Comoros",       name: "Comoros Cultural Wall Art Print",       image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/KM_birthday_mom_wall_art_8x10_c9f7e6f5.jpg" },
-  { id: "cg_wall_art", country: "Congo",         name: "Congo Cultural Wall Art Print",         image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/CG_birthday_mom_wall_art_8x10_7ca96fb8.jpg" },
-  { id: "cd_wall_art", country: "Congo (DRC)",   name: "Congo (DRC) Cultural Wall Art Print",   image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/CD_birthday_mom_wall_art_8x10_84f68563.jpg" },
-  { id: "ci_wall_art", country: "Cote d'Ivoire", name: "Cote d'Ivoire Cultural Wall Art Print", image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/CI_birthday_mom_wall_art_8x10_b8da7aa2.jpg" },
-  { id: "dj_wall_art", country: "Djibouti",      name: "Djibouti Cultural Wall Art Print",      image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/DJ_birthday_mom_wall_art_8x10_b4d9acf0.jpg" },
-  { id: "er_wall_art", country: "Eritrea",       name: "Eritrea Cultural Wall Art Print",       image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/ER_birthday_mom_wall_art_8x10_7dc191fa.jpg" },
-  { id: "gm_wall_art", country: "Gambia",        name: "Gambia Cultural Wall Art Print",        image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/GM_birthday_mom_wall_art_8x10_ae89051c.jpg" },
-  { id: "gn_wall_art", country: "Guinea",        name: "Guinea Cultural Wall Art Print",        image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/GN_birthday_mom_wall_art_8x10_e453fa4b.jpg" },
-  { id: "gw_wall_art", country: "Guinea-Bissau", name: "Guinea-Bissau Cultural Wall Art Print", image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/GW_birthday_mom_wall_art_8x10_0bc3b661.jpg" },
-  { id: "lr_wall_art", country: "Liberia",       name: "Liberia Cultural Wall Art Print",       image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/LR_birthday_mom_wall_art_8x10_7763b744.jpg" },
-  { id: "mg_wall_art", country: "Madagascar",    name: "Madagascar Cultural Wall Art Print",    image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/MG_birthday_mom_wall_art_8x10_37ecb072.jpg" },
-  { id: "mw_wall_art", country: "Malawi",        name: "Malawi Cultural Wall Art Print",        image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/MW_birthday_mom_wall_art_8x10_507dfde2.jpg" },
-  { id: "mv_wall_art", country: "Maldives",      name: "Maldives Cultural Wall Art Print",      image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/MV_birthday_mom_wall_art_8x10_f078becd.jpg" },
-  { id: "ml_wall_art", country: "Mali",          name: "Mali Cultural Wall Art Print",          image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/ML_birthday_mom_wall_art_8x10_1bd7129a.jpg" },
-  { id: "mr_wall_art", country: "Mauritania",    name: "Mauritania Cultural Wall Art Print",    image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/MR_birthday_mom_wall_art_8x10_e4ce2752.jpg" },
-  { id: "mz_wall_art", country: "Mozambique",    name: "Mozambique Cultural Wall Art Print",    image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/MZ_birthday_mom_wall_art_8x10_5499f5dd.jpg" },
-  { id: "ne_wall_art", country: "Niger",         name: "Niger Cultural Wall Art Print",         image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/NE_birthday_mom_wall_art_8x10_1c2f4d6d.jpg" },
-  { id: "rw_wall_art", country: "Rwanda",        name: "Rwanda Cultural Wall Art Print",        image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/RW_birthday_mom_wall_art_8x10_99c6bd5d.jpg" },
-  { id: "sc_wall_art", country: "Seychelles",    name: "Seychelles Cultural Wall Art Print",    image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/SC_birthday_mom_wall_art_8x10_dca3d36f.jpg" },
-  { id: "sl_wall_art", country: "Sierra Leone",  name: "Sierra Leone Cultural Wall Art Print",  image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/SL_birthday_mom_wall_art_8x10_ba45d965.jpg" },
-  { id: "tl_wall_art", country: "Timor Leste",   name: "Timor Leste Cultural Wall Art Print",   image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/TL_birthday_mom_wall_art_8x10_1505f48c.jpg" },
-  { id: "tg_wall_art", country: "Togo",          name: "Togo Cultural Wall Art Print",          image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/TG_birthday_mom_wall_art_8x10_3d4be01f.jpg" },
-  { id: "zm_wall_art", country: "Zambia",        name: "Zambia Cultural Wall Art Print",        image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/ZM_birthday_mom_wall_art_8x10_6d8a3357.jpg" },
+  // Kenya (13 designs)
+  { id: "ke_wall_art_maasai_warrior", country: "Kenya", design: "Maasai Warrior", name: "Kenya — Maasai Warrior", image: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/EnuDbxSNhSbNhkMA.png" },
+  { id: "ke_wall_art_savanna_sunset", country: "Kenya", design: "Savanna Sunset", name: "Kenya — Savanna Sunset", image: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/JvFUYmrcHxkbrqMr.png" },
+  { id: "ke_wall_art_mount_kenya", country: "Kenya", design: "Mount Kenya", name: "Kenya — Mount Kenya", image: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/WeZkPNpqqcyVtrHL.png" },
+  { id: "ke_wall_art_wildlife_elephant", country: "Kenya", design: "Wildlife Elephant", name: "Kenya — Wildlife Elephant", image: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/cxYAaQcwXlFjcJqm.png" },
+  { id: "ke_wall_art_wildlife_lion", country: "Kenya", design: "Wildlife Lion", name: "Kenya — Wildlife Lion", image: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/YVttjOtscyTAMZaU.png" },
+  { id: "ke_wall_art_maasai_beadwork", country: "Kenya", design: "Maasai Beadwork", name: "Kenya — Maasai Beadwork", image: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/hHRKZDkgtXnNldkm.png" },
+  { id: "ke_wall_art_nairobi_skyline", country: "Kenya", design: "Nairobi Skyline", name: "Kenya — Nairobi Skyline", image: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/pQBroUdijpVivxCz.png" },
+  { id: "ke_wall_art_lake_nakuru", country: "Kenya", design: "Lake Nakuru Flamingos", name: "Kenya — Lake Nakuru Flamingos", image: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/FnUoCmeiqkQZZBHd.png" },
+  { id: "ke_wall_art_coast_dhow", country: "Kenya", design: "Kenyan Coast Dhow", name: "Kenya — Kenyan Coast Dhow", image: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/JJVkrWNGwIwbAIli.png" },
+  { id: "ke_wall_art_coffee_harvest", country: "Kenya", design: "Coffee Harvest", name: "Kenya — Coffee Harvest", image: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/fwtdGeXerQOYarsW.png" },
+  { id: "ke_wall_art_rift_valley", country: "Kenya", design: "Rift Valley", name: "Kenya — Rift Valley", image: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/tyGyZsIlKAgintZW.png" },
+  { id: "ke_wall_art_maasai_village", country: "Kenya", design: "Maasai Village", name: "Kenya — Maasai Village", image: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/lNnXdCbMwOmkCIDL.png" },
+  { id: "ke_wall_art_kenyan_textiles", country: "Kenya", design: "Kenyan Textiles", name: "Kenya — Kenyan Textiles", image: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/dZMYbFItDpeZwsnq.png" },
+  // Nigeria (13 designs)
+  { id: "ng_wall_art_ankara_print", country: "Nigeria", design: "Ankara Print", name: "Nigeria — Ankara Print", image: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/kdKuWtblTfHgmdnT.png" },
+  { id: "ng_wall_art_aso_oke", country: "Nigeria", design: "Aso Oke Fabric", name: "Nigeria — Aso Oke Fabric", image: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/zObGzrfParbWomUP.png" },
+  { id: "ng_wall_art_benin_bronze", country: "Nigeria", design: "Benin Bronze Art", name: "Nigeria — Benin Bronze Art", image: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/mYenxHkqagCVNXjM.png" },
+  { id: "ng_wall_art_crowned_crane", country: "Nigeria", design: "Crowned Crane", name: "Nigeria — Crowned Crane", image: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/cXPKppTJQvyYeRPj.png" },
+  { id: "ng_wall_art_durbar_festival", country: "Nigeria", design: "Durbar Festival", name: "Nigeria — Durbar Festival", image: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/ckFjmXMgCcJFEeuu.png" },
+  { id: "ng_wall_art_gelede_mask", country: "Nigeria", design: "Gelede Mask", name: "Nigeria — Gelede Mask", image: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/zuQZyUfmuKZouBHt.png" },
+  { id: "ng_wall_art_hausa_fulani", country: "Nigeria", design: "Hausa Fulani Culture", name: "Nigeria — Hausa Fulani Culture", image: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/DBZVUXRlwEIqrSxU.png" },
+  { id: "ng_wall_art_igbo_uli", country: "Nigeria", design: "Igbo Uli Pattern", name: "Nigeria — Igbo Uli Pattern", image: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/XftxesxIezQZlaiZ.png" },
+  { id: "ng_wall_art_lagos_skyline", country: "Nigeria", design: "Lagos Skyline", name: "Nigeria — Lagos Skyline", image: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/CHCIcuZbDKawklPb.png" },
+  { id: "ng_wall_art_niger_delta", country: "Nigeria", design: "Niger Delta Waterway", name: "Nigeria — Niger Delta Waterway", image: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/IbOLiMfvoFrNLGWk.png" },
+  { id: "ng_wall_art_trad_arch", country: "Nigeria", design: "Traditional Architecture", name: "Nigeria — Traditional Architecture", image: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/leiIdSGymukMVSac.png" },
+  { id: "ng_wall_art_yoruba_adire", country: "Nigeria", design: "Yoruba Adire Pattern", name: "Nigeria — Yoruba Adire Pattern", image: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/HjjgGZoAmPifRrCJ.png" },
+  { id: "ng_wall_art_zuma_rock", country: "Nigeria", design: "Zuma Rock", name: "Nigeria — Zuma Rock", image: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/kPpBXCAYLdhpYZEp.png" },
+  // Jamaica (13 designs)
+  { id: "jm_wall_art_blue_mountains", country: "Jamaica", design: "Blue Mountains", name: "Jamaica — Blue Mountains", image: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/CCvEBkvqMxVQqTgb.png" },
+  { id: "jm_wall_art_caribbean_coast", country: "Jamaica", design: "Caribbean Coastline", name: "Jamaica — Caribbean Coastline", image: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/TcHBKgFgkMzxmGFq.png" },
+  { id: "jm_wall_art_doctor_bird", country: "Jamaica", design: "Doctor Bird Hummingbird", name: "Jamaica — Doctor Bird Hummingbird", image: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/IhgBAxAyHmWAiLkh.png" },
+  { id: "jm_wall_art_dunns_river", country: "Jamaica", design: "Dunn's River Falls", name: "Jamaica — Dunn's River Falls", image: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/eVmPgAcxFSiMRoNj.png" },
+  { id: "jm_wall_art_hibiscus", country: "Jamaica", design: "Hibiscus Garden", name: "Jamaica — Hibiscus Garden", image: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/RZtxoHMuLfuhUiIQ.png" },
+  { id: "jm_wall_art_artisan_crafts", country: "Jamaica", design: "Jamaican Artisan Crafts", name: "Jamaica — Jamaican Artisan Crafts", image: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/QMsExVoEzOjvwgGA.png" },
+  { id: "jm_wall_art_jamaican_market", country: "Jamaica", design: "Jamaican Market", name: "Jamaica — Jamaican Market", image: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/WsfbIbwrhVfRqmKJ.png" },
+  { id: "jm_wall_art_jerk_cooking", country: "Jamaica", design: "Jerk Cooking Culture", name: "Jamaica — Jerk Cooking Culture", image: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/mzJtAZarjyaXkLti.png" },
+  { id: "jm_wall_art_maroon_heritage", country: "Jamaica", design: "Maroon Heritage", name: "Jamaica — Maroon Heritage", image: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/aAvRubaTHuHvsQpf.png" },
+  { id: "jm_wall_art_rastafari", country: "Jamaica", design: "Rastafari Culture", name: "Jamaica — Rastafari Culture", image: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/crUyFaZrLsSRMmSm.png" },
+  { id: "jm_wall_art_reggae", country: "Jamaica", design: "Reggae Culture", name: "Jamaica — Reggae Culture", image: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/fVMWvIJgcoewASve.png" },
+  { id: "jm_wall_art_seven_mile", country: "Jamaica", design: "Seven Mile Beach", name: "Jamaica — Seven Mile Beach", image: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/BBFDRDmVQhDfXgJS.png" },
+  { id: "jm_wall_art_trad_arch", country: "Jamaica", design: "Traditional Architecture", name: "Jamaica — Traditional Architecture", image: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/xoncaBYEWWZvreVS.png" },
+  // India (13 designs)
+  { id: "in_wall_art_bharatanatyam", country: "India", design: "Bharatanatyam Dance", name: "India — Bharatanatyam Dance", image: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/OdxbrrxclVTVYUjl.png" },
+  { id: "in_wall_art_diwali", country: "India", design: "Diwali Celebration", name: "India — Diwali Celebration", image: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/DPYPSrTojSnTdbaM.png" },
+  { id: "in_wall_art_himalayan", country: "India", design: "Himalayan Landscape", name: "India — Himalayan Landscape", image: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/yggqvNzCuqdxdudO.png" },
+  { id: "in_wall_art_holi", country: "India", design: "Holi Festival", name: "India — Holi Festival", image: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/RllhFIsSllovavXp.png" },
+  { id: "in_wall_art_kerala", country: "India", design: "Kerala Backwaters", name: "India — Kerala Backwaters", image: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/vvPygdxGQAeTvIIu.png" },
+  { id: "in_wall_art_lotus", country: "India", design: "Lotus Garden", name: "India — Lotus Garden", image: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/mzOjbUEXBnHLDHgM.png" },
+  { id: "in_wall_art_madhubani", country: "India", design: "Madhubani Folk Art", name: "India — Madhubani Folk Art", image: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/GUGNamoxaNvqbmsI.png" },
+  { id: "in_wall_art_mehndi", country: "India", design: "Mehndi Patterns", name: "India — Mehndi Patterns", image: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/DHAOUexwwltzEify.png" },
+  { id: "in_wall_art_mumbai", country: "India", design: "Mumbai Gateway", name: "India — Mumbai Gateway", image: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/PoSYlPZTcRqTuBQV.png" },
+  { id: "in_wall_art_peacock", country: "India", design: "Peacock Dance", name: "India — Peacock Dance", image: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/VcXTtQpSRetpgoLE.png" },
+  { id: "in_wall_art_rajasthani", country: "India", design: "Rajasthani Textiles", name: "India — Rajasthani Textiles", image: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/JPOpswWrpYFCJnJx.png" },
+  { id: "in_wall_art_silk_sari", country: "India", design: "Silk Sari Patterns", name: "India — Silk Sari Patterns", image: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/QffMHavRrDMZnEwQ.png" },
+  { id: "in_wall_art_taj_mahal", country: "India", design: "Taj Mahal", name: "India — Taj Mahal", image: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/gtfPFsoTHNnBYUDN.png" },
 ];
