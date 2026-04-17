@@ -15,7 +15,7 @@ const BROWSE_CATEGORIES = [
     desc: "Birthday, Anniversary, Sympathy & more — celebrating every culture",
     icon: Heart,
     gradient: "from-rose-400 to-pink-600",
-    image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/ng_birthday_mom_9686a463.png",
+    image: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/mghkqMfrjYlxqeck.png",
   },
   {
     href: "/graduation",
@@ -31,7 +31,7 @@ const BROWSE_CATEGORIES = [
     desc: "Fun cultural learning adventures for kids & families",
     icon: BookOpenCheck,
     gradient: "from-emerald-400 to-teal-600",
-    image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/uk_birthday_mom_35350808.png",
+    image: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/kqMVLloxNPshLEcX.png",
   },
   {
     href: "/flashcards",
@@ -58,28 +58,12 @@ const BROWSE_CATEGORIES = [
     image: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/LPvccSfHERCffTVq.png",
   },
   {
-    href: "/baby-shower",
-    title: "Baby Shower Games",
-    desc: "Printable game packs for a multicultural celebration",
-    icon: Baby,
-    gradient: "from-pink-400 to-fuchsia-500",
-    image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/australia_graduation_congrats_536f42b4.png",
-  },
-  {
     href: "/print-shop",
     title: "Print Shop",
     desc: "Physical wall art posters — printed & shipped to your door",
     icon: Printer,
     gradient: "from-sky-400 to-cyan-600",
     image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/BH_birthday_mom_wall_art_8x10_427a59ed.jpg",
-  },
-  {
-    href: "/children-books",
-    title: "Children's Books",
-    desc: "Illustrated stories celebrating cultures from around the world",
-    icon: BookOpen,
-    gradient: "from-lime-400 to-green-600",
-    image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/uk_birthday_mom_35350808.png",
   },
 ];
 
@@ -97,7 +81,6 @@ const CATEGORIES = [
   { href: "/fathers-day",     icon: Star,           title: "Father's Day",          desc: "Celebrate dads everywhere",    color: "bg-[#1a2744]" },
   { href: "/new-year",        icon: Sparkles,       title: "Happy New Year",        desc: "Ring in the New Year",         color: "bg-[#b8860b]" },
   { href: "/print-shop",      icon: Printer,        title: "Print Shop",            desc: "Physical wall art prints",     color: "bg-[#2c3e50]" },
-  { href: "/baby-shower",     icon: Baby,           title: "Baby Shower Games",     desc: "Print-at-home game packs",     color: "bg-[#8b1a4a]" },
 ];
 
 /* ─── Country list for search ───────────────────────────────────────────── */
@@ -702,7 +685,6 @@ export default function Home() {
               <ul className="space-y-2">
                 <li><Link href="/birthday" className="text-white/50 hover:text-[#d4af37] transition-colors text-xs">Greeting Cards</Link></li>
                 <li><Link href="/graduation" className="text-white/50 hover:text-[#d4af37] transition-colors text-xs">Graduation Cards</Link></li>
-                <li><Link href="/baby-shower" className="text-white/50 hover:text-[#d4af37] transition-colors text-xs">Baby Shower Games</Link></li>
                 <li><Link href="/print-shop" className="text-white/50 hover:text-[#d4af37] transition-colors text-xs">Print Shop</Link></li>
               </ul>
             </div>
@@ -715,7 +697,6 @@ export default function Home() {
                 <li><Link href="/flashcards" className="text-white/50 hover:text-[#d4af37] transition-colors text-xs">Flashcards</Link></li>
                 <li><Link href="/coloring-books" className="text-white/50 hover:text-[#d4af37] transition-colors text-xs">Coloring Books</Link></li>
                 <li><Link href="/cookbooks" className="text-white/50 hover:text-[#d4af37] transition-colors text-xs">Cookbooks</Link></li>
-                <li><Link href="/children-books" className="text-white/50 hover:text-[#d4af37] transition-colors text-xs">Children's Books</Link></li>
               </ul>
             </div>
 

@@ -3,14 +3,12 @@ import { NavBar } from "@/components/NavBar";
 import { ProductModal, type ProductInfo } from "@/components/ProductModal";
 import { ChefHat, Clock, ShoppingCart } from "lucide-react";
 
-const CDN3 = "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M";
-
 const LIVE_BOOKS = [
   {
     id: "cookbook_195_dishes",
     name: "Around the World in 195 Dishes",
     subtitle: "One iconic dish per country",
-    image: `${CDN3}/cookbook_195_dishes_cover.png`,
+    image: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/bHZRrylZvzLDsOmp.png",
     price: 999,
     badge: "New",
     description:
@@ -24,16 +22,16 @@ export default function CookbooksPage() {
   return (
     <div className="min-h-screen bg-[#faf8f4]">
       <NavBar />
-      <div className="bg-[#1a2744] text-white py-10 px-4 text-center">
+      <div className="bg-gradient-to-br from-[#faf8f4] to-[#f5f0e8] border-b border-[#d4af37]/30 py-10 px-4 text-center">
         <div className="flex items-center justify-center gap-2 mb-2">
           <ChefHat className="w-6 h-6 text-[#d4af37]" />
           <span className="text-[#d4af37] font-semibold text-sm uppercase tracking-widest">Cookbooks</span>
         </div>
-        <h1 className="text-3xl md:text-4xl font-bold font-serif mb-2">World Cuisine Cookbooks</h1>
-        <p className="text-white/70 text-lg max-w-xl mx-auto">
+        <h1 className="text-3xl md:text-4xl font-bold font-serif mb-2 text-[#1a2744]">World Cuisine Cookbooks</h1>
+        <p className="text-[#4a5568] text-lg max-w-xl mx-auto">
           Explore global flavors — recipes, cultural context, and food history from every corner of the world.
         </p>
-        <p className="text-white/60 text-sm mt-2">Instant PDF Download · Print at Home</p>
+        <p className="text-[#6b7280] text-sm mt-2">Instant PDF Download · Print at Home</p>
       </div>
 
       <div className="max-w-4xl mx-auto px-4 py-10 space-y-10">

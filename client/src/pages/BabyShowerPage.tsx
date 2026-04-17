@@ -3,9 +3,6 @@ import { NavBar } from "@/components/NavBar";
 import { ProductModal, type ProductInfo } from "@/components/ProductModal";
 import { ShoppingCart, Baby } from "lucide-react";
 
-const CDN = "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/TYed9Vpg2AWmRK9jSnP39i";
-const CDN3 = "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M";
-
 const PACKS = [
   {
     id: "baby_shower_games_40",
@@ -14,7 +11,7 @@ const PACKS = [
     price: 1499,
     badge: "Best Value",
     badgeColor: "bg-[#d4af37] text-[#1a2744]",
-    image: `${CDN}/multicultural_baby_shower_bundle_preview.jpg`,
+    image: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/mzvzRPxKMNLaUqlH.png",
     description: "The ultimate baby shower party pack! 40 printable games including bingo, trivia, word scrambles, and more. Perfect for large gatherings. Instant PDF download.",
     highlight: true,
   },
@@ -25,7 +22,7 @@ const PACKS = [
     price: 1199,
     badge: "Most Popular",
     badgeColor: "bg-[#8b1a4a] text-white",
-    image: `${CDN}/multicultural_baby_shower_bundle_preview.jpg`,
+    image: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/RXdpuQHCEFlIaukg.png",
     description: "30 printable baby shower games for a fun-filled celebration. Includes bingo, trivia, guessing games, and more. Instant PDF download.",
     highlight: false,
   },
@@ -36,7 +33,7 @@ const PACKS = [
     price: 899,
     badge: null,
     badgeColor: "",
-    image: `${CDN}/multicultural_baby_shower_bundle_preview.jpg`,
+    image: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/yPbnXbtCWvBCbssZ.png",
     description: "20 printable baby shower games — the perfect mix of bingo, trivia, and activity games for medium-sized parties. Instant PDF download.",
     highlight: false,
   },
@@ -47,7 +44,7 @@ const PACKS = [
     price: 599,
     badge: "Starter Pack",
     badgeColor: "bg-[#1a3a5c] text-white",
-    image: `${CDN}/multicultural_baby_shower_bundle_preview.jpg`,
+    image: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/jojFyGYBrSpvaCIM.png",
     description: "10 essential printable baby shower games. Perfect for intimate gatherings. Includes the most-loved games from our full collection. Instant PDF download.",
     highlight: false,
   },
@@ -61,16 +58,16 @@ export default function BabyShowerPage() {
       <NavBar />
 
       {/* Header */}
-      <div className="bg-[#1a2744] text-white py-12 px-4 text-center">
+      <div className="bg-gradient-to-br from-[#faf8f4] to-[#f5f0e8] border-b border-[#d4af37]/30 py-12 px-4 text-center">
         <div className="flex items-center justify-center gap-2 mb-3">
           <Baby className="w-7 h-7 text-[#d4af37]" />
           <span className="text-[#d4af37] font-semibold text-sm uppercase tracking-widest">Baby Shower Games</span>
         </div>
-        <h1 className="text-3xl md:text-4xl font-bold font-serif mb-2">Printable Baby Shower Games</h1>
-        <p className="text-white/70 text-lg max-w-xl mx-auto">
+        <h1 className="text-3xl md:text-4xl font-bold font-serif mb-2 text-[#1a2744]">Printable Baby Shower Games</h1>
+        <p className="text-[#4a5568] text-lg max-w-xl mx-auto">
           Fun, ready-to-print game packs for your baby shower celebration. Choose the size that fits your party.
         </p>
-        <div className="flex flex-wrap justify-center gap-4 mt-4 text-sm text-white/60">
+        <div className="flex flex-wrap justify-center gap-4 mt-4 text-sm text-[#6b7280]">
           <span>🎉 Bingo, trivia, word scrambles & more</span>
           <span>🖨️ Print at home</span>
           <span>⚡ Instant PDF download</span>
@@ -155,9 +152,9 @@ export default function BabyShowerPage() {
       )}
 
       {/* Footer */}
-      <footer className="bg-[#1a2744] text-white/60 text-center py-8 text-sm mt-8">
+      <footer className="bg-[#f5f0e8] border-t border-[#d4af37]/20 text-[#6b7280] text-center py-8 text-sm mt-8">
         <p className="italic text-[#d4af37]/70 text-sm mb-4">Send a piece of home, back home.</p>
-        <p className="text-white font-semibold mb-1">Wishes Without Borders Co</p>
+        <p className="text-[#1a2744] font-semibold mb-1">Wishes Without Borders Co</p>
         <p>Printable baby shower games · All products are instant digital downloads</p>
         <p className="mt-1">
           <a href="mailto:info@wisheswithoutbordersco.com" className="text-[#d4af37] hover:underline">

@@ -27,21 +27,21 @@ export const ANNIVERSARY_CARDS: CardProduct[] = [
   {
     "id": "dz_anniversary",
     "country": "Algeria",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/DZ_birthday_mom_3c7c5137.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/ohVcwcFMpvXICUlE.png",
     "price": 599,
     "name": "Algeria Anniversary Card"
   },
   {
     "id": "ao_anniversary",
     "country": "Angola",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/ao_birthday_mom_85345606.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/rQWRlHKHBLfFfiPZ.png",
     "price": 599,
     "name": "Angola Anniversary Card"
   },
   {
     "id": "ag_anniversary",
     "country": "Antigua and Barbuda",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/ag_birthday_mom_333bddbd.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/OXiiGFcYTSzHACCB.png",
     "price": 599,
     "name": "Antigua and Barbuda Anniversary Card"
   },
@@ -55,7 +55,7 @@ export const ANNIVERSARY_CARDS: CardProduct[] = [
   {
     "id": "am_anniversary",
     "country": "Armenia",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/am_birthday_mom_1a04ac48.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/MGbniTecNbANTAiT.png",
     "price": 599,
     "name": "Armenia Anniversary Card"
   },
@@ -76,21 +76,21 @@ export const ANNIVERSARY_CARDS: CardProduct[] = [
   {
     "id": "az_anniversary",
     "country": "Azerbaijan",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/az_birthday_mom_3836d909.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/EDBYyBdooLgOxrWD.png",
     "price": 599,
     "name": "Azerbaijan Anniversary Card"
   },
   {
     "id": "bs_anniversary",
     "country": "Bahamas",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/bs_birthday_mom_65be5f26.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/qHDfESDlrXKTsAta.png",
     "price": 599,
     "name": "Bahamas Anniversary Card"
   },
   {
     "id": "bh_anniversary",
     "country": "Bahrain",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/BH_birthday_mom_427a59ed.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/InDziugTmDhhwolz.png",
     "price": 599,
     "name": "Bahrain Anniversary Card"
   },
@@ -104,7 +104,7 @@ export const ANNIVERSARY_CARDS: CardProduct[] = [
   {
     "id": "bb_anniversary",
     "country": "Barbados",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/bb_birthday_mom_10bb0ed2.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/usVAXflclGSJEmRp.png",
     "price": 599,
     "name": "Barbados Anniversary Card"
   },
@@ -118,28 +118,28 @@ export const ANNIVERSARY_CARDS: CardProduct[] = [
   {
     "id": "be_anniversary",
     "country": "Belgium",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/be_birthday_mom_548cc4c8.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/kQtwtLUUaxYnTDfN.png",
     "price": 599,
     "name": "Belgium Anniversary Card"
   },
   {
     "id": "bz_anniversary",
     "country": "Belize",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/bz_birthday_mom_34529da0.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/pOnoeIicahmGNRyN.png",
     "price": 599,
     "name": "Belize Anniversary Card"
   },
   {
     "id": "bj_anniversary",
     "country": "Benin",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/BJ_birthday_mom_b4bb53ac.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/mkdsUaIAbAMWywbK.png",
     "price": 599,
     "name": "Benin Anniversary Card"
   },
   {
     "id": "bt_anniversary",
     "country": "Bhutan",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/BT_birthday_mom_9118c9ac.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/nOgpMGvROQHsVTcO.png",
     "price": 599,
     "name": "Bhutan Anniversary Card"
   },
@@ -160,7 +160,7 @@ export const ANNIVERSARY_CARDS: CardProduct[] = [
   {
     "id": "bw_anniversary",
     "country": "Botswana",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/bw_birthday_mom_ccd83bd4.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/SiDGdMRysJtZZfdl.png",
     "price": 599,
     "name": "Botswana Anniversary Card"
   },
@@ -181,14 +181,14 @@ export const ANNIVERSARY_CARDS: CardProduct[] = [
   {
     "id": "bf_anniversary",
     "country": "Burkina Faso",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/BF_birthday_mom_2c5b945d.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/VJNnGpuGZtWmWydH.png",
     "price": 599,
     "name": "Burkina Faso Anniversary Card"
   },
   {
     "id": "bi_anniversary",
     "country": "Burundi",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/BI_birthday_mom_18366f51.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/rFcrmQaqFNrXpLHr.png",
     "price": 599,
     "name": "Burundi Anniversary Card"
   },
@@ -202,7 +202,7 @@ export const ANNIVERSARY_CARDS: CardProduct[] = [
   {
     "id": "cm_anniversary",
     "country": "Cameroon",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/cm_birthday_mom_6c64c757.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/oBGitiAjxWknYHpJ.png",
     "price": 599,
     "name": "Cameroon Anniversary Card"
   },
@@ -216,21 +216,21 @@ export const ANNIVERSARY_CARDS: CardProduct[] = [
   {
     "id": "cv_anniversary",
     "country": "Cape Verde",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/CV_birthday_mom_69488a07.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/bLbbJgFDoYDAgRdj.png",
     "price": 599,
     "name": "Cape Verde Anniversary Card"
   },
   {
     "id": "cf_anniversary",
     "country": "Central African Republic",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/cf_birthday_mom_725a0c3f.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/BPBvHlLMizdzlAEX.png",
     "price": 599,
     "name": "Central African Republic Anniversary Card"
   },
   {
     "id": "td_anniversary",
     "country": "Chad",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/TD_birthday_mom_d7deeb25.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/KxTVHeSVFiRIoFnW.png",
     "price": 599,
     "name": "Chad Anniversary Card"
   },
@@ -258,7 +258,7 @@ export const ANNIVERSARY_CARDS: CardProduct[] = [
   {
     "id": "km_anniversary",
     "country": "Comoros",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/KM_birthday_mom_c9f7e6f5.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/DnYiPbVMEcMYvmBx.png",
     "price": 599,
     "name": "Comoros Anniversary Card"
   },
@@ -286,7 +286,7 @@ export const ANNIVERSARY_CARDS: CardProduct[] = [
   {
     "id": "cy_anniversary",
     "country": "Cyprus",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/cy_birthday_mom_4f48f663.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/EQJEvOAgtttDbIZv.png",
     "price": 599,
     "name": "Cyprus Anniversary Card"
   },
@@ -300,28 +300,28 @@ export const ANNIVERSARY_CARDS: CardProduct[] = [
   {
     "id": "cd_anniversary",
     "country": "Democratic Republic of Congo",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/CD_birthday_mom_84f68563.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/lcEWhWbhREAjkTxo.png",
     "price": 599,
     "name": "Democratic Republic of Congo Anniversary Card"
   },
   {
     "id": "dk_anniversary",
     "country": "Denmark",
-    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/vzEUgARgJQiOHImU.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/nemKADWEoULGpFfT.png",
     "price": 599,
     "name": "Denmark Anniversary Card"
   },
   {
     "id": "dj_anniversary",
     "country": "Djibouti",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/DJ_birthday_mom_b4d9acf0.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/KyzUGFCuXIbnyFzJ.png",
     "price": 599,
     "name": "Djibouti Anniversary Card"
   },
   {
     "id": "dm_anniversary",
     "country": "Dominica",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/dm_birthday_mom_4dc40592.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/EfGEdRMBhSkANpGq.png",
     "price": 599,
     "name": "Dominica Anniversary Card"
   },
@@ -363,14 +363,14 @@ export const ANNIVERSARY_CARDS: CardProduct[] = [
   {
     "id": "gq_anniversary",
     "country": "Equatorial Guinea",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/gq_birthday_mom_8acdbc11.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/SzfjQnYrJEEpuehQ.png",
     "price": 599,
     "name": "Equatorial Guinea Anniversary Card"
   },
   {
     "id": "er_anniversary",
     "country": "Eritrea",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/ER_birthday_mom_7dc191fa.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/CsMOgkSorYsBODoO.png",
     "price": 599,
     "name": "Eritrea Anniversary Card"
   },
@@ -384,7 +384,7 @@ export const ANNIVERSARY_CARDS: CardProduct[] = [
   {
     "id": "sz_anniversary",
     "country": "Eswatini",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/sz_birthday_mom_c0e3cfdc.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/CDUDAfAFdMTBQclh.png",
     "price": 599,
     "name": "Eswatini Anniversary Card"
   },
@@ -412,28 +412,28 @@ export const ANNIVERSARY_CARDS: CardProduct[] = [
   {
     "id": "ga_anniversary",
     "country": "Gabon",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/ga_birthday_mom_b7901cc4.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/XdHVtSqyERXcVlIG.png",
     "price": 599,
     "name": "Gabon Anniversary Card"
   },
   {
     "id": "gm_anniversary",
     "country": "Gambia",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/GM_birthday_mom_ae89051c.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/uVdZxxlfipqDzfio.png",
     "price": 599,
     "name": "Gambia Anniversary Card"
   },
   {
     "id": "ge_anniversary",
     "country": "Georgia",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/ge_birthday_mom_dfb2f59c.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/sPNAgWYGVuSpDKgm.png",
     "price": 599,
     "name": "Georgia Anniversary Card"
   },
   {
     "id": "de_anniversary",
     "country": "Germany",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/de_birthday_mom_ad19a201.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/gtKwwkwuZSLLrWBu.png",
     "price": 599,
     "name": "Germany Anniversary Card"
   },
@@ -447,49 +447,49 @@ export const ANNIVERSARY_CARDS: CardProduct[] = [
   {
     "id": "gr_anniversary",
     "country": "Greece",
-    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/CjvQnDEZihieqPXb.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/aXTKZkxhqfPoxtLQ.png",
     "price": 599,
     "name": "Greece Anniversary Card"
   },
   {
     "id": "gd_anniversary",
     "country": "Grenada",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/gd_birthday_mom_1542ac2f.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/PKYcnaMMgMHVrfxr.png",
     "price": 599,
     "name": "Grenada Anniversary Card"
   },
   {
     "id": "gt_anniversary",
     "country": "Guatemala",
-    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/YNQtLlVBWGNYxpam.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/CwxOYVUVGecdoACp.png",
     "price": 599,
     "name": "Guatemala Anniversary Card"
   },
   {
     "id": "gn_anniversary",
     "country": "Guinea",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/GN_birthday_mom_e453fa4b.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/NyLxAqkbQkfvzbBs.png",
     "price": 599,
     "name": "Guinea Anniversary Card"
   },
   {
     "id": "gw_anniversary",
     "country": "Guinea Bissau",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/GW_birthday_mom_0bc3b661.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/yRErGWEOaBoehJMI.png",
     "price": 599,
     "name": "Guinea Bissau Anniversary Card"
   },
   {
     "id": "gy_anniversary",
     "country": "Guyana",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/gy_birthday_mom_17151fe5.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/cKdeKAEOmcNzcpLT.png",
     "price": 599,
     "name": "Guyana Anniversary Card"
   },
   {
     "id": "ht_anniversary",
     "country": "Haiti",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/ht_birthday_mom_4e48824f.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/ZsaZIDFKyFxBXoVW.png",
     "price": 599,
     "name": "Haiti Anniversary Card"
   },
@@ -510,7 +510,7 @@ export const ANNIVERSARY_CARDS: CardProduct[] = [
   {
     "id": "in_anniversary",
     "country": "India",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/in_birthday_mom_9ecb2ef7.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/XuJkEmFUoASPvnNs.png",
     "price": 599,
     "name": "India Anniversary Card"
   },
@@ -538,49 +538,49 @@ export const ANNIVERSARY_CARDS: CardProduct[] = [
   {
     "id": "it_anniversary",
     "country": "Italy",
-    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/dyOrFXvEqjPyFNma.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/CeiOEpZIVruDUsZU.png",
     "price": 599,
     "name": "Italy Anniversary Card"
   },
   {
     "id": "ci_anniversary",
     "country": "Ivory Coast",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/CI_birthday_mom_b8da7aa2.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/vgPgeeioUGUaVTYn.png",
     "price": 599,
     "name": "Ivory Coast Anniversary Card"
   },
   {
     "id": "jm_anniversary",
     "country": "Jamaica",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/jm_birthday_mom_02258bca.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/XOtlDDgdcwtQYqdZ.png",
     "price": 599,
     "name": "Jamaica Anniversary Card"
   },
   {
     "id": "jp_anniversary",
     "country": "Japan",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/jp_birthday_mom_1773fe74.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/YsobuyVuGlpIfGdy.png",
     "price": 599,
     "name": "Japan Anniversary Card"
   },
   {
     "id": "jo_anniversary",
     "country": "Jordan",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/JO_birthday_mom_17e9170f.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/SdSDLhqYghmVJeoc.png",
     "price": 599,
     "name": "Jordan Anniversary Card"
   },
   {
     "id": "kz_anniversary",
     "country": "Kazakhstan",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/kz_birthday_mom_a0f037fb.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/pYpgwqyzNxhuqwwq.png",
     "price": 599,
     "name": "Kazakhstan Anniversary Card"
   },
   {
     "id": "ke_anniversary",
     "country": "Kenya",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/ke_birthday_mom_130454dd.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/EMykAoBjsjJUSDnu.png",
     "price": 599,
     "name": "Kenya Anniversary Card"
   },
@@ -594,7 +594,7 @@ export const ANNIVERSARY_CARDS: CardProduct[] = [
   {
     "id": "kr_anniversary",
     "country": "Korea",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/kr_birthday_mom_188febf6.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/bfKjlEiUEZlNOjTc.png",
     "price": 599,
     "name": "Korea Anniversary Card"
   },
@@ -615,14 +615,14 @@ export const ANNIVERSARY_CARDS: CardProduct[] = [
   {
     "id": "kw_anniversary",
     "country": "Kuwait",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/KW_birthday_mom_cf65da85.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/LVoduOupzxmSdzbC.png",
     "price": 599,
     "name": "Kuwait Anniversary Card"
   },
   {
     "id": "kg_anniversary",
     "country": "Kyrgyzstan",
-    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/ooarKlSdPcmnYQKr.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/gghpDgtRdteubTpt.png",
     "price": 599,
     "name": "Kyrgyzstan Anniversary Card"
   },
@@ -650,14 +650,14 @@ export const ANNIVERSARY_CARDS: CardProduct[] = [
   {
     "id": "lr_anniversary",
     "country": "Liberia",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/LR_birthday_mom_7763b744.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/gnfyGqlmcELyWXxG.png",
     "price": 599,
     "name": "Liberia Anniversary Card"
   },
   {
     "id": "ly_anniversary",
     "country": "Libya",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/LY_birthday_mom_93b4550e.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/fklUesovZxTADDAF.png",
     "price": 599,
     "name": "Libya Anniversary Card"
   },
@@ -671,21 +671,21 @@ export const ANNIVERSARY_CARDS: CardProduct[] = [
   {
     "id": "lu_anniversary",
     "country": "Luxembourg",
-    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/zDdllyznLtQumeab.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/IbHOWloliCXQjHFP.png",
     "price": 599,
     "name": "Luxembourg Anniversary Card"
   },
   {
     "id": "mg_anniversary",
     "country": "Madagascar",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/MG_birthday_mom_37ecb072.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/XFerlpYXhqgpiVay.png",
     "price": 599,
     "name": "Madagascar Anniversary Card"
   },
   {
     "id": "mw_anniversary",
     "country": "Malawi",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/MW_birthday_mom_507dfde2.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/KEQxRGJcbcHfHyEh.png",
     "price": 599,
     "name": "Malawi Anniversary Card"
   },
@@ -699,35 +699,35 @@ export const ANNIVERSARY_CARDS: CardProduct[] = [
   {
     "id": "mv_anniversary",
     "country": "Maldives",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/MV_birthday_mom_f078becd.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/mOTvOVEuTHpvLqeI.png",
     "price": 599,
     "name": "Maldives Anniversary Card"
   },
   {
     "id": "ml_anniversary",
     "country": "Mali",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/ML_birthday_mom_1bd7129a.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/PEPZiToItgdgpUVp.png",
     "price": 599,
     "name": "Mali Anniversary Card"
   },
   {
     "id": "mt_anniversary",
     "country": "Malta",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/mt_birthday_mom_e90a8229.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/EgIzEvvIdAuFWTsK.png",
     "price": 599,
     "name": "Malta Anniversary Card"
   },
   {
     "id": "mr_anniversary",
     "country": "Mauritania",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/MR_birthday_mom_e4ce2752.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/CmxbBAcQjbopnhJZ.png",
     "price": 599,
     "name": "Mauritania Anniversary Card"
   },
   {
     "id": "mu_anniversary",
     "country": "Mauritius",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/mu_birthday_mom_3e450220.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/PugjusNafomeHdgi.png",
     "price": 599,
     "name": "Mauritius Anniversary Card"
   },
@@ -741,7 +741,7 @@ export const ANNIVERSARY_CARDS: CardProduct[] = [
   {
     "id": "mn_anniversary",
     "country": "Mongolia",
-    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/TPOsbiCBeMOGYHfE.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/uvVRrhwlcFoYbbNu.png",
     "price": 599,
     "name": "Mongolia Anniversary Card"
   },
@@ -755,14 +755,14 @@ export const ANNIVERSARY_CARDS: CardProduct[] = [
   {
     "id": "ma_anniversary",
     "country": "Morocco",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/ma_birthday_mom_60b5b222.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/iCjMswFBMMqSojYx.png",
     "price": 599,
     "name": "Morocco Anniversary Card"
   },
   {
     "id": "mz_anniversary",
     "country": "Mozambique",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/MZ_birthday_mom_5499f5dd.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/qQWcrEfonMgcvCSQ.png",
     "price": 599,
     "name": "Mozambique Anniversary Card"
   },
@@ -776,7 +776,7 @@ export const ANNIVERSARY_CARDS: CardProduct[] = [
   {
     "id": "na_anniversary",
     "country": "Namibia",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/na_birthday_mom_e2338f34.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/ICylzXXhBzOiPxKP.png",
     "price": 599,
     "name": "Namibia Anniversary Card"
   },
@@ -797,14 +797,14 @@ export const ANNIVERSARY_CARDS: CardProduct[] = [
   {
     "id": "nl_anniversary",
     "country": "Netherlands",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/nl_birthday_mom_d0d52d5d.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/DZungVEDBdoTZqZi.png",
     "price": 599,
     "name": "Netherlands Anniversary Card"
   },
   {
     "id": "nz_anniversary",
     "country": "New Zealand",
-    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/JhDxpsesZAdlVwGE.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/nqPjgeFXkFTJiqdp.png",
     "price": 599,
     "name": "New Zealand Anniversary Card"
   },
@@ -818,14 +818,14 @@ export const ANNIVERSARY_CARDS: CardProduct[] = [
   {
     "id": "ne_anniversary",
     "country": "Niger",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/NE_birthday_mom_1c2f4d6d.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/ChRikCFzqNvUONEe.png",
     "price": 599,
     "name": "Niger Anniversary Card"
   },
   {
     "id": "ng_anniversary",
     "country": "Nigeria",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/ng_birthday_mom_9686a463.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/jYvjUeKRHCTiCRXc.png",
     "price": 599,
     "name": "Nigeria Anniversary Card"
   },
@@ -846,14 +846,14 @@ export const ANNIVERSARY_CARDS: CardProduct[] = [
   {
     "id": "no_anniversary",
     "country": "Norway",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/no_birthday_mom_f76bd305.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/RLNqYasnzLHhVoCQ.png",
     "price": 599,
     "name": "Norway Anniversary Card"
   },
   {
     "id": "om_anniversary",
     "country": "Oman",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/OM_birthday_mom_3e32b375.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/LtDtZnqebkICmfVe.png",
     "price": 599,
     "name": "Oman Anniversary Card"
   },
@@ -881,7 +881,7 @@ export const ANNIVERSARY_CARDS: CardProduct[] = [
   {
     "id": "pg_anniversary",
     "country": "Papua New Guinea",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/pg_birthday_mom_b484654a.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/mbskrqMRDaZMiNet.png",
     "price": 599,
     "name": "Papua New Guinea Anniversary Card"
   },
@@ -902,14 +902,14 @@ export const ANNIVERSARY_CARDS: CardProduct[] = [
   {
     "id": "ph_anniversary",
     "country": "Philippines",
-    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/ZKvYMjgYgQbcuChr.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/jLstaZZbiLDLvPEo.png",
     "price": 599,
     "name": "Philippines Anniversary Card"
   },
   {
     "id": "pl_anniversary",
     "country": "Poland",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/pl_birthday_mom_ed83e3e4.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/iwaNlWVDzBILBKEO.png",
     "price": 599,
     "name": "Poland Anniversary Card"
   },
@@ -930,14 +930,14 @@ export const ANNIVERSARY_CARDS: CardProduct[] = [
   {
     "id": "qa_anniversary",
     "country": "Qatar",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/QA_birthday_mom_3c86507a.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/aiMQZAkFqefDobhY.png",
     "price": 599,
     "name": "Qatar Anniversary Card"
   },
   {
     "id": "cg_anniversary",
     "country": "Republic of Congo",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/CG_birthday_mom_7ca96fb8.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/tWyyGRfnPYyVrlpU.png",
     "price": 599,
     "name": "Republic of Congo Anniversary Card"
   },
@@ -951,35 +951,35 @@ export const ANNIVERSARY_CARDS: CardProduct[] = [
   {
     "id": "ru_anniversary",
     "country": "Russia",
-    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/vJawcMoVdlJaTmUf.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/EHTAgNdUAtdBdcbh.png",
     "price": 599,
     "name": "Russia Anniversary Card"
   },
   {
     "id": "rw_anniversary",
     "country": "Rwanda",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/RW_birthday_mom_99c6bd5d.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/plsrSFQTHEfiKSgP.png",
     "price": 599,
     "name": "Rwanda Anniversary Card"
   },
   {
     "id": "kn_anniversary",
     "country": "Saint Kitts and Nevis",
-    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/oxosHTJlndbKSwjT.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/fUtgLHmmXkPBarPZ.png",
     "price": 599,
     "name": "Saint Kitts and Nevis Anniversary Card"
   },
   {
     "id": "lc_anniversary",
     "country": "Saint Lucia",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/lc_birthday_mom_7e6b141e.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/rEeRGFaoOpjNLTGE.png",
     "price": 599,
     "name": "Saint Lucia Anniversary Card"
   },
   {
     "id": "vc_anniversary",
     "country": "Saint Vincent and the Grenadines",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/vc_birthday_mom_2efd25b8.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/oYbXkfhQQsvCohss.png",
     "price": 599,
     "name": "Saint Vincent and the Grenadines Anniversary Card"
   },
@@ -993,21 +993,21 @@ export const ANNIVERSARY_CARDS: CardProduct[] = [
   {
     "id": "st_anniversary",
     "country": "Sao Tome and Principe",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/st_birthday_mom_a05e7209.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/sojCihVZomKgJEIs.png",
     "price": 599,
     "name": "Sao Tome and Principe Anniversary Card"
   },
   {
     "id": "sa_anniversary",
     "country": "Saudi Arabia",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/SA_birthday_mom_42c3217a.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/yzMavbQGjfyOKsXv.png",
     "price": 599,
     "name": "Saudi Arabia Anniversary Card"
   },
   {
     "id": "sn_anniversary",
     "country": "Senegal",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/sn_birthday_mom_4c5c25aa.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/UTHDSbOqAflWjRFX.png",
     "price": 599,
     "name": "Senegal Anniversary Card"
   },
@@ -1021,14 +1021,14 @@ export const ANNIVERSARY_CARDS: CardProduct[] = [
   {
     "id": "sc_anniversary",
     "country": "Seychelles",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/SC_birthday_mom_dca3d36f.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/aEAboxneWroWITsg.png",
     "price": 599,
     "name": "Seychelles Anniversary Card"
   },
   {
     "id": "sl_anniversary",
     "country": "Sierra Leone",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/SL_birthday_mom_ba45d965.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/ggpxYzYidJqSZlPY.png",
     "price": 599,
     "name": "Sierra Leone Anniversary Card"
   },
@@ -1049,14 +1049,14 @@ export const ANNIVERSARY_CARDS: CardProduct[] = [
   {
     "id": "sb_anniversary",
     "country": "Solomon Islands",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/sb_birthday_mom_91551337.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/EKKJIvXBNroPPwGi.png",
     "price": 599,
     "name": "Solomon Islands Anniversary Card"
   },
   {
     "id": "so_anniversary",
     "country": "Somalia",
-    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/mwUprLRaSOZSxHYR.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/GbhGNVfcxkxKrJuk.png",
     "price": 599,
     "name": "Somalia Anniversary Card"
   },
@@ -1070,7 +1070,7 @@ export const ANNIVERSARY_CARDS: CardProduct[] = [
   {
     "id": "ss_anniversary",
     "country": "South Sudan",
-    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/pizpvRdAbaNQhUlN.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/YRLTpfjOSqIlwByn.png",
     "price": 599,
     "name": "South Sudan Anniversary Card"
   },
@@ -1091,14 +1091,14 @@ export const ANNIVERSARY_CARDS: CardProduct[] = [
   {
     "id": "sd_anniversary",
     "country": "Sudan",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/SD_birthday_mom_e6aabba1.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/YliEMrtpFsEiAjrJ.png",
     "price": 599,
     "name": "Sudan Anniversary Card"
   },
   {
     "id": "sr_anniversary",
     "country": "Suriname",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/sr_birthday_mom_5f0c3441.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/okhSGtKhHmNOHWsc.png",
     "price": 599,
     "name": "Suriname Anniversary Card"
   },
@@ -1112,7 +1112,7 @@ export const ANNIVERSARY_CARDS: CardProduct[] = [
   {
     "id": "ch_anniversary",
     "country": "Switzerland",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/ch_birthday_mom_6b36eb90.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/pgMnAbANmCOFauBa.png",
     "price": 599,
     "name": "Switzerland Anniversary Card"
   },
@@ -1126,21 +1126,21 @@ export const ANNIVERSARY_CARDS: CardProduct[] = [
   {
     "id": "tw_anniversary",
     "country": "Taiwan",
-    "image": "",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/NggSMuRTAvmmmujQ.png",
     "price": 599,
     "name": "Taiwan Anniversary Card"
   },
   {
     "id": "tj_anniversary",
     "country": "Tajikistan",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/tj_birthday_mom_1b2bdec2.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/eAUCoOaJPLiANGiB.png",
     "price": 599,
     "name": "Tajikistan Anniversary Card"
   },
   {
     "id": "tz_anniversary",
     "country": "Tanzania",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/tz_birthday_mom_5d527177.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/WWWusymUthzOxxfF.png",
     "price": 599,
     "name": "Tanzania Anniversary Card"
   },
@@ -1154,14 +1154,14 @@ export const ANNIVERSARY_CARDS: CardProduct[] = [
   {
     "id": "tl_anniversary",
     "country": "Timor Leste",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/TL_birthday_mom_1505f48c.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/pYkjdpgdrvlRqedN.png",
     "price": 599,
     "name": "Timor Leste Anniversary Card"
   },
   {
     "id": "tg_anniversary",
     "country": "Togo",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/TG_birthday_mom_3d4be01f.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/rnmnOluSAnetYcxb.png",
     "price": 599,
     "name": "Togo Anniversary Card"
   },
@@ -1175,14 +1175,14 @@ export const ANNIVERSARY_CARDS: CardProduct[] = [
   {
     "id": "tt_anniversary",
     "country": "Trinidad Tobago",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/tt_birthday_mom_ce28febe.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/KwsMjhoDkLEkGtfL.png",
     "price": 599,
     "name": "Trinidad Tobago Anniversary Card"
   },
   {
     "id": "tn_anniversary",
     "country": "Tunisia",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/TN_birthday_mom_58a6f4bb.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/UySvkLMLRPdwxhTb.png",
     "price": 599,
     "name": "Tunisia Anniversary Card"
   },
@@ -1196,7 +1196,7 @@ export const ANNIVERSARY_CARDS: CardProduct[] = [
   {
     "id": "tm_anniversary",
     "country": "Turkmenistan",
-    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/IudgBAXchJXIxfkV.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/YAVtOZwTvfKdUJYo.png",
     "price": 599,
     "name": "Turkmenistan Anniversary Card"
   },
@@ -1210,14 +1210,14 @@ export const ANNIVERSARY_CARDS: CardProduct[] = [
   {
     "id": "ug_anniversary",
     "country": "Uganda",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/ug_birthday_mom_3932eff2.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/UppjMLmhhtWKEATD.png",
     "price": 599,
     "name": "Uganda Anniversary Card"
   },
   {
     "id": "ua_anniversary",
     "country": "Ukraine",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/ua_birthday_mom_49b68c27.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/uIFlMhHyFjcjyHse.png",
     "price": 599,
     "name": "Ukraine Anniversary Card"
   },
@@ -1231,14 +1231,14 @@ export const ANNIVERSARY_CARDS: CardProduct[] = [
   {
     "id": "uy_anniversary",
     "country": "Uruguay",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/uy_birthday_mom_210c231b.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/TugGLAQrzWMtrjiD.png",
     "price": 599,
     "name": "Uruguay Anniversary Card"
   },
   {
     "id": "uz_anniversary",
     "country": "Uzbekistan",
-    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/jEOxJiMAcNUVUvqA.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/CBLgtVtGQKOAlPCQ.png",
     "price": 599,
     "name": "Uzbekistan Anniversary Card"
   },
@@ -1266,21 +1266,21 @@ export const ANNIVERSARY_CARDS: CardProduct[] = [
   {
     "id": "ye_anniversary",
     "country": "Yemen",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/YE_birthday_mom_e46037cc.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/MPsLdzZYhknRyyMK.png",
     "price": 599,
     "name": "Yemen Anniversary Card"
   },
   {
     "id": "zm_anniversary",
     "country": "Zambia",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/ZM_birthday_mom_6d8a3357.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/VUOeqmXTCAKkiUhs.png",
     "price": 599,
     "name": "Zambia Anniversary Card"
   },
   {
     "id": "zw_anniversary",
     "country": "Zimbabwe",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/zw_birthday_mom_6da162de.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/vSOGwDbpwLhDhXEa.png",
     "price": 599,
     "name": "Zimbabwe Anniversary Card"
   }
@@ -1314,21 +1314,21 @@ export const BIRTHDAY_DAD_CARDS: CardProduct[] = [
   {
     "id": "dz_birthday_dad",
     "country": "Algeria",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/DZ_birthday_mom_3c7c5137.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/DmlVPDIydhrDXhzY.png",
     "price": 599,
     "name": "Algeria Birthday Card for Dad"
   },
   {
     "id": "ao_birthday_dad",
     "country": "Angola",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/ao_birthday_mom_85345606.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/UgLwgmEdILFJzjHO.png",
     "price": 599,
     "name": "Angola Birthday Card for Dad"
   },
   {
     "id": "ag_birthday_dad",
     "country": "Antigua and Barbuda",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/ag_birthday_mom_333bddbd.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/UKlupaxeACHkDHBu.png",
     "price": 599,
     "name": "Antigua and Barbuda Birthday Card for Dad"
   },
@@ -1342,7 +1342,7 @@ export const BIRTHDAY_DAD_CARDS: CardProduct[] = [
   {
     "id": "am_birthday_dad",
     "country": "Armenia",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/am_birthday_mom_1a04ac48.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/cdzyNsMGQjiMduCF.png",
     "price": 599,
     "name": "Armenia Birthday Card for Dad"
   },
@@ -1363,21 +1363,21 @@ export const BIRTHDAY_DAD_CARDS: CardProduct[] = [
   {
     "id": "az_birthday_dad",
     "country": "Azerbaijan",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/az_birthday_mom_3836d909.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/PKuaCJqsaBmaINiM.png",
     "price": 599,
     "name": "Azerbaijan Birthday Card for Dad"
   },
   {
     "id": "bs_birthday_dad",
     "country": "Bahamas",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/bs_birthday_mom_65be5f26.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/biSpWoWdkvCpwiep.png",
     "price": 599,
     "name": "Bahamas Birthday Card for Dad"
   },
   {
     "id": "bh_birthday_dad",
     "country": "Bahrain",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/BH_birthday_mom_wall_art_8x10_427a59ed.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/xGNfHTnbeMwQPIQg.png",
     "price": 599,
     "name": "Bahrain Birthday Card for Dad"
   },
@@ -1391,7 +1391,7 @@ export const BIRTHDAY_DAD_CARDS: CardProduct[] = [
   {
     "id": "bb_birthday_dad",
     "country": "Barbados",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/bb_birthday_mom_10bb0ed2.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/pMBdOzvqgetSgMBN.png",
     "price": 599,
     "name": "Barbados Birthday Card for Dad"
   },
@@ -1405,28 +1405,28 @@ export const BIRTHDAY_DAD_CARDS: CardProduct[] = [
   {
     "id": "be_birthday_dad",
     "country": "Belgium",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/be_birthday_mom_548cc4c8.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/wbtDAGKILFLMxDzj.png",
     "price": 599,
     "name": "Belgium Birthday Card for Dad"
   },
   {
     "id": "bz_birthday_dad",
     "country": "Belize",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/bz_birthday_mom_34529da0.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/LFcAzauhITwdXaKC.png",
     "price": 599,
     "name": "Belize Birthday Card for Dad"
   },
   {
     "id": "bj_birthday_dad",
     "country": "Benin",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/BJ_birthday_mom_wall_art_8x10_b4bb53ac.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/BylYTxzvBITcuHgi.png",
     "price": 599,
     "name": "Benin Birthday Card for Dad"
   },
   {
     "id": "bt_birthday_dad",
     "country": "Bhutan",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/BT_birthday_mom_wall_art_8x10_9118c9ac.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/cQUKVjYAEWbGlkrw.png",
     "price": 599,
     "name": "Bhutan Birthday Card for Dad"
   },
@@ -1447,7 +1447,7 @@ export const BIRTHDAY_DAD_CARDS: CardProduct[] = [
   {
     "id": "bw_birthday_dad",
     "country": "Botswana",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/bw_birthday_mom_ccd83bd4.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/tkXDVJsbDfRxkcet.png",
     "price": 599,
     "name": "Botswana Birthday Card for Dad"
   },
@@ -1468,14 +1468,14 @@ export const BIRTHDAY_DAD_CARDS: CardProduct[] = [
   {
     "id": "bf_birthday_dad",
     "country": "Burkina Faso",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/BF_birthday_mom_wall_art_8x10_2c5b945d.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/BAtofHbWRiIeTFsn.png",
     "price": 599,
     "name": "Burkina Faso Birthday Card for Dad"
   },
   {
     "id": "bi_birthday_dad",
     "country": "Burundi",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/BI_birthday_mom_wall_art_8x10_18366f51.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/jqUtIHgjJFCdsjzK.png",
     "price": 599,
     "name": "Burundi Birthday Card for Dad"
   },
@@ -1489,7 +1489,7 @@ export const BIRTHDAY_DAD_CARDS: CardProduct[] = [
   {
     "id": "cm_birthday_dad",
     "country": "Cameroon",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/cm_birthday_mom_6c64c757.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/VqoNFaQqnghMenxX.png",
     "price": 599,
     "name": "Cameroon Birthday Card for Dad"
   },
@@ -1503,21 +1503,21 @@ export const BIRTHDAY_DAD_CARDS: CardProduct[] = [
   {
     "id": "cv_birthday_dad",
     "country": "Cape Verde",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/CV_birthday_mom_wall_art_8x10_69488a07.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/YFFoyDdCGKwxlTYO.png",
     "price": 599,
     "name": "Cape Verde Birthday Card for Dad"
   },
   {
     "id": "cf_birthday_dad",
     "country": "Central African Republic",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/cf_birthday_mom_725a0c3f.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/XxfJNWqOEFairBPR.png",
     "price": 599,
     "name": "Central African Republic Birthday Card for Dad"
   },
   {
     "id": "td_birthday_dad",
     "country": "Chad",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/TD_birthday_mom_wall_art_8x10_d7deeb25.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/MBEjdxJGuqWeqtFr.png",
     "price": 599,
     "name": "Chad Birthday Card for Dad"
   },
@@ -1545,7 +1545,7 @@ export const BIRTHDAY_DAD_CARDS: CardProduct[] = [
   {
     "id": "km_birthday_dad",
     "country": "Comoros",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/KM_birthday_mom_wall_art_8x10_c9f7e6f5.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/YVuEGwxfkHjcgUqp.png",
     "price": 599,
     "name": "Comoros Birthday Card for Dad"
   },
@@ -1573,7 +1573,7 @@ export const BIRTHDAY_DAD_CARDS: CardProduct[] = [
   {
     "id": "cy_birthday_dad",
     "country": "Cyprus",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/cy_birthday_mom_4f48f663.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/yZDtvZubeIuQmRbV.png",
     "price": 599,
     "name": "Cyprus Birthday Card for Dad"
   },
@@ -1587,28 +1587,28 @@ export const BIRTHDAY_DAD_CARDS: CardProduct[] = [
   {
     "id": "cd_birthday_dad",
     "country": "Democratic Republic of Congo",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/CD_birthday_mom_wall_art_8x10_84f68563.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/ebZwBXkBifBteNEg.png",
     "price": 599,
     "name": "Democratic Republic of Congo Birthday Card for Dad"
   },
   {
     "id": "dk_birthday_dad",
     "country": "Denmark",
-    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/vzEUgARgJQiOHImU.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/FdKFwoRGGopVqlIb.png",
     "price": 599,
     "name": "Denmark Birthday Card for Dad"
   },
   {
     "id": "dj_birthday_dad",
     "country": "Djibouti",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/DJ_birthday_mom_wall_art_8x10_b4d9acf0.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/DwBxIMnOMIIwOZGR.png",
     "price": 599,
     "name": "Djibouti Birthday Card for Dad"
   },
   {
     "id": "dm_birthday_dad",
     "country": "Dominica",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/dm_birthday_mom_4dc40592.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/mMptrZSIjQjtCtGO.png",
     "price": 599,
     "name": "Dominica Birthday Card for Dad"
   },
@@ -1650,14 +1650,14 @@ export const BIRTHDAY_DAD_CARDS: CardProduct[] = [
   {
     "id": "gq_birthday_dad",
     "country": "Equatorial Guinea",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/gq_birthday_mom_8acdbc11.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/GzSJDhsJqmMpYgDy.png",
     "price": 599,
     "name": "Equatorial Guinea Birthday Card for Dad"
   },
   {
     "id": "er_birthday_dad",
     "country": "Eritrea",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/ER_birthday_mom_wall_art_8x10_7dc191fa.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/ppEDuEuoJviMAkAa.png",
     "price": 599,
     "name": "Eritrea Birthday Card for Dad"
   },
@@ -1671,7 +1671,7 @@ export const BIRTHDAY_DAD_CARDS: CardProduct[] = [
   {
     "id": "sz_birthday_dad",
     "country": "Eswatini",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/sz_birthday_mom_c0e3cfdc.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/nNpsfsPnMFyFjezF.png",
     "price": 599,
     "name": "Eswatini Birthday Card for Dad"
   },
@@ -1699,28 +1699,28 @@ export const BIRTHDAY_DAD_CARDS: CardProduct[] = [
   {
     "id": "ga_birthday_dad",
     "country": "Gabon",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/ga_birthday_mom_b7901cc4.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/HpikrJauDrRBXHph.png",
     "price": 599,
     "name": "Gabon Birthday Card for Dad"
   },
   {
     "id": "gm_birthday_dad",
     "country": "Gambia",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/GM_birthday_mom_wall_art_8x10_ae89051c.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/aCkHwFSGAnvSVaFq.png",
     "price": 599,
     "name": "Gambia Birthday Card for Dad"
   },
   {
     "id": "ge_birthday_dad",
     "country": "Georgia",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/ge_birthday_mom_dfb2f59c.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/NVKetWyWyPGMvlYj.png",
     "price": 599,
     "name": "Georgia Birthday Card for Dad"
   },
   {
     "id": "de_birthday_dad",
     "country": "Germany",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/de_birthday_mom_ad19a201.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/nGDPmHNIHjVJViwi.png",
     "price": 599,
     "name": "Germany Birthday Card for Dad"
   },
@@ -1734,49 +1734,49 @@ export const BIRTHDAY_DAD_CARDS: CardProduct[] = [
   {
     "id": "gr_birthday_dad",
     "country": "Greece",
-    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/CjvQnDEZihieqPXb.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/AqcpnVoUORtZdFQg.png",
     "price": 599,
     "name": "Greece Birthday Card for Dad"
   },
   {
     "id": "gd_birthday_dad",
     "country": "Grenada",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/gd_birthday_mom_1542ac2f.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/XCuGjzmjwyHtqRDx.png",
     "price": 599,
     "name": "Grenada Birthday Card for Dad"
   },
   {
     "id": "gt_birthday_dad",
     "country": "Guatemala",
-    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/YNQtLlVBWGNYxpam.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/yZyGNLsKtxlGnxBF.png",
     "price": 599,
     "name": "Guatemala Birthday Card for Dad"
   },
   {
     "id": "gn_birthday_dad",
     "country": "Guinea",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/GN_birthday_mom_wall_art_8x10_e453fa4b.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/MbPGoJwQfZlRNCgq.png",
     "price": 599,
     "name": "Guinea Birthday Card for Dad"
   },
   {
     "id": "gw_birthday_dad",
     "country": "Guinea Bissau",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/GW_birthday_mom_wall_art_8x10_0bc3b661.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/irGBkICOaqCmLBcv.png",
     "price": 599,
     "name": "Guinea Bissau Birthday Card for Dad"
   },
   {
     "id": "gy_birthday_dad",
     "country": "Guyana",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/gy_birthday_mom_17151fe5.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/bcJgxJkiTAZoeeTW.png",
     "price": 599,
     "name": "Guyana Birthday Card for Dad"
   },
   {
     "id": "ht_birthday_dad",
     "country": "Haiti",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/ht_birthday_mom_4e48824f.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/YzYqIlscFOjwtNwI.png",
     "price": 599,
     "name": "Haiti Birthday Card for Dad"
   },
@@ -1797,14 +1797,14 @@ export const BIRTHDAY_DAD_CARDS: CardProduct[] = [
   {
     "id": "ic_birthday_dad",
     "country": "Iceland",
-    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/LMxLvOerfLCsYDzO.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/rkGsyuiZTUURUGzX.png",
     "price": 599,
     "name": "Iceland Birthday Card for Dad"
   },
   {
     "id": "in_birthday_dad",
     "country": "India",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/in_birthday_mom_9ecb2ef7.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/dOMtNRAdaZpSZGCx.png",
     "price": 599,
     "name": "India Birthday Card for Dad"
   },
@@ -1832,49 +1832,49 @@ export const BIRTHDAY_DAD_CARDS: CardProduct[] = [
   {
     "id": "it_birthday_dad",
     "country": "Italy",
-    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/dyOrFXvEqjPyFNma.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/VETyqQEnPMgogPGC.png",
     "price": 599,
     "name": "Italy Birthday Card for Dad"
   },
   {
     "id": "ci_birthday_dad",
     "country": "Ivory Coast",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/CI_birthday_mom_wall_art_8x10_b8da7aa2.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/VrNCiNOTUmTnMyhK.png",
     "price": 599,
     "name": "Ivory Coast Birthday Card for Dad"
   },
   {
     "id": "jm_birthday_dad",
     "country": "Jamaica",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/jm_birthday_mom_02258bca.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/ghhlGZOVvcLozzDp.png",
     "price": 599,
     "name": "Jamaica Birthday Card for Dad"
   },
   {
     "id": "jp_birthday_dad",
     "country": "Japan",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/jp_birthday_mom_1773fe74.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/CMEYlDgIrnHdgGAU.png",
     "price": 599,
     "name": "Japan Birthday Card for Dad"
   },
   {
     "id": "jo_birthday_dad",
     "country": "Jordan",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/JO_birthday_mom_17e9170f.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/PdIPZQVdAXTTkdMz.png",
     "price": 599,
     "name": "Jordan Birthday Card for Dad"
   },
   {
     "id": "kz_birthday_dad",
     "country": "Kazakhstan",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/kz_birthday_mom_a0f037fb.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/gPPSvFFzazWyJhsg.png",
     "price": 599,
     "name": "Kazakhstan Birthday Card for Dad"
   },
   {
     "id": "ke_birthday_dad",
     "country": "Kenya",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/ke_birthday_mom_130454dd.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/qdGKPSPyjNlvRjQi.png",
     "price": 599,
     "name": "Kenya Birthday Card for Dad"
   },
@@ -1888,7 +1888,7 @@ export const BIRTHDAY_DAD_CARDS: CardProduct[] = [
   {
     "id": "kr_birthday_dad",
     "country": "Korea",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/kr_birthday_mom_188febf6.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/SCtjAVcaViZJSgAp.png",
     "price": 599,
     "name": "Korea Birthday Card for Dad"
   },
@@ -1909,14 +1909,14 @@ export const BIRTHDAY_DAD_CARDS: CardProduct[] = [
   {
     "id": "kw_birthday_dad",
     "country": "Kuwait",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/KW_birthday_mom_cf65da85.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/optaYhnsqMUDSGFh.png",
     "price": 599,
     "name": "Kuwait Birthday Card for Dad"
   },
   {
     "id": "kg_birthday_dad",
     "country": "Kyrgyzstan",
-    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/ooarKlSdPcmnYQKr.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/yGlqkJMqZSkDfmWy.png",
     "price": 599,
     "name": "Kyrgyzstan Birthday Card for Dad"
   },
@@ -1937,21 +1937,21 @@ export const BIRTHDAY_DAD_CARDS: CardProduct[] = [
   {
     "id": "ls_birthday_dad",
     "country": "Lesotho",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/ls_birthday_mom_72b5a453.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/FhSGILDtbeVzndNi.png",
     "price": 599,
     "name": "Lesotho Birthday Card for Dad"
   },
   {
     "id": "lr_birthday_dad",
     "country": "Liberia",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/LR_birthday_mom_wall_art_8x10_7763b744.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/DHNZhsZPTCvWdheg.png",
     "price": 599,
     "name": "Liberia Birthday Card for Dad"
   },
   {
     "id": "ly_birthday_dad",
     "country": "Libya",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/LY_birthday_mom_93b4550e.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/WhVYOhsmIYrxZBIQ.png",
     "price": 599,
     "name": "Libya Birthday Card for Dad"
   },
@@ -1965,21 +1965,21 @@ export const BIRTHDAY_DAD_CARDS: CardProduct[] = [
   {
     "id": "lu_birthday_dad",
     "country": "Luxembourg",
-    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/zDdllyznLtQumeab.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/QsGqhMhgFCNaPgKh.png",
     "price": 599,
     "name": "Luxembourg Birthday Card for Dad"
   },
   {
     "id": "mg_birthday_dad",
     "country": "Madagascar",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/MG_birthday_mom_wall_art_8x10_37ecb072.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/xhCruoyCfrHNsmRF.png",
     "price": 599,
     "name": "Madagascar Birthday Card for Dad"
   },
   {
     "id": "mw_birthday_dad",
     "country": "Malawi",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/MW_birthday_mom_wall_art_8x10_507dfde2.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/THPnOgzrsZLzWErh.png",
     "price": 599,
     "name": "Malawi Birthday Card for Dad"
   },
@@ -1993,35 +1993,35 @@ export const BIRTHDAY_DAD_CARDS: CardProduct[] = [
   {
     "id": "mv_birthday_dad",
     "country": "Maldives",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/MV_birthday_mom_wall_art_8x10_f078becd.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/shBsPeZJvLrlNfkN.png",
     "price": 599,
     "name": "Maldives Birthday Card for Dad"
   },
   {
     "id": "ml_birthday_dad",
     "country": "Mali",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/ML_birthday_mom_wall_art_8x10_1bd7129a.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/ihNVQMFlkguKQeKt.png",
     "price": 599,
     "name": "Mali Birthday Card for Dad"
   },
   {
     "id": "mt_birthday_dad",
     "country": "Malta",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/mt_birthday_mom_e90a8229.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/XVeTHMhVbMCpJwNw.png",
     "price": 599,
     "name": "Malta Birthday Card for Dad"
   },
   {
     "id": "mr_birthday_dad",
     "country": "Mauritania",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/MR_birthday_mom_wall_art_8x10_e4ce2752.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/ZnYYBREKsveAdhRw.png",
     "price": 599,
     "name": "Mauritania Birthday Card for Dad"
   },
   {
     "id": "mu_birthday_dad",
     "country": "Mauritius",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/mu_birthday_mom_3e450220.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/ocZcTxrMkYYkgekY.png",
     "price": 599,
     "name": "Mauritius Birthday Card for Dad"
   },
@@ -2035,7 +2035,7 @@ export const BIRTHDAY_DAD_CARDS: CardProduct[] = [
   {
     "id": "mn_birthday_dad",
     "country": "Mongolia",
-    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/TPOsbiCBeMOGYHfE.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/igAGvhBoGNdkPXGp.png",
     "price": 599,
     "name": "Mongolia Birthday Card for Dad"
   },
@@ -2049,14 +2049,14 @@ export const BIRTHDAY_DAD_CARDS: CardProduct[] = [
   {
     "id": "ma_birthday_dad",
     "country": "Morocco",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/ma_birthday_mom_60b5b222.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/yeuYfRgYhVUuPhVE.png",
     "price": 599,
     "name": "Morocco Birthday Card for Dad"
   },
   {
     "id": "mz_birthday_dad",
     "country": "Mozambique",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/MZ_birthday_mom_wall_art_8x10_5499f5dd.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/eZjvTdazhMJYzfAK.png",
     "price": 599,
     "name": "Mozambique Birthday Card for Dad"
   },
@@ -2070,7 +2070,7 @@ export const BIRTHDAY_DAD_CARDS: CardProduct[] = [
   {
     "id": "na_birthday_dad",
     "country": "Namibia",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/na_birthday_mom_e2338f34.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/sXZtdTFcYGPDStoJ.png",
     "price": 599,
     "name": "Namibia Birthday Card for Dad"
   },
@@ -2091,14 +2091,14 @@ export const BIRTHDAY_DAD_CARDS: CardProduct[] = [
   {
     "id": "nl_birthday_dad",
     "country": "Netherlands",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/nl_birthday_mom_d0d52d5d.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/ITHjqvBBAWcaWzCU.png",
     "price": 599,
     "name": "Netherlands Birthday Card for Dad"
   },
   {
     "id": "nz_birthday_dad",
     "country": "New Zealand",
-    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/JhDxpsesZAdlVwGE.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/RjShbYpgPaCwEQyX.png",
     "price": 599,
     "name": "New Zealand Birthday Card for Dad"
   },
@@ -2112,14 +2112,14 @@ export const BIRTHDAY_DAD_CARDS: CardProduct[] = [
   {
     "id": "ne_birthday_dad",
     "country": "Niger",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/NE_birthday_mom_wall_art_8x10_1c2f4d6d.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/BARDqeeDweGsoGaw.png",
     "price": 599,
     "name": "Niger Birthday Card for Dad"
   },
   {
     "id": "ng_birthday_dad",
     "country": "Nigeria",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/ng_birthday_mom_9686a463.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/QbjvvSiIZpZQYRov.png",
     "price": 599,
     "name": "Nigeria Birthday Card for Dad"
   },
@@ -2140,14 +2140,14 @@ export const BIRTHDAY_DAD_CARDS: CardProduct[] = [
   {
     "id": "no_birthday_dad",
     "country": "Norway",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/no_birthday_mom_f76bd305.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/dqpHdHvevuJRMUer.png",
     "price": 599,
     "name": "Norway Birthday Card for Dad"
   },
   {
     "id": "om_birthday_dad",
     "country": "Oman",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/OM_birthday_mom_3e32b375.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/SgjIlOsJROkDmIBi.png",
     "price": 599,
     "name": "Oman Birthday Card for Dad"
   },
@@ -2175,7 +2175,7 @@ export const BIRTHDAY_DAD_CARDS: CardProduct[] = [
   {
     "id": "pg_birthday_dad",
     "country": "Papua New Guinea",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/pg_birthday_mom_b484654a.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/CEcBjHJKUlalFLHV.png",
     "price": 599,
     "name": "Papua New Guinea Birthday Card for Dad"
   },
@@ -2196,14 +2196,14 @@ export const BIRTHDAY_DAD_CARDS: CardProduct[] = [
   {
     "id": "ph_birthday_dad",
     "country": "Philippines",
-    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/ZKvYMjgYgQbcuChr.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/iRfVzvjktWTKOAjd.png",
     "price": 599,
     "name": "Philippines Birthday Card for Dad"
   },
   {
     "id": "pl_birthday_dad",
     "country": "Poland",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/pl_birthday_mom_ed83e3e4.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/kBKRefDuRIOKGtbk.png",
     "price": 599,
     "name": "Poland Birthday Card for Dad"
   },
@@ -2224,14 +2224,14 @@ export const BIRTHDAY_DAD_CARDS: CardProduct[] = [
   {
     "id": "qa_birthday_dad",
     "country": "Qatar",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/QA_birthday_mom_3c86507a.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/kQPWFGjMfvjGtQJY.png",
     "price": 599,
     "name": "Qatar Birthday Card for Dad"
   },
   {
     "id": "cg_birthday_dad",
     "country": "Republic of Congo",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/CG_birthday_mom_wall_art_8x10_7ca96fb8.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/fUIJfiuXCwvWDNMC.png",
     "price": 599,
     "name": "Republic of Congo Birthday Card for Dad"
   },
@@ -2245,35 +2245,35 @@ export const BIRTHDAY_DAD_CARDS: CardProduct[] = [
   {
     "id": "ru_birthday_dad",
     "country": "Russia",
-    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/vJawcMoVdlJaTmUf.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/BrslevDsvlkJXtel.png",
     "price": 599,
     "name": "Russia Birthday Card for Dad"
   },
   {
     "id": "rw_birthday_dad",
     "country": "Rwanda",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/RW_birthday_mom_wall_art_8x10_99c6bd5d.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/cVphlRYXfgqbJqiA.png",
     "price": 599,
     "name": "Rwanda Birthday Card for Dad"
   },
   {
     "id": "kn_birthday_dad",
     "country": "Saint Kitts and Nevis",
-    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/oxosHTJlndbKSwjT.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/wpWZzrBrGAhsnAGl.png",
     "price": 599,
     "name": "Saint Kitts and Nevis Birthday Card for Dad"
   },
   {
     "id": "lc_birthday_dad",
     "country": "Saint Lucia",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/lc_birthday_mom_7e6b141e.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/PPRTYmWfJLwWSINA.png",
     "price": 599,
     "name": "Saint Lucia Birthday Card for Dad"
   },
   {
     "id": "vc_birthday_dad",
     "country": "Saint Vincent and the Grenadines",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/vc_birthday_mom_2efd25b8.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/WqNvireTNBqhogqK.png",
     "price": 599,
     "name": "Saint Vincent and the Grenadines Birthday Card for Dad"
   },
@@ -2287,21 +2287,21 @@ export const BIRTHDAY_DAD_CARDS: CardProduct[] = [
   {
     "id": "st_birthday_dad",
     "country": "Sao Tome and Principe",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/st_birthday_mom_a05e7209.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/hoXOXzZCWChkFjBi.png",
     "price": 599,
     "name": "Sao Tome and Principe Birthday Card for Dad"
   },
   {
     "id": "sa_birthday_dad",
     "country": "Saudi Arabia",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/SA_birthday_mom_42c3217a.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/UTeTtKNvPfvzqHkW.png",
     "price": 599,
     "name": "Saudi Arabia Birthday Card for Dad"
   },
   {
     "id": "sn_birthday_dad",
     "country": "Senegal",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/sn_birthday_mom_4c5c25aa.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/HOKrYxTgpmweYIbK.png",
     "price": 599,
     "name": "Senegal Birthday Card for Dad"
   },
@@ -2315,14 +2315,14 @@ export const BIRTHDAY_DAD_CARDS: CardProduct[] = [
   {
     "id": "sc_birthday_dad",
     "country": "Seychelles",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/SC_birthday_mom_wall_art_8x10_dca3d36f.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/lIOTmiENupSQKmKT.png",
     "price": 599,
     "name": "Seychelles Birthday Card for Dad"
   },
   {
     "id": "sl_birthday_dad",
     "country": "Sierra Leone",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/SL_birthday_mom_wall_art_8x10_ba45d965.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/iByEpXBKeZJGCzpi.png",
     "price": 599,
     "name": "Sierra Leone Birthday Card for Dad"
   },
@@ -2343,14 +2343,14 @@ export const BIRTHDAY_DAD_CARDS: CardProduct[] = [
   {
     "id": "sb_birthday_dad",
     "country": "Solomon Islands",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/sb_birthday_mom_91551337.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/eDfLrdEjPMAJeWBO.png",
     "price": 599,
     "name": "Solomon Islands Birthday Card for Dad"
   },
   {
     "id": "so_birthday_dad",
     "country": "Somalia",
-    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/mwUprLRaSOZSxHYR.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/mVQPRJXwrtnYVJGP.png",
     "price": 599,
     "name": "Somalia Birthday Card for Dad"
   },
@@ -2364,7 +2364,7 @@ export const BIRTHDAY_DAD_CARDS: CardProduct[] = [
   {
     "id": "ss_birthday_dad",
     "country": "South Sudan",
-    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/pizpvRdAbaNQhUlN.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/xErRwyAsgObiHNyJ.png",
     "price": 599,
     "name": "South Sudan Birthday Card for Dad"
   },
@@ -2385,14 +2385,14 @@ export const BIRTHDAY_DAD_CARDS: CardProduct[] = [
   {
     "id": "sd_birthday_dad",
     "country": "Sudan",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/SD_birthday_mom_e6aabba1.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/dSElaVIvzRcdNuJL.png",
     "price": 599,
     "name": "Sudan Birthday Card for Dad"
   },
   {
     "id": "sr_birthday_dad",
     "country": "Suriname",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/sr_birthday_mom_5f0c3441.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/ClUlrqDjDcCaAFhx.png",
     "price": 599,
     "name": "Suriname Birthday Card for Dad"
   },
@@ -2406,7 +2406,7 @@ export const BIRTHDAY_DAD_CARDS: CardProduct[] = [
   {
     "id": "ch_birthday_dad",
     "country": "Switzerland",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/ch_birthday_mom_6b36eb90.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/BZdSPHMsviuujJQp.png",
     "price": 599,
     "name": "Switzerland Birthday Card for Dad"
   },
@@ -2420,21 +2420,21 @@ export const BIRTHDAY_DAD_CARDS: CardProduct[] = [
   {
     "id": "tw_birthday_dad",
     "country": "Taiwan",
-    "image": "",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/jtZRgUAYjxzwPAhy.png",
     "price": 599,
     "name": "Taiwan Birthday Card for Dad"
   },
   {
     "id": "tj_birthday_dad",
     "country": "Tajikistan",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/tj_birthday_mom_1b2bdec2.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/CTtgkHLTqvQbbHUQ.png",
     "price": 599,
     "name": "Tajikistan Birthday Card for Dad"
   },
   {
     "id": "tz_birthday_dad",
     "country": "Tanzania",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/tz_birthday_mom_5d527177.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/QRNnpilhsCUHPOUR.png",
     "price": 599,
     "name": "Tanzania Birthday Card for Dad"
   },
@@ -2448,14 +2448,14 @@ export const BIRTHDAY_DAD_CARDS: CardProduct[] = [
   {
     "id": "tl_birthday_dad",
     "country": "Timor Leste",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/TL_birthday_mom_wall_art_8x10_1505f48c.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/rDVZRyacBjhHBckb.png",
     "price": 599,
     "name": "Timor Leste Birthday Card for Dad"
   },
   {
     "id": "tg_birthday_dad",
     "country": "Togo",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/TG_birthday_mom_wall_art_8x10_3d4be01f.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/ZTMeTZMlSSvyJcEh.png",
     "price": 599,
     "name": "Togo Birthday Card for Dad"
   },
@@ -2469,14 +2469,14 @@ export const BIRTHDAY_DAD_CARDS: CardProduct[] = [
   {
     "id": "tt_birthday_dad",
     "country": "Trinidad Tobago",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/tt_birthday_mom_ce28febe.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/gyNSbPHwZratBTWZ.png",
     "price": 599,
     "name": "Trinidad Tobago Birthday Card for Dad"
   },
   {
     "id": "tn_birthday_dad",
     "country": "Tunisia",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/TN_birthday_mom_58a6f4bb.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/NoyuUcWdbAUWzjUR.png",
     "price": 599,
     "name": "Tunisia Birthday Card for Dad"
   },
@@ -2490,7 +2490,7 @@ export const BIRTHDAY_DAD_CARDS: CardProduct[] = [
   {
     "id": "tm_birthday_dad",
     "country": "Turkmenistan",
-    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/IudgBAXchJXIxfkV.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/jlSqymkGhVymFUye.png",
     "price": 599,
     "name": "Turkmenistan Birthday Card for Dad"
   },
@@ -2504,14 +2504,14 @@ export const BIRTHDAY_DAD_CARDS: CardProduct[] = [
   {
     "id": "ug_birthday_dad",
     "country": "Uganda",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/ug_birthday_mom_3932eff2.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/QjvQSKVnqhAxMpUZ.png",
     "price": 599,
     "name": "Uganda Birthday Card for Dad"
   },
   {
     "id": "ua_birthday_dad",
     "country": "Ukraine",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/ua_birthday_mom_49b68c27.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/AKjGlJuHbhZGXBJo.png",
     "price": 599,
     "name": "Ukraine Birthday Card for Dad"
   },
@@ -2525,14 +2525,14 @@ export const BIRTHDAY_DAD_CARDS: CardProduct[] = [
   {
     "id": "uy_birthday_dad",
     "country": "Uruguay",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/uy_birthday_mom_210c231b.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/hbhgtcQXaOwkwcQF.png",
     "price": 599,
     "name": "Uruguay Birthday Card for Dad"
   },
   {
     "id": "uz_birthday_dad",
     "country": "Uzbekistan",
-    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/jEOxJiMAcNUVUvqA.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/DuXgQjZFrVXatswK.png",
     "price": 599,
     "name": "Uzbekistan Birthday Card for Dad"
   },
@@ -2560,21 +2560,21 @@ export const BIRTHDAY_DAD_CARDS: CardProduct[] = [
   {
     "id": "ye_birthday_dad",
     "country": "Yemen",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/YE_birthday_mom_e46037cc.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/ivRoihGKOdDnqUDu.png",
     "price": 599,
     "name": "Yemen Birthday Card for Dad"
   },
   {
     "id": "zm_birthday_dad",
     "country": "Zambia",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/ZM_birthday_mom_wall_art_8x10_6d8a3357.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/efmwwoznyIoWjaTD.png",
     "price": 599,
     "name": "Zambia Birthday Card for Dad"
   },
   {
     "id": "zw_birthday_dad",
     "country": "Zimbabwe",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/zw_birthday_mom_6da162de.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/BsBSvVQFckmyCgdh.png",
     "price": 599,
     "name": "Zimbabwe Birthday Card for Dad"
   }
@@ -2598,21 +2598,21 @@ export const BIRTHDAY_DAUGHTER_CARDS: CardProduct[] = [
   {
     "id": "dz_birthday_daughter",
     "country": "Algeria",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/DZ_birthday_mom_3c7c5137.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/ksNDgKqeiSRoxejP.png",
     "price": 599,
     "name": "Algeria Birthday Card for Daughter"
   },
   {
     "id": "ao_birthday_daughter",
     "country": "Angola",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/ao_birthday_mom_85345606.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/BOtRKgUMjeiHPcth.png",
     "price": 599,
     "name": "Angola Birthday Card for Daughter"
   },
   {
     "id": "ag_birthday_daughter",
     "country": "Antigua and Barbuda",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/ag_birthday_mom_333bddbd.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/eWlgYXaedGLkgdlP.png",
     "price": 599,
     "name": "Antigua and Barbuda Birthday Card for Daughter"
   },
@@ -2626,7 +2626,7 @@ export const BIRTHDAY_DAUGHTER_CARDS: CardProduct[] = [
   {
     "id": "am_birthday_daughter",
     "country": "Armenia",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/am_birthday_mom_1a04ac48.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/TlVETRnRZsFOTizd.png",
     "price": 599,
     "name": "Armenia Birthday Card for Daughter"
   },
@@ -2647,21 +2647,21 @@ export const BIRTHDAY_DAUGHTER_CARDS: CardProduct[] = [
   {
     "id": "az_birthday_daughter",
     "country": "Azerbaijan",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/az_birthday_mom_3836d909.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/OeCMlNrMSYTgJNgT.png",
     "price": 599,
     "name": "Azerbaijan Birthday Card for Daughter"
   },
   {
     "id": "bs_birthday_daughter",
     "country": "Bahamas",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/bs_birthday_mom_65be5f26.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/bykhlsrewzBCNoqB.png",
     "price": 599,
     "name": "Bahamas Birthday Card for Daughter"
   },
   {
     "id": "bh_birthday_daughter",
     "country": "Bahrain",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/BH_birthday_mom_wall_art_8x10_427a59ed.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/TEtKJWBFTDHHvFZr.png",
     "price": 599,
     "name": "Bahrain Birthday Card for Daughter"
   },
@@ -2675,7 +2675,7 @@ export const BIRTHDAY_DAUGHTER_CARDS: CardProduct[] = [
   {
     "id": "bb_birthday_daughter",
     "country": "Barbados",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/bb_birthday_mom_10bb0ed2.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/mdBumpGGexDqwWgz.png",
     "price": 599,
     "name": "Barbados Birthday Card for Daughter"
   },
@@ -2689,28 +2689,28 @@ export const BIRTHDAY_DAUGHTER_CARDS: CardProduct[] = [
   {
     "id": "be_birthday_daughter",
     "country": "Belgium",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/be_birthday_mom_548cc4c8.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/ZbVpqXIHbLbpNkrv.png",
     "price": 599,
     "name": "Belgium Birthday Card for Daughter"
   },
   {
     "id": "bz_birthday_daughter",
     "country": "Belize",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/bz_birthday_mom_34529da0.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/IVFipLjuiYENtcdc.png",
     "price": 599,
     "name": "Belize Birthday Card for Daughter"
   },
   {
     "id": "bj_birthday_daughter",
     "country": "Benin",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/BJ_birthday_mom_wall_art_8x10_b4bb53ac.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/QLmCEmCqgrlESjoV.png",
     "price": 599,
     "name": "Benin Birthday Card for Daughter"
   },
   {
     "id": "bt_birthday_daughter",
     "country": "Bhutan",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/BT_birthday_mom_wall_art_8x10_9118c9ac.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/RWUfHcVssJJrxWFg.png",
     "price": 599,
     "name": "Bhutan Birthday Card for Daughter"
   },
@@ -2731,7 +2731,7 @@ export const BIRTHDAY_DAUGHTER_CARDS: CardProduct[] = [
   {
     "id": "bw_birthday_daughter",
     "country": "Botswana",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/bw_birthday_mom_ccd83bd4.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/BeaMKRQSorkgcmSI.png",
     "price": 599,
     "name": "Botswana Birthday Card for Daughter"
   },
@@ -2752,14 +2752,14 @@ export const BIRTHDAY_DAUGHTER_CARDS: CardProduct[] = [
   {
     "id": "bf_birthday_daughter",
     "country": "Burkina Faso",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/BF_birthday_mom_wall_art_8x10_2c5b945d.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/JMrPddIonQtNnQVS.png",
     "price": 599,
     "name": "Burkina Faso Birthday Card for Daughter"
   },
   {
     "id": "bi_birthday_daughter",
     "country": "Burundi",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/BI_birthday_mom_wall_art_8x10_18366f51.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/FzmSBdAfjwQIXUIJ.png",
     "price": 599,
     "name": "Burundi Birthday Card for Daughter"
   },
@@ -2773,7 +2773,7 @@ export const BIRTHDAY_DAUGHTER_CARDS: CardProduct[] = [
   {
     "id": "cm_birthday_daughter",
     "country": "Cameroon",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/cm_birthday_mom_6c64c757.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/sAbEnhIAqJkMHuAv.png",
     "price": 599,
     "name": "Cameroon Birthday Card for Daughter"
   },
@@ -2787,21 +2787,21 @@ export const BIRTHDAY_DAUGHTER_CARDS: CardProduct[] = [
   {
     "id": "cv_birthday_daughter",
     "country": "Cape Verde",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/CV_birthday_mom_wall_art_8x10_69488a07.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/HvjyMJULsgaipMRs.png",
     "price": 599,
     "name": "Cape Verde Birthday Card for Daughter"
   },
   {
     "id": "cf_birthday_daughter",
     "country": "Central African Republic",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/cf_birthday_mom_725a0c3f.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/fmCOxqperrUgksGw.png",
     "price": 599,
     "name": "Central African Republic Birthday Card for Daughter"
   },
   {
     "id": "td_birthday_daughter",
     "country": "Chad",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/TD_birthday_mom_wall_art_8x10_d7deeb25.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/lFOEbBsuHTwlMwVg.png",
     "price": 599,
     "name": "Chad Birthday Card for Daughter"
   },
@@ -2829,7 +2829,7 @@ export const BIRTHDAY_DAUGHTER_CARDS: CardProduct[] = [
   {
     "id": "km_birthday_daughter",
     "country": "Comoros",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/KM_birthday_mom_wall_art_8x10_c9f7e6f5.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/cEyTSeZhwqTddIUH.png",
     "price": 599,
     "name": "Comoros Birthday Card for Daughter"
   },
@@ -2857,7 +2857,7 @@ export const BIRTHDAY_DAUGHTER_CARDS: CardProduct[] = [
   {
     "id": "cy_birthday_daughter",
     "country": "Cyprus",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/cy_birthday_mom_4f48f663.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/rXqKRHWyrnOldNRw.png",
     "price": 599,
     "name": "Cyprus Birthday Card for Daughter"
   },
@@ -2871,28 +2871,28 @@ export const BIRTHDAY_DAUGHTER_CARDS: CardProduct[] = [
   {
     "id": "cd_birthday_daughter",
     "country": "Democratic Republic of Congo",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/CD_birthday_mom_wall_art_8x10_84f68563.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/smZGSZEMoCsoHVOz.png",
     "price": 599,
     "name": "Democratic Republic of Congo Birthday Card for Daughter"
   },
   {
     "id": "dk_birthday_daughter",
     "country": "Denmark",
-    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/vzEUgARgJQiOHImU.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/NffsGbAcaZcxJItn.png",
     "price": 599,
     "name": "Denmark Birthday Card for Daughter"
   },
   {
     "id": "dj_birthday_daughter",
     "country": "Djibouti",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/DJ_birthday_mom_wall_art_8x10_b4d9acf0.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/sNpqpeEBFhlJeuqe.png",
     "price": 599,
     "name": "Djibouti Birthday Card for Daughter"
   },
   {
     "id": "dm_birthday_daughter",
     "country": "Dominica",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/dm_birthday_mom_4dc40592.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/QCmnFBEgKcAXcPbv.png",
     "price": 599,
     "name": "Dominica Birthday Card for Daughter"
   },
@@ -2934,14 +2934,14 @@ export const BIRTHDAY_DAUGHTER_CARDS: CardProduct[] = [
   {
     "id": "gq_birthday_daughter",
     "country": "Equatorial Guinea",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/gq_birthday_mom_8acdbc11.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/wwmvWRafKlITsPeC.png",
     "price": 599,
     "name": "Equatorial Guinea Birthday Card for Daughter"
   },
   {
     "id": "er_birthday_daughter",
     "country": "Eritrea",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/ER_birthday_mom_wall_art_8x10_7dc191fa.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/EOnsTVoTQuiAMidS.png",
     "price": 599,
     "name": "Eritrea Birthday Card for Daughter"
   },
@@ -2955,7 +2955,7 @@ export const BIRTHDAY_DAUGHTER_CARDS: CardProduct[] = [
   {
     "id": "sz_birthday_daughter",
     "country": "Eswatini",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/sz_birthday_mom_c0e3cfdc.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/aQjKBQxNaHMbGymq.png",
     "price": 599,
     "name": "Eswatini Birthday Card for Daughter"
   },
@@ -2983,28 +2983,28 @@ export const BIRTHDAY_DAUGHTER_CARDS: CardProduct[] = [
   {
     "id": "ga_birthday_daughter",
     "country": "Gabon",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/ga_birthday_mom_b7901cc4.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/nUKGzJiaCqojlsHT.png",
     "price": 599,
     "name": "Gabon Birthday Card for Daughter"
   },
   {
     "id": "gm_birthday_daughter",
     "country": "Gambia",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/GM_birthday_mom_wall_art_8x10_ae89051c.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/aDrhXqBftMYmVWtY.png",
     "price": 599,
     "name": "Gambia Birthday Card for Daughter"
   },
   {
     "id": "ge_birthday_daughter",
     "country": "Georgia",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/ge_birthday_mom_dfb2f59c.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/IcJGlWFHhTvFqNRo.png",
     "price": 599,
     "name": "Georgia Birthday Card for Daughter"
   },
   {
     "id": "de_birthday_daughter",
     "country": "Germany",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/de_birthday_mom_ad19a201.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/zHaKkqduxhbmSXRM.png",
     "price": 599,
     "name": "Germany Birthday Card for Daughter"
   },
@@ -3018,49 +3018,49 @@ export const BIRTHDAY_DAUGHTER_CARDS: CardProduct[] = [
   {
     "id": "gr_birthday_daughter",
     "country": "Greece",
-    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/CjvQnDEZihieqPXb.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/wDEUDEPAUBgdfHdp.png",
     "price": 599,
     "name": "Greece Birthday Card for Daughter"
   },
   {
     "id": "gd_birthday_daughter",
     "country": "Grenada",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/gd_birthday_mom_1542ac2f.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/pqKYvzTSYmzCTbmi.png",
     "price": 599,
     "name": "Grenada Birthday Card for Daughter"
   },
   {
     "id": "gt_birthday_daughter",
     "country": "Guatemala",
-    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/YNQtLlVBWGNYxpam.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/RewatfqWzWnSNstQ.png",
     "price": 599,
     "name": "Guatemala Birthday Card for Daughter"
   },
   {
     "id": "gn_birthday_daughter",
     "country": "Guinea",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/GN_birthday_mom_wall_art_8x10_e453fa4b.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/dMNtGSNvBxSzbfPe.png",
     "price": 599,
     "name": "Guinea Birthday Card for Daughter"
   },
   {
     "id": "gw_birthday_daughter",
     "country": "Guinea Bissau",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/GW_birthday_mom_wall_art_8x10_0bc3b661.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/BYMEdeeESybhDLDz.png",
     "price": 599,
     "name": "Guinea Bissau Birthday Card for Daughter"
   },
   {
     "id": "gy_birthday_daughter",
     "country": "Guyana",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/gy_birthday_mom_17151fe5.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/CjIjpCcUOmzzOgCX.png",
     "price": 599,
     "name": "Guyana Birthday Card for Daughter"
   },
   {
     "id": "ht_birthday_daughter",
     "country": "Haiti",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/ht_birthday_mom_4e48824f.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/mqUMRjSMdivwkfxw.png",
     "price": 599,
     "name": "Haiti Birthday Card for Daughter"
   },
@@ -3081,14 +3081,14 @@ export const BIRTHDAY_DAUGHTER_CARDS: CardProduct[] = [
   {
     "id": "ic_birthday_daughter",
     "country": "Iceland",
-    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/LMxLvOerfLCsYDzO.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/asnmGrHEmkblMzfx.png",
     "price": 599,
     "name": "Iceland Birthday Card for Daughter"
   },
   {
     "id": "in_birthday_daughter",
     "country": "India",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/in_birthday_mom_9ecb2ef7.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/zZhaQdelKxUcnVIm.png",
     "price": 599,
     "name": "India Birthday Card for Daughter"
   },
@@ -3116,49 +3116,49 @@ export const BIRTHDAY_DAUGHTER_CARDS: CardProduct[] = [
   {
     "id": "it_birthday_daughter",
     "country": "Italy",
-    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/dyOrFXvEqjPyFNma.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/HVzTiamVGSOuyzJu.png",
     "price": 599,
     "name": "Italy Birthday Card for Daughter"
   },
   {
     "id": "ci_birthday_daughter",
     "country": "Ivory Coast",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/CI_birthday_mom_wall_art_8x10_b8da7aa2.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/gpvLfakeuSxZYmoL.png",
     "price": 599,
     "name": "Ivory Coast Birthday Card for Daughter"
   },
   {
     "id": "jm_birthday_daughter",
     "country": "Jamaica",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/jm_birthday_mom_02258bca.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/nOTMXBVuMWTunKKz.png",
     "price": 599,
     "name": "Jamaica Birthday Card for Daughter"
   },
   {
     "id": "jp_birthday_daughter",
     "country": "Japan",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/jp_birthday_mom_1773fe74.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/OFSzwIUqZBvYeZof.png",
     "price": 599,
     "name": "Japan Birthday Card for Daughter"
   },
   {
     "id": "jo_birthday_daughter",
     "country": "Jordan",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/JO_birthday_mom_17e9170f.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/LjqGfElPdpgrEfPh.png",
     "price": 599,
     "name": "Jordan Birthday Card for Daughter"
   },
   {
     "id": "kz_birthday_daughter",
     "country": "Kazakhstan",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/kz_birthday_mom_a0f037fb.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/zdutXYBYZSBJLIDU.png",
     "price": 599,
     "name": "Kazakhstan Birthday Card for Daughter"
   },
   {
     "id": "ke_birthday_daughter",
     "country": "Kenya",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/ke_birthday_mom_130454dd.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/KrMASKZBxCMnJzTO.png",
     "price": 599,
     "name": "Kenya Birthday Card for Daughter"
   },
@@ -3172,7 +3172,7 @@ export const BIRTHDAY_DAUGHTER_CARDS: CardProduct[] = [
   {
     "id": "kr_birthday_daughter",
     "country": "Korea",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/kr_birthday_mom_188febf6.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/ngeMbGMTdgSvKYyO.png",
     "price": 599,
     "name": "Korea Birthday Card for Daughter"
   },
@@ -3193,14 +3193,14 @@ export const BIRTHDAY_DAUGHTER_CARDS: CardProduct[] = [
   {
     "id": "kw_birthday_daughter",
     "country": "Kuwait",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/KW_birthday_mom_cf65da85.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/KcjTMOeXOLLssFIq.png",
     "price": 599,
     "name": "Kuwait Birthday Card for Daughter"
   },
   {
     "id": "kg_birthday_daughter",
     "country": "Kyrgyzstan",
-    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/ooarKlSdPcmnYQKr.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/NfGNinWrYSijCuXC.png",
     "price": 599,
     "name": "Kyrgyzstan Birthday Card for Daughter"
   },
@@ -3221,21 +3221,21 @@ export const BIRTHDAY_DAUGHTER_CARDS: CardProduct[] = [
   {
     "id": "ls_birthday_daughter",
     "country": "Lesotho",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/ls_birthday_mom_72b5a453.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/wMSXOPobDJFMKasE.png",
     "price": 599,
     "name": "Lesotho Birthday Card for Daughter"
   },
   {
     "id": "lr_birthday_daughter",
     "country": "Liberia",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/LR_birthday_mom_wall_art_8x10_7763b744.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/RyryKWzWazAcxQxq.png",
     "price": 599,
     "name": "Liberia Birthday Card for Daughter"
   },
   {
     "id": "ly_birthday_daughter",
     "country": "Libya",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/LY_birthday_mom_93b4550e.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/JXkLWGDoCfTJYaYn.png",
     "price": 599,
     "name": "Libya Birthday Card for Daughter"
   },
@@ -3249,21 +3249,21 @@ export const BIRTHDAY_DAUGHTER_CARDS: CardProduct[] = [
   {
     "id": "lu_birthday_daughter",
     "country": "Luxembourg",
-    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/zDdllyznLtQumeab.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/KwqYYzVpbciDgbWH.png",
     "price": 599,
     "name": "Luxembourg Birthday Card for Daughter"
   },
   {
     "id": "mg_birthday_daughter",
     "country": "Madagascar",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/MG_birthday_mom_wall_art_8x10_37ecb072.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/bbHeYzQuldLfkViK.png",
     "price": 599,
     "name": "Madagascar Birthday Card for Daughter"
   },
   {
     "id": "mw_birthday_daughter",
     "country": "Malawi",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/MW_birthday_mom_wall_art_8x10_507dfde2.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/uwxUpdJwvJKdJrpe.png",
     "price": 599,
     "name": "Malawi Birthday Card for Daughter"
   },
@@ -3277,35 +3277,35 @@ export const BIRTHDAY_DAUGHTER_CARDS: CardProduct[] = [
   {
     "id": "mv_birthday_daughter",
     "country": "Maldives",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/MV_birthday_mom_wall_art_8x10_f078becd.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/GflRGejGOKScUUSS.png",
     "price": 599,
     "name": "Maldives Birthday Card for Daughter"
   },
   {
     "id": "ml_birthday_daughter",
     "country": "Mali",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/ML_birthday_mom_wall_art_8x10_1bd7129a.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/OQOsnZPwgVXpTmAu.png",
     "price": 599,
     "name": "Mali Birthday Card for Daughter"
   },
   {
     "id": "mt_birthday_daughter",
     "country": "Malta",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/mt_birthday_mom_e90a8229.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/DcYhLFKqUjcChuXT.png",
     "price": 599,
     "name": "Malta Birthday Card for Daughter"
   },
   {
     "id": "mr_birthday_daughter",
     "country": "Mauritania",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/MR_birthday_mom_wall_art_8x10_e4ce2752.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/cMFIaQdnJjeTdifB.png",
     "price": 599,
     "name": "Mauritania Birthday Card for Daughter"
   },
   {
     "id": "mu_birthday_daughter",
     "country": "Mauritius",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/mu_birthday_mom_3e450220.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/XlYTkRSMARUxcfBi.png",
     "price": 599,
     "name": "Mauritius Birthday Card for Daughter"
   },
@@ -3319,7 +3319,7 @@ export const BIRTHDAY_DAUGHTER_CARDS: CardProduct[] = [
   {
     "id": "mn_birthday_daughter",
     "country": "Mongolia",
-    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/TPOsbiCBeMOGYHfE.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/bmEjyuyEaMjPoUxW.png",
     "price": 599,
     "name": "Mongolia Birthday Card for Daughter"
   },
@@ -3333,14 +3333,14 @@ export const BIRTHDAY_DAUGHTER_CARDS: CardProduct[] = [
   {
     "id": "ma_birthday_daughter",
     "country": "Morocco",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/ma_birthday_mom_60b5b222.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/aGwtjmsMYEqkkMVW.png",
     "price": 599,
     "name": "Morocco Birthday Card for Daughter"
   },
   {
     "id": "mz_birthday_daughter",
     "country": "Mozambique",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/MZ_birthday_mom_wall_art_8x10_5499f5dd.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/YlLaMyFTUcxDTaXw.png",
     "price": 599,
     "name": "Mozambique Birthday Card for Daughter"
   },
@@ -3354,7 +3354,7 @@ export const BIRTHDAY_DAUGHTER_CARDS: CardProduct[] = [
   {
     "id": "na_birthday_daughter",
     "country": "Namibia",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/na_birthday_mom_e2338f34.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/CcKkAtsyHkLmWoeW.png",
     "price": 599,
     "name": "Namibia Birthday Card for Daughter"
   },
@@ -3375,14 +3375,14 @@ export const BIRTHDAY_DAUGHTER_CARDS: CardProduct[] = [
   {
     "id": "nl_birthday_daughter",
     "country": "Netherlands",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/nl_birthday_mom_d0d52d5d.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/dwPwwjclEhZkrhMO.png",
     "price": 599,
     "name": "Netherlands Birthday Card for Daughter"
   },
   {
     "id": "nz_birthday_daughter",
     "country": "New Zealand",
-    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/JhDxpsesZAdlVwGE.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/fDYYmBQtYNoBKXOu.png",
     "price": 599,
     "name": "New Zealand Birthday Card for Daughter"
   },
@@ -3396,14 +3396,14 @@ export const BIRTHDAY_DAUGHTER_CARDS: CardProduct[] = [
   {
     "id": "ne_birthday_daughter",
     "country": "Niger",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/NE_birthday_mom_wall_art_8x10_1c2f4d6d.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/rYdDlRbAsqTEOsVz.png",
     "price": 599,
     "name": "Niger Birthday Card for Daughter"
   },
   {
     "id": "ng_birthday_daughter",
     "country": "Nigeria",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/ng_birthday_mom_9686a463.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/ThRGjAZZVnQpcqee.png",
     "price": 599,
     "name": "Nigeria Birthday Card for Daughter"
   },
@@ -3424,14 +3424,14 @@ export const BIRTHDAY_DAUGHTER_CARDS: CardProduct[] = [
   {
     "id": "no_birthday_daughter",
     "country": "Norway",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/no_birthday_mom_f76bd305.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/TalODahxabMxybTf.png",
     "price": 599,
     "name": "Norway Birthday Card for Daughter"
   },
   {
     "id": "om_birthday_daughter",
     "country": "Oman",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/OM_birthday_mom_3e32b375.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/hSPSNzhSZdFddleg.png",
     "price": 599,
     "name": "Oman Birthday Card for Daughter"
   },
@@ -3459,7 +3459,7 @@ export const BIRTHDAY_DAUGHTER_CARDS: CardProduct[] = [
   {
     "id": "pg_birthday_daughter",
     "country": "Papua New Guinea",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/pg_birthday_mom_b484654a.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/CyJchkmDmejKDGoH.png",
     "price": 599,
     "name": "Papua New Guinea Birthday Card for Daughter"
   },
@@ -3480,14 +3480,14 @@ export const BIRTHDAY_DAUGHTER_CARDS: CardProduct[] = [
   {
     "id": "ph_birthday_daughter",
     "country": "Philippines",
-    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/ZKvYMjgYgQbcuChr.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/ntejEaPqInGjFztG.png",
     "price": 599,
     "name": "Philippines Birthday Card for Daughter"
   },
   {
     "id": "pl_birthday_daughter",
     "country": "Poland",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/pl_birthday_mom_ed83e3e4.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/FJgtjhYglhdtNmjB.png",
     "price": 599,
     "name": "Poland Birthday Card for Daughter"
   },
@@ -3508,14 +3508,14 @@ export const BIRTHDAY_DAUGHTER_CARDS: CardProduct[] = [
   {
     "id": "qa_birthday_daughter",
     "country": "Qatar",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/QA_birthday_mom_3c86507a.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/sOrqEMTVrVWyWPXQ.png",
     "price": 599,
     "name": "Qatar Birthday Card for Daughter"
   },
   {
     "id": "cg_birthday_daughter",
     "country": "Republic of Congo",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/CG_birthday_mom_wall_art_8x10_7ca96fb8.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/VEsUMLtrgugcyexb.png",
     "price": 599,
     "name": "Republic of Congo Birthday Card for Daughter"
   },
@@ -3529,35 +3529,35 @@ export const BIRTHDAY_DAUGHTER_CARDS: CardProduct[] = [
   {
     "id": "ru_birthday_daughter",
     "country": "Russia",
-    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/vJawcMoVdlJaTmUf.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/VunLocMSylfVOBMX.png",
     "price": 599,
     "name": "Russia Birthday Card for Daughter"
   },
   {
     "id": "rw_birthday_daughter",
     "country": "Rwanda",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/RW_birthday_mom_wall_art_8x10_99c6bd5d.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/TpZepYkrOwLNAUGv.png",
     "price": 599,
     "name": "Rwanda Birthday Card for Daughter"
   },
   {
     "id": "kn_birthday_daughter",
     "country": "Saint Kitts and Nevis",
-    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/oxosHTJlndbKSwjT.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/PysiIcYsvavCoyxq.png",
     "price": 599,
     "name": "Saint Kitts and Nevis Birthday Card for Daughter"
   },
   {
     "id": "lc_birthday_daughter",
     "country": "Saint Lucia",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/lc_birthday_mom_7e6b141e.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/mTyqwBQqWTgQCEOf.png",
     "price": 599,
     "name": "Saint Lucia Birthday Card for Daughter"
   },
   {
     "id": "vc_birthday_daughter",
     "country": "Saint Vincent and the Grenadines",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/vc_birthday_mom_2efd25b8.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/UGfONFkipQrUifOW.png",
     "price": 599,
     "name": "Saint Vincent and the Grenadines Birthday Card for Daughter"
   },
@@ -3571,21 +3571,21 @@ export const BIRTHDAY_DAUGHTER_CARDS: CardProduct[] = [
   {
     "id": "st_birthday_daughter",
     "country": "Sao Tome and Principe",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/st_birthday_mom_a05e7209.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/BpSRQcBgigzmnKSI.png",
     "price": 599,
     "name": "Sao Tome and Principe Birthday Card for Daughter"
   },
   {
     "id": "sa_birthday_daughter",
     "country": "Saudi Arabia",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/SA_birthday_mom_42c3217a.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/yuXHTygHbBVCEWNh.png",
     "price": 599,
     "name": "Saudi Arabia Birthday Card for Daughter"
   },
   {
     "id": "sn_birthday_daughter",
     "country": "Senegal",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/sn_birthday_mom_4c5c25aa.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/HBVCGenADdtpsCRj.png",
     "price": 599,
     "name": "Senegal Birthday Card for Daughter"
   },
@@ -3599,14 +3599,14 @@ export const BIRTHDAY_DAUGHTER_CARDS: CardProduct[] = [
   {
     "id": "sc_birthday_daughter",
     "country": "Seychelles",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/SC_birthday_mom_wall_art_8x10_dca3d36f.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/nSmWrPiFBVLErQQN.png",
     "price": 599,
     "name": "Seychelles Birthday Card for Daughter"
   },
   {
     "id": "sl_birthday_daughter",
     "country": "Sierra Leone",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/SL_birthday_mom_wall_art_8x10_ba45d965.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/MRgGscoKuvXGjEYG.png",
     "price": 599,
     "name": "Sierra Leone Birthday Card for Daughter"
   },
@@ -3627,14 +3627,14 @@ export const BIRTHDAY_DAUGHTER_CARDS: CardProduct[] = [
   {
     "id": "sb_birthday_daughter",
     "country": "Solomon Islands",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/sb_birthday_mom_91551337.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/csoBgZRXVJqVkCqw.png",
     "price": 599,
     "name": "Solomon Islands Birthday Card for Daughter"
   },
   {
     "id": "so_birthday_daughter",
     "country": "Somalia",
-    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/mwUprLRaSOZSxHYR.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/LWAeGEOYPuepkfgb.png",
     "price": 599,
     "name": "Somalia Birthday Card for Daughter"
   },
@@ -3648,7 +3648,7 @@ export const BIRTHDAY_DAUGHTER_CARDS: CardProduct[] = [
   {
     "id": "ss_birthday_daughter",
     "country": "South Sudan",
-    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/pizpvRdAbaNQhUlN.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/MxukcGcaNXtuQhuB.png",
     "price": 599,
     "name": "South Sudan Birthday Card for Daughter"
   },
@@ -3669,14 +3669,14 @@ export const BIRTHDAY_DAUGHTER_CARDS: CardProduct[] = [
   {
     "id": "sd_birthday_daughter",
     "country": "Sudan",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/SD_birthday_mom_e6aabba1.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/dfgRhQHphaxaVrvJ.png",
     "price": 599,
     "name": "Sudan Birthday Card for Daughter"
   },
   {
     "id": "sr_birthday_daughter",
     "country": "Suriname",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/sr_birthday_mom_5f0c3441.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/KTKTEOKtHPDnsejb.png",
     "price": 599,
     "name": "Suriname Birthday Card for Daughter"
   },
@@ -3690,7 +3690,7 @@ export const BIRTHDAY_DAUGHTER_CARDS: CardProduct[] = [
   {
     "id": "ch_birthday_daughter",
     "country": "Switzerland",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/ch_birthday_mom_6b36eb90.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/HauWrHwSTIHCtbsR.png",
     "price": 599,
     "name": "Switzerland Birthday Card for Daughter"
   },
@@ -3704,21 +3704,21 @@ export const BIRTHDAY_DAUGHTER_CARDS: CardProduct[] = [
   {
     "id": "tw_birthday_daughter",
     "country": "Taiwan",
-    "image": "",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/dsfgUvtmfHdUeLdx.png",
     "price": 599,
     "name": "Taiwan Birthday Card for Daughter"
   },
   {
     "id": "tj_birthday_daughter",
     "country": "Tajikistan",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/tj_birthday_mom_1b2bdec2.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/zNpxpdpRATnFchfH.png",
     "price": 599,
     "name": "Tajikistan Birthday Card for Daughter"
   },
   {
     "id": "tz_birthday_daughter",
     "country": "Tanzania",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/tz_birthday_mom_5d527177.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/QBJICcqsdngQwGOo.png",
     "price": 599,
     "name": "Tanzania Birthday Card for Daughter"
   },
@@ -3732,14 +3732,14 @@ export const BIRTHDAY_DAUGHTER_CARDS: CardProduct[] = [
   {
     "id": "tl_birthday_daughter",
     "country": "Timor Leste",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/TL_birthday_mom_wall_art_8x10_1505f48c.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/SaQReLMbdWwyqtjA.png",
     "price": 599,
     "name": "Timor Leste Birthday Card for Daughter"
   },
   {
     "id": "tg_birthday_daughter",
     "country": "Togo",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/TG_birthday_mom_wall_art_8x10_3d4be01f.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/UEIcGCdQwrUjUcFX.png",
     "price": 599,
     "name": "Togo Birthday Card for Daughter"
   },
@@ -3753,14 +3753,14 @@ export const BIRTHDAY_DAUGHTER_CARDS: CardProduct[] = [
   {
     "id": "tt_birthday_daughter",
     "country": "Trinidad Tobago",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/tt_birthday_mom_ce28febe.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/XsLHeetgtbWDMxoF.png",
     "price": 599,
     "name": "Trinidad Tobago Birthday Card for Daughter"
   },
   {
     "id": "tn_birthday_daughter",
     "country": "Tunisia",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/TN_birthday_mom_58a6f4bb.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/dhFREsPmflKqUHIT.png",
     "price": 599,
     "name": "Tunisia Birthday Card for Daughter"
   },
@@ -3774,7 +3774,7 @@ export const BIRTHDAY_DAUGHTER_CARDS: CardProduct[] = [
   {
     "id": "tm_birthday_daughter",
     "country": "Turkmenistan",
-    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/IudgBAXchJXIxfkV.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/rxamNOgqhcoLHyMi.png",
     "price": 599,
     "name": "Turkmenistan Birthday Card for Daughter"
   },
@@ -3788,14 +3788,14 @@ export const BIRTHDAY_DAUGHTER_CARDS: CardProduct[] = [
   {
     "id": "ug_birthday_daughter",
     "country": "Uganda",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/ug_birthday_mom_3932eff2.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/icVFIvPYpvnPuDaa.png",
     "price": 599,
     "name": "Uganda Birthday Card for Daughter"
   },
   {
     "id": "ua_birthday_daughter",
     "country": "Ukraine",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/ua_birthday_mom_49b68c27.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/OuHEheGdaswBrZde.png",
     "price": 599,
     "name": "Ukraine Birthday Card for Daughter"
   },
@@ -3809,14 +3809,14 @@ export const BIRTHDAY_DAUGHTER_CARDS: CardProduct[] = [
   {
     "id": "uy_birthday_daughter",
     "country": "Uruguay",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/uy_birthday_mom_210c231b.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/hSqOspUyDypTtdkE.png",
     "price": 599,
     "name": "Uruguay Birthday Card for Daughter"
   },
   {
     "id": "uz_birthday_daughter",
     "country": "Uzbekistan",
-    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/jEOxJiMAcNUVUvqA.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/XWTtAzGfSJhVYSIh.png",
     "price": 599,
     "name": "Uzbekistan Birthday Card for Daughter"
   },
@@ -3844,21 +3844,21 @@ export const BIRTHDAY_DAUGHTER_CARDS: CardProduct[] = [
   {
     "id": "ye_birthday_daughter",
     "country": "Yemen",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/YE_birthday_mom_e46037cc.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/ZSSkKeBAqWmBfpnQ.png",
     "price": 599,
     "name": "Yemen Birthday Card for Daughter"
   },
   {
     "id": "zm_birthday_daughter",
     "country": "Zambia",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/ZM_birthday_mom_wall_art_8x10_6d8a3357.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/PneOgQkLwJcWiurl.png",
     "price": 599,
     "name": "Zambia Birthday Card for Daughter"
   },
   {
     "id": "zw_birthday_daughter",
     "country": "Zimbabwe",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/zw_birthday_mom_6da162de.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/EJzwxdGKYZhaElGK.png",
     "price": 599,
     "name": "Zimbabwe Birthday Card for Daughter"
   }
@@ -4687,7 +4687,7 @@ export const BIRTHDAY_MOM_CARDS: CardProduct[] = [
   {
     "id": "ng_birthday_mom",
     "country": "Nigeria",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/ng_birthday_mom_9686a463.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/QbjvvSiIZpZQYRov.png",
     "price": 599,
     "name": "Nigeria Birthday Card for Mom"
   },
@@ -5166,21 +5166,21 @@ export const BIRTHDAY_SON_CARDS: CardProduct[] = [
   {
     "id": "dz_birthday_son",
     "country": "Algeria",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/DZ_birthday_mom_3c7c5137.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/yxXaTnytzeeSoUQP.png",
     "price": 599,
     "name": "Algeria Birthday Card for Son"
   },
   {
     "id": "ao_birthday_son",
     "country": "Angola",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/ao_birthday_mom_85345606.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/JMQlvazthmPDyGGI.png",
     "price": 599,
     "name": "Angola Birthday Card for Son"
   },
   {
     "id": "ag_birthday_son",
     "country": "Antigua and Barbuda",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/ag_birthday_mom_333bddbd.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/hrqhryJuwDmLfABV.png",
     "price": 599,
     "name": "Antigua and Barbuda Birthday Card for Son"
   },
@@ -5194,7 +5194,7 @@ export const BIRTHDAY_SON_CARDS: CardProduct[] = [
   {
     "id": "am_birthday_son",
     "country": "Armenia",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/am_birthday_mom_1a04ac48.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/SMgQxnavlbhUSFjg.png",
     "price": 599,
     "name": "Armenia Birthday Card for Son"
   },
@@ -5215,21 +5215,21 @@ export const BIRTHDAY_SON_CARDS: CardProduct[] = [
   {
     "id": "az_birthday_son",
     "country": "Azerbaijan",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/az_birthday_mom_3836d909.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/EYlnYsIlXwdQuOfl.png",
     "price": 599,
     "name": "Azerbaijan Birthday Card for Son"
   },
   {
     "id": "bs_birthday_son",
     "country": "Bahamas",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/bs_birthday_mom_65be5f26.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/YGAQhoFZQBKtEMGA.png",
     "price": 599,
     "name": "Bahamas Birthday Card for Son"
   },
   {
     "id": "bh_birthday_son",
     "country": "Bahrain",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/BH_birthday_mom_wall_art_8x10_427a59ed.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/SNBEstUpaEwLgLzJ.png",
     "price": 599,
     "name": "Bahrain Birthday Card for Son"
   },
@@ -5243,7 +5243,7 @@ export const BIRTHDAY_SON_CARDS: CardProduct[] = [
   {
     "id": "bb_birthday_son",
     "country": "Barbados",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/bb_birthday_mom_10bb0ed2.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/IxzKfdmlvjKakpsV.png",
     "price": 599,
     "name": "Barbados Birthday Card for Son"
   },
@@ -5257,28 +5257,28 @@ export const BIRTHDAY_SON_CARDS: CardProduct[] = [
   {
     "id": "be_birthday_son",
     "country": "Belgium",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/be_birthday_mom_548cc4c8.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/rxFyEmdSPCJNQrrK.png",
     "price": 599,
     "name": "Belgium Birthday Card for Son"
   },
   {
     "id": "bz_birthday_son",
     "country": "Belize",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/bz_birthday_mom_34529da0.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/VKeyhutsrRmjKYwV.png",
     "price": 599,
     "name": "Belize Birthday Card for Son"
   },
   {
     "id": "bj_birthday_son",
     "country": "Benin",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/BJ_birthday_mom_wall_art_8x10_b4bb53ac.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/kixdmAStQJGplrhg.png",
     "price": 599,
     "name": "Benin Birthday Card for Son"
   },
   {
     "id": "bt_birthday_son",
     "country": "Bhutan",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/BT_birthday_mom_wall_art_8x10_9118c9ac.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/qyobtkaqvVQPanYp.png",
     "price": 599,
     "name": "Bhutan Birthday Card for Son"
   },
@@ -5299,7 +5299,7 @@ export const BIRTHDAY_SON_CARDS: CardProduct[] = [
   {
     "id": "bw_birthday_son",
     "country": "Botswana",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/bw_birthday_mom_ccd83bd4.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/uyZUrCyrPvlkTzyG.png",
     "price": 599,
     "name": "Botswana Birthday Card for Son"
   },
@@ -5320,14 +5320,14 @@ export const BIRTHDAY_SON_CARDS: CardProduct[] = [
   {
     "id": "bf_birthday_son",
     "country": "Burkina Faso",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/BF_birthday_mom_wall_art_8x10_2c5b945d.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/JxwHPllYiLbANtZj.png",
     "price": 599,
     "name": "Burkina Faso Birthday Card for Son"
   },
   {
     "id": "bi_birthday_son",
     "country": "Burundi",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/BI_birthday_mom_wall_art_8x10_18366f51.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/GjQJNLCPkAUvyXtk.png",
     "price": 599,
     "name": "Burundi Birthday Card for Son"
   },
@@ -5341,7 +5341,7 @@ export const BIRTHDAY_SON_CARDS: CardProduct[] = [
   {
     "id": "cm_birthday_son",
     "country": "Cameroon",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/cm_birthday_mom_6c64c757.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/fPYPNBbxndhGslTg.png",
     "price": 599,
     "name": "Cameroon Birthday Card for Son"
   },
@@ -5355,21 +5355,21 @@ export const BIRTHDAY_SON_CARDS: CardProduct[] = [
   {
     "id": "cv_birthday_son",
     "country": "Cape Verde",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/CV_birthday_mom_wall_art_8x10_69488a07.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/TBhhJTnZroqEbmXy.png",
     "price": 599,
     "name": "Cape Verde Birthday Card for Son"
   },
   {
     "id": "cf_birthday_son",
     "country": "Central African Republic",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/cf_birthday_mom_725a0c3f.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/xrJsUJXZZmxJZFJg.png",
     "price": 599,
     "name": "Central African Republic Birthday Card for Son"
   },
   {
     "id": "td_birthday_son",
     "country": "Chad",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/TD_birthday_mom_wall_art_8x10_d7deeb25.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/RiHVwYgjLnvDcafJ.png",
     "price": 599,
     "name": "Chad Birthday Card for Son"
   },
@@ -5397,7 +5397,7 @@ export const BIRTHDAY_SON_CARDS: CardProduct[] = [
   {
     "id": "km_birthday_son",
     "country": "Comoros",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/KM_birthday_mom_wall_art_8x10_c9f7e6f5.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/jxCwlVhBLyBcBYNS.png",
     "price": 599,
     "name": "Comoros Birthday Card for Son"
   },
@@ -5425,7 +5425,7 @@ export const BIRTHDAY_SON_CARDS: CardProduct[] = [
   {
     "id": "cy_birthday_son",
     "country": "Cyprus",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/cy_birthday_mom_4f48f663.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/nDXcaFLuECypEirz.png",
     "price": 599,
     "name": "Cyprus Birthday Card for Son"
   },
@@ -5439,28 +5439,28 @@ export const BIRTHDAY_SON_CARDS: CardProduct[] = [
   {
     "id": "cd_birthday_son",
     "country": "Democratic Republic of Congo",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/CD_birthday_mom_wall_art_8x10_84f68563.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/gCpjzUAOGGazIXwW.png",
     "price": 599,
     "name": "Democratic Republic of Congo Birthday Card for Son"
   },
   {
     "id": "dk_birthday_son",
     "country": "Denmark",
-    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/vzEUgARgJQiOHImU.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/upAQjvtXxWRLBGmU.png",
     "price": 599,
     "name": "Denmark Birthday Card for Son"
   },
   {
     "id": "dj_birthday_son",
     "country": "Djibouti",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/DJ_birthday_mom_wall_art_8x10_b4d9acf0.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/bYZeqnUhuLcuhxsi.png",
     "price": 599,
     "name": "Djibouti Birthday Card for Son"
   },
   {
     "id": "dm_birthday_son",
     "country": "Dominica",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/dm_birthday_mom_4dc40592.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/MhDDRVXtQwQFkHdM.png",
     "price": 599,
     "name": "Dominica Birthday Card for Son"
   },
@@ -5502,14 +5502,14 @@ export const BIRTHDAY_SON_CARDS: CardProduct[] = [
   {
     "id": "gq_birthday_son",
     "country": "Equatorial Guinea",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/gq_birthday_mom_8acdbc11.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/IuivRZCOVDQphwGm.png",
     "price": 599,
     "name": "Equatorial Guinea Birthday Card for Son"
   },
   {
     "id": "er_birthday_son",
     "country": "Eritrea",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/ER_birthday_mom_wall_art_8x10_7dc191fa.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/tfwQbjhuQRgqEFMv.png",
     "price": 599,
     "name": "Eritrea Birthday Card for Son"
   },
@@ -5523,7 +5523,7 @@ export const BIRTHDAY_SON_CARDS: CardProduct[] = [
   {
     "id": "sz_birthday_son",
     "country": "Eswatini",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/sz_birthday_mom_c0e3cfdc.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/DrqQqAHHsBaiqIyE.png",
     "price": 599,
     "name": "Eswatini Birthday Card for Son"
   },
@@ -5551,28 +5551,28 @@ export const BIRTHDAY_SON_CARDS: CardProduct[] = [
   {
     "id": "ga_birthday_son",
     "country": "Gabon",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/ga_birthday_mom_b7901cc4.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/hlYWstjeGjakWBEH.png",
     "price": 599,
     "name": "Gabon Birthday Card for Son"
   },
   {
     "id": "gm_birthday_son",
     "country": "Gambia",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/GM_birthday_mom_wall_art_8x10_ae89051c.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/mPUiPxjEycNvdHpB.png",
     "price": 599,
     "name": "Gambia Birthday Card for Son"
   },
   {
     "id": "ge_birthday_son",
     "country": "Georgia",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/ge_birthday_mom_dfb2f59c.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/ZgVoTNsozVKCnUun.png",
     "price": 599,
     "name": "Georgia Birthday Card for Son"
   },
   {
     "id": "de_birthday_son",
     "country": "Germany",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/de_birthday_mom_ad19a201.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/DMrceIFYqLuXWCiY.png",
     "price": 599,
     "name": "Germany Birthday Card for Son"
   },
@@ -5586,49 +5586,49 @@ export const BIRTHDAY_SON_CARDS: CardProduct[] = [
   {
     "id": "gr_birthday_son",
     "country": "Greece",
-    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/CjvQnDEZihieqPXb.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/CXprncMzrbSPeTer.png",
     "price": 599,
     "name": "Greece Birthday Card for Son"
   },
   {
     "id": "gd_birthday_son",
     "country": "Grenada",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/gd_birthday_mom_1542ac2f.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/rslnVRABKJkycALf.png",
     "price": 599,
     "name": "Grenada Birthday Card for Son"
   },
   {
     "id": "gt_birthday_son",
     "country": "Guatemala",
-    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/YNQtLlVBWGNYxpam.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/pcmHGfuaGZdFYZDG.png",
     "price": 599,
     "name": "Guatemala Birthday Card for Son"
   },
   {
     "id": "gn_birthday_son",
     "country": "Guinea",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/GN_birthday_mom_wall_art_8x10_e453fa4b.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/dwjlOUMmPmNAtwQx.png",
     "price": 599,
     "name": "Guinea Birthday Card for Son"
   },
   {
     "id": "gw_birthday_son",
     "country": "Guinea Bissau",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/GW_birthday_mom_wall_art_8x10_0bc3b661.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/nnILNNpwcJikDBUT.png",
     "price": 599,
     "name": "Guinea Bissau Birthday Card for Son"
   },
   {
     "id": "gy_birthday_son",
     "country": "Guyana",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/gy_birthday_mom_17151fe5.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/SbILDRorZtppbbDz.png",
     "price": 599,
     "name": "Guyana Birthday Card for Son"
   },
   {
     "id": "ht_birthday_son",
     "country": "Haiti",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/ht_birthday_mom_4e48824f.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/OgKvSfSbatlRXhCo.png",
     "price": 599,
     "name": "Haiti Birthday Card for Son"
   },
@@ -5649,14 +5649,14 @@ export const BIRTHDAY_SON_CARDS: CardProduct[] = [
   {
     "id": "ic_birthday_son",
     "country": "Iceland",
-    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/LMxLvOerfLCsYDzO.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/bmeGJigKfLdDRCvh.png",
     "price": 599,
     "name": "Iceland Birthday Card for Son"
   },
   {
     "id": "in_birthday_son",
     "country": "India",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/in_birthday_mom_9ecb2ef7.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/pmaFyTWaibmpzXAh.png",
     "price": 599,
     "name": "India Birthday Card for Son"
   },
@@ -5684,49 +5684,49 @@ export const BIRTHDAY_SON_CARDS: CardProduct[] = [
   {
     "id": "it_birthday_son",
     "country": "Italy",
-    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/dyOrFXvEqjPyFNma.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/FZkHGnTfiObIYeHB.png",
     "price": 599,
     "name": "Italy Birthday Card for Son"
   },
   {
     "id": "ci_birthday_son",
     "country": "Ivory Coast",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/CI_birthday_mom_wall_art_8x10_b8da7aa2.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/CxQWRrZPjMNZXpba.png",
     "price": 599,
     "name": "Ivory Coast Birthday Card for Son"
   },
   {
     "id": "jm_birthday_son",
     "country": "Jamaica",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/jm_birthday_mom_02258bca.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/pwRcFahqXaWHUtFC.png",
     "price": 599,
     "name": "Jamaica Birthday Card for Son"
   },
   {
     "id": "jp_birthday_son",
     "country": "Japan",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/jp_birthday_mom_1773fe74.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/KuzeQMmKnZyEzQnO.png",
     "price": 599,
     "name": "Japan Birthday Card for Son"
   },
   {
     "id": "jo_birthday_son",
     "country": "Jordan",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/JO_birthday_mom_17e9170f.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/VkxNvSBsSkOexhRt.png",
     "price": 599,
     "name": "Jordan Birthday Card for Son"
   },
   {
     "id": "kz_birthday_son",
     "country": "Kazakhstan",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/kz_birthday_mom_a0f037fb.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/MOcYzqvbErqlvECy.png",
     "price": 599,
     "name": "Kazakhstan Birthday Card for Son"
   },
   {
     "id": "ke_birthday_son",
     "country": "Kenya",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/ke_birthday_mom_130454dd.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/OmKbjhHToNughkQM.png",
     "price": 599,
     "name": "Kenya Birthday Card for Son"
   },
@@ -5740,7 +5740,7 @@ export const BIRTHDAY_SON_CARDS: CardProduct[] = [
   {
     "id": "kr_birthday_son",
     "country": "Korea",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/kr_birthday_mom_188febf6.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/WLZUWhWHCcUwptAT.png",
     "price": 599,
     "name": "Korea Birthday Card for Son"
   },
@@ -5761,14 +5761,14 @@ export const BIRTHDAY_SON_CARDS: CardProduct[] = [
   {
     "id": "kw_birthday_son",
     "country": "Kuwait",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/KW_birthday_mom_cf65da85.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/KieyDVySqcjZUseo.png",
     "price": 599,
     "name": "Kuwait Birthday Card for Son"
   },
   {
     "id": "kg_birthday_son",
     "country": "Kyrgyzstan",
-    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/ooarKlSdPcmnYQKr.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/FsBoSieOjVQXVrVz.png",
     "price": 599,
     "name": "Kyrgyzstan Birthday Card for Son"
   },
@@ -5789,21 +5789,21 @@ export const BIRTHDAY_SON_CARDS: CardProduct[] = [
   {
     "id": "ls_birthday_son",
     "country": "Lesotho",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/ls_birthday_mom_72b5a453.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/ixmMoUZxjqnPHFtT.png",
     "price": 599,
     "name": "Lesotho Birthday Card for Son"
   },
   {
     "id": "lr_birthday_son",
     "country": "Liberia",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/LR_birthday_mom_wall_art_8x10_7763b744.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/PdppCIRnSAqjXdTQ.png",
     "price": 599,
     "name": "Liberia Birthday Card for Son"
   },
   {
     "id": "ly_birthday_son",
     "country": "Libya",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/LY_birthday_mom_93b4550e.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/AiVcHjbkapMTUQJs.png",
     "price": 599,
     "name": "Libya Birthday Card for Son"
   },
@@ -5817,21 +5817,21 @@ export const BIRTHDAY_SON_CARDS: CardProduct[] = [
   {
     "id": "lu_birthday_son",
     "country": "Luxembourg",
-    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/zDdllyznLtQumeab.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/WbdPzDATFwVXQJsE.png",
     "price": 599,
     "name": "Luxembourg Birthday Card for Son"
   },
   {
     "id": "mg_birthday_son",
     "country": "Madagascar",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/MG_birthday_mom_wall_art_8x10_37ecb072.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/PvHrCNZrpronzPLr.png",
     "price": 599,
     "name": "Madagascar Birthday Card for Son"
   },
   {
     "id": "mw_birthday_son",
     "country": "Malawi",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/MW_birthday_mom_wall_art_8x10_507dfde2.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/nFthbEadOdUqjtyp.png",
     "price": 599,
     "name": "Malawi Birthday Card for Son"
   },
@@ -5845,35 +5845,35 @@ export const BIRTHDAY_SON_CARDS: CardProduct[] = [
   {
     "id": "mv_birthday_son",
     "country": "Maldives",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/MV_birthday_mom_wall_art_8x10_f078becd.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/BYDuGxwAzTYlgibs.png",
     "price": 599,
     "name": "Maldives Birthday Card for Son"
   },
   {
     "id": "ml_birthday_son",
     "country": "Mali",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/ML_birthday_mom_wall_art_8x10_1bd7129a.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/htCnzuzhXbxHJNgm.png",
     "price": 599,
     "name": "Mali Birthday Card for Son"
   },
   {
     "id": "mt_birthday_son",
     "country": "Malta",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/mt_birthday_mom_e90a8229.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/DiDNLNtIdxaofvFN.png",
     "price": 599,
     "name": "Malta Birthday Card for Son"
   },
   {
     "id": "mr_birthday_son",
     "country": "Mauritania",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/MR_birthday_mom_wall_art_8x10_e4ce2752.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/RNYyKucYuSkttqRc.png",
     "price": 599,
     "name": "Mauritania Birthday Card for Son"
   },
   {
     "id": "mu_birthday_son",
     "country": "Mauritius",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/mu_birthday_mom_3e450220.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/JLJCwCAUBzkiVqIM.png",
     "price": 599,
     "name": "Mauritius Birthday Card for Son"
   },
@@ -5887,7 +5887,7 @@ export const BIRTHDAY_SON_CARDS: CardProduct[] = [
   {
     "id": "mn_birthday_son",
     "country": "Mongolia",
-    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/TPOsbiCBeMOGYHfE.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/PHIBQVGErQTNRjAX.png",
     "price": 599,
     "name": "Mongolia Birthday Card for Son"
   },
@@ -5901,14 +5901,14 @@ export const BIRTHDAY_SON_CARDS: CardProduct[] = [
   {
     "id": "ma_birthday_son",
     "country": "Morocco",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/ma_birthday_mom_60b5b222.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/UCqxdOrKaYHnPwDB.png",
     "price": 599,
     "name": "Morocco Birthday Card for Son"
   },
   {
     "id": "mz_birthday_son",
     "country": "Mozambique",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/MZ_birthday_mom_wall_art_8x10_5499f5dd.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/fkPwpkZSNPxNRIlU.png",
     "price": 599,
     "name": "Mozambique Birthday Card for Son"
   },
@@ -5922,7 +5922,7 @@ export const BIRTHDAY_SON_CARDS: CardProduct[] = [
   {
     "id": "na_birthday_son",
     "country": "Namibia",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/na_birthday_mom_e2338f34.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/GgLZTtSfqqgusRIG.png",
     "price": 599,
     "name": "Namibia Birthday Card for Son"
   },
@@ -5943,14 +5943,14 @@ export const BIRTHDAY_SON_CARDS: CardProduct[] = [
   {
     "id": "nl_birthday_son",
     "country": "Netherlands",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/nl_birthday_mom_d0d52d5d.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/dCzSXZOXLRVHscBA.png",
     "price": 599,
     "name": "Netherlands Birthday Card for Son"
   },
   {
     "id": "nz_birthday_son",
     "country": "New Zealand",
-    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/JhDxpsesZAdlVwGE.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/skGRQFFuLOXvkVgZ.png",
     "price": 599,
     "name": "New Zealand Birthday Card for Son"
   },
@@ -5964,14 +5964,14 @@ export const BIRTHDAY_SON_CARDS: CardProduct[] = [
   {
     "id": "ne_birthday_son",
     "country": "Niger",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/NE_birthday_mom_wall_art_8x10_1c2f4d6d.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/EtCkNpghlLKWcwqO.png",
     "price": 599,
     "name": "Niger Birthday Card for Son"
   },
   {
     "id": "ng_birthday_son",
     "country": "Nigeria",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/ng_birthday_mom_9686a463.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/BAHxNwUnNpSJgWLh.png",
     "price": 599,
     "name": "Nigeria Birthday Card for Son"
   },
@@ -5992,14 +5992,14 @@ export const BIRTHDAY_SON_CARDS: CardProduct[] = [
   {
     "id": "no_birthday_son",
     "country": "Norway",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/no_birthday_mom_f76bd305.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/XghNvpGPkfxCnokH.png",
     "price": 599,
     "name": "Norway Birthday Card for Son"
   },
   {
     "id": "om_birthday_son",
     "country": "Oman",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/OM_birthday_mom_3e32b375.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/jPchrFRCZjsFpJWl.png",
     "price": 599,
     "name": "Oman Birthday Card for Son"
   },
@@ -6027,7 +6027,7 @@ export const BIRTHDAY_SON_CARDS: CardProduct[] = [
   {
     "id": "pg_birthday_son",
     "country": "Papua New Guinea",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/pg_birthday_mom_b484654a.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/WoSbdzNIBbjVWshm.png",
     "price": 599,
     "name": "Papua New Guinea Birthday Card for Son"
   },
@@ -6048,14 +6048,14 @@ export const BIRTHDAY_SON_CARDS: CardProduct[] = [
   {
     "id": "ph_birthday_son",
     "country": "Philippines",
-    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/ZKvYMjgYgQbcuChr.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/UwWIRTZuJpsTTuSE.png",
     "price": 599,
     "name": "Philippines Birthday Card for Son"
   },
   {
     "id": "pl_birthday_son",
     "country": "Poland",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/pl_birthday_mom_ed83e3e4.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/nbhUUSaDZjXZLGLj.png",
     "price": 599,
     "name": "Poland Birthday Card for Son"
   },
@@ -6076,14 +6076,14 @@ export const BIRTHDAY_SON_CARDS: CardProduct[] = [
   {
     "id": "qa_birthday_son",
     "country": "Qatar",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/QA_birthday_mom_3c86507a.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/PkxjcxaMTnLtlkJJ.png",
     "price": 599,
     "name": "Qatar Birthday Card for Son"
   },
   {
     "id": "cg_birthday_son",
     "country": "Republic of Congo",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/CG_birthday_mom_wall_art_8x10_7ca96fb8.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/aCSitOuuODNqLkOv.png",
     "price": 599,
     "name": "Republic of Congo Birthday Card for Son"
   },
@@ -6097,35 +6097,35 @@ export const BIRTHDAY_SON_CARDS: CardProduct[] = [
   {
     "id": "ru_birthday_son",
     "country": "Russia",
-    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/vJawcMoVdlJaTmUf.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/VeGMgExHytIGYDMf.png",
     "price": 599,
     "name": "Russia Birthday Card for Son"
   },
   {
     "id": "rw_birthday_son",
     "country": "Rwanda",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/RW_birthday_mom_wall_art_8x10_99c6bd5d.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/CHQnCavnJkLPkhBD.png",
     "price": 599,
     "name": "Rwanda Birthday Card for Son"
   },
   {
     "id": "kn_birthday_son",
     "country": "Saint Kitts and Nevis",
-    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/oxosHTJlndbKSwjT.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/ArNansacJEWFkGUV.png",
     "price": 599,
     "name": "Saint Kitts and Nevis Birthday Card for Son"
   },
   {
     "id": "lc_birthday_son",
     "country": "Saint Lucia",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/lc_birthday_mom_7e6b141e.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/MeyckpRMjyWPxmcn.png",
     "price": 599,
     "name": "Saint Lucia Birthday Card for Son"
   },
   {
     "id": "vc_birthday_son",
     "country": "Saint Vincent and the Grenadines",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/vc_birthday_mom_2efd25b8.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/KrOrDhWBwiDzqhcT.png",
     "price": 599,
     "name": "Saint Vincent and the Grenadines Birthday Card for Son"
   },
@@ -6139,21 +6139,21 @@ export const BIRTHDAY_SON_CARDS: CardProduct[] = [
   {
     "id": "st_birthday_son",
     "country": "Sao Tome and Principe",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/st_birthday_mom_a05e7209.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/cVGMcpkUhrhCZQzP.png",
     "price": 599,
     "name": "Sao Tome and Principe Birthday Card for Son"
   },
   {
     "id": "sa_birthday_son",
     "country": "Saudi Arabia",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/SA_birthday_mom_42c3217a.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/VofEJpuxwtSEOwgI.png",
     "price": 599,
     "name": "Saudi Arabia Birthday Card for Son"
   },
   {
     "id": "sn_birthday_son",
     "country": "Senegal",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/sn_birthday_mom_4c5c25aa.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/SDJYdjlWzPBPVydb.png",
     "price": 599,
     "name": "Senegal Birthday Card for Son"
   },
@@ -6167,14 +6167,14 @@ export const BIRTHDAY_SON_CARDS: CardProduct[] = [
   {
     "id": "sc_birthday_son",
     "country": "Seychelles",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/SC_birthday_mom_wall_art_8x10_dca3d36f.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/FetRrdkSdPYWiPdb.png",
     "price": 599,
     "name": "Seychelles Birthday Card for Son"
   },
   {
     "id": "sl_birthday_son",
     "country": "Sierra Leone",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/SL_birthday_mom_wall_art_8x10_ba45d965.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/XDAXwllYmlNpWisL.png",
     "price": 599,
     "name": "Sierra Leone Birthday Card for Son"
   },
@@ -6195,14 +6195,14 @@ export const BIRTHDAY_SON_CARDS: CardProduct[] = [
   {
     "id": "sb_birthday_son",
     "country": "Solomon Islands",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/sb_birthday_mom_91551337.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/wIujucDNyQyieDOp.png",
     "price": 599,
     "name": "Solomon Islands Birthday Card for Son"
   },
   {
     "id": "so_birthday_son",
     "country": "Somalia",
-    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/mwUprLRaSOZSxHYR.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/ADJzXLffNLopSvqG.png",
     "price": 599,
     "name": "Somalia Birthday Card for Son"
   },
@@ -6216,7 +6216,7 @@ export const BIRTHDAY_SON_CARDS: CardProduct[] = [
   {
     "id": "ss_birthday_son",
     "country": "South Sudan",
-    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/pizpvRdAbaNQhUlN.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/TnpZOwewWfEwNxYi.png",
     "price": 599,
     "name": "South Sudan Birthday Card for Son"
   },
@@ -6237,14 +6237,14 @@ export const BIRTHDAY_SON_CARDS: CardProduct[] = [
   {
     "id": "sd_birthday_son",
     "country": "Sudan",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/SD_birthday_mom_e6aabba1.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/SIGXbdAyKJUnRRxY.png",
     "price": 599,
     "name": "Sudan Birthday Card for Son"
   },
   {
     "id": "sr_birthday_son",
     "country": "Suriname",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/sr_birthday_mom_5f0c3441.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/UAZHyVkknELGQpGT.png",
     "price": 599,
     "name": "Suriname Birthday Card for Son"
   },
@@ -6258,7 +6258,7 @@ export const BIRTHDAY_SON_CARDS: CardProduct[] = [
   {
     "id": "ch_birthday_son",
     "country": "Switzerland",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/ch_birthday_mom_6b36eb90.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/AmSRLAVBFqpJZVPm.png",
     "price": 599,
     "name": "Switzerland Birthday Card for Son"
   },
@@ -6272,21 +6272,21 @@ export const BIRTHDAY_SON_CARDS: CardProduct[] = [
   {
     "id": "tw_birthday_son",
     "country": "Taiwan",
-    "image": "",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/gChfZAelBlqxbPmp.png",
     "price": 599,
     "name": "Taiwan Birthday Card for Son"
   },
   {
     "id": "tj_birthday_son",
     "country": "Tajikistan",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/tj_birthday_mom_1b2bdec2.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/vyhlXlTXeEvErRhL.png",
     "price": 599,
     "name": "Tajikistan Birthday Card for Son"
   },
   {
     "id": "tz_birthday_son",
     "country": "Tanzania",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/tz_birthday_mom_5d527177.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/FyuNpMmvHgujJLXY.png",
     "price": 599,
     "name": "Tanzania Birthday Card for Son"
   },
@@ -6300,14 +6300,14 @@ export const BIRTHDAY_SON_CARDS: CardProduct[] = [
   {
     "id": "tl_birthday_son",
     "country": "Timor Leste",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/TL_birthday_mom_wall_art_8x10_1505f48c.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/UJCsmXVYGDIZerpg.png",
     "price": 599,
     "name": "Timor Leste Birthday Card for Son"
   },
   {
     "id": "tg_birthday_son",
     "country": "Togo",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/TG_birthday_mom_wall_art_8x10_3d4be01f.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/vriZWVYUYbKWfFig.png",
     "price": 599,
     "name": "Togo Birthday Card for Son"
   },
@@ -6321,14 +6321,14 @@ export const BIRTHDAY_SON_CARDS: CardProduct[] = [
   {
     "id": "tt_birthday_son",
     "country": "Trinidad Tobago",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/tt_birthday_mom_ce28febe.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/lrkGjRZuoZfNtmVE.png",
     "price": 599,
     "name": "Trinidad Tobago Birthday Card for Son"
   },
   {
     "id": "tn_birthday_son",
     "country": "Tunisia",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/TN_birthday_mom_58a6f4bb.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/NTtfuSbkSChhRCxR.png",
     "price": 599,
     "name": "Tunisia Birthday Card for Son"
   },
@@ -6342,7 +6342,7 @@ export const BIRTHDAY_SON_CARDS: CardProduct[] = [
   {
     "id": "tm_birthday_son",
     "country": "Turkmenistan",
-    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/IudgBAXchJXIxfkV.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/YCgdrLJzZjjOcLQo.png",
     "price": 599,
     "name": "Turkmenistan Birthday Card for Son"
   },
@@ -6356,14 +6356,14 @@ export const BIRTHDAY_SON_CARDS: CardProduct[] = [
   {
     "id": "ug_birthday_son",
     "country": "Uganda",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/ug_birthday_mom_3932eff2.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/qqFaEdLDiURdFqye.png",
     "price": 599,
     "name": "Uganda Birthday Card for Son"
   },
   {
     "id": "ua_birthday_son",
     "country": "Ukraine",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/ua_birthday_mom_49b68c27.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/dHacSJUPFtTRnpbE.png",
     "price": 599,
     "name": "Ukraine Birthday Card for Son"
   },
@@ -6377,14 +6377,14 @@ export const BIRTHDAY_SON_CARDS: CardProduct[] = [
   {
     "id": "uy_birthday_son",
     "country": "Uruguay",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/uy_birthday_mom_210c231b.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/VfAtMsmNcIxdSudJ.png",
     "price": 599,
     "name": "Uruguay Birthday Card for Son"
   },
   {
     "id": "uz_birthday_son",
     "country": "Uzbekistan",
-    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/jEOxJiMAcNUVUvqA.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/OHWUcbzBTVCxxyrG.png",
     "price": 599,
     "name": "Uzbekistan Birthday Card for Son"
   },
@@ -6412,21 +6412,21 @@ export const BIRTHDAY_SON_CARDS: CardProduct[] = [
   {
     "id": "ye_birthday_son",
     "country": "Yemen",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/YE_birthday_mom_e46037cc.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/VNpnnlYirYSkqmJL.png",
     "price": 599,
     "name": "Yemen Birthday Card for Son"
   },
   {
     "id": "zm_birthday_son",
     "country": "Zambia",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/ZM_birthday_mom_wall_art_8x10_6d8a3357.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/WaCRxBEtvjlHcsMX.png",
     "price": 599,
     "name": "Zambia Birthday Card for Son"
   },
   {
     "id": "zw_birthday_son",
     "country": "Zimbabwe",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/zw_birthday_mom_6da162de.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/zBrPBzHCdreZugGJ.png",
     "price": 599,
     "name": "Zimbabwe Birthday Card for Son"
   }
@@ -6450,21 +6450,21 @@ export const CONGRATULATIONS_CARDS: CardProduct[] = [
   {
     "id": "dz_congratulations",
     "country": "Algeria",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/DZ_birthday_mom_3c7c5137.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/reaOmmRzNkuShhEZ.png",
     "price": 599,
     "name": "Algeria Congratulations Card"
   },
   {
     "id": "ao_congratulations",
     "country": "Angola",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/ao_birthday_mom_85345606.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/JmExdjoWbtxnMKfo.png",
     "price": 599,
     "name": "Angola Congratulations Card"
   },
   {
     "id": "ag_congratulations",
     "country": "Antigua and Barbuda",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/ag_birthday_mom_333bddbd.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/okjFDOFpLVfDgoeJ.png",
     "price": 599,
     "name": "Antigua and Barbuda Congratulations Card"
   },
@@ -6478,7 +6478,7 @@ export const CONGRATULATIONS_CARDS: CardProduct[] = [
   {
     "id": "am_congratulations",
     "country": "Armenia",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/am_birthday_mom_1a04ac48.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/jxYzYlqsAyPGCwFD.png",
     "price": 599,
     "name": "Armenia Congratulations Card"
   },
@@ -6499,21 +6499,21 @@ export const CONGRATULATIONS_CARDS: CardProduct[] = [
   {
     "id": "az_congratulations",
     "country": "Azerbaijan",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/az_birthday_mom_3836d909.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/OhoVQVVLtCwGQFna.png",
     "price": 599,
     "name": "Azerbaijan Congratulations Card"
   },
   {
     "id": "bs_congratulations",
     "country": "Bahamas",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/bs_birthday_mom_65be5f26.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/sMKTlrvGwqTOhTVd.png",
     "price": 599,
     "name": "Bahamas Congratulations Card"
   },
   {
     "id": "bh_congratulations",
     "country": "Bahrain",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/BH_birthday_mom_wall_art_8x10_427a59ed.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/rErwGxVofuDctbDL.png",
     "price": 599,
     "name": "Bahrain Congratulations Card"
   },
@@ -6527,7 +6527,7 @@ export const CONGRATULATIONS_CARDS: CardProduct[] = [
   {
     "id": "bb_congratulations",
     "country": "Barbados",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/bb_birthday_mom_10bb0ed2.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/bUzDfRiLhVVeMkOu.png",
     "price": 599,
     "name": "Barbados Congratulations Card"
   },
@@ -6541,28 +6541,28 @@ export const CONGRATULATIONS_CARDS: CardProduct[] = [
   {
     "id": "be_congratulations",
     "country": "Belgium",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/be_birthday_mom_548cc4c8.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/RndOrqpfbFsZQiWA.png",
     "price": 599,
     "name": "Belgium Congratulations Card"
   },
   {
     "id": "bz_congratulations",
     "country": "Belize",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/bz_birthday_mom_34529da0.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/ciciezQDTQeonYSi.png",
     "price": 599,
     "name": "Belize Congratulations Card"
   },
   {
     "id": "bj_congratulations",
     "country": "Benin",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/BJ_birthday_mom_wall_art_8x10_b4bb53ac.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/wohyrXKwUyHnBcNH.png",
     "price": 599,
     "name": "Benin Congratulations Card"
   },
   {
     "id": "bt_congratulations",
     "country": "Bhutan",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/BT_birthday_mom_wall_art_8x10_9118c9ac.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/KDVdhutqWHNoVvxy.png",
     "price": 599,
     "name": "Bhutan Congratulations Card"
   },
@@ -6583,7 +6583,7 @@ export const CONGRATULATIONS_CARDS: CardProduct[] = [
   {
     "id": "bw_congratulations",
     "country": "Botswana",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/bw_birthday_mom_ccd83bd4.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/cqzfPWfSOPJMEmsh.png",
     "price": 599,
     "name": "Botswana Congratulations Card"
   },
@@ -6604,14 +6604,14 @@ export const CONGRATULATIONS_CARDS: CardProduct[] = [
   {
     "id": "bf_congratulations",
     "country": "Burkina Faso",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/BF_birthday_mom_wall_art_8x10_2c5b945d.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/NvLbUmaYjngkIQVe.png",
     "price": 599,
     "name": "Burkina Faso Congratulations Card"
   },
   {
     "id": "bi_congratulations",
     "country": "Burundi",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/BI_birthday_mom_wall_art_8x10_18366f51.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/qZUHeLTTErHeoydJ.png",
     "price": 599,
     "name": "Burundi Congratulations Card"
   },
@@ -6625,7 +6625,7 @@ export const CONGRATULATIONS_CARDS: CardProduct[] = [
   {
     "id": "cm_congratulations",
     "country": "Cameroon",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/cm_birthday_mom_6c64c757.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/ANpvSRbrYVHzAjXO.png",
     "price": 599,
     "name": "Cameroon Congratulations Card"
   },
@@ -6639,21 +6639,21 @@ export const CONGRATULATIONS_CARDS: CardProduct[] = [
   {
     "id": "cv_congratulations",
     "country": "Cape Verde",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/CV_birthday_mom_wall_art_8x10_69488a07.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/QxpVmrImVNROyTDC.png",
     "price": 599,
     "name": "Cape Verde Congratulations Card"
   },
   {
     "id": "cf_congratulations",
     "country": "Central African Republic",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/cf_birthday_mom_725a0c3f.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/gYFJSNsmbNUgtuzT.png",
     "price": 599,
     "name": "Central African Republic Congratulations Card"
   },
   {
     "id": "td_congratulations",
     "country": "Chad",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/TD_birthday_mom_wall_art_8x10_d7deeb25.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/esEgzelcGlVOZuBs.png",
     "price": 599,
     "name": "Chad Congratulations Card"
   },
@@ -6681,7 +6681,7 @@ export const CONGRATULATIONS_CARDS: CardProduct[] = [
   {
     "id": "km_congratulations",
     "country": "Comoros",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/KM_birthday_mom_wall_art_8x10_c9f7e6f5.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/cFYlOkFgITyxchXi.png",
     "price": 599,
     "name": "Comoros Congratulations Card"
   },
@@ -6709,7 +6709,7 @@ export const CONGRATULATIONS_CARDS: CardProduct[] = [
   {
     "id": "cy_congratulations",
     "country": "Cyprus",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/cy_birthday_mom_4f48f663.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/ElhmasaSJQZTqERc.png",
     "price": 599,
     "name": "Cyprus Congratulations Card"
   },
@@ -6723,28 +6723,28 @@ export const CONGRATULATIONS_CARDS: CardProduct[] = [
   {
     "id": "cd_congratulations",
     "country": "Democratic Republic of Congo",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/CD_birthday_mom_wall_art_8x10_84f68563.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/iZrDXASOOQukDRGa.png",
     "price": 599,
     "name": "Democratic Republic of Congo Congratulations Card"
   },
   {
     "id": "dk_congratulations",
     "country": "Denmark",
-    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/vzEUgARgJQiOHImU.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/PoNEcXMUElSRRnSL.png",
     "price": 599,
     "name": "Denmark Congratulations Card"
   },
   {
     "id": "dj_congratulations",
     "country": "Djibouti",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/DJ_birthday_mom_wall_art_8x10_b4d9acf0.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/YSBAMAcMzkWkYBUl.png",
     "price": 599,
     "name": "Djibouti Congratulations Card"
   },
   {
     "id": "dm_congratulations",
     "country": "Dominica",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/dm_birthday_mom_4dc40592.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/DvBlRgTnEGhQaRGJ.png",
     "price": 599,
     "name": "Dominica Congratulations Card"
   },
@@ -6786,14 +6786,14 @@ export const CONGRATULATIONS_CARDS: CardProduct[] = [
   {
     "id": "gq_congratulations",
     "country": "Equatorial Guinea",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/gq_birthday_mom_8acdbc11.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/PsGcZQgVDnsyIxZZ.png",
     "price": 599,
     "name": "Equatorial Guinea Congratulations Card"
   },
   {
     "id": "er_congratulations",
     "country": "Eritrea",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/ER_birthday_mom_wall_art_8x10_7dc191fa.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/aqLpigmazcfGlmow.png",
     "price": 599,
     "name": "Eritrea Congratulations Card"
   },
@@ -6807,7 +6807,7 @@ export const CONGRATULATIONS_CARDS: CardProduct[] = [
   {
     "id": "sz_congratulations",
     "country": "Eswatini",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/sz_birthday_mom_c0e3cfdc.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/qTyjYuFcucuigiVd.png",
     "price": 599,
     "name": "Eswatini Congratulations Card"
   },
@@ -6835,28 +6835,28 @@ export const CONGRATULATIONS_CARDS: CardProduct[] = [
   {
     "id": "ga_congratulations",
     "country": "Gabon",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/ga_birthday_mom_b7901cc4.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/SgmitUCBedEslxVu.png",
     "price": 599,
     "name": "Gabon Congratulations Card"
   },
   {
     "id": "gm_congratulations",
     "country": "Gambia",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/GM_birthday_mom_wall_art_8x10_ae89051c.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/JLRLFistbwUmXnrP.png",
     "price": 599,
     "name": "Gambia Congratulations Card"
   },
   {
     "id": "ge_congratulations",
     "country": "Georgia",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/ge_birthday_mom_dfb2f59c.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/PbBYkbRfocgoabhK.png",
     "price": 599,
     "name": "Georgia Congratulations Card"
   },
   {
     "id": "de_congratulations",
     "country": "Germany",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/de_birthday_mom_ad19a201.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/BCZtIEHwbjWyECjx.png",
     "price": 599,
     "name": "Germany Congratulations Card"
   },
@@ -6870,49 +6870,49 @@ export const CONGRATULATIONS_CARDS: CardProduct[] = [
   {
     "id": "gr_congratulations",
     "country": "Greece",
-    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/CjvQnDEZihieqPXb.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/trDFtPUNqOdFMoUd.png",
     "price": 599,
     "name": "Greece Congratulations Card"
   },
   {
     "id": "gd_congratulations",
     "country": "Grenada",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/gd_birthday_mom_1542ac2f.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/szGuzpodGkuqrcJH.png",
     "price": 599,
     "name": "Grenada Congratulations Card"
   },
   {
     "id": "gt_congratulations",
     "country": "Guatemala",
-    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/YNQtLlVBWGNYxpam.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/YiChPdKbuMTRDCrf.png",
     "price": 599,
     "name": "Guatemala Congratulations Card"
   },
   {
     "id": "gn_congratulations",
     "country": "Guinea",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/GN_birthday_mom_wall_art_8x10_e453fa4b.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/ySrEgfUkrOsCpIcJ.png",
     "price": 599,
     "name": "Guinea Congratulations Card"
   },
   {
     "id": "gw_congratulations",
     "country": "Guinea Bissau",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/GW_birthday_mom_wall_art_8x10_0bc3b661.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/dNFgcPyYHOoTJUcf.png",
     "price": 599,
     "name": "Guinea Bissau Congratulations Card"
   },
   {
     "id": "gy_congratulations",
     "country": "Guyana",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/gy_birthday_mom_17151fe5.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/aZVaJrvSkOVoZDRf.png",
     "price": 599,
     "name": "Guyana Congratulations Card"
   },
   {
     "id": "ht_congratulations",
     "country": "Haiti",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/ht_birthday_mom_4e48824f.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/uHiUNLtOxQIqDoCJ.png",
     "price": 599,
     "name": "Haiti Congratulations Card"
   },
@@ -6933,14 +6933,14 @@ export const CONGRATULATIONS_CARDS: CardProduct[] = [
   {
     "id": "ic_congratulations",
     "country": "Iceland",
-    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/LMxLvOerfLCsYDzO.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/ruaAREivouidCsJl.png",
     "price": 599,
     "name": "Iceland Congratulations Card"
   },
   {
     "id": "in_congratulations",
     "country": "India",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/in_birthday_mom_9ecb2ef7.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/XgFVBuscNZWxVnRQ.png",
     "price": 599,
     "name": "India Congratulations Card"
   },
@@ -6968,49 +6968,49 @@ export const CONGRATULATIONS_CARDS: CardProduct[] = [
   {
     "id": "it_congratulations",
     "country": "Italy",
-    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/dyOrFXvEqjPyFNma.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/wjqkBeDWgiWgZzfS.png",
     "price": 599,
     "name": "Italy Congratulations Card"
   },
   {
     "id": "ci_congratulations",
     "country": "Ivory Coast",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/CI_birthday_mom_wall_art_8x10_b8da7aa2.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/ltARbTCMMslhLRju.png",
     "price": 599,
     "name": "Ivory Coast Congratulations Card"
   },
   {
     "id": "jm_congratulations",
     "country": "Jamaica",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/jm_birthday_mom_02258bca.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/IigIVgemNOapgDTE.png",
     "price": 599,
     "name": "Jamaica Congratulations Card"
   },
   {
     "id": "jp_congratulations",
     "country": "Japan",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/jp_birthday_mom_1773fe74.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/bhvRxEQHawlGeEJK.png",
     "price": 599,
     "name": "Japan Congratulations Card"
   },
   {
     "id": "jo_congratulations",
     "country": "Jordan",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/JO_birthday_mom_17e9170f.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/sNhphdHFDOCQmzuH.png",
     "price": 599,
     "name": "Jordan Congratulations Card"
   },
   {
     "id": "kz_congratulations",
     "country": "Kazakhstan",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/kz_birthday_mom_a0f037fb.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/RIbyBLygzsVVfwyj.png",
     "price": 599,
     "name": "Kazakhstan Congratulations Card"
   },
   {
     "id": "ke_congratulations",
     "country": "Kenya",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/ke_birthday_mom_130454dd.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/TstKiqEFTeAhhaxe.png",
     "price": 599,
     "name": "Kenya Congratulations Card"
   },
@@ -7024,7 +7024,7 @@ export const CONGRATULATIONS_CARDS: CardProduct[] = [
   {
     "id": "kr_congratulations",
     "country": "Korea",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/kr_birthday_mom_188febf6.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/RWtxViYHFFbVZiCC.png",
     "price": 599,
     "name": "Korea Congratulations Card"
   },
@@ -7045,14 +7045,14 @@ export const CONGRATULATIONS_CARDS: CardProduct[] = [
   {
     "id": "kw_congratulations",
     "country": "Kuwait",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/KW_birthday_mom_cf65da85.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/xVfaJjZJCqCicpIL.png",
     "price": 599,
     "name": "Kuwait Congratulations Card"
   },
   {
     "id": "kg_congratulations",
     "country": "Kyrgyzstan",
-    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/ooarKlSdPcmnYQKr.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/ZJlWicFHWoqlBHMD.png",
     "price": 599,
     "name": "Kyrgyzstan Congratulations Card"
   },
@@ -7073,21 +7073,21 @@ export const CONGRATULATIONS_CARDS: CardProduct[] = [
   {
     "id": "ls_congratulations",
     "country": "Lesotho",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/ls_birthday_mom_72b5a453.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/PecoiGIKbwxnhoXb.png",
     "price": 599,
     "name": "Lesotho Congratulations Card"
   },
   {
     "id": "lr_congratulations",
     "country": "Liberia",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/LR_birthday_mom_wall_art_8x10_7763b744.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/SwsYUrnGvPpeqVoQ.png",
     "price": 599,
     "name": "Liberia Congratulations Card"
   },
   {
     "id": "ly_congratulations",
     "country": "Libya",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/LY_birthday_mom_93b4550e.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/aqRdTxRidKcKqOiY.png",
     "price": 599,
     "name": "Libya Congratulations Card"
   },
@@ -7101,21 +7101,21 @@ export const CONGRATULATIONS_CARDS: CardProduct[] = [
   {
     "id": "lu_congratulations",
     "country": "Luxembourg",
-    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/zDdllyznLtQumeab.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/YuevUMdvGiIcDfGF.png",
     "price": 599,
     "name": "Luxembourg Congratulations Card"
   },
   {
     "id": "mg_congratulations",
     "country": "Madagascar",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/MG_birthday_mom_wall_art_8x10_37ecb072.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/zuWSJRtcthwkqass.png",
     "price": 599,
     "name": "Madagascar Congratulations Card"
   },
   {
     "id": "mw_congratulations",
     "country": "Malawi",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/MW_birthday_mom_wall_art_8x10_507dfde2.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/oRzqqIUMomRYpDvJ.png",
     "price": 599,
     "name": "Malawi Congratulations Card"
   },
@@ -7129,35 +7129,35 @@ export const CONGRATULATIONS_CARDS: CardProduct[] = [
   {
     "id": "mv_congratulations",
     "country": "Maldives",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/MV_birthday_mom_wall_art_8x10_f078becd.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/iHfLBLDWhtmOLgrB.png",
     "price": 599,
     "name": "Maldives Congratulations Card"
   },
   {
     "id": "ml_congratulations",
     "country": "Mali",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/ML_birthday_mom_wall_art_8x10_1bd7129a.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/AxdMKrqzRkITwHyg.png",
     "price": 599,
     "name": "Mali Congratulations Card"
   },
   {
     "id": "mt_congratulations",
     "country": "Malta",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/mt_birthday_mom_e90a8229.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/RazAgPDtDQDXZZut.png",
     "price": 599,
     "name": "Malta Congratulations Card"
   },
   {
     "id": "mr_congratulations",
     "country": "Mauritania",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/MR_birthday_mom_wall_art_8x10_e4ce2752.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/RfujDGMqGmyFaUOv.png",
     "price": 599,
     "name": "Mauritania Congratulations Card"
   },
   {
     "id": "mu_congratulations",
     "country": "Mauritius",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/mu_birthday_mom_3e450220.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/kIwNTVBEyfBGYrIq.png",
     "price": 599,
     "name": "Mauritius Congratulations Card"
   },
@@ -7171,7 +7171,7 @@ export const CONGRATULATIONS_CARDS: CardProduct[] = [
   {
     "id": "mn_congratulations",
     "country": "Mongolia",
-    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/TPOsbiCBeMOGYHfE.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/WsRhzAYtPRtFwjSD.png",
     "price": 599,
     "name": "Mongolia Congratulations Card"
   },
@@ -7185,14 +7185,14 @@ export const CONGRATULATIONS_CARDS: CardProduct[] = [
   {
     "id": "ma_congratulations",
     "country": "Morocco",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/ma_birthday_mom_60b5b222.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/aQLVhaHstRZJFUgV.png",
     "price": 599,
     "name": "Morocco Congratulations Card"
   },
   {
     "id": "mz_congratulations",
     "country": "Mozambique",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/MZ_birthday_mom_wall_art_8x10_5499f5dd.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/BunXjSDvyJYwzWSt.png",
     "price": 599,
     "name": "Mozambique Congratulations Card"
   },
@@ -7206,7 +7206,7 @@ export const CONGRATULATIONS_CARDS: CardProduct[] = [
   {
     "id": "na_congratulations",
     "country": "Namibia",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/na_birthday_mom_e2338f34.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/JsPlFhUZNrsqClJi.png",
     "price": 599,
     "name": "Namibia Congratulations Card"
   },
@@ -7227,14 +7227,14 @@ export const CONGRATULATIONS_CARDS: CardProduct[] = [
   {
     "id": "nl_congratulations",
     "country": "Netherlands",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/nl_birthday_mom_d0d52d5d.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/FjqYwuZHVyJyIMYX.png",
     "price": 599,
     "name": "Netherlands Congratulations Card"
   },
   {
     "id": "nz_congratulations",
     "country": "New Zealand",
-    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/JhDxpsesZAdlVwGE.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/oXAkFfmsbigyWCUn.png",
     "price": 599,
     "name": "New Zealand Congratulations Card"
   },
@@ -7248,14 +7248,14 @@ export const CONGRATULATIONS_CARDS: CardProduct[] = [
   {
     "id": "ne_congratulations",
     "country": "Niger",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/NE_birthday_mom_wall_art_8x10_1c2f4d6d.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/IagiHzDJczHLlQHI.png",
     "price": 599,
     "name": "Niger Congratulations Card"
   },
   {
     "id": "ng_congratulations",
     "country": "Nigeria",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/ng_birthday_mom_9686a463.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/YzBdrpmodOUfYvfG.png",
     "price": 599,
     "name": "Nigeria Congratulations Card"
   },
@@ -7276,14 +7276,14 @@ export const CONGRATULATIONS_CARDS: CardProduct[] = [
   {
     "id": "no_congratulations",
     "country": "Norway",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/no_birthday_mom_f76bd305.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/oBuZwBWNuZBDIWzm.png",
     "price": 599,
     "name": "Norway Congratulations Card"
   },
   {
     "id": "om_congratulations",
     "country": "Oman",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/OM_birthday_mom_3e32b375.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/MWiYhmUxTUdfnZoy.png",
     "price": 599,
     "name": "Oman Congratulations Card"
   },
@@ -7311,7 +7311,7 @@ export const CONGRATULATIONS_CARDS: CardProduct[] = [
   {
     "id": "pg_congratulations",
     "country": "Papua New Guinea",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/pg_birthday_mom_b484654a.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/frlCXDKahTyKSHJh.png",
     "price": 599,
     "name": "Papua New Guinea Congratulations Card"
   },
@@ -7332,14 +7332,14 @@ export const CONGRATULATIONS_CARDS: CardProduct[] = [
   {
     "id": "ph_congratulations",
     "country": "Philippines",
-    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/ZKvYMjgYgQbcuChr.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/zPeXMFtecEvZvswI.png",
     "price": 599,
     "name": "Philippines Congratulations Card"
   },
   {
     "id": "pl_congratulations",
     "country": "Poland",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/pl_birthday_mom_ed83e3e4.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/umJLRgXcQDPVqvrQ.png",
     "price": 599,
     "name": "Poland Congratulations Card"
   },
@@ -7360,14 +7360,14 @@ export const CONGRATULATIONS_CARDS: CardProduct[] = [
   {
     "id": "qa_congratulations",
     "country": "Qatar",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/QA_birthday_mom_3c86507a.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/iDEUnauAignmDlvV.png",
     "price": 599,
     "name": "Qatar Congratulations Card"
   },
   {
     "id": "cg_congratulations",
     "country": "Republic of Congo",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/CG_birthday_mom_wall_art_8x10_7ca96fb8.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/TdbeCjPDwqmUlBOD.png",
     "price": 599,
     "name": "Republic of Congo Congratulations Card"
   },
@@ -7381,35 +7381,35 @@ export const CONGRATULATIONS_CARDS: CardProduct[] = [
   {
     "id": "ru_congratulations",
     "country": "Russia",
-    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/vJawcMoVdlJaTmUf.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/xmErdKDaQovnCBXt.png",
     "price": 599,
     "name": "Russia Congratulations Card"
   },
   {
     "id": "rw_congratulations",
     "country": "Rwanda",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/RW_birthday_mom_wall_art_8x10_99c6bd5d.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/aJZjgzLbaFQHiyvo.png",
     "price": 599,
     "name": "Rwanda Congratulations Card"
   },
   {
     "id": "kn_congratulations",
     "country": "Saint Kitts and Nevis",
-    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/oxosHTJlndbKSwjT.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/ZEGbkGyMUKpKrJwj.png",
     "price": 599,
     "name": "Saint Kitts and Nevis Congratulations Card"
   },
   {
     "id": "lc_congratulations",
     "country": "Saint Lucia",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/lc_birthday_mom_7e6b141e.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/KvFGsYjvTIoZrNUd.png",
     "price": 599,
     "name": "Saint Lucia Congratulations Card"
   },
   {
     "id": "vc_congratulations",
     "country": "Saint Vincent and the Grenadines",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/vc_birthday_mom_2efd25b8.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/mFEoyGKxvZofvbYt.png",
     "price": 599,
     "name": "Saint Vincent and the Grenadines Congratulations Card"
   },
@@ -7423,21 +7423,21 @@ export const CONGRATULATIONS_CARDS: CardProduct[] = [
   {
     "id": "st_congratulations",
     "country": "Sao Tome and Principe",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/st_birthday_mom_a05e7209.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/lUyhSIjYARnUQvzO.png",
     "price": 599,
     "name": "Sao Tome and Principe Congratulations Card"
   },
   {
     "id": "sa_congratulations",
     "country": "Saudi Arabia",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/SA_birthday_mom_42c3217a.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/JzCCrfarAhwDTAnm.png",
     "price": 599,
     "name": "Saudi Arabia Congratulations Card"
   },
   {
     "id": "sn_congratulations",
     "country": "Senegal",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/sn_birthday_mom_4c5c25aa.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/NjFeaYYvsrgoiXFq.png",
     "price": 599,
     "name": "Senegal Congratulations Card"
   },
@@ -7451,7 +7451,7 @@ export const CONGRATULATIONS_CARDS: CardProduct[] = [
   {
     "id": "sc_congratulations",
     "country": "Seychelles",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/SC_birthday_mom_wall_art_8x10_dca3d36f.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/TjNAvGSOZCLOxRzT.png",
     "price": 599,
     "name": "Seychelles Congratulations Card"
   },
@@ -7479,14 +7479,14 @@ export const CONGRATULATIONS_CARDS: CardProduct[] = [
   {
     "id": "sb_congratulations",
     "country": "Solomon Islands",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/sb_birthday_mom_91551337.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/wdndNoaUHxMVxNok.png",
     "price": 599,
     "name": "Solomon Islands Congratulations Card"
   },
   {
     "id": "so_congratulations",
     "country": "Somalia",
-    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/mwUprLRaSOZSxHYR.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/hfGuQGFiZrgpPkva.png",
     "price": 599,
     "name": "Somalia Congratulations Card"
   },
@@ -7500,7 +7500,7 @@ export const CONGRATULATIONS_CARDS: CardProduct[] = [
   {
     "id": "ss_congratulations",
     "country": "South Sudan",
-    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/pizpvRdAbaNQhUlN.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/AlECyWFIYdfbeCzt.png",
     "price": 599,
     "name": "South Sudan Congratulations Card"
   },
@@ -7521,14 +7521,14 @@ export const CONGRATULATIONS_CARDS: CardProduct[] = [
   {
     "id": "sd_congratulations",
     "country": "Sudan",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/SD_birthday_mom_e6aabba1.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/YVQYxsKimoEMSlOq.png",
     "price": 599,
     "name": "Sudan Congratulations Card"
   },
   {
     "id": "sr_congratulations",
     "country": "Suriname",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/sr_birthday_mom_5f0c3441.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/HznYshkIfHvEhGAH.png",
     "price": 599,
     "name": "Suriname Congratulations Card"
   },
@@ -7542,7 +7542,7 @@ export const CONGRATULATIONS_CARDS: CardProduct[] = [
   {
     "id": "ch_congratulations",
     "country": "Switzerland",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/ch_birthday_mom_6b36eb90.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/eRacHcmwvfZKjbKg.png",
     "price": 599,
     "name": "Switzerland Congratulations Card"
   },
@@ -7556,21 +7556,21 @@ export const CONGRATULATIONS_CARDS: CardProduct[] = [
   {
     "id": "tw_congratulations",
     "country": "Taiwan",
-    "image": "",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/MebGvwCBVTbYOGGQ.png",
     "price": 599,
     "name": "Taiwan Congratulations Card"
   },
   {
     "id": "tj_congratulations",
     "country": "Tajikistan",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/tj_birthday_mom_1b2bdec2.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/zBOsDSDUgNuTUpag.png",
     "price": 599,
     "name": "Tajikistan Congratulations Card"
   },
   {
     "id": "tz_congratulations",
     "country": "Tanzania",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/tz_birthday_mom_5d527177.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/NCuLzCeSdGQoAOfJ.png",
     "price": 599,
     "name": "Tanzania Congratulations Card"
   },
@@ -7584,14 +7584,14 @@ export const CONGRATULATIONS_CARDS: CardProduct[] = [
   {
     "id": "tl_congratulations",
     "country": "Timor Leste",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/TL_birthday_mom_wall_art_8x10_1505f48c.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/NMwRGvGBGkAxerpp.png",
     "price": 599,
     "name": "Timor Leste Congratulations Card"
   },
   {
     "id": "tg_congratulations",
     "country": "Togo",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/TG_birthday_mom_wall_art_8x10_3d4be01f.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/YjeXkmbsjtkJGOhf.png",
     "price": 599,
     "name": "Togo Congratulations Card"
   },
@@ -7605,14 +7605,14 @@ export const CONGRATULATIONS_CARDS: CardProduct[] = [
   {
     "id": "tt_congratulations",
     "country": "Trinidad Tobago",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/tt_birthday_mom_ce28febe.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/PpTPnbYLVDcLrDys.png",
     "price": 599,
     "name": "Trinidad Tobago Congratulations Card"
   },
   {
     "id": "tn_congratulations",
     "country": "Tunisia",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/TN_birthday_mom_58a6f4bb.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/opEOsHKMjBZfAeMd.png",
     "price": 599,
     "name": "Tunisia Congratulations Card"
   },
@@ -7626,7 +7626,7 @@ export const CONGRATULATIONS_CARDS: CardProduct[] = [
   {
     "id": "tm_congratulations",
     "country": "Turkmenistan",
-    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/IudgBAXchJXIxfkV.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/HnJZpPBQlstxCzds.png",
     "price": 599,
     "name": "Turkmenistan Congratulations Card"
   },
@@ -7640,14 +7640,14 @@ export const CONGRATULATIONS_CARDS: CardProduct[] = [
   {
     "id": "ug_congratulations",
     "country": "Uganda",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/ug_birthday_mom_3932eff2.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/owYHcIcsFzyCRIcI.png",
     "price": 599,
     "name": "Uganda Congratulations Card"
   },
   {
     "id": "ua_congratulations",
     "country": "Ukraine",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/ua_birthday_mom_49b68c27.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/rAbLciTLYowGZzIk.png",
     "price": 599,
     "name": "Ukraine Congratulations Card"
   },
@@ -7661,14 +7661,14 @@ export const CONGRATULATIONS_CARDS: CardProduct[] = [
   {
     "id": "uy_congratulations",
     "country": "Uruguay",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/uy_birthday_mom_210c231b.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/SUcxQWUiBiyuYaYA.png",
     "price": 599,
     "name": "Uruguay Congratulations Card"
   },
   {
     "id": "uz_congratulations",
     "country": "Uzbekistan",
-    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/jEOxJiMAcNUVUvqA.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/rQAAMCGrnmEXOFxA.png",
     "price": 599,
     "name": "Uzbekistan Congratulations Card"
   },
@@ -7696,21 +7696,21 @@ export const CONGRATULATIONS_CARDS: CardProduct[] = [
   {
     "id": "ye_congratulations",
     "country": "Yemen",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/YE_birthday_mom_e46037cc.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/zEYNosdumSObyNSo.png",
     "price": 599,
     "name": "Yemen Congratulations Card"
   },
   {
     "id": "zm_congratulations",
     "country": "Zambia",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/ZM_birthday_mom_wall_art_8x10_6d8a3357.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/ToMNYTSnEJnOadBk.png",
     "price": 599,
     "name": "Zambia Congratulations Card"
   },
   {
     "id": "zw_congratulations",
     "country": "Zimbabwe",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/zw_birthday_mom_6da162de.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/STAVetbIytkPIrzA.png",
     "price": 599,
     "name": "Zimbabwe Congratulations Card"
   }
@@ -7720,14 +7720,14 @@ export const CONGRATULATIONS_V2_CARDS: CardProduct[] = [
   {
     "id": "ic_congratulations_v2",
     "country": "Iceland",
-    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/LMxLvOerfLCsYDzO.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/ruaAREivouidCsJl.png",
     "price": 599,
     "name": "Iceland Congratulations Card v2"
   },
   {
     "id": "nz_congratulations_v2",
     "country": "New Zealand",
-    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/JhDxpsesZAdlVwGE.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/oXAkFfmsbigyWCUn.png",
     "price": 599,
     "name": "New Zealand Congratulations Card v2"
   }
@@ -7737,7 +7737,7 @@ export const CONGRATULATIONS_V3_CARDS: CardProduct[] = [
   {
     "id": "ic_congratulations_v3",
     "country": "Iceland",
-    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/LMxLvOerfLCsYDzO.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/ruaAREivouidCsJl.png",
     "price": 599,
     "name": "Iceland Congratulations Card v3"
   }
@@ -7894,7 +7894,7 @@ export const FAB_DAD_CARDS: CardProduct[] = [
   {
     "id": "ng_fab_dad",
     "country": "Nigeria",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/ng_birthday_mom_9686a463.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/QbjvvSiIZpZQYRov.png",
     "price": 599,
     "name": "Nigeria Fab Dad Card"
   },
@@ -8117,7 +8117,7 @@ export const FAB_MOM_CARDS: CardProduct[] = [
   {
     "id": "ng_fab_mom",
     "country": "Nigeria",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/ng_birthday_mom_9686a463.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/QbjvvSiIZpZQYRov.png",
     "price": 599,
     "name": "Nigeria Fab Mom Card"
   },
@@ -8197,21 +8197,21 @@ export const FATHERS_DAY_CARDS: CardProduct[] = [
   {
     "id": "dz_fathers_day",
     "country": "Algeria",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/DZ_birthday_mom_3c7c5137.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/aSXsYJEYwlAzeXrK.png",
     "price": 599,
     "name": "Algeria Father's Day Card"
   },
   {
     "id": "ao_fathers_day",
     "country": "Angola",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/ao_birthday_mom_85345606.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/NUzOyTlMNMqQtAYJ.png",
     "price": 599,
     "name": "Angola Father's Day Card"
   },
   {
     "id": "ag_fathers_day",
     "country": "Antigua and Barbuda",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/ag_birthday_mom_333bddbd.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/SxjfudGaFslhVJDE.png",
     "price": 599,
     "name": "Antigua and Barbuda Father's Day Card"
   },
@@ -8225,7 +8225,7 @@ export const FATHERS_DAY_CARDS: CardProduct[] = [
   {
     "id": "am_fathers_day",
     "country": "Armenia",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/am_birthday_mom_1a04ac48.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/wTYWvRrmflVfgqmI.png",
     "price": 599,
     "name": "Armenia Father's Day Card"
   },
@@ -8239,21 +8239,21 @@ export const FATHERS_DAY_CARDS: CardProduct[] = [
   {
     "id": "az_fathers_day",
     "country": "Azerbaijan",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/az_birthday_mom_3836d909.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/kRPYoAxiggDKljVV.png",
     "price": 599,
     "name": "Azerbaijan Father's Day Card"
   },
   {
     "id": "bs_fathers_day",
     "country": "Bahamas",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/bs_birthday_mom_65be5f26.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/LLziLQXjbSjiAVye.png",
     "price": 599,
     "name": "Bahamas Father's Day Card"
   },
   {
     "id": "bh_fathers_day",
     "country": "Bahrain",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/BH_birthday_mom_wall_art_8x10_427a59ed.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/uRrBelzasYMDgrIo.png",
     "price": 599,
     "name": "Bahrain Father's Day Card"
   },
@@ -8267,7 +8267,7 @@ export const FATHERS_DAY_CARDS: CardProduct[] = [
   {
     "id": "bb_fathers_day",
     "country": "Barbados",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/bb_birthday_mom_10bb0ed2.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/zHserKeLKZZxUDbg.png",
     "price": 599,
     "name": "Barbados Father's Day Card"
   },
@@ -8281,28 +8281,28 @@ export const FATHERS_DAY_CARDS: CardProduct[] = [
   {
     "id": "be_fathers_day",
     "country": "Belgium",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/be_birthday_mom_548cc4c8.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/LHBLxZQYnbbJipUQ.png",
     "price": 599,
     "name": "Belgium Father's Day Card"
   },
   {
     "id": "bz_fathers_day",
     "country": "Belize",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/bz_birthday_mom_34529da0.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/CXIkrjzfxJcfNSLN.png",
     "price": 599,
     "name": "Belize Father's Day Card"
   },
   {
     "id": "bj_fathers_day",
     "country": "Benin",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/BJ_birthday_mom_wall_art_8x10_b4bb53ac.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/qNEGoxApHKoYRRfi.png",
     "price": 599,
     "name": "Benin Father's Day Card"
   },
   {
     "id": "bt_fathers_day",
     "country": "Bhutan",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/BT_birthday_mom_wall_art_8x10_9118c9ac.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/aVVvyIxGpvzYfWdr.png",
     "price": 599,
     "name": "Bhutan Father's Day Card"
   },
@@ -8323,7 +8323,7 @@ export const FATHERS_DAY_CARDS: CardProduct[] = [
   {
     "id": "bw_fathers_day",
     "country": "Botswana",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/bw_birthday_mom_ccd83bd4.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/uysRahfDXVqjSooN.png",
     "price": 599,
     "name": "Botswana Father's Day Card"
   },
@@ -8337,14 +8337,14 @@ export const FATHERS_DAY_CARDS: CardProduct[] = [
   {
     "id": "bf_fathers_day",
     "country": "Burkina Faso",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/BF_birthday_mom_wall_art_8x10_2c5b945d.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/yYggnjRaIyodFqpp.png",
     "price": 599,
     "name": "Burkina Faso Father's Day Card"
   },
   {
     "id": "bi_fathers_day",
     "country": "Burundi",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/BI_birthday_mom_wall_art_8x10_18366f51.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/cYRiwWTUTZhHSGkU.png",
     "price": 599,
     "name": "Burundi Father's Day Card"
   },
@@ -8358,28 +8358,28 @@ export const FATHERS_DAY_CARDS: CardProduct[] = [
   {
     "id": "cm_fathers_day",
     "country": "Cameroon",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/cm_birthday_mom_6c64c757.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/wasVKdUhDGEeVtrQ.png",
     "price": 599,
     "name": "Cameroon Father's Day Card"
   },
   {
     "id": "cv_fathers_day",
     "country": "Cape Verde",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/CV_birthday_mom_wall_art_8x10_69488a07.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/ZUwbprlpSdPbGHZn.png",
     "price": 599,
     "name": "Cape Verde Father's Day Card"
   },
   {
     "id": "cf_fathers_day",
     "country": "Central African Republic",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/cf_birthday_mom_725a0c3f.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/vrxktdFQRkWRSVjQ.png",
     "price": 599,
     "name": "Central African Republic Father's Day Card"
   },
   {
     "id": "td_fathers_day",
     "country": "Chad",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/TD_birthday_mom_wall_art_8x10_d7deeb25.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/yFHaAMPmEQHoLVsN.png",
     "price": 599,
     "name": "Chad Father's Day Card"
   },
@@ -8400,7 +8400,7 @@ export const FATHERS_DAY_CARDS: CardProduct[] = [
   {
     "id": "km_fathers_day",
     "country": "Comoros",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/KM_birthday_mom_wall_art_8x10_c9f7e6f5.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/NEsjCdygjjFWTwqz.png",
     "price": 599,
     "name": "Comoros Father's Day Card"
   },
@@ -8428,7 +8428,7 @@ export const FATHERS_DAY_CARDS: CardProduct[] = [
   {
     "id": "cy_fathers_day",
     "country": "Cyprus",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/cy_birthday_mom_4f48f663.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/fWBAYcoluxVCcIan.png",
     "price": 599,
     "name": "Cyprus Father's Day Card"
   },
@@ -8442,28 +8442,28 @@ export const FATHERS_DAY_CARDS: CardProduct[] = [
   {
     "id": "cd_fathers_day",
     "country": "Democratic Republic of Congo",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/CD_birthday_mom_wall_art_8x10_84f68563.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/FDdsFdZPPMrsSilO.png",
     "price": 599,
     "name": "Democratic Republic of Congo Father's Day Card"
   },
   {
     "id": "dk_fathers_day",
     "country": "Denmark",
-    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/vzEUgARgJQiOHImU.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/xTzQHgxUklaIhiAo.png",
     "price": 599,
     "name": "Denmark Father's Day Card"
   },
   {
     "id": "dj_fathers_day",
     "country": "Djibouti",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/DJ_birthday_mom_wall_art_8x10_b4d9acf0.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/WgHRYWUWyQvOTckg.png",
     "price": 599,
     "name": "Djibouti Father's Day Card"
   },
   {
     "id": "dm_fathers_day",
     "country": "Dominica",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/dm_birthday_mom_4dc40592.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/NKnAVLjYtkhfvWVZ.png",
     "price": 599,
     "name": "Dominica Father's Day Card"
   },
@@ -8491,14 +8491,14 @@ export const FATHERS_DAY_CARDS: CardProduct[] = [
   {
     "id": "gq_fathers_day",
     "country": "Equatorial Guinea",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/gq_birthday_mom_8acdbc11.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/ZeVmwvXLeHtiDwBY.png",
     "price": 599,
     "name": "Equatorial Guinea Father's Day Card"
   },
   {
     "id": "er_fathers_day",
     "country": "Eritrea",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/ER_birthday_mom_wall_art_8x10_7dc191fa.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/XOGBNlUEaJOsFIlb.png",
     "price": 599,
     "name": "Eritrea Father's Day Card"
   },
@@ -8512,7 +8512,7 @@ export const FATHERS_DAY_CARDS: CardProduct[] = [
   {
     "id": "sz_fathers_day",
     "country": "Eswatini",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/sz_birthday_mom_c0e3cfdc.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/FszQGbXgPRkYzBZb.png",
     "price": 599,
     "name": "Eswatini Father's Day Card"
   },
@@ -8533,56 +8533,56 @@ export const FATHERS_DAY_CARDS: CardProduct[] = [
   {
     "id": "ga_fathers_day",
     "country": "Gabon",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/ga_birthday_mom_b7901cc4.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/duYyCJuymhxOqDRI.png",
     "price": 599,
     "name": "Gabon Father's Day Card"
   },
   {
     "id": "gm_fathers_day",
     "country": "Gambia",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/GM_birthday_mom_wall_art_8x10_ae89051c.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/cIcRSxeKYiPjHAsP.png",
     "price": 599,
     "name": "Gambia Father's Day Card"
   },
   {
     "id": "ge_fathers_day",
     "country": "Georgia",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/ge_birthday_mom_dfb2f59c.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/xUKeGlIosQNXjusv.png",
     "price": 599,
     "name": "Georgia Father's Day Card"
   },
   {
     "id": "gd_fathers_day",
     "country": "Grenada",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/gd_birthday_mom_1542ac2f.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/SEGcdpKIBdbcIteD.png",
     "price": 599,
     "name": "Grenada Father's Day Card"
   },
   {
     "id": "gn_fathers_day",
     "country": "Guinea",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/GN_birthday_mom_wall_art_8x10_e453fa4b.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/KePfUmyZACXwqnmn.png",
     "price": 599,
     "name": "Guinea Father's Day Card"
   },
   {
     "id": "gw_fathers_day",
     "country": "Guinea Bissau",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/GW_birthday_mom_wall_art_8x10_0bc3b661.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/sjlQTUsHjYXRikeR.png",
     "price": 599,
     "name": "Guinea Bissau Father's Day Card"
   },
   {
     "id": "gy_fathers_day",
     "country": "Guyana",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/gy_birthday_mom_17151fe5.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/qlbptLQjvIkZXNIL.png",
     "price": 599,
     "name": "Guyana Father's Day Card"
   },
   {
     "id": "ht_fathers_day",
     "country": "Haiti",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/ht_birthday_mom_4e48824f.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/WBAojmHnuabHwIyD.png",
     "price": 599,
     "name": "Haiti Father's Day Card"
   },
@@ -8624,35 +8624,35 @@ export const FATHERS_DAY_CARDS: CardProduct[] = [
   {
     "id": "it_fathers_day",
     "country": "Italy",
-    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/dyOrFXvEqjPyFNma.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/swgBnXNtcTnWrwmP.png",
     "price": 599,
     "name": "Italy Father's Day Card"
   },
   {
     "id": "ci_fathers_day",
     "country": "Ivory Coast",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/CI_birthday_mom_wall_art_8x10_b8da7aa2.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/bOFaLOOHonrsRwza.png",
     "price": 599,
     "name": "Ivory Coast Father's Day Card"
   },
   {
     "id": "jo_fathers_day",
     "country": "Jordan",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/JO_birthday_mom_17e9170f.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/THDWQTjalOMxaoUg.png",
     "price": 599,
     "name": "Jordan Father's Day Card"
   },
   {
     "id": "kz_fathers_day",
     "country": "Kazakhstan",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/kz_birthday_mom_a0f037fb.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/JWTLrcPtViKLkFxk.png",
     "price": 599,
     "name": "Kazakhstan Father's Day Card"
   },
   {
     "id": "ke_fathers_day",
     "country": "Kenya",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/ke_birthday_mom_130454dd.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/UOIwZOmUAAlvWBcE.png",
     "price": 599,
     "name": "Kenya Father's Day Card"
   },
@@ -8673,14 +8673,14 @@ export const FATHERS_DAY_CARDS: CardProduct[] = [
   {
     "id": "kw_fathers_day",
     "country": "Kuwait",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/KW_birthday_mom_cf65da85.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/iNVkNUQoQNpQYemb.png",
     "price": 599,
     "name": "Kuwait Father's Day Card"
   },
   {
     "id": "kg_fathers_day",
     "country": "Kyrgyzstan",
-    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/ooarKlSdPcmnYQKr.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/QvLmgjGiWyfmVgNj.png",
     "price": 599,
     "name": "Kyrgyzstan Father's Day Card"
   },
@@ -8701,21 +8701,21 @@ export const FATHERS_DAY_CARDS: CardProduct[] = [
   {
     "id": "ls_fathers_day",
     "country": "Lesotho",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/ls_birthday_mom_72b5a453.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/PvaLzYdmPKCJCgpA.png",
     "price": 599,
     "name": "Lesotho Father's Day Card"
   },
   {
     "id": "lr_fathers_day",
     "country": "Liberia",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/LR_birthday_mom_wall_art_8x10_7763b744.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/SfprJpnLzZEpkNTT.png",
     "price": 599,
     "name": "Liberia Father's Day Card"
   },
   {
     "id": "ly_fathers_day",
     "country": "Libya",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/LY_birthday_mom_93b4550e.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/DehoStrIhsFzXuDN.png",
     "price": 599,
     "name": "Libya Father's Day Card"
   },
@@ -8729,21 +8729,21 @@ export const FATHERS_DAY_CARDS: CardProduct[] = [
   {
     "id": "lu_fathers_day",
     "country": "Luxembourg",
-    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/zDdllyznLtQumeab.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/wMpUNqNAWzjEUJMd.png",
     "price": 599,
     "name": "Luxembourg Father's Day Card"
   },
   {
     "id": "mg_fathers_day",
     "country": "Madagascar",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/MG_birthday_mom_wall_art_8x10_37ecb072.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/HJpAAXCKIYOjmfoZ.png",
     "price": 599,
     "name": "Madagascar Father's Day Card"
   },
   {
     "id": "mw_fathers_day",
     "country": "Malawi",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/MW_birthday_mom_wall_art_8x10_507dfde2.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/BbtYyvaLofEePGin.png",
     "price": 599,
     "name": "Malawi Father's Day Card"
   },
@@ -8757,35 +8757,35 @@ export const FATHERS_DAY_CARDS: CardProduct[] = [
   {
     "id": "mv_fathers_day",
     "country": "Maldives",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/MV_birthday_mom_wall_art_8x10_f078becd.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/sigemvoaVzWvmohc.png",
     "price": 599,
     "name": "Maldives Father's Day Card"
   },
   {
     "id": "ml_fathers_day",
     "country": "Mali",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/ML_birthday_mom_wall_art_8x10_1bd7129a.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/qIhAeVeYflLgHRmF.png",
     "price": 599,
     "name": "Mali Father's Day Card"
   },
   {
     "id": "mt_fathers_day",
     "country": "Malta",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/mt_birthday_mom_e90a8229.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/uHzbgNoeBfVWOert.png",
     "price": 599,
     "name": "Malta Father's Day Card"
   },
   {
     "id": "mr_fathers_day",
     "country": "Mauritania",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/MR_birthday_mom_wall_art_8x10_e4ce2752.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/ORCFSbOAtNfbHUnI.png",
     "price": 599,
     "name": "Mauritania Father's Day Card"
   },
   {
     "id": "mu_fathers_day",
     "country": "Mauritius",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/mu_birthday_mom_3e450220.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/LMUHVONOtEeoKwSK.png",
     "price": 599,
     "name": "Mauritius Father's Day Card"
   },
@@ -8799,7 +8799,7 @@ export const FATHERS_DAY_CARDS: CardProduct[] = [
   {
     "id": "mn_fathers_day",
     "country": "Mongolia",
-    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/TPOsbiCBeMOGYHfE.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/ojyyqZxXbnJxBBsl.png",
     "price": 599,
     "name": "Mongolia Father's Day Card"
   },
@@ -8813,14 +8813,14 @@ export const FATHERS_DAY_CARDS: CardProduct[] = [
   {
     "id": "ma_fathers_day",
     "country": "Morocco",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/ma_birthday_mom_60b5b222.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/ISqMYcwfGCaxsLIY.png",
     "price": 599,
     "name": "Morocco Father's Day Card"
   },
   {
     "id": "mz_fathers_day",
     "country": "Mozambique",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/MZ_birthday_mom_wall_art_8x10_5499f5dd.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/ceOOhzLmWLfTmBWg.png",
     "price": 599,
     "name": "Mozambique Father's Day Card"
   },
@@ -8834,7 +8834,7 @@ export const FATHERS_DAY_CARDS: CardProduct[] = [
   {
     "id": "na_fathers_day",
     "country": "Namibia",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/na_birthday_mom_e2338f34.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/mszCdQjvdhsbDsRa.png",
     "price": 599,
     "name": "Namibia Father's Day Card"
   },
@@ -8855,7 +8855,7 @@ export const FATHERS_DAY_CARDS: CardProduct[] = [
   {
     "id": "nl_fathers_day",
     "country": "Netherlands",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/nl_birthday_mom_d0d52d5d.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/KDYvpNhJAKBjoIIr.png",
     "price": 599,
     "name": "Netherlands Father's Day Card"
   },
@@ -8869,7 +8869,7 @@ export const FATHERS_DAY_CARDS: CardProduct[] = [
   {
     "id": "ne_fathers_day",
     "country": "Niger",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/NE_birthday_mom_wall_art_8x10_1c2f4d6d.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/BAYQtVmMFJKIbsPC.png",
     "price": 599,
     "name": "Niger Father's Day Card"
   },
@@ -8890,14 +8890,14 @@ export const FATHERS_DAY_CARDS: CardProduct[] = [
   {
     "id": "no_fathers_day",
     "country": "Norway",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/no_birthday_mom_f76bd305.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/amEBEYuGFumtmFCc.png",
     "price": 599,
     "name": "Norway Father's Day Card"
   },
   {
     "id": "om_fathers_day",
     "country": "Oman",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/OM_birthday_mom_3e32b375.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/lkeUcEULXzVZDcBn.png",
     "price": 599,
     "name": "Oman Father's Day Card"
   },
@@ -8925,7 +8925,7 @@ export const FATHERS_DAY_CARDS: CardProduct[] = [
   {
     "id": "pg_fathers_day",
     "country": "Papua New Guinea",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/pg_birthday_mom_b484654a.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/UxtAaBiTlzgGtheR.png",
     "price": 599,
     "name": "Papua New Guinea Father's Day Card"
   },
@@ -8946,7 +8946,7 @@ export const FATHERS_DAY_CARDS: CardProduct[] = [
   {
     "id": "pl_fathers_day",
     "country": "Poland",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/pl_birthday_mom_ed83e3e4.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/fvmFbvvzuVADTqyX.png",
     "price": 599,
     "name": "Poland Father's Day Card"
   },
@@ -8967,14 +8967,14 @@ export const FATHERS_DAY_CARDS: CardProduct[] = [
   {
     "id": "qa_fathers_day",
     "country": "Qatar",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/QA_birthday_mom_3c86507a.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/mIDOHMrXcsAdtRWC.png",
     "price": 599,
     "name": "Qatar Father's Day Card"
   },
   {
     "id": "cg_fathers_day",
     "country": "Republic of Congo",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/CG_birthday_mom_wall_art_8x10_7ca96fb8.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/tllnvpWsCnHZfyJY.png",
     "price": 599,
     "name": "Republic of Congo Father's Day Card"
   },
@@ -8988,28 +8988,28 @@ export const FATHERS_DAY_CARDS: CardProduct[] = [
   {
     "id": "rw_fathers_day",
     "country": "Rwanda",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/RW_birthday_mom_wall_art_8x10_99c6bd5d.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/OJGjwlLmkKXDXCoH.png",
     "price": 599,
     "name": "Rwanda Father's Day Card"
   },
   {
     "id": "kn_fathers_day",
     "country": "Saint Kitts and Nevis",
-    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/oxosHTJlndbKSwjT.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/BkfREgtXxGXtfxVi.png",
     "price": 599,
     "name": "Saint Kitts and Nevis Father's Day Card"
   },
   {
     "id": "lc_fathers_day",
     "country": "Saint Lucia",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/lc_birthday_mom_7e6b141e.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/gOHajHFQJUKcbaOn.png",
     "price": 599,
     "name": "Saint Lucia Father's Day Card"
   },
   {
     "id": "vc_fathers_day",
     "country": "Saint Vincent and the Grenadines",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/vc_birthday_mom_2efd25b8.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/VvsVRkzpanixmErR.png",
     "price": 599,
     "name": "Saint Vincent and the Grenadines Father's Day Card"
   },
@@ -9023,21 +9023,21 @@ export const FATHERS_DAY_CARDS: CardProduct[] = [
   {
     "id": "st_fathers_day",
     "country": "Sao Tome and Principe",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/st_birthday_mom_a05e7209.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/GsqKUhmfujioRAug.png",
     "price": 599,
     "name": "Sao Tome and Principe Father's Day Card"
   },
   {
     "id": "sa_fathers_day",
     "country": "Saudi Arabia",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/SA_birthday_mom_42c3217a.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/xxCSJaMlKdqfmcmi.png",
     "price": 599,
     "name": "Saudi Arabia Father's Day Card"
   },
   {
     "id": "sn_fathers_day",
     "country": "Senegal",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/sn_birthday_mom_4c5c25aa.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/bIeMrUrUvuYSamRL.png",
     "price": 599,
     "name": "Senegal Father's Day Card"
   },
@@ -9051,7 +9051,7 @@ export const FATHERS_DAY_CARDS: CardProduct[] = [
   {
     "id": "sc_fathers_day",
     "country": "Seychelles",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/SC_birthday_mom_wall_art_8x10_dca3d36f.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/wWLbxIeZRYFtQxtj.png",
     "price": 599,
     "name": "Seychelles Father's Day Card"
   },
@@ -9079,21 +9079,21 @@ export const FATHERS_DAY_CARDS: CardProduct[] = [
   {
     "id": "sb_fathers_day",
     "country": "Solomon Islands",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/sb_birthday_mom_91551337.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/gjhnLaxXHQkACjOi.png",
     "price": 599,
     "name": "Solomon Islands Father's Day Card"
   },
   {
     "id": "so_fathers_day",
     "country": "Somalia",
-    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/mwUprLRaSOZSxHYR.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/QNkVDuFVwqYgSRDK.png",
     "price": 599,
     "name": "Somalia Father's Day Card"
   },
   {
     "id": "ss_fathers_day",
     "country": "South Sudan",
-    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/pizpvRdAbaNQhUlN.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/IpAgnfYEvcclgqCm.png",
     "price": 599,
     "name": "South Sudan Father's Day Card"
   },
@@ -9114,14 +9114,14 @@ export const FATHERS_DAY_CARDS: CardProduct[] = [
   {
     "id": "sd_fathers_day",
     "country": "Sudan",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/SD_birthday_mom_e6aabba1.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/DXSOEByTHrkAOEMK.png",
     "price": 599,
     "name": "Sudan Father's Day Card"
   },
   {
     "id": "sr_fathers_day",
     "country": "Suriname",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/sr_birthday_mom_5f0c3441.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/sDMWLBWxdekNlXYT.png",
     "price": 599,
     "name": "Suriname Father's Day Card"
   },
@@ -9135,7 +9135,7 @@ export const FATHERS_DAY_CARDS: CardProduct[] = [
   {
     "id": "ch_fathers_day",
     "country": "Switzerland",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/ch_birthday_mom_6b36eb90.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/cuGoBclHjifECoIh.png",
     "price": 599,
     "name": "Switzerland Father's Day Card"
   },
@@ -9149,35 +9149,35 @@ export const FATHERS_DAY_CARDS: CardProduct[] = [
   {
     "id": "tw_fathers_day",
     "country": "Taiwan",
-    "image": "",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/MqCIgfqPJTFfOGRP.png",
     "price": 599,
     "name": "Taiwan Father's Day Card"
   },
   {
     "id": "tj_fathers_day",
     "country": "Tajikistan",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/tj_birthday_mom_1b2bdec2.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/VpsdVGpUrJgtZuuR.png",
     "price": 599,
     "name": "Tajikistan Father's Day Card"
   },
   {
     "id": "tz_fathers_day",
     "country": "Tanzania",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/tz_birthday_mom_5d527177.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/wmKtrRuVEgyTuVPC.png",
     "price": 599,
     "name": "Tanzania Father's Day Card"
   },
   {
     "id": "tl_fathers_day",
     "country": "Timor Leste",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/TL_birthday_mom_wall_art_8x10_1505f48c.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/vITvDRLdiUPyVjaa.png",
     "price": 599,
     "name": "Timor Leste Father's Day Card"
   },
   {
     "id": "tg_fathers_day",
     "country": "Togo",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/TG_birthday_mom_wall_art_8x10_3d4be01f.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/GfSFKCwUpymFJXrB.png",
     "price": 599,
     "name": "Togo Father's Day Card"
   },
@@ -9191,21 +9191,21 @@ export const FATHERS_DAY_CARDS: CardProduct[] = [
   {
     "id": "tt_fathers_day",
     "country": "Trinidad Tobago",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/tt_birthday_mom_ce28febe.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/VrTmBliUNGHVgUSQ.png",
     "price": 599,
     "name": "Trinidad Tobago Father's Day Card"
   },
   {
     "id": "tn_fathers_day",
     "country": "Tunisia",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/TN_birthday_mom_58a6f4bb.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/lmYcAFmqfxfULsip.png",
     "price": 599,
     "name": "Tunisia Father's Day Card"
   },
   {
     "id": "tm_fathers_day",
     "country": "Turkmenistan",
-    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/IudgBAXchJXIxfkV.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/htqIpwKTnganIUHx.png",
     "price": 599,
     "name": "Turkmenistan Father's Day Card"
   },
@@ -9219,21 +9219,21 @@ export const FATHERS_DAY_CARDS: CardProduct[] = [
   {
     "id": "ug_fathers_day",
     "country": "Uganda",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/ug_birthday_mom_3932eff2.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/KHIcVRWgqcqCxHpz.png",
     "price": 599,
     "name": "Uganda Father's Day Card"
   },
   {
     "id": "ua_fathers_day",
     "country": "Ukraine",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/ua_birthday_mom_49b68c27.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/GIBwfqTDOShomTEK.png",
     "price": 599,
     "name": "Ukraine Father's Day Card"
   },
   {
     "id": "uy_fathers_day",
     "country": "Uruguay",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/uy_birthday_mom_210c231b.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/KlrySVugkjicolPD.png",
     "price": 599,
     "name": "Uruguay Father's Day Card"
   },
@@ -9261,21 +9261,21 @@ export const FATHERS_DAY_CARDS: CardProduct[] = [
   {
     "id": "ye_fathers_day",
     "country": "Yemen",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/YE_birthday_mom_e46037cc.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/cBYaMHLOJUSAiWPC.png",
     "price": 599,
     "name": "Yemen Father's Day Card"
   },
   {
     "id": "zm_fathers_day",
     "country": "Zambia",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/ZM_birthday_mom_wall_art_8x10_6d8a3357.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/bitwXAhtbJjyoeWO.png",
     "price": 599,
     "name": "Zambia Father's Day Card"
   },
   {
     "id": "zw_fathers_day",
     "country": "Zimbabwe",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/zw_birthday_mom_6da162de.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/hXSoCLCwQPobCeTD.png",
     "price": 599,
     "name": "Zimbabwe Father's Day Card"
   }
@@ -9299,7 +9299,7 @@ export const GET_WELL_SOON_CARDS: CardProduct[] = [
   {
     "id": "dz_get_well_soon",
     "country": "Algeria",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/DZ_birthday_mom_3c7c5137.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/sbwPXVzfVEYrFQYR.png",
     "price": 599,
     "name": "Algeria Get Well Soon Card"
   },
@@ -9327,7 +9327,7 @@ export const GET_WELL_SOON_CARDS: CardProduct[] = [
   {
     "id": "am_get_well_soon",
     "country": "Armenia",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/am_birthday_mom_1a04ac48.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/JBfXlUgXTKDUJQur.png",
     "price": 599,
     "name": "Armenia Get Well Soon Card"
   },
@@ -9348,7 +9348,7 @@ export const GET_WELL_SOON_CARDS: CardProduct[] = [
   {
     "id": "az_get_well_soon",
     "country": "Azerbaijan",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/az_birthday_mom_3836d909.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/azVlpOwMjFKxKaRH.png",
     "price": 599,
     "name": "Azerbaijan Get Well Soon Card"
   },
@@ -9362,7 +9362,7 @@ export const GET_WELL_SOON_CARDS: CardProduct[] = [
   {
     "id": "bh_get_well_soon",
     "country": "Bahrain",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/BH_birthday_mom_wall_art_8x10_427a59ed.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/cYnXbcqOKavTTXiz.png",
     "price": 599,
     "name": "Bahrain Get Well Soon Card"
   },
@@ -9390,7 +9390,7 @@ export const GET_WELL_SOON_CARDS: CardProduct[] = [
   {
     "id": "be_get_well_soon",
     "country": "Belgium",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/be_birthday_mom_548cc4c8.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/saumZQqebjpXeJgo.png",
     "price": 599,
     "name": "Belgium Get Well Soon Card"
   },
@@ -9404,14 +9404,14 @@ export const GET_WELL_SOON_CARDS: CardProduct[] = [
   {
     "id": "bj_get_well_soon",
     "country": "Benin",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/BJ_birthday_mom_wall_art_8x10_b4bb53ac.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/qNWuwHvkfoZVifte.png",
     "price": 599,
     "name": "Benin Get Well Soon Card"
   },
   {
     "id": "bt_get_well_soon",
     "country": "Bhutan",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/BT_birthday_mom_wall_art_8x10_9118c9ac.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/tWfjHxwpCofXbBYb.png",
     "price": 599,
     "name": "Bhutan Get Well Soon Card"
   },
@@ -9453,14 +9453,14 @@ export const GET_WELL_SOON_CARDS: CardProduct[] = [
   {
     "id": "bf_get_well_soon",
     "country": "Burkina Faso",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/BF_birthday_mom_wall_art_8x10_2c5b945d.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/FpDuYiUvnnFYDcgO.png",
     "price": 599,
     "name": "Burkina Faso Get Well Soon Card"
   },
   {
     "id": "bi_get_well_soon",
     "country": "Burundi",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/BI_birthday_mom_wall_art_8x10_18366f51.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/qWiZpgAOBUGCFCwo.png",
     "price": 599,
     "name": "Burundi Get Well Soon Card"
   },
@@ -9474,7 +9474,7 @@ export const GET_WELL_SOON_CARDS: CardProduct[] = [
   {
     "id": "cm_get_well_soon",
     "country": "Cameroon",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/cm_birthday_mom_6c64c757.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/mEUcgdmXOCpgKYzh.png",
     "price": 599,
     "name": "Cameroon Get Well Soon Card"
   },
@@ -9488,7 +9488,7 @@ export const GET_WELL_SOON_CARDS: CardProduct[] = [
   {
     "id": "cv_get_well_soon",
     "country": "Cape Verde",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/CV_birthday_mom_wall_art_8x10_69488a07.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/MnFECfMWmGgCpSmI.png",
     "price": 599,
     "name": "Cape Verde Get Well Soon Card"
   },
@@ -9502,7 +9502,7 @@ export const GET_WELL_SOON_CARDS: CardProduct[] = [
   {
     "id": "td_get_well_soon",
     "country": "Chad",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/TD_birthday_mom_wall_art_8x10_d7deeb25.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/mKnCHXPiGzdGXdGb.png",
     "price": 599,
     "name": "Chad Get Well Soon Card"
   },
@@ -9530,7 +9530,7 @@ export const GET_WELL_SOON_CARDS: CardProduct[] = [
   {
     "id": "km_get_well_soon",
     "country": "Comoros",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/KM_birthday_mom_wall_art_8x10_c9f7e6f5.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/jAEutcGGDSPXiZbm.png",
     "price": 599,
     "name": "Comoros Get Well Soon Card"
   },
@@ -9558,7 +9558,7 @@ export const GET_WELL_SOON_CARDS: CardProduct[] = [
   {
     "id": "cy_get_well_soon",
     "country": "Cyprus",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/cy_birthday_mom_4f48f663.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/itKdYaVlKDqtMAaP.png",
     "price": 599,
     "name": "Cyprus Get Well Soon Card"
   },
@@ -9572,21 +9572,21 @@ export const GET_WELL_SOON_CARDS: CardProduct[] = [
   {
     "id": "cd_get_well_soon",
     "country": "Democratic Republic of Congo",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/CD_birthday_mom_wall_art_8x10_84f68563.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/GKLTHzVKAivlAzcC.png",
     "price": 599,
     "name": "Democratic Republic of Congo Get Well Soon Card"
   },
   {
     "id": "dk_get_well_soon",
     "country": "Denmark",
-    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/vzEUgARgJQiOHImU.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/jhoeZBfugGmINbpz.png",
     "price": 599,
     "name": "Denmark Get Well Soon Card"
   },
   {
     "id": "dj_get_well_soon",
     "country": "Djibouti",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/DJ_birthday_mom_wall_art_8x10_b4d9acf0.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/DdXsWLXosjZRvxGq.png",
     "price": 599,
     "name": "Djibouti Get Well Soon Card"
   },
@@ -9642,7 +9642,7 @@ export const GET_WELL_SOON_CARDS: CardProduct[] = [
   {
     "id": "er_get_well_soon",
     "country": "Eritrea",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/ER_birthday_mom_wall_art_8x10_7dc191fa.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/PNGiYgcjJxTiuwxw.png",
     "price": 599,
     "name": "Eritrea Get Well Soon Card"
   },
@@ -9691,21 +9691,21 @@ export const GET_WELL_SOON_CARDS: CardProduct[] = [
   {
     "id": "gm_get_well_soon",
     "country": "Gambia",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/GM_birthday_mom_wall_art_8x10_ae89051c.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/BCZGTMMtSnfncETN.png",
     "price": 599,
     "name": "Gambia Get Well Soon Card"
   },
   {
     "id": "ge_get_well_soon",
     "country": "Georgia",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/ge_birthday_mom_dfb2f59c.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/gUkYXSbAhAAsWgjq.png",
     "price": 599,
     "name": "Georgia Get Well Soon Card"
   },
   {
     "id": "de_get_well_soon",
     "country": "Germany",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/de_birthday_mom_ad19a201.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/cgrhusnmysrdXnJz.png",
     "price": 599,
     "name": "Germany Get Well Soon Card"
   },
@@ -9719,7 +9719,7 @@ export const GET_WELL_SOON_CARDS: CardProduct[] = [
   {
     "id": "gr_get_well_soon",
     "country": "Greece",
-    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/CjvQnDEZihieqPXb.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/RWpYltNgQIovZCpH.png",
     "price": 599,
     "name": "Greece Get Well Soon Card"
   },
@@ -9733,35 +9733,35 @@ export const GET_WELL_SOON_CARDS: CardProduct[] = [
   {
     "id": "gt_get_well_soon",
     "country": "Guatemala",
-    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/YNQtLlVBWGNYxpam.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/TPcBnPzLwYsmuFfF.png",
     "price": 599,
     "name": "Guatemala Get Well Soon Card"
   },
   {
     "id": "gn_get_well_soon",
     "country": "Guinea",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/GN_birthday_mom_wall_art_8x10_e453fa4b.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/vJREbMmrkxlcKgLp.png",
     "price": 599,
     "name": "Guinea Get Well Soon Card"
   },
   {
     "id": "gw_get_well_soon",
     "country": "Guinea Bissau",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/GW_birthday_mom_wall_art_8x10_0bc3b661.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/gJsUVgPwqLJlmabS.png",
     "price": 599,
     "name": "Guinea Bissau Get Well Soon Card"
   },
   {
     "id": "gy_get_well_soon",
     "country": "Guyana",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/gy_birthday_mom_17151fe5.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/fRxyHgyTXbElrKvl.png",
     "price": 599,
     "name": "Guyana Get Well Soon Card"
   },
   {
     "id": "ht_get_well_soon",
     "country": "Haiti",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/ht_birthday_mom_4e48824f.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/drnNxUcXycBpVmOD.png",
     "price": 599,
     "name": "Haiti Get Well Soon Card"
   },
@@ -9782,7 +9782,7 @@ export const GET_WELL_SOON_CARDS: CardProduct[] = [
   {
     "id": "in_get_well_soon",
     "country": "India",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/in_birthday_mom_9ecb2ef7.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/hbqijjcrUWCnuWsW.png",
     "price": 599,
     "name": "India Get Well Soon Card"
   },
@@ -9810,49 +9810,49 @@ export const GET_WELL_SOON_CARDS: CardProduct[] = [
   {
     "id": "it_get_well_soon",
     "country": "Italy",
-    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/dyOrFXvEqjPyFNma.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/kWfjBFEYPyJJLyoq.png",
     "price": 599,
     "name": "Italy Get Well Soon Card"
   },
   {
     "id": "ci_get_well_soon",
     "country": "Ivory Coast",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/CI_birthday_mom_wall_art_8x10_b8da7aa2.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/HaDVUqHBVtbruDNX.png",
     "price": 599,
     "name": "Ivory Coast Get Well Soon Card"
   },
   {
     "id": "jm_get_well_soon",
     "country": "Jamaica",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/jm_birthday_mom_02258bca.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/pwbHXZzTkRDhjavo.png",
     "price": 599,
     "name": "Jamaica Get Well Soon Card"
   },
   {
     "id": "jp_get_well_soon",
     "country": "Japan",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/jp_birthday_mom_1773fe74.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/dgYwzAPJJJNFkqHm.png",
     "price": 599,
     "name": "Japan Get Well Soon Card"
   },
   {
     "id": "jo_get_well_soon",
     "country": "Jordan",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/JO_birthday_mom_17e9170f.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/scNLPxiptlSSXBIy.png",
     "price": 599,
     "name": "Jordan Get Well Soon Card"
   },
   {
     "id": "kz_get_well_soon",
     "country": "Kazakhstan",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/kz_birthday_mom_a0f037fb.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/zkNWxxlMaSYKMKLM.png",
     "price": 599,
     "name": "Kazakhstan Get Well Soon Card"
   },
   {
     "id": "ke_get_well_soon",
     "country": "Kenya",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/ke_birthday_mom_130454dd.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/ZPsRrNWaGPmUwXsF.png",
     "price": 599,
     "name": "Kenya Get Well Soon Card"
   },
@@ -9866,7 +9866,7 @@ export const GET_WELL_SOON_CARDS: CardProduct[] = [
   {
     "id": "kr_get_well_soon",
     "country": "Korea",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/kr_birthday_mom_188febf6.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/WjoKXXKNJjgrNDXU.png",
     "price": 599,
     "name": "Korea Get Well Soon Card"
   },
@@ -9887,14 +9887,14 @@ export const GET_WELL_SOON_CARDS: CardProduct[] = [
   {
     "id": "kw_get_well_soon",
     "country": "Kuwait",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/KW_birthday_mom_cf65da85.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/hSphPvGfDczCsPML.png",
     "price": 599,
     "name": "Kuwait Get Well Soon Card"
   },
   {
     "id": "kg_get_well_soon",
     "country": "Kyrgyzstan",
-    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/ooarKlSdPcmnYQKr.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/aKLXBXVEFkkCDAyX.png",
     "price": 599,
     "name": "Kyrgyzstan Get Well Soon Card"
   },
@@ -9908,7 +9908,7 @@ export const GET_WELL_SOON_CARDS: CardProduct[] = [
   {
     "id": "lb_get_well_soon",
     "country": "Lebanon",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/lb_birthday_mom_1e1dcea7.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/yiHPANFuJxjUstLJ.png",
     "price": 599,
     "name": "Lebanon Get Well Soon Card"
   },
@@ -9922,14 +9922,14 @@ export const GET_WELL_SOON_CARDS: CardProduct[] = [
   {
     "id": "lr_get_well_soon",
     "country": "Liberia",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/LR_birthday_mom_wall_art_8x10_7763b744.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/FZdERSedrptzltIu.png",
     "price": 599,
     "name": "Liberia Get Well Soon Card"
   },
   {
     "id": "ly_get_well_soon",
     "country": "Libya",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/LY_birthday_mom_93b4550e.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/nHinHwDEnZiXHmTB.png",
     "price": 599,
     "name": "Libya Get Well Soon Card"
   },
@@ -9943,21 +9943,21 @@ export const GET_WELL_SOON_CARDS: CardProduct[] = [
   {
     "id": "lu_get_well_soon",
     "country": "Luxembourg",
-    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/zDdllyznLtQumeab.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/ZjwgvmruhDDeuEqI.png",
     "price": 599,
     "name": "Luxembourg Get Well Soon Card"
   },
   {
     "id": "mg_get_well_soon",
     "country": "Madagascar",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/MG_birthday_mom_wall_art_8x10_37ecb072.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/TACSrXQPSRSZWdgj.png",
     "price": 599,
     "name": "Madagascar Get Well Soon Card"
   },
   {
     "id": "mw_get_well_soon",
     "country": "Malawi",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/MW_birthday_mom_wall_art_8x10_507dfde2.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/MyRNXvxqccazOHGq.png",
     "price": 599,
     "name": "Malawi Get Well Soon Card"
   },
@@ -9971,28 +9971,28 @@ export const GET_WELL_SOON_CARDS: CardProduct[] = [
   {
     "id": "mv_get_well_soon",
     "country": "Maldives",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/MV_birthday_mom_wall_art_8x10_f078becd.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/nfBKwdrEtBnUhJQU.png",
     "price": 599,
     "name": "Maldives Get Well Soon Card"
   },
   {
     "id": "ml_get_well_soon",
     "country": "Mali",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/ML_birthday_mom_wall_art_8x10_1bd7129a.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/cCKbJjLTZmNWUSjc.png",
     "price": 599,
     "name": "Mali Get Well Soon Card"
   },
   {
     "id": "mt_get_well_soon",
     "country": "Malta",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/mt_birthday_mom_e90a8229.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/FAxHXUtLXiQPQufM.png",
     "price": 599,
     "name": "Malta Get Well Soon Card"
   },
   {
     "id": "mr_get_well_soon",
     "country": "Mauritania",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/MR_birthday_mom_wall_art_8x10_e4ce2752.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/EZlUvluCLWLLRjnq.png",
     "price": 599,
     "name": "Mauritania Get Well Soon Card"
   },
@@ -10013,7 +10013,7 @@ export const GET_WELL_SOON_CARDS: CardProduct[] = [
   {
     "id": "mn_get_well_soon",
     "country": "Mongolia",
-    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/TPOsbiCBeMOGYHfE.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/ntaKFsMLAGyNrBOQ.png",
     "price": 599,
     "name": "Mongolia Get Well Soon Card"
   },
@@ -10027,14 +10027,14 @@ export const GET_WELL_SOON_CARDS: CardProduct[] = [
   {
     "id": "ma_get_well_soon",
     "country": "Morocco",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/ma_birthday_mom_60b5b222.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/FlldHydVFECmxybv.png",
     "price": 599,
     "name": "Morocco Get Well Soon Card"
   },
   {
     "id": "mz_get_well_soon",
     "country": "Mozambique",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/MZ_birthday_mom_wall_art_8x10_5499f5dd.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/xvqdLNVWmDveRqSw.png",
     "price": 599,
     "name": "Mozambique Get Well Soon Card"
   },
@@ -10069,14 +10069,14 @@ export const GET_WELL_SOON_CARDS: CardProduct[] = [
   {
     "id": "nl_get_well_soon",
     "country": "Netherlands",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/nl_birthday_mom_d0d52d5d.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/UqcgULMBcvnkzFvJ.png",
     "price": 599,
     "name": "Netherlands Get Well Soon Card"
   },
   {
     "id": "nz_get_well_soon",
     "country": "New Zealand",
-    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/JhDxpsesZAdlVwGE.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/XIFmMTDvOHgYcASP.png",
     "price": 599,
     "name": "New Zealand Get Well Soon Card"
   },
@@ -10090,14 +10090,14 @@ export const GET_WELL_SOON_CARDS: CardProduct[] = [
   {
     "id": "ne_get_well_soon",
     "country": "Niger",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/NE_birthday_mom_wall_art_8x10_1c2f4d6d.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/DPeRMJyvQXxDjDGt.png",
     "price": 599,
     "name": "Niger Get Well Soon Card"
   },
   {
     "id": "ng_get_well_soon",
     "country": "Nigeria",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/ng_birthday_mom_9686a463.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/jkfwGVbuHJdvYREQ.png",
     "price": 599,
     "name": "Nigeria Get Well Soon Card"
   },
@@ -10118,14 +10118,14 @@ export const GET_WELL_SOON_CARDS: CardProduct[] = [
   {
     "id": "no_get_well_soon",
     "country": "Norway",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/no_birthday_mom_f76bd305.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/PLRnZvVHowLYrrXY.png",
     "price": 599,
     "name": "Norway Get Well Soon Card"
   },
   {
     "id": "om_get_well_soon",
     "country": "Oman",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/OM_birthday_mom_3e32b375.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/sbVFBSQpeexdpPpA.png",
     "price": 599,
     "name": "Oman Get Well Soon Card"
   },
@@ -10153,7 +10153,7 @@ export const GET_WELL_SOON_CARDS: CardProduct[] = [
   {
     "id": "pg_get_well_soon",
     "country": "Papua New Guinea",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/pg_birthday_mom_b484654a.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/pyfuXpKmsffGrJZY.png",
     "price": 599,
     "name": "Papua New Guinea Get Well Soon Card"
   },
@@ -10174,14 +10174,14 @@ export const GET_WELL_SOON_CARDS: CardProduct[] = [
   {
     "id": "ph_get_well_soon",
     "country": "Philippines",
-    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/ZKvYMjgYgQbcuChr.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/lPiOAXTVtRluiqFQ.png",
     "price": 599,
     "name": "Philippines Get Well Soon Card"
   },
   {
     "id": "pl_get_well_soon",
     "country": "Poland",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/pl_birthday_mom_ed83e3e4.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/qZHLXliCiSclzbUB.png",
     "price": 599,
     "name": "Poland Get Well Soon Card"
   },
@@ -10202,14 +10202,14 @@ export const GET_WELL_SOON_CARDS: CardProduct[] = [
   {
     "id": "qa_get_well_soon",
     "country": "Qatar",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/QA_birthday_mom_3c86507a.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/pjzDZhpRavmhgvxd.png",
     "price": 599,
     "name": "Qatar Get Well Soon Card"
   },
   {
     "id": "cg_get_well_soon",
     "country": "Republic of Congo",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/CG_birthday_mom_wall_art_8x10_7ca96fb8.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/VLMSemnZwxGkZrKZ.png",
     "price": 599,
     "name": "Republic of Congo Get Well Soon Card"
   },
@@ -10223,14 +10223,14 @@ export const GET_WELL_SOON_CARDS: CardProduct[] = [
   {
     "id": "ru_get_well_soon",
     "country": "Russia",
-    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/vJawcMoVdlJaTmUf.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/hRZjjqmjJXycSmbA.png",
     "price": 599,
     "name": "Russia Get Well Soon Card"
   },
   {
     "id": "rw_get_well_soon",
     "country": "Rwanda",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/RW_birthday_mom_wall_art_8x10_99c6bd5d.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/PyHtjnTRKkwgrNmg.png",
     "price": 599,
     "name": "Rwanda Get Well Soon Card"
   },
@@ -10272,14 +10272,14 @@ export const GET_WELL_SOON_CARDS: CardProduct[] = [
   {
     "id": "sa_get_well_soon",
     "country": "Saudi Arabia",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/SA_birthday_mom_42c3217a.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/GzzZjtWSNMfCzQde.png",
     "price": 599,
     "name": "Saudi Arabia Get Well Soon Card"
   },
   {
     "id": "sn_get_well_soon",
     "country": "Senegal",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/sn_birthday_mom_4c5c25aa.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/REJNOkzRvmveyzWN.png",
     "price": 599,
     "name": "Senegal Get Well Soon Card"
   },
@@ -10293,7 +10293,7 @@ export const GET_WELL_SOON_CARDS: CardProduct[] = [
   {
     "id": "sc_get_well_soon",
     "country": "Seychelles",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/SC_birthday_mom_wall_art_8x10_dca3d36f.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/brKSvHJkskJLxBil.png",
     "price": 599,
     "name": "Seychelles Get Well Soon Card"
   },
@@ -10321,14 +10321,14 @@ export const GET_WELL_SOON_CARDS: CardProduct[] = [
   {
     "id": "sb_get_well_soon",
     "country": "Solomon Islands",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/sb_birthday_mom_91551337.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/ysAjMdCMxnBuzzqq.png",
     "price": 599,
     "name": "Solomon Islands Get Well Soon Card"
   },
   {
     "id": "so_get_well_soon",
     "country": "Somalia",
-    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/mwUprLRaSOZSxHYR.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/ujkCgEerVGiQYPAn.png",
     "price": 599,
     "name": "Somalia Get Well Soon Card"
   },
@@ -10363,7 +10363,7 @@ export const GET_WELL_SOON_CARDS: CardProduct[] = [
   {
     "id": "sd_get_well_soon",
     "country": "Sudan",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/SD_birthday_mom_e6aabba1.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/iBkEIArQpeWUxOBS.png",
     "price": 599,
     "name": "Sudan Get Well Soon Card"
   },
@@ -10384,7 +10384,7 @@ export const GET_WELL_SOON_CARDS: CardProduct[] = [
   {
     "id": "ch_get_well_soon",
     "country": "Switzerland",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/ch_birthday_mom_6b36eb90.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/mbSlHYRYAZjtqXdP.png",
     "price": 599,
     "name": "Switzerland Get Well Soon Card"
   },
@@ -10398,21 +10398,21 @@ export const GET_WELL_SOON_CARDS: CardProduct[] = [
   {
     "id": "tw_get_well",
     "country": "Taiwan",
-    "image": "",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/iEVlgnmBXfbagcbZ.png",
     "price": 599,
     "name": "Taiwan Get Well Soon Card"
   },
   {
     "id": "tj_get_well_soon",
     "country": "Tajikistan",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/tj_birthday_mom_1b2bdec2.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/wJdSROHKQhXKbbNr.png",
     "price": 599,
     "name": "Tajikistan Get Well Soon Card"
   },
   {
     "id": "tz_get_well_soon",
     "country": "Tanzania",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/tz_birthday_mom_5d527177.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/FkiscUEXOHjyoFEt.png",
     "price": 599,
     "name": "Tanzania Get Well Soon Card"
   },
@@ -10433,7 +10433,7 @@ export const GET_WELL_SOON_CARDS: CardProduct[] = [
   {
     "id": "tg_get_well_soon",
     "country": "Togo",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/TG_birthday_mom_wall_art_8x10_3d4be01f.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/lmEIfuSlDlTSIeWr.png",
     "price": 599,
     "name": "Togo Get Well Soon Card"
   },
@@ -10447,14 +10447,14 @@ export const GET_WELL_SOON_CARDS: CardProduct[] = [
   {
     "id": "tt_get_well_soon",
     "country": "Trinidad Tobago",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/tt_birthday_mom_ce28febe.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/OXxCcRXNtvaQHVhE.png",
     "price": 599,
     "name": "Trinidad Tobago Get Well Soon Card"
   },
   {
     "id": "tn_get_well_soon",
     "country": "Tunisia",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/TN_birthday_mom_58a6f4bb.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/wZehrZxUKUiCEVfO.png",
     "price": 599,
     "name": "Tunisia Get Well Soon Card"
   },
@@ -10468,7 +10468,7 @@ export const GET_WELL_SOON_CARDS: CardProduct[] = [
   {
     "id": "tm_get_well_soon",
     "country": "Turkmenistan",
-    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/IudgBAXchJXIxfkV.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/KPBWmUAYLCZRTYNF.png",
     "price": 599,
     "name": "Turkmenistan Get Well Soon Card"
   },
@@ -10482,14 +10482,14 @@ export const GET_WELL_SOON_CARDS: CardProduct[] = [
   {
     "id": "ug_get_well_soon",
     "country": "Uganda",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/ug_birthday_mom_3932eff2.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/KAUCorusSzqNQhye.png",
     "price": 599,
     "name": "Uganda Get Well Soon Card"
   },
   {
     "id": "ua_get_well_soon",
     "country": "Ukraine",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/ua_birthday_mom_49b68c27.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/auqPVrBlTAjQZgle.png",
     "price": 599,
     "name": "Ukraine Get Well Soon Card"
   },
@@ -10510,7 +10510,7 @@ export const GET_WELL_SOON_CARDS: CardProduct[] = [
   {
     "id": "uz_get_well_soon",
     "country": "Uzbekistan",
-    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/jEOxJiMAcNUVUvqA.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/LJIUmYqEgTYUKDta.png",
     "price": 599,
     "name": "Uzbekistan Get Well Soon Card"
   },
@@ -10538,21 +10538,21 @@ export const GET_WELL_SOON_CARDS: CardProduct[] = [
   {
     "id": "ye_get_well_soon",
     "country": "Yemen",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/YE_birthday_mom_e46037cc.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/DfgOFvpiZVCCrQOx.png",
     "price": 599,
     "name": "Yemen Get Well Soon Card"
   },
   {
     "id": "zm_get_well_soon",
     "country": "Zambia",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/ZM_birthday_mom_wall_art_8x10_6d8a3357.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/ttdTNrpBddefSNvn.png",
     "price": 599,
     "name": "Zambia Get Well Soon Card"
   },
   {
     "id": "zw_get_well_soon",
     "country": "Zimbabwe",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/zw_birthday_mom_6da162de.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/fXsRiXZZnIQZTKSb.png",
     "price": 599,
     "name": "Zimbabwe Get Well Soon Card"
   }
@@ -13602,18 +13602,116 @@ export const GRADUATION_GIRL_V2_CARDS: CardProduct[] = [
 
 export const HAPPY_NEW_YEAR_CARDS: CardProduct[] = [
   {
-    "id": "nk_new_year",
-    "country": "North Korea",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/kr_birthday_mom_188febf6.png",
+    "id": "gh_happy_new_year",
+    "country": "Ghana",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/HRGikddEfPVUtfyj.png",
     "price": 599,
-    "name": "North Korea Happy New Year Card"
+    "name": "Ghana Happy New Year Card"
   },
   {
-    "id": "tw_new_year",
-    "country": "Taiwan",
-    "image": "",
+    "id": "gr_happy_new_year",
+    "country": "Greece",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/KrPCinSEbUBlIBAl.png",
     "price": 599,
-    "name": "Taiwan Happy New Year Card"
+    "name": "Greece Happy New Year Card"
+  },
+  {
+    "id": "in_happy_new_year",
+    "country": "India",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/KBSZgkOHbfJkBdAV.png",
+    "price": 599,
+    "name": "India Happy New Year Card"
+  },
+  {
+    "id": "it_happy_new_year",
+    "country": "Italy",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/UnWxhEfjrVwKvrDq.png",
+    "price": 599,
+    "name": "Italy Happy New Year Card"
+  },
+  {
+    "id": "kenya_happy_new_year",
+    "country": "Kenya",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/tDvXujCSNAZuFGEJ.png",
+    "price": 599,
+    "name": "Kenya Happy New Year Card"
+  },
+  {
+    "id": "morocco_happy_new_year",
+    "country": "Morocco",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/yOcWkYEmmRVTnZFV.png",
+    "price": 599,
+    "name": "Morocco Happy New Year Card"
+  },
+  {
+    "id": "poland_happy_new_year",
+    "country": "Poland",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/zigOGupGjCmSudCa.png",
+    "price": 599,
+    "name": "Poland Happy New Year Card"
+  },
+  {
+    "id": "portugal_happy_new_year",
+    "country": "Portugal",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/UCGopbYOeKQJsSjq.png",
+    "price": 599,
+    "name": "Portugal Happy New Year Card"
+  },
+  {
+    "id": "br_happy_new_year",
+    "country": "Brazil",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/nkeafBAJvcTTFMsO.png",
+    "price": 599,
+    "name": "Brazil Happy New Year Card"
+  },
+  {
+    "id": "ca_happy_new_year",
+    "country": "Canada",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/kUJYNAKuqinAbWOb.png",
+    "price": 599,
+    "name": "Canada Happy New Year Card"
+  },
+  {
+    "id": "fr_happy_new_year",
+    "country": "France",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/WiTkLgISAWLfixOH.png",
+    "price": 599,
+    "name": "France Happy New Year Card"
+  },
+  {
+    "id": "ht_happy_new_year",
+    "country": "Haiti",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/HJGzGTezhvQQuJkn.png",
+    "price": 599,
+    "name": "Haiti Happy New Year Card"
+  },
+  {
+    "id": "iceland_happy_new_year",
+    "country": "Iceland",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/VClEvJkXXVjHFieN.png",
+    "price": 599,
+    "name": "Iceland Happy New Year Card"
+  },
+  {
+    "id": "russia_happy_new_year",
+    "country": "Russia",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/iorKjWcRcIgKksxV.png",
+    "price": 599,
+    "name": "Russia Happy New Year Card"
+  },
+  {
+    "id": "somalia_happy_new_year",
+    "country": "SOMALIA",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/FfXmoIcJsFFRUyEM.png",
+    "price": 599,
+    "name": "SOMALIA Happy New Year Card"
+  },
+  {
+    "id": "ukraine_happy_new_year",
+    "country": "Ukraine",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/ZSoKcKSShhIeViEU.png",
+    "price": 599,
+    "name": "Ukraine Happy New Year Card"
   }
 ];
 
@@ -13670,7 +13768,7 @@ export const IN_LOVING_MEMORY_CARDS: CardProduct[] = [
   {
     "id": "de_in_loving_memory",
     "country": "Germany",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/de_birthday_mom_ad19a201.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/HhdssHeVVOVNUpys.png",
     "price": 599,
     "name": "Germany In Loving Memory Card"
   },
@@ -13684,35 +13782,35 @@ export const IN_LOVING_MEMORY_CARDS: CardProduct[] = [
   {
     "id": "gr_in_loving_memory",
     "country": "Greece",
-    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/CjvQnDEZihieqPXb.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/smajkxBJsKffcFaZ.png",
     "price": 599,
     "name": "Greece In Loving Memory Card"
   },
   {
     "id": "gt_in_loving_memory",
     "country": "Guatemala",
-    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/YNQtLlVBWGNYxpam.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/wUQXwZmUhRoxwYwl.png",
     "price": 599,
     "name": "Guatemala In Loving Memory Card"
   },
   {
     "id": "ht_in_loving_memory",
     "country": "Haiti",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/ht_birthday_mom_4e48824f.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/OcQdSLsdtjWLkApJ.png",
     "price": 599,
     "name": "Haiti In Loving Memory Card"
   },
   {
     "id": "ic_in_loving_memory",
     "country": "Iceland",
-    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/LMxLvOerfLCsYDzO.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/iZzHSEdJnYwPkYDL.png",
     "price": 599,
     "name": "Iceland In Loving Memory Card"
   },
   {
     "id": "in_in_loving_memory",
     "country": "India",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/in_birthday_mom_9ecb2ef7.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/OnkLrXmrAFpVapRG.png",
     "price": 599,
     "name": "India In Loving Memory Card"
   },
@@ -13726,28 +13824,28 @@ export const IN_LOVING_MEMORY_CARDS: CardProduct[] = [
   {
     "id": "it_in_loving_memory",
     "country": "Italy",
-    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/dyOrFXvEqjPyFNma.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/nZHRgfMhhRsOCLGp.png",
     "price": 599,
     "name": "Italy In Loving Memory Card"
   },
   {
     "id": "jm_in_loving_memory",
     "country": "Jamaica",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/jm_birthday_mom_02258bca.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/tmRtLnkYciqoZUZt.png",
     "price": 599,
     "name": "Jamaica In Loving Memory Card"
   },
   {
     "id": "jp_in_loving_memory",
     "country": "Japan",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/jp_birthday_mom_1773fe74.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/MveMCDBkisrKvhUw.png",
     "price": 599,
     "name": "Japan In Loving Memory Card"
   },
   {
     "id": "kr_in_loving_memory",
     "country": "Korea",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/kr_birthday_mom_188febf6.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/gGGNrylkZjhPUsiS.png",
     "price": 599,
     "name": "Korea In Loving Memory Card"
   },
@@ -13761,35 +13859,35 @@ export const IN_LOVING_MEMORY_CARDS: CardProduct[] = [
   {
     "id": "nz_in_loving_memory",
     "country": "New Zealand",
-    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/JhDxpsesZAdlVwGE.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/DcXEUbQLTtPiaGiI.png",
     "price": 599,
     "name": "New Zealand In Loving Memory Card"
   },
   {
     "id": "ng_in_loving_memory",
     "country": "Nigeria",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/ng_birthday_mom_9686a463.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/zdKWSHyykXSklHgp.png",
     "price": 599,
     "name": "Nigeria In Loving Memory Card"
   },
   {
     "id": "ph_in_loving_memory",
     "country": "Philippines",
-    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/ZKvYMjgYgQbcuChr.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/zJZMtxtbMVEcnfqS.png",
     "price": 599,
     "name": "Philippines In Loving Memory Card"
   },
   {
     "id": "ru_in_loving_memory",
     "country": "Russia",
-    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/vJawcMoVdlJaTmUf.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/cugzTtmGSxSwTMRz.png",
     "price": 599,
     "name": "Russia In Loving Memory Card"
   },
   {
     "id": "so_in_loving_memory",
     "country": "Somalia",
-    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/mwUprLRaSOZSxHYR.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/FtxXmSDTOnzHrWwA.png",
     "price": 599,
     "name": "Somalia In Loving Memory Card"
   },
@@ -13834,7 +13932,7 @@ export const IN_LOVING_MEMORY_V2_CARDS: CardProduct[] = [
   {
     "id": "ic_in_loving_memory_v2",
     "country": "Iceland",
-    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/LMxLvOerfLCsYDzO.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/iZzHSEdJnYwPkYDL.png",
     "price": 599,
     "name": "Iceland In Loving Memory Card v2"
   }
@@ -13844,7 +13942,7 @@ export const IN_LOVING_MEMORY_V3_CARDS: CardProduct[] = [
   {
     "id": "ic_in_loving_memory_v3",
     "country": "Iceland",
-    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/LMxLvOerfLCsYDzO.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/iZzHSEdJnYwPkYDL.png",
     "price": 599,
     "name": "Iceland In Loving Memory Card v3"
   }
@@ -14970,21 +15068,21 @@ export const SYMPATHY_CARDS: CardProduct[] = [
   {
     "id": "dz_sympathy",
     "country": "Algeria",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/DZ_birthday_mom_3c7c5137.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/eZtCTyhcYgKTfINn.png",
     "price": 599,
     "name": "Algeria Sympathy Card"
   },
   {
     "id": "ao_sympathy",
     "country": "Angola",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/ao_birthday_mom_85345606.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/HfFRRQFBTZShLSZY.png",
     "price": 599,
     "name": "Angola Sympathy Card"
   },
   {
     "id": "ag_sympathy",
     "country": "Antigua and Barbuda",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/ag_birthday_mom_333bddbd.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/WiNzDlfcLqCjAQCT.png",
     "price": 599,
     "name": "Antigua and Barbuda Sympathy Card"
   },
@@ -14998,7 +15096,7 @@ export const SYMPATHY_CARDS: CardProduct[] = [
   {
     "id": "am_sympathy",
     "country": "Armenia",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/am_birthday_mom_1a04ac48.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/eOYZGKQBZDDjQRMm.png",
     "price": 599,
     "name": "Armenia Sympathy Card"
   },
@@ -15019,21 +15117,21 @@ export const SYMPATHY_CARDS: CardProduct[] = [
   {
     "id": "az_sympathy",
     "country": "Azerbaijan",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/az_birthday_mom_3836d909.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/bZKvuYBxOBKTGCXG.png",
     "price": 599,
     "name": "Azerbaijan Sympathy Card"
   },
   {
     "id": "bs_sympathy",
     "country": "Bahamas",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/bs_birthday_mom_65be5f26.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/SSTzhqcXKwnHZSRr.png",
     "price": 599,
     "name": "Bahamas Sympathy Card"
   },
   {
     "id": "bh_sympathy",
     "country": "Bahrain",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/BH_birthday_mom_wall_art_8x10_427a59ed.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/wFWgqjUkrSrdrKWy.png",
     "price": 599,
     "name": "Bahrain Sympathy Card"
   },
@@ -15047,7 +15145,7 @@ export const SYMPATHY_CARDS: CardProduct[] = [
   {
     "id": "bb_sympathy",
     "country": "Barbados",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/bb_birthday_mom_10bb0ed2.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/mLsYpEPkptDZILYL.png",
     "price": 599,
     "name": "Barbados Sympathy Card"
   },
@@ -15061,28 +15159,28 @@ export const SYMPATHY_CARDS: CardProduct[] = [
   {
     "id": "be_sympathy",
     "country": "Belgium",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/be_birthday_mom_548cc4c8.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/KgWzmADkyWmYVRey.png",
     "price": 599,
     "name": "Belgium Sympathy Card"
   },
   {
     "id": "bz_sympathy",
     "country": "Belize",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/bz_birthday_mom_34529da0.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/cACaTKGFYnjhNLuK.png",
     "price": 599,
     "name": "Belize Sympathy Card"
   },
   {
     "id": "bj_sympathy",
     "country": "Benin",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/BJ_birthday_mom_wall_art_8x10_b4bb53ac.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/vMtmZMLmikUgCIcW.png",
     "price": 599,
     "name": "Benin Sympathy Card"
   },
   {
     "id": "bt_sympathy",
     "country": "Bhutan",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/BT_birthday_mom_wall_art_8x10_9118c9ac.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/sqBuLrSFhPzXwLxS.png",
     "price": 599,
     "name": "Bhutan Sympathy Card"
   },
@@ -15103,7 +15201,7 @@ export const SYMPATHY_CARDS: CardProduct[] = [
   {
     "id": "bw_sympathy",
     "country": "Botswana",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/bw_birthday_mom_ccd83bd4.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/NFDJyaJSJWyIftFw.png",
     "price": 599,
     "name": "Botswana Sympathy Card"
   },
@@ -15124,14 +15222,14 @@ export const SYMPATHY_CARDS: CardProduct[] = [
   {
     "id": "bf_sympathy",
     "country": "Burkina Faso",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/BF_birthday_mom_wall_art_8x10_2c5b945d.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/ndAOZLCwFMOTOTzs.png",
     "price": 599,
     "name": "Burkina Faso Sympathy Card"
   },
   {
     "id": "bi_sympathy",
     "country": "Burundi",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/BI_birthday_mom_wall_art_8x10_18366f51.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/wMyiwIVNgjzWJmRG.png",
     "price": 599,
     "name": "Burundi Sympathy Card"
   },
@@ -15145,7 +15243,7 @@ export const SYMPATHY_CARDS: CardProduct[] = [
   {
     "id": "cm_sympathy",
     "country": "Cameroon",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/cm_birthday_mom_6c64c757.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/bwacfNrNnCoitvXn.png",
     "price": 599,
     "name": "Cameroon Sympathy Card"
   },
@@ -15159,21 +15257,21 @@ export const SYMPATHY_CARDS: CardProduct[] = [
   {
     "id": "cv_sympathy",
     "country": "Cape Verde",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/CV_birthday_mom_wall_art_8x10_69488a07.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/EIwuHrfaHBCLpfYE.png",
     "price": 599,
     "name": "Cape Verde Sympathy Card"
   },
   {
     "id": "cf_sympathy",
     "country": "Central African Republic",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/cf_birthday_mom_725a0c3f.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/frdkeYuNJbqKlfDm.png",
     "price": 599,
     "name": "Central African Republic Sympathy Card"
   },
   {
     "id": "td_sympathy",
     "country": "Chad",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/TD_birthday_mom_wall_art_8x10_d7deeb25.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/NfjBbgaxyIHeaDfW.png",
     "price": 599,
     "name": "Chad Sympathy Card"
   },
@@ -15201,7 +15299,7 @@ export const SYMPATHY_CARDS: CardProduct[] = [
   {
     "id": "km_sympathy",
     "country": "Comoros",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/KM_birthday_mom_wall_art_8x10_c9f7e6f5.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/gPtZmkekGhojxeeS.png",
     "price": 599,
     "name": "Comoros Sympathy Card"
   },
@@ -15229,7 +15327,7 @@ export const SYMPATHY_CARDS: CardProduct[] = [
   {
     "id": "cy_sympathy",
     "country": "Cyprus",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/cy_birthday_mom_4f48f663.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/wglobyaRJMPSMZcd.png",
     "price": 599,
     "name": "Cyprus Sympathy Card"
   },
@@ -15243,28 +15341,28 @@ export const SYMPATHY_CARDS: CardProduct[] = [
   {
     "id": "cd_sympathy",
     "country": "Democratic Republic of Congo",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/CD_birthday_mom_wall_art_8x10_84f68563.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/plFeIGXtDRzQUVYy.png",
     "price": 599,
     "name": "Democratic Republic of Congo Sympathy Card"
   },
   {
     "id": "dk_sympathy",
     "country": "Denmark",
-    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/vzEUgARgJQiOHImU.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/GgqbblvatgvPPGZW.png",
     "price": 599,
     "name": "Denmark Sympathy Card"
   },
   {
     "id": "dj_sympathy",
     "country": "Djibouti",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/DJ_birthday_mom_wall_art_8x10_b4d9acf0.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/cpnxdtgKuERLYIEF.png",
     "price": 599,
     "name": "Djibouti Sympathy Card"
   },
   {
     "id": "dm_sympathy",
     "country": "Dominica",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/dm_birthday_mom_4dc40592.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/HLRPkhwNCdPOtuvx.png",
     "price": 599,
     "name": "Dominica Sympathy Card"
   },
@@ -15306,14 +15404,14 @@ export const SYMPATHY_CARDS: CardProduct[] = [
   {
     "id": "gq_sympathy",
     "country": "Equatorial Guinea",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/gq_birthday_mom_8acdbc11.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/OkiRiNsAZeCQCrFs.png",
     "price": 599,
     "name": "Equatorial Guinea Sympathy Card"
   },
   {
     "id": "er_sympathy",
     "country": "Eritrea",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/ER_birthday_mom_wall_art_8x10_7dc191fa.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/WvtcNXJbibiJpUhL.png",
     "price": 599,
     "name": "Eritrea Sympathy Card"
   },
@@ -15327,7 +15425,7 @@ export const SYMPATHY_CARDS: CardProduct[] = [
   {
     "id": "sz_sympathy",
     "country": "Eswatini",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/sz_birthday_mom_c0e3cfdc.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/HFhfFWKlHZQRdCzK.png",
     "price": 599,
     "name": "Eswatini Sympathy Card"
   },
@@ -15355,28 +15453,28 @@ export const SYMPATHY_CARDS: CardProduct[] = [
   {
     "id": "ga_sympathy",
     "country": "Gabon",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/ga_birthday_mom_b7901cc4.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/vIIdGfldzgpvvUWv.png",
     "price": 599,
     "name": "Gabon Sympathy Card"
   },
   {
     "id": "gm_sympathy",
     "country": "Gambia",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/GM_birthday_mom_wall_art_8x10_ae89051c.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/aCeIgjbgqEXxZlfn.png",
     "price": 599,
     "name": "Gambia Sympathy Card"
   },
   {
     "id": "ge_sympathy",
     "country": "Georgia",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/ge_birthday_mom_dfb2f59c.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/RIvDIxjumIbpjiyY.png",
     "price": 599,
     "name": "Georgia Sympathy Card"
   },
   {
     "id": "de_sympathy",
     "country": "Germany",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/de_birthday_mom_ad19a201.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/TrvUwghpqWkfpYVj.png",
     "price": 599,
     "name": "Germany Sympathy Card"
   },
@@ -15390,49 +15488,49 @@ export const SYMPATHY_CARDS: CardProduct[] = [
   {
     "id": "gr_sympathy",
     "country": "Greece",
-    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/CjvQnDEZihieqPXb.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/KiLJLBUbMiliDreK.png",
     "price": 599,
     "name": "Greece Sympathy Card"
   },
   {
     "id": "gd_sympathy",
     "country": "Grenada",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/gd_birthday_mom_1542ac2f.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/bnmohTWNfWrWjjMW.png",
     "price": 599,
     "name": "Grenada Sympathy Card"
   },
   {
     "id": "gt_sympathy",
     "country": "Guatemala",
-    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/YNQtLlVBWGNYxpam.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/wyYcAZOUiJwLesRW.png",
     "price": 599,
     "name": "Guatemala Sympathy Card"
   },
   {
     "id": "gn_sympathy",
     "country": "Guinea",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/GN_birthday_mom_wall_art_8x10_e453fa4b.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/jgYQbmxpdTRRTvgE.png",
     "price": 599,
     "name": "Guinea Sympathy Card"
   },
   {
     "id": "gw_sympathy",
     "country": "Guinea Bissau",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/GW_birthday_mom_wall_art_8x10_0bc3b661.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/dogdltomuEEJBBLp.png",
     "price": 599,
     "name": "Guinea Bissau Sympathy Card"
   },
   {
     "id": "gy_sympathy",
     "country": "Guyana",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/gy_birthday_mom_17151fe5.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/KODWUAixkXBdbwgp.png",
     "price": 599,
     "name": "Guyana Sympathy Card"
   },
   {
     "id": "ht_sympathy",
     "country": "Haiti",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/ht_birthday_mom_4e48824f.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/MFaoxjBZuGqgmdij.png",
     "price": 599,
     "name": "Haiti Sympathy Card"
   },
@@ -15453,7 +15551,7 @@ export const SYMPATHY_CARDS: CardProduct[] = [
   {
     "id": "in_sympathy",
     "country": "India",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/in_birthday_mom_9ecb2ef7.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/peFUuHYCkvNbtlWz.png",
     "price": 599,
     "name": "India Sympathy Card"
   },
@@ -15481,49 +15579,49 @@ export const SYMPATHY_CARDS: CardProduct[] = [
   {
     "id": "it_sympathy",
     "country": "Italy",
-    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/dyOrFXvEqjPyFNma.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/AqnIRdvWHOQFIDaU.png",
     "price": 599,
     "name": "Italy Sympathy Card"
   },
   {
     "id": "ci_sympathy",
     "country": "Ivory Coast",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/CI_birthday_mom_wall_art_8x10_b8da7aa2.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/VmDWFXvKQLeNufrn.png",
     "price": 599,
     "name": "Ivory Coast Sympathy Card"
   },
   {
     "id": "jm_sympathy",
     "country": "Jamaica",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/jm_birthday_mom_02258bca.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/qhllbVoonrcUzZtr.png",
     "price": 599,
     "name": "Jamaica Sympathy Card"
   },
   {
     "id": "jp_sympathy",
     "country": "Japan",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/jp_birthday_mom_1773fe74.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/XvruVQCYzjWunIPK.png",
     "price": 599,
     "name": "Japan Sympathy Card"
   },
   {
     "id": "jo_sympathy",
     "country": "Jordan",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/JO_birthday_mom_17e9170f.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/TSOUEkfNQewzFspS.png",
     "price": 599,
     "name": "Jordan Sympathy Card"
   },
   {
     "id": "kz_sympathy",
     "country": "Kazakhstan",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/kz_birthday_mom_a0f037fb.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/CDQIFyYqHjrxMMSy.png",
     "price": 599,
     "name": "Kazakhstan Sympathy Card"
   },
   {
     "id": "ke_sympathy",
     "country": "Kenya",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/ke_birthday_mom_130454dd.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/yjHbwbspYVIwuGDk.png",
     "price": 599,
     "name": "Kenya Sympathy Card"
   },
@@ -15537,7 +15635,7 @@ export const SYMPATHY_CARDS: CardProduct[] = [
   {
     "id": "kr_sympathy",
     "country": "Korea",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/kr_birthday_mom_188febf6.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/zigFkaqiQelLcKLc.png",
     "price": 599,
     "name": "Korea Sympathy Card"
   },
@@ -15558,14 +15656,14 @@ export const SYMPATHY_CARDS: CardProduct[] = [
   {
     "id": "kw_sympathy",
     "country": "Kuwait",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/KW_birthday_mom_cf65da85.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/HgmPqFoGxVTifkVv.png",
     "price": 599,
     "name": "Kuwait Sympathy Card"
   },
   {
     "id": "kg_sympathy",
     "country": "Kyrgyzstan",
-    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/ooarKlSdPcmnYQKr.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/kobzXUNYYEemkTnN.png",
     "price": 599,
     "name": "Kyrgyzstan Sympathy Card"
   },
@@ -15579,28 +15677,28 @@ export const SYMPATHY_CARDS: CardProduct[] = [
   {
     "id": "lb_sympathy",
     "country": "Lebanon",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/lb_birthday_mom_1e1dcea7.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/qhJFreSEsHjErJBS.png",
     "price": 599,
     "name": "Lebanon Sympathy Card"
   },
   {
     "id": "ls_sympathy",
     "country": "Lesotho",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/ls_birthday_mom_72b5a453.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/SuxMHGqYewGCzmxc.png",
     "price": 599,
     "name": "Lesotho Sympathy Card"
   },
   {
     "id": "lr_sympathy",
     "country": "Liberia",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/LR_birthday_mom_wall_art_8x10_7763b744.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/gwikXvNAPDZGsPcw.png",
     "price": 599,
     "name": "Liberia Sympathy Card"
   },
   {
     "id": "ly_sympathy",
     "country": "Libya",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/LY_birthday_mom_93b4550e.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/TAoQolBgLCOoQMHL.png",
     "price": 599,
     "name": "Libya Sympathy Card"
   },
@@ -15614,21 +15712,21 @@ export const SYMPATHY_CARDS: CardProduct[] = [
   {
     "id": "lu_sympathy",
     "country": "Luxembourg",
-    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/zDdllyznLtQumeab.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/DvhoLDvCKMPqiVrS.png",
     "price": 599,
     "name": "Luxembourg Sympathy Card"
   },
   {
     "id": "mg_sympathy",
     "country": "Madagascar",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/MG_birthday_mom_wall_art_8x10_37ecb072.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/SRpJRjrrPpJREzsz.png",
     "price": 599,
     "name": "Madagascar Sympathy Card"
   },
   {
     "id": "mw_sympathy",
     "country": "Malawi",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/MW_birthday_mom_wall_art_8x10_507dfde2.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/mXMSBrNQSiMOStTx.png",
     "price": 599,
     "name": "Malawi Sympathy Card"
   },
@@ -15642,35 +15740,35 @@ export const SYMPATHY_CARDS: CardProduct[] = [
   {
     "id": "mv_sympathy",
     "country": "Maldives",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/MV_birthday_mom_wall_art_8x10_f078becd.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/IMawGbfIGsPePTFH.png",
     "price": 599,
     "name": "Maldives Sympathy Card"
   },
   {
     "id": "ml_sympathy",
     "country": "Mali",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/ML_birthday_mom_wall_art_8x10_1bd7129a.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/TMsXLhcaBOgsLtSI.png",
     "price": 599,
     "name": "Mali Sympathy Card"
   },
   {
     "id": "mt_sympathy",
     "country": "Malta",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/mt_birthday_mom_e90a8229.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/LVXnnsWZQPSmaZRd.png",
     "price": 599,
     "name": "Malta Sympathy Card"
   },
   {
     "id": "mr_sympathy",
     "country": "Mauritania",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/MR_birthday_mom_wall_art_8x10_e4ce2752.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/EmxhcmqSBAJoQWhK.png",
     "price": 599,
     "name": "Mauritania Sympathy Card"
   },
   {
     "id": "mu_sympathy",
     "country": "Mauritius",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/mu_birthday_mom_3e450220.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/tlyaddEkRQgoLzgx.png",
     "price": 599,
     "name": "Mauritius Sympathy Card"
   },
@@ -15684,7 +15782,7 @@ export const SYMPATHY_CARDS: CardProduct[] = [
   {
     "id": "mn_sympathy",
     "country": "Mongolia",
-    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/TPOsbiCBeMOGYHfE.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/qEubMxbbkMtuJPNO.png",
     "price": 599,
     "name": "Mongolia Sympathy Card"
   },
@@ -15698,14 +15796,14 @@ export const SYMPATHY_CARDS: CardProduct[] = [
   {
     "id": "ma_sympathy",
     "country": "Morocco",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/ma_birthday_mom_60b5b222.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/IfyOmXBiRqViUTEW.png",
     "price": 599,
     "name": "Morocco Sympathy Card"
   },
   {
     "id": "mz_sympathy",
     "country": "Mozambique",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/MZ_birthday_mom_wall_art_8x10_5499f5dd.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/rNuHXTgIkCPmVbIy.png",
     "price": 599,
     "name": "Mozambique Sympathy Card"
   },
@@ -15719,7 +15817,7 @@ export const SYMPATHY_CARDS: CardProduct[] = [
   {
     "id": "na_sympathy",
     "country": "Namibia",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/na_birthday_mom_e2338f34.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/vxpejUeInPKEoyMB.png",
     "price": 599,
     "name": "Namibia Sympathy Card"
   },
@@ -15740,14 +15838,14 @@ export const SYMPATHY_CARDS: CardProduct[] = [
   {
     "id": "nl_sympathy",
     "country": "Netherlands",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/nl_birthday_mom_d0d52d5d.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/XjdglUKyrhGOzZQA.png",
     "price": 599,
     "name": "Netherlands Sympathy Card"
   },
   {
     "id": "nz_sympathy",
     "country": "New Zealand",
-    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/JhDxpsesZAdlVwGE.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/QszAwDyCduROVNAZ.png",
     "price": 599,
     "name": "New Zealand Sympathy Card"
   },
@@ -15761,14 +15859,14 @@ export const SYMPATHY_CARDS: CardProduct[] = [
   {
     "id": "ne_sympathy",
     "country": "Niger",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/NE_birthday_mom_wall_art_8x10_1c2f4d6d.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/LQCRktPRzdlEAWXI.png",
     "price": 599,
     "name": "Niger Sympathy Card"
   },
   {
     "id": "ng_sympathy",
     "country": "Nigeria",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/ng_birthday_mom_9686a463.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/BNjYnBWoKTuIQEYa.png",
     "price": 599,
     "name": "Nigeria Sympathy Card"
   },
@@ -15789,14 +15887,14 @@ export const SYMPATHY_CARDS: CardProduct[] = [
   {
     "id": "no_sympathy",
     "country": "Norway",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/no_birthday_mom_f76bd305.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/yYdwpfcszhMqdCAn.png",
     "price": 599,
     "name": "Norway Sympathy Card"
   },
   {
     "id": "om_sympathy",
     "country": "Oman",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/OM_birthday_mom_3e32b375.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/socnbrCuEWetURMj.png",
     "price": 599,
     "name": "Oman Sympathy Card"
   },
@@ -15824,7 +15922,7 @@ export const SYMPATHY_CARDS: CardProduct[] = [
   {
     "id": "pg_sympathy",
     "country": "Papua New Guinea",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/pg_birthday_mom_b484654a.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/lghGuJEpnkucJKsQ.png",
     "price": 599,
     "name": "Papua New Guinea Sympathy Card"
   },
@@ -15845,14 +15943,14 @@ export const SYMPATHY_CARDS: CardProduct[] = [
   {
     "id": "ph_sympathy",
     "country": "Philippines",
-    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/ZKvYMjgYgQbcuChr.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/tpkNAuJANNiJmWgU.png",
     "price": 599,
     "name": "Philippines Sympathy Card"
   },
   {
     "id": "pl_sympathy",
     "country": "Poland",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/pl_birthday_mom_ed83e3e4.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/nfaBiWdaientCAMQ.png",
     "price": 599,
     "name": "Poland Sympathy Card"
   },
@@ -15873,14 +15971,14 @@ export const SYMPATHY_CARDS: CardProduct[] = [
   {
     "id": "qa_sympathy",
     "country": "Qatar",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/QA_birthday_mom_3c86507a.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/RWMzodwDbiKUnjEm.png",
     "price": 599,
     "name": "Qatar Sympathy Card"
   },
   {
     "id": "cg_sympathy",
     "country": "Republic of Congo",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/CG_birthday_mom_wall_art_8x10_7ca96fb8.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/ihDquaWIPWNuBKXJ.png",
     "price": 599,
     "name": "Republic of Congo Sympathy Card"
   },
@@ -15894,35 +15992,35 @@ export const SYMPATHY_CARDS: CardProduct[] = [
   {
     "id": "ru_sympathy",
     "country": "Russia",
-    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/vJawcMoVdlJaTmUf.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/DrjlBndnWyfCuedT.png",
     "price": 599,
     "name": "Russia Sympathy Card"
   },
   {
     "id": "rw_sympathy",
     "country": "Rwanda",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/RW_birthday_mom_wall_art_8x10_99c6bd5d.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/QDvVPqZFyxverbEy.png",
     "price": 599,
     "name": "Rwanda Sympathy Card"
   },
   {
     "id": "kn_sympathy",
     "country": "Saint Kitts and Nevis",
-    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/oxosHTJlndbKSwjT.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/VeTzICzzxwkpIrZo.png",
     "price": 599,
     "name": "Saint Kitts and Nevis Sympathy Card"
   },
   {
     "id": "lc_sympathy",
     "country": "Saint Lucia",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/lc_birthday_mom_7e6b141e.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/EoURQhVOvBCsXQlx.png",
     "price": 599,
     "name": "Saint Lucia Sympathy Card"
   },
   {
     "id": "vc_sympathy",
     "country": "Saint Vincent and the Grenadines",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/vc_birthday_mom_2efd25b8.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/sPtnrakhLRlUrDsV.png",
     "price": 599,
     "name": "Saint Vincent and the Grenadines Sympathy Card"
   },
@@ -15936,21 +16034,21 @@ export const SYMPATHY_CARDS: CardProduct[] = [
   {
     "id": "st_sympathy",
     "country": "Sao Tome and Principe",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/st_birthday_mom_a05e7209.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/EqQDSaJrNCqZuosr.png",
     "price": 599,
     "name": "Sao Tome and Principe Sympathy Card"
   },
   {
     "id": "sa_sympathy",
     "country": "Saudi Arabia",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/SA_birthday_mom_42c3217a.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/iBqcWxFCsHoPLsqg.png",
     "price": 599,
     "name": "Saudi Arabia Sympathy Card"
   },
   {
     "id": "sn_sympathy",
     "country": "Senegal",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/sn_birthday_mom_4c5c25aa.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/NSruomivaqxprnvb.png",
     "price": 599,
     "name": "Senegal Sympathy Card"
   },
@@ -15964,7 +16062,7 @@ export const SYMPATHY_CARDS: CardProduct[] = [
   {
     "id": "sc_sympathy",
     "country": "Seychelles",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/SC_birthday_mom_wall_art_8x10_dca3d36f.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/FBSdcNwsjvGzeVKI.png",
     "price": 599,
     "name": "Seychelles Sympathy Card"
   },
@@ -15992,14 +16090,14 @@ export const SYMPATHY_CARDS: CardProduct[] = [
   {
     "id": "sb_sympathy",
     "country": "Solomon Islands",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/sb_birthday_mom_91551337.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/jQidpPksRFThzKUn.png",
     "price": 599,
     "name": "Solomon Islands Sympathy Card"
   },
   {
     "id": "so_sympathy",
     "country": "Somalia",
-    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/mwUprLRaSOZSxHYR.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/HIkvzPzVZuldvGvI.png",
     "price": 599,
     "name": "Somalia Sympathy Card"
   },
@@ -16013,7 +16111,7 @@ export const SYMPATHY_CARDS: CardProduct[] = [
   {
     "id": "ss_sympathy",
     "country": "South Sudan",
-    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/pizpvRdAbaNQhUlN.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/scwTWCYkkYVmYbcJ.png",
     "price": 599,
     "name": "South Sudan Sympathy Card"
   },
@@ -16034,14 +16132,14 @@ export const SYMPATHY_CARDS: CardProduct[] = [
   {
     "id": "sd_sympathy",
     "country": "Sudan",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/SD_birthday_mom_e6aabba1.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/ndYZgSFChCjDAWtq.png",
     "price": 599,
     "name": "Sudan Sympathy Card"
   },
   {
     "id": "sr_sympathy",
     "country": "Suriname",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/sr_birthday_mom_5f0c3441.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/PxQSkHruQyphFHEA.png",
     "price": 599,
     "name": "Suriname Sympathy Card"
   },
@@ -16055,7 +16153,7 @@ export const SYMPATHY_CARDS: CardProduct[] = [
   {
     "id": "ch_sympathy",
     "country": "Switzerland",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/ch_birthday_mom_6b36eb90.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/BVANNvHaSAnERzwD.png",
     "price": 599,
     "name": "Switzerland Sympathy Card"
   },
@@ -16069,21 +16167,21 @@ export const SYMPATHY_CARDS: CardProduct[] = [
   {
     "id": "tw_sympathy",
     "country": "Taiwan",
-    "image": "",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/MkPNAbESowKtwjtg.png",
     "price": 599,
     "name": "Taiwan Sympathy Card"
   },
   {
     "id": "tj_sympathy",
     "country": "Tajikistan",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/tj_birthday_mom_1b2bdec2.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/IUhohoXhqQUgcHiO.png",
     "price": 599,
     "name": "Tajikistan Sympathy Card"
   },
   {
     "id": "tz_sympathy",
     "country": "Tanzania",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/tz_birthday_mom_5d527177.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/mYnGIWPqXDNjJsdq.png",
     "price": 599,
     "name": "Tanzania Sympathy Card"
   },
@@ -16097,14 +16195,14 @@ export const SYMPATHY_CARDS: CardProduct[] = [
   {
     "id": "tl_sympathy",
     "country": "Timor Leste",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/TL_birthday_mom_wall_art_8x10_1505f48c.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/unXiPOtKVMOcMArz.png",
     "price": 599,
     "name": "Timor Leste Sympathy Card"
   },
   {
     "id": "tg_sympathy",
     "country": "Togo",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/TG_birthday_mom_wall_art_8x10_3d4be01f.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/MEeoAwXeoVZCzUiA.png",
     "price": 599,
     "name": "Togo Sympathy Card"
   },
@@ -16118,14 +16216,14 @@ export const SYMPATHY_CARDS: CardProduct[] = [
   {
     "id": "tt_sympathy",
     "country": "Trinidad Tobago",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/tt_birthday_mom_ce28febe.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/NnAIJGmwLaKlxccM.png",
     "price": 599,
     "name": "Trinidad Tobago Sympathy Card"
   },
   {
     "id": "tn_sympathy",
     "country": "Tunisia",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/TN_birthday_mom_58a6f4bb.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/zpSMpuViyMoLGUeC.png",
     "price": 599,
     "name": "Tunisia Sympathy Card"
   },
@@ -16139,7 +16237,7 @@ export const SYMPATHY_CARDS: CardProduct[] = [
   {
     "id": "tm_sympathy",
     "country": "Turkmenistan",
-    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/IudgBAXchJXIxfkV.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/BrhaoDouWOATaoAE.png",
     "price": 599,
     "name": "Turkmenistan Sympathy Card"
   },
@@ -16153,14 +16251,14 @@ export const SYMPATHY_CARDS: CardProduct[] = [
   {
     "id": "ug_sympathy",
     "country": "Uganda",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/ug_birthday_mom_3932eff2.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/gveQPzHfnDCNnaTQ.png",
     "price": 599,
     "name": "Uganda Sympathy Card"
   },
   {
     "id": "ua_sympathy",
     "country": "Ukraine",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/ua_birthday_mom_49b68c27.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/nXqDLdtERnEjzAlL.png",
     "price": 599,
     "name": "Ukraine Sympathy Card"
   },
@@ -16174,7 +16272,7 @@ export const SYMPATHY_CARDS: CardProduct[] = [
   {
     "id": "uy_sympathy",
     "country": "Uruguay",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/uy_birthday_mom_210c231b.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/UuSwellDFygnRybO.png",
     "price": 599,
     "name": "Uruguay Sympathy Card"
   },
@@ -16209,21 +16307,21 @@ export const SYMPATHY_CARDS: CardProduct[] = [
   {
     "id": "ye_sympathy",
     "country": "Yemen",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/YE_birthday_mom_e46037cc.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/tzgPiwWJjGgavitG.png",
     "price": 599,
     "name": "Yemen Sympathy Card"
   },
   {
     "id": "zm_sympathy",
     "country": "Zambia",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/ZM_birthday_mom_wall_art_8x10_6d8a3357.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/GoVPzQxKltHNjECs.png",
     "price": 599,
     "name": "Zambia Sympathy Card"
   },
   {
     "id": "zw_sympathy",
     "country": "Zimbabwe",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/zw_birthday_mom_6da162de.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/TQKHaMjwYHyFkgma.png",
     "price": 599,
     "name": "Zimbabwe Sympathy Card"
   }
@@ -16257,21 +16355,21 @@ export const THANK_YOU_CARDS: CardProduct[] = [
   {
     "id": "dz_thank_you",
     "country": "Algeria",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/DZ_birthday_mom_3c7c5137.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/gyufJNoQscdoZDWR.png",
     "price": 599,
     "name": "Algeria Thank You Card"
   },
   {
     "id": "ao_thank_you",
     "country": "Angola",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/ao_birthday_mom_85345606.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/VLAnnYonWhzNHbQl.png",
     "price": 599,
     "name": "Angola Thank You Card"
   },
   {
     "id": "ag_thank_you",
     "country": "Antigua and Barbuda",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/ag_birthday_mom_333bddbd.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/HxfZMoUhEoeyFDBm.png",
     "price": 599,
     "name": "Antigua and Barbuda Thank You Card"
   },
@@ -16285,7 +16383,7 @@ export const THANK_YOU_CARDS: CardProduct[] = [
   {
     "id": "am_thank_you",
     "country": "Armenia",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/am_birthday_mom_1a04ac48.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/uLOpKdnwfcrvMlMQ.png",
     "price": 599,
     "name": "Armenia Thank You Card"
   },
@@ -16306,21 +16404,21 @@ export const THANK_YOU_CARDS: CardProduct[] = [
   {
     "id": "az_thank_you",
     "country": "Azerbaijan",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/az_birthday_mom_3836d909.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/gzGHCejmLGtTLRKO.png",
     "price": 599,
     "name": "Azerbaijan Thank You Card"
   },
   {
     "id": "bs_thank_you",
     "country": "Bahamas",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/bs_birthday_mom_65be5f26.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/WRpdmvpasRRzWSIz.png",
     "price": 599,
     "name": "Bahamas Thank You Card"
   },
   {
     "id": "bh_thank_you",
     "country": "Bahrain",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/BH_birthday_mom_wall_art_8x10_427a59ed.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/IPuMvskRxhyHdBCU.png",
     "price": 599,
     "name": "Bahrain Thank You Card"
   },
@@ -16334,7 +16432,7 @@ export const THANK_YOU_CARDS: CardProduct[] = [
   {
     "id": "bb_thank_you",
     "country": "Barbados",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/bb_birthday_mom_10bb0ed2.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/yitLCtEiTOmqDRzL.png",
     "price": 599,
     "name": "Barbados Thank You Card"
   },
@@ -16348,28 +16446,28 @@ export const THANK_YOU_CARDS: CardProduct[] = [
   {
     "id": "be_thank_you",
     "country": "Belgium",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/be_birthday_mom_548cc4c8.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/ktNTWRJbWhmpPMVa.png",
     "price": 599,
     "name": "Belgium Thank You Card"
   },
   {
     "id": "bz_thank_you",
     "country": "Belize",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/bz_birthday_mom_34529da0.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/OcVCdQqxVugybvwt.png",
     "price": 599,
     "name": "Belize Thank You Card"
   },
   {
     "id": "bj_thank_you",
     "country": "Benin",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/BJ_birthday_mom_wall_art_8x10_b4bb53ac.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/iKBMAPCRcDRBJeIw.png",
     "price": 599,
     "name": "Benin Thank You Card"
   },
   {
     "id": "bt_thank_you",
     "country": "Bhutan",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/BT_birthday_mom_wall_art_8x10_9118c9ac.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/yfcvygividYrdtWZ.png",
     "price": 599,
     "name": "Bhutan Thank You Card"
   },
@@ -16390,7 +16488,7 @@ export const THANK_YOU_CARDS: CardProduct[] = [
   {
     "id": "bw_thank_you",
     "country": "Botswana",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/bw_birthday_mom_ccd83bd4.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/PkoJKcjLKCyJxxfU.png",
     "price": 599,
     "name": "Botswana Thank You Card"
   },
@@ -16411,14 +16509,14 @@ export const THANK_YOU_CARDS: CardProduct[] = [
   {
     "id": "bf_thank_you",
     "country": "Burkina Faso",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/BF_birthday_mom_wall_art_8x10_2c5b945d.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/nlWIBtyBDPhVaiPB.png",
     "price": 599,
     "name": "Burkina Faso Thank You Card"
   },
   {
     "id": "bi_thank_you",
     "country": "Burundi",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/BI_birthday_mom_wall_art_8x10_18366f51.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/CGawXRFkcDwmTIcs.png",
     "price": 599,
     "name": "Burundi Thank You Card"
   },
@@ -16432,7 +16530,7 @@ export const THANK_YOU_CARDS: CardProduct[] = [
   {
     "id": "cm_thank_you",
     "country": "Cameroon",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/cm_birthday_mom_6c64c757.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/gVBRoPVHbWRrqOfx.png",
     "price": 599,
     "name": "Cameroon Thank You Card"
   },
@@ -16446,21 +16544,21 @@ export const THANK_YOU_CARDS: CardProduct[] = [
   {
     "id": "cv_thank_you",
     "country": "Cape Verde",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/CV_birthday_mom_wall_art_8x10_69488a07.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/KFaSiFGByTcOqGXM.png",
     "price": 599,
     "name": "Cape Verde Thank You Card"
   },
   {
     "id": "cf_thank_you",
     "country": "Central African Republic",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/cf_birthday_mom_725a0c3f.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/oFyothHCkveGRyoJ.png",
     "price": 599,
     "name": "Central African Republic Thank You Card"
   },
   {
     "id": "td_thank_you",
     "country": "Chad",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/TD_birthday_mom_wall_art_8x10_d7deeb25.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/uHZHPssBkIbmeBUI.png",
     "price": 599,
     "name": "Chad Thank You Card"
   },
@@ -16488,7 +16586,7 @@ export const THANK_YOU_CARDS: CardProduct[] = [
   {
     "id": "km_thank_you",
     "country": "Comoros",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/KM_birthday_mom_wall_art_8x10_c9f7e6f5.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/OjRPwpKDRfXdgTxR.png",
     "price": 599,
     "name": "Comoros Thank You Card"
   },
@@ -16516,7 +16614,7 @@ export const THANK_YOU_CARDS: CardProduct[] = [
   {
     "id": "cy_thank_you",
     "country": "Cyprus",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/cy_birthday_mom_4f48f663.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/lcGNghUCNlIZkkvP.png",
     "price": 599,
     "name": "Cyprus Thank You Card"
   },
@@ -16530,28 +16628,28 @@ export const THANK_YOU_CARDS: CardProduct[] = [
   {
     "id": "cd_thank_you",
     "country": "Democratic Republic of Congo",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/CD_birthday_mom_wall_art_8x10_84f68563.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/aGSOOKXdwmsgUGAu.png",
     "price": 599,
     "name": "Democratic Republic of Congo Thank You Card"
   },
   {
     "id": "dk_thank_you",
     "country": "Denmark",
-    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/vzEUgARgJQiOHImU.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/ixSaThaljCqXdgCi.png",
     "price": 599,
     "name": "Denmark Thank You Card"
   },
   {
     "id": "dj_thank_you",
     "country": "Djibouti",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/DJ_birthday_mom_wall_art_8x10_b4d9acf0.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/LTlgvfmgzKTzfvNe.png",
     "price": 599,
     "name": "Djibouti Thank You Card"
   },
   {
     "id": "dm_thank_you",
     "country": "Dominica",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/dm_birthday_mom_4dc40592.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/sIQQCCvnIatHfpcO.png",
     "price": 599,
     "name": "Dominica Thank You Card"
   },
@@ -16593,14 +16691,14 @@ export const THANK_YOU_CARDS: CardProduct[] = [
   {
     "id": "gq_thank_you",
     "country": "Equatorial Guinea",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/gq_birthday_mom_8acdbc11.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/cjDVpZzhViivuixU.png",
     "price": 599,
     "name": "Equatorial Guinea Thank You Card"
   },
   {
     "id": "er_thank_you",
     "country": "Eritrea",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/ER_birthday_mom_wall_art_8x10_7dc191fa.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/hgYgDHhPicpQGPKg.png",
     "price": 599,
     "name": "Eritrea Thank You Card"
   },
@@ -16614,7 +16712,7 @@ export const THANK_YOU_CARDS: CardProduct[] = [
   {
     "id": "sz_thank_you",
     "country": "Eswatini",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/sz_birthday_mom_c0e3cfdc.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/jCjddfeGkmBmVNMv.png",
     "price": 599,
     "name": "Eswatini Thank You Card"
   },
@@ -16642,28 +16740,28 @@ export const THANK_YOU_CARDS: CardProduct[] = [
   {
     "id": "ga_thank_you",
     "country": "Gabon",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/ga_birthday_mom_b7901cc4.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/XIuitlKbpDmMFuPP.png",
     "price": 599,
     "name": "Gabon Thank You Card"
   },
   {
     "id": "gm_thank_you",
     "country": "Gambia",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/GM_birthday_mom_wall_art_8x10_ae89051c.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/qzqwuwsRyLwwXBPu.png",
     "price": 599,
     "name": "Gambia Thank You Card"
   },
   {
     "id": "ge_thank_you",
     "country": "Georgia",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/ge_birthday_mom_dfb2f59c.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/aJhhqRgCnRSogooX.png",
     "price": 599,
     "name": "Georgia Thank You Card"
   },
   {
     "id": "de_thank_you",
     "country": "Germany",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/de_birthday_mom_ad19a201.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/saXPKTwfrzVUdnER.png",
     "price": 599,
     "name": "Germany Thank You Card"
   },
@@ -16677,49 +16775,49 @@ export const THANK_YOU_CARDS: CardProduct[] = [
   {
     "id": "gr_thank_you",
     "country": "Greece",
-    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/CjvQnDEZihieqPXb.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/cvrEQuWZNjeITVkG.png",
     "price": 599,
     "name": "Greece Thank You Card"
   },
   {
     "id": "gd_thank_you",
     "country": "Grenada",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/gd_birthday_mom_1542ac2f.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/cnxphBlpLKcGcqQV.png",
     "price": 599,
     "name": "Grenada Thank You Card"
   },
   {
     "id": "gt_thank_you",
     "country": "Guatemala",
-    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/YNQtLlVBWGNYxpam.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/IhpNlzWqKJcDjRlB.png",
     "price": 599,
     "name": "Guatemala Thank You Card"
   },
   {
     "id": "gn_thank_you",
     "country": "Guinea",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/GN_birthday_mom_wall_art_8x10_e453fa4b.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/qYGcxveJJeQINvbb.png",
     "price": 599,
     "name": "Guinea Thank You Card"
   },
   {
     "id": "gw_thank_you",
     "country": "Guinea Bissau",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/GW_birthday_mom_wall_art_8x10_0bc3b661.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/emfgGvrttDOAsvOY.png",
     "price": 599,
     "name": "Guinea Bissau Thank You Card"
   },
   {
     "id": "gy_thank_you",
     "country": "Guyana",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/gy_birthday_mom_17151fe5.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/vKaFJOglaUuWNeFE.png",
     "price": 599,
     "name": "Guyana Thank You Card"
   },
   {
     "id": "ht_thank_you",
     "country": "Haiti",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/ht_birthday_mom_4e48824f.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/vDzPPrSjDPuiVPhi.png",
     "price": 599,
     "name": "Haiti Thank You Card"
   },
@@ -16740,7 +16838,7 @@ export const THANK_YOU_CARDS: CardProduct[] = [
   {
     "id": "in_thank_you",
     "country": "India",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/in_birthday_mom_9ecb2ef7.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/LlmQNWLnjhdYjwKZ.png",
     "price": 599,
     "name": "India Thank You Card"
   },
@@ -16768,49 +16866,49 @@ export const THANK_YOU_CARDS: CardProduct[] = [
   {
     "id": "it_thank_you",
     "country": "Italy",
-    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/dyOrFXvEqjPyFNma.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/bBHfuMdOOPNUPXBP.png",
     "price": 599,
     "name": "Italy Thank You Card"
   },
   {
     "id": "ci_thank_you",
     "country": "Ivory Coast",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/CI_birthday_mom_wall_art_8x10_b8da7aa2.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/MnqfCnzrEEVEiihS.png",
     "price": 599,
     "name": "Ivory Coast Thank You Card"
   },
   {
     "id": "jm_thank_you",
     "country": "Jamaica",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/jm_birthday_mom_02258bca.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/CjdYwePJkGiXzaSq.png",
     "price": 599,
     "name": "Jamaica Thank You Card"
   },
   {
     "id": "jp_thank_you",
     "country": "Japan",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/jp_birthday_mom_1773fe74.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/pvOctkAzCoFXOgpI.png",
     "price": 599,
     "name": "Japan Thank You Card"
   },
   {
     "id": "jo_thank_you",
     "country": "Jordan",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/JO_birthday_mom_17e9170f.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/FzOFPrObpHjOAMCC.png",
     "price": 599,
     "name": "Jordan Thank You Card"
   },
   {
     "id": "kz_thank_you",
     "country": "Kazakhstan",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/kz_birthday_mom_a0f037fb.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/DqokFjwYNHecYBtv.png",
     "price": 599,
     "name": "Kazakhstan Thank You Card"
   },
   {
     "id": "ke_thank_you",
     "country": "Kenya",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/ke_birthday_mom_130454dd.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/TOVCeGhLnECsUihj.png",
     "price": 599,
     "name": "Kenya Thank You Card"
   },
@@ -16824,7 +16922,7 @@ export const THANK_YOU_CARDS: CardProduct[] = [
   {
     "id": "kr_thank_you",
     "country": "Korea",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/kr_birthday_mom_188febf6.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/ANXUVPrhpkpknLBw.png",
     "price": 599,
     "name": "Korea Thank You Card"
   },
@@ -16845,14 +16943,14 @@ export const THANK_YOU_CARDS: CardProduct[] = [
   {
     "id": "kw_thank_you",
     "country": "Kuwait",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/KW_birthday_mom_cf65da85.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/oKPHQuLZxpASnKMe.png",
     "price": 599,
     "name": "Kuwait Thank You Card"
   },
   {
     "id": "kg_thank_you",
     "country": "Kyrgyzstan",
-    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/ooarKlSdPcmnYQKr.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/GWqoSwcCmBxRpGyY.png",
     "price": 599,
     "name": "Kyrgyzstan Thank You Card"
   },
@@ -16866,28 +16964,28 @@ export const THANK_YOU_CARDS: CardProduct[] = [
   {
     "id": "lb_thank_you",
     "country": "Lebanon",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/lb_birthday_mom_1e1dcea7.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/HWYEffHnuzRjGFAX.png",
     "price": 599,
     "name": "Lebanon Thank You Card"
   },
   {
     "id": "ls_thank_you",
     "country": "Lesotho",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/ls_birthday_mom_72b5a453.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/rHeofpYByLxNqokX.png",
     "price": 599,
     "name": "Lesotho Thank You Card"
   },
   {
     "id": "lr_thank_you",
     "country": "Liberia",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/LR_birthday_mom_wall_art_8x10_7763b744.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/PltebphZAkfbWPiz.png",
     "price": 599,
     "name": "Liberia Thank You Card"
   },
   {
     "id": "ly_thank_you",
     "country": "Libya",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/LY_birthday_mom_93b4550e.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/IiFbJIByWAJhEnHI.png",
     "price": 599,
     "name": "Libya Thank You Card"
   },
@@ -16901,21 +16999,21 @@ export const THANK_YOU_CARDS: CardProduct[] = [
   {
     "id": "lu_thank_you",
     "country": "Luxembourg",
-    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/zDdllyznLtQumeab.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/uwSziWuLSGCjtTlD.png",
     "price": 599,
     "name": "Luxembourg Thank You Card"
   },
   {
     "id": "mg_thank_you",
     "country": "Madagascar",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/MG_birthday_mom_wall_art_8x10_37ecb072.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/lHQKniRclxahwgYQ.png",
     "price": 599,
     "name": "Madagascar Thank You Card"
   },
   {
     "id": "mw_thank_you",
     "country": "Malawi",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/MW_birthday_mom_wall_art_8x10_507dfde2.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/NumfWkwYiuuQdpWf.png",
     "price": 599,
     "name": "Malawi Thank You Card"
   },
@@ -16929,35 +17027,35 @@ export const THANK_YOU_CARDS: CardProduct[] = [
   {
     "id": "mv_thank_you",
     "country": "Maldives",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/MV_birthday_mom_wall_art_8x10_f078becd.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/MnuBUFdGnVDnyFji.png",
     "price": 599,
     "name": "Maldives Thank You Card"
   },
   {
     "id": "ml_thank_you",
     "country": "Mali",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/ML_birthday_mom_wall_art_8x10_1bd7129a.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/vDaruKQIYenyzSQS.png",
     "price": 599,
     "name": "Mali Thank You Card"
   },
   {
     "id": "mt_thank_you",
     "country": "Malta",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/mt_birthday_mom_e90a8229.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/WAXozNNLzsvwKPRr.png",
     "price": 599,
     "name": "Malta Thank You Card"
   },
   {
     "id": "mr_thank_you",
     "country": "Mauritania",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/MR_birthday_mom_wall_art_8x10_e4ce2752.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/owRLNmfmZCnRAIIG.png",
     "price": 599,
     "name": "Mauritania Thank You Card"
   },
   {
     "id": "mu_thank_you",
     "country": "Mauritius",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/mu_birthday_mom_3e450220.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/XVRWjMLDCxqfirKF.png",
     "price": 599,
     "name": "Mauritius Thank You Card"
   },
@@ -16971,7 +17069,7 @@ export const THANK_YOU_CARDS: CardProduct[] = [
   {
     "id": "mn_thank_you",
     "country": "Mongolia",
-    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/TPOsbiCBeMOGYHfE.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/WPFvRXzFBeDsbMDl.png",
     "price": 599,
     "name": "Mongolia Thank You Card"
   },
@@ -16985,14 +17083,14 @@ export const THANK_YOU_CARDS: CardProduct[] = [
   {
     "id": "ma_thank_you",
     "country": "Morocco",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/ma_birthday_mom_60b5b222.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/wBrYLBWnqUivdlfv.png",
     "price": 599,
     "name": "Morocco Thank You Card"
   },
   {
     "id": "mz_thank_you",
     "country": "Mozambique",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/MZ_birthday_mom_wall_art_8x10_5499f5dd.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/FuwnLAwgJGDotWDl.png",
     "price": 599,
     "name": "Mozambique Thank You Card"
   },
@@ -17006,7 +17104,7 @@ export const THANK_YOU_CARDS: CardProduct[] = [
   {
     "id": "na_thank_you",
     "country": "Namibia",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/na_birthday_mom_e2338f34.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/GQRrTWsNCLofoVud.png",
     "price": 599,
     "name": "Namibia Thank You Card"
   },
@@ -17027,14 +17125,14 @@ export const THANK_YOU_CARDS: CardProduct[] = [
   {
     "id": "nl_thank_you",
     "country": "Netherlands",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/nl_birthday_mom_d0d52d5d.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/WjOjoVIBugosLVmq.png",
     "price": 599,
     "name": "Netherlands Thank You Card"
   },
   {
     "id": "nz_thank_you",
     "country": "New Zealand",
-    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/JhDxpsesZAdlVwGE.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/UlqZNfvnHJtzBtXO.png",
     "price": 599,
     "name": "New Zealand Thank You Card"
   },
@@ -17048,14 +17146,14 @@ export const THANK_YOU_CARDS: CardProduct[] = [
   {
     "id": "ne_thank_you",
     "country": "Niger",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/NE_birthday_mom_wall_art_8x10_1c2f4d6d.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/BLkLpidxrcqooiaQ.png",
     "price": 599,
     "name": "Niger Thank You Card"
   },
   {
     "id": "ng_thank_you",
     "country": "Nigeria",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/ng_birthday_mom_9686a463.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/uedGBYdXQNfrWxiI.png",
     "price": 599,
     "name": "Nigeria Thank You Card"
   },
@@ -17076,14 +17174,14 @@ export const THANK_YOU_CARDS: CardProduct[] = [
   {
     "id": "no_thank_you",
     "country": "Norway",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/no_birthday_mom_f76bd305.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/SqCcQNxsGeDjSOoz.png",
     "price": 599,
     "name": "Norway Thank You Card"
   },
   {
     "id": "om_thank_you",
     "country": "Oman",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/OM_birthday_mom_3e32b375.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/bvBmYCKOnnqsfaGd.png",
     "price": 599,
     "name": "Oman Thank You Card"
   },
@@ -17111,7 +17209,7 @@ export const THANK_YOU_CARDS: CardProduct[] = [
   {
     "id": "pg_thank_you",
     "country": "Papua New Guinea",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/pg_birthday_mom_b484654a.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/vTJfqWAeAfkbADOs.png",
     "price": 599,
     "name": "Papua New Guinea Thank You Card"
   },
@@ -17132,14 +17230,14 @@ export const THANK_YOU_CARDS: CardProduct[] = [
   {
     "id": "ph_thank_you",
     "country": "Philippines",
-    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/ZKvYMjgYgQbcuChr.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/hJinfpFPhqOZpdhd.png",
     "price": 599,
     "name": "Philippines Thank You Card"
   },
   {
     "id": "pl_thank_you",
     "country": "Poland",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/pl_birthday_mom_ed83e3e4.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/oTwQTPrlNvJSSOgo.png",
     "price": 599,
     "name": "Poland Thank You Card"
   },
@@ -17160,14 +17258,14 @@ export const THANK_YOU_CARDS: CardProduct[] = [
   {
     "id": "qa_thank_you",
     "country": "Qatar",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/QA_birthday_mom_3c86507a.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/NQZMChjvTiaztppe.png",
     "price": 599,
     "name": "Qatar Thank You Card"
   },
   {
     "id": "cg_thank_you",
     "country": "Republic of Congo",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/CG_birthday_mom_wall_art_8x10_7ca96fb8.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/XCCsuLkGstypsnDK.png",
     "price": 599,
     "name": "Republic of Congo Thank You Card"
   },
@@ -17181,35 +17279,35 @@ export const THANK_YOU_CARDS: CardProduct[] = [
   {
     "id": "ru_thank_you",
     "country": "Russia",
-    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/vJawcMoVdlJaTmUf.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/wwBfDMewWwTYCbkP.png",
     "price": 599,
     "name": "Russia Thank You Card"
   },
   {
     "id": "rw_thank_you",
     "country": "Rwanda",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/RW_birthday_mom_wall_art_8x10_99c6bd5d.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/NotsLOgAShYEMAaa.png",
     "price": 599,
     "name": "Rwanda Thank You Card"
   },
   {
     "id": "kn_thank_you",
     "country": "Saint Kitts and Nevis",
-    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/oxosHTJlndbKSwjT.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/zphWHldifibwoMqN.png",
     "price": 599,
     "name": "Saint Kitts and Nevis Thank You Card"
   },
   {
     "id": "lc_thank_you",
     "country": "Saint Lucia",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/lc_birthday_mom_7e6b141e.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/eQijmKQYPdHOpzjn.png",
     "price": 599,
     "name": "Saint Lucia Thank You Card"
   },
   {
     "id": "vc_thank_you",
     "country": "Saint Vincent and the Grenadines",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/vc_birthday_mom_2efd25b8.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/umtZeLndzUwqptdb.png",
     "price": 599,
     "name": "Saint Vincent and the Grenadines Thank You Card"
   },
@@ -17223,21 +17321,21 @@ export const THANK_YOU_CARDS: CardProduct[] = [
   {
     "id": "st_thank_you",
     "country": "Sao Tome and Principe",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/st_birthday_mom_a05e7209.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/hirwiRsotQxTkagC.png",
     "price": 599,
     "name": "Sao Tome and Principe Thank You Card"
   },
   {
     "id": "sa_thank_you",
     "country": "Saudi Arabia",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/SA_birthday_mom_42c3217a.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/kbwBfNlyfxafZEjd.png",
     "price": 599,
     "name": "Saudi Arabia Thank You Card"
   },
   {
     "id": "sn_thank_you",
     "country": "Senegal",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/sn_birthday_mom_4c5c25aa.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/yGWICDmEDTmOStGX.png",
     "price": 599,
     "name": "Senegal Thank You Card"
   },
@@ -17251,7 +17349,7 @@ export const THANK_YOU_CARDS: CardProduct[] = [
   {
     "id": "sc_thank_you",
     "country": "Seychelles",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/SC_birthday_mom_wall_art_8x10_dca3d36f.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/oIvUBfaOarEVbqtO.png",
     "price": 599,
     "name": "Seychelles Thank You Card"
   },
@@ -17279,14 +17377,14 @@ export const THANK_YOU_CARDS: CardProduct[] = [
   {
     "id": "sb_thank_you",
     "country": "Solomon Islands",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/sb_birthday_mom_91551337.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/FVBQcxLGdVBqMGkR.png",
     "price": 599,
     "name": "Solomon Islands Thank You Card"
   },
   {
     "id": "so_thank_you",
     "country": "Somalia",
-    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/mwUprLRaSOZSxHYR.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/XjyYhpUHOAXCbyWZ.png",
     "price": 599,
     "name": "Somalia Thank You Card"
   },
@@ -17300,7 +17398,7 @@ export const THANK_YOU_CARDS: CardProduct[] = [
   {
     "id": "ss_thank_you",
     "country": "South Sudan",
-    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/pizpvRdAbaNQhUlN.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/RAcERjCgEuIoPgoB.png",
     "price": 599,
     "name": "South Sudan Thank You Card"
   },
@@ -17321,14 +17419,14 @@ export const THANK_YOU_CARDS: CardProduct[] = [
   {
     "id": "sd_thank_you",
     "country": "Sudan",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/SD_birthday_mom_e6aabba1.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/WiMOHNwbBOmkiJKv.png",
     "price": 599,
     "name": "Sudan Thank You Card"
   },
   {
     "id": "sr_thank_you",
     "country": "Suriname",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/sr_birthday_mom_5f0c3441.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/MAGVNOOhZwrgecWm.png",
     "price": 599,
     "name": "Suriname Thank You Card"
   },
@@ -17342,7 +17440,7 @@ export const THANK_YOU_CARDS: CardProduct[] = [
   {
     "id": "ch_thank_you",
     "country": "Switzerland",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/ch_birthday_mom_6b36eb90.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/nLbxeOowcBNuJftL.png",
     "price": 599,
     "name": "Switzerland Thank You Card"
   },
@@ -17356,21 +17454,21 @@ export const THANK_YOU_CARDS: CardProduct[] = [
   {
     "id": "tw_thank_you",
     "country": "Taiwan",
-    "image": "",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/TDDPwdRYdpfpsgTx.png",
     "price": 599,
     "name": "Taiwan Thank You Card"
   },
   {
     "id": "tj_thank_you",
     "country": "Tajikistan",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/tj_birthday_mom_1b2bdec2.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/HbTIorEzzrZeaPqS.png",
     "price": 599,
     "name": "Tajikistan Thank You Card"
   },
   {
     "id": "tz_thank_you",
     "country": "Tanzania",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/tz_birthday_mom_5d527177.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/luiXOlBAqBKmKynQ.png",
     "price": 599,
     "name": "Tanzania Thank You Card"
   },
@@ -17384,14 +17482,14 @@ export const THANK_YOU_CARDS: CardProduct[] = [
   {
     "id": "tl_thank_you",
     "country": "Timor Leste",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/TL_birthday_mom_wall_art_8x10_1505f48c.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/dkYUcHccsydJyChL.png",
     "price": 599,
     "name": "Timor Leste Thank You Card"
   },
   {
     "id": "tg_thank_you",
     "country": "Togo",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/TG_birthday_mom_wall_art_8x10_3d4be01f.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/ZqHCsCZhaDCGCjuO.png",
     "price": 599,
     "name": "Togo Thank You Card"
   },
@@ -17405,14 +17503,14 @@ export const THANK_YOU_CARDS: CardProduct[] = [
   {
     "id": "tt_thank_you",
     "country": "Trinidad Tobago",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/tt_birthday_mom_ce28febe.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/kRZUzExIrGpYxITQ.png",
     "price": 599,
     "name": "Trinidad Tobago Thank You Card"
   },
   {
     "id": "tn_thank_you",
     "country": "Tunisia",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/TN_birthday_mom_58a6f4bb.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/MfCxYcFVSMXzhQxA.png",
     "price": 599,
     "name": "Tunisia Thank You Card"
   },
@@ -17426,7 +17524,7 @@ export const THANK_YOU_CARDS: CardProduct[] = [
   {
     "id": "tm_thank_you",
     "country": "Turkmenistan",
-    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/IudgBAXchJXIxfkV.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/UwCKxDjVmetMHdLm.png",
     "price": 599,
     "name": "Turkmenistan Thank You Card"
   },
@@ -17440,14 +17538,14 @@ export const THANK_YOU_CARDS: CardProduct[] = [
   {
     "id": "ug_thank_you",
     "country": "Uganda",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/ug_birthday_mom_3932eff2.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/BfKOdGhVyQvWQeIw.png",
     "price": 599,
     "name": "Uganda Thank You Card"
   },
   {
     "id": "ua_thank_you",
     "country": "Ukraine",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/ua_birthday_mom_49b68c27.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/DfEAitRNLoOCSoVl.png",
     "price": 599,
     "name": "Ukraine Thank You Card"
   },
@@ -17461,14 +17559,14 @@ export const THANK_YOU_CARDS: CardProduct[] = [
   {
     "id": "uy_thank_you",
     "country": "Uruguay",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/uy_birthday_mom_210c231b.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/XevltDdLmjxMGYsY.png",
     "price": 599,
     "name": "Uruguay Thank You Card"
   },
   {
     "id": "uz_thank_you",
     "country": "Uzbekistan",
-    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/jEOxJiMAcNUVUvqA.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/MgphpPbKcuRPyRWa.png",
     "price": 599,
     "name": "Uzbekistan Thank You Card"
   },
@@ -17496,21 +17594,21 @@ export const THANK_YOU_CARDS: CardProduct[] = [
   {
     "id": "ye_thank_you",
     "country": "Yemen",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/YE_birthday_mom_e46037cc.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/rbXdpfKyAhKSDUDG.png",
     "price": 599,
     "name": "Yemen Thank You Card"
   },
   {
     "id": "zm_thank_you",
     "country": "Zambia",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/ZM_birthday_mom_wall_art_8x10_6d8a3357.jpg",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/laQyoHixfOuxSNtC.png",
     "price": 599,
     "name": "Zambia Thank You Card"
   },
   {
     "id": "zw_thank_you",
     "country": "Zimbabwe",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/zw_birthday_mom_6da162de.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/ScIiICOOHbdvLtWl.png",
     "price": 599,
     "name": "Zimbabwe Thank You Card"
   }
@@ -17604,7 +17702,7 @@ export const THINKING_OF_YOU_CARDS: CardProduct[] = [
   {
     "id": "bd_thinking_of_you",
     "country": "Bangladesh",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/bd_birthday_mom_1bf31502.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/QwTuPXfTTsrWrzcT.png",
     "price": 599,
     "name": "Bangladesh Thinking of You Card"
   },
@@ -17940,21 +18038,21 @@ export const THINKING_OF_YOU_CARDS: CardProduct[] = [
   {
     "id": "de_thinking_of_you",
     "country": "Germany",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/de_birthday_mom_ad19a201.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/sdZGvVfcuxlSqqXL.png",
     "price": 599,
     "name": "Germany Thinking of You Card"
   },
   {
     "id": "gh_thinking_of_you",
     "country": "Ghana",
-    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/RPQaBJoqkSkOAbpg.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/pLuAsToBaBBfHFGQ.png",
     "price": 599,
     "name": "Ghana Thinking of You Card"
   },
   {
     "id": "gr_thinking_of_you",
     "country": "Greece",
-    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/CjvQnDEZihieqPXb.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/uLYxYmnjPlmKDymu.png",
     "price": 599,
     "name": "Greece Thinking of You Card"
   },
@@ -17968,7 +18066,7 @@ export const THINKING_OF_YOU_CARDS: CardProduct[] = [
   {
     "id": "gt_thinking_of_you",
     "country": "Guatemala",
-    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/YNQtLlVBWGNYxpam.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/cjlTsVbWJmQhDuBJ.png",
     "price": 599,
     "name": "Guatemala Thinking of You Card"
   },
@@ -17996,7 +18094,7 @@ export const THINKING_OF_YOU_CARDS: CardProduct[] = [
   {
     "id": "ht_thinking_of_you",
     "country": "Haiti",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/ht_birthday_mom_4e48824f.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/FLSKxcJyEnGUquTu.png",
     "price": 599,
     "name": "Haiti Thinking of You Card"
   },
@@ -18017,14 +18115,14 @@ export const THINKING_OF_YOU_CARDS: CardProduct[] = [
   {
     "id": "in_thinking_of_you",
     "country": "India",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/in_birthday_mom_9ecb2ef7.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/qniKqfzJfUlvPivm.png",
     "price": 599,
     "name": "India Thinking of You Card"
   },
   {
     "id": "id_thinking_of_you",
     "country": "Indonesia",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/id_birthday_mom_f43a625a.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/RgBptrUYulfrvwKD.png",
     "price": 599,
     "name": "Indonesia Thinking of You Card"
   },
@@ -18045,7 +18143,7 @@ export const THINKING_OF_YOU_CARDS: CardProduct[] = [
   {
     "id": "it_thinking_of_you",
     "country": "Italy",
-    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/dyOrFXvEqjPyFNma.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/VPvAScZrxnkQSToZ.png",
     "price": 599,
     "name": "Italy Thinking of You Card"
   },
@@ -18059,14 +18157,14 @@ export const THINKING_OF_YOU_CARDS: CardProduct[] = [
   {
     "id": "jm_thinking_of_you",
     "country": "Jamaica",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/jm_birthday_mom_02258bca.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/fxKwWuloUgAxSIvO.png",
     "price": 599,
     "name": "Jamaica Thinking of You Card"
   },
   {
     "id": "jp_thinking_of_you",
     "country": "Japan",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/jp_birthday_mom_1773fe74.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/htItioRySdxCUZBe.png",
     "price": 599,
     "name": "Japan Thinking of You Card"
   },
@@ -18101,7 +18199,7 @@ export const THINKING_OF_YOU_CARDS: CardProduct[] = [
   {
     "id": "kr_thinking_of_you",
     "country": "Korea",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/kr_birthday_mom_188febf6.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/oNFHnQShZYQvUjHt.png",
     "price": 599,
     "name": "Korea Thinking of You Card"
   },
@@ -18199,7 +18297,7 @@ export const THINKING_OF_YOU_CARDS: CardProduct[] = [
   {
     "id": "my_thinking_of_you",
     "country": "Malaysia",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/my_birthday_mom_4b382634.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/ozoBFCnGyGavYliK.png",
     "price": 599,
     "name": "Malaysia Thinking of You Card"
   },
@@ -18311,7 +18409,7 @@ export const THINKING_OF_YOU_CARDS: CardProduct[] = [
   {
     "id": "nz_thinking_of_you",
     "country": "New Zealand",
-    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/JhDxpsesZAdlVwGE.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/eTAWbRnLcaonHkBV.png",
     "price": 599,
     "name": "New Zealand Thinking of You Card"
   },
@@ -18332,7 +18430,7 @@ export const THINKING_OF_YOU_CARDS: CardProduct[] = [
   {
     "id": "ng_thinking_of_you",
     "country": "Nigeria",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/ng_birthday_mom_9686a463.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/UvkRLqpxBCbvJUgX.png",
     "price": 599,
     "name": "Nigeria Thinking of You Card"
   },
@@ -18367,7 +18465,7 @@ export const THINKING_OF_YOU_CARDS: CardProduct[] = [
   {
     "id": "pk_thinking_of_you",
     "country": "Pakistan",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/pk_birthday_mom_c2ceee8d.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/DNADroneGSdaZbvd.png",
     "price": 599,
     "name": "Pakistan Thinking of You Card"
   },
@@ -18409,7 +18507,7 @@ export const THINKING_OF_YOU_CARDS: CardProduct[] = [
   {
     "id": "ph_thinking_of_you",
     "country": "Philippines",
-    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/ZKvYMjgYgQbcuChr.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/vYwXZyXkIzEjUThz.png",
     "price": 599,
     "name": "Philippines Thinking of You Card"
   },
@@ -18458,7 +18556,7 @@ export const THINKING_OF_YOU_CARDS: CardProduct[] = [
   {
     "id": "ru_thinking_of_you",
     "country": "Russia",
-    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/vJawcMoVdlJaTmUf.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/MsrEGombNisPmBai.png",
     "price": 599,
     "name": "Russia Thinking of You Card"
   },
@@ -18563,7 +18661,7 @@ export const THINKING_OF_YOU_CARDS: CardProduct[] = [
   {
     "id": "so_thinking_of_you",
     "country": "Somalia",
-    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/mwUprLRaSOZSxHYR.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/aDcWDKxaPtaHgjQr.png",
     "price": 599,
     "name": "Somalia Thinking of You Card"
   },
@@ -18717,7 +18815,7 @@ export const THINKING_OF_YOU_CARDS: CardProduct[] = [
   {
     "id": "ua_thinking_of_you",
     "country": "Ukraine",
-    "image": "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/ua_birthday_mom_49b68c27.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/CcCFpGZOiKLHjlzw.png",
     "price": 599,
     "name": "Ukraine Thinking of You Card"
   },
@@ -18791,7 +18889,7 @@ export const THINKING_OF_YOU_V2_CARDS: CardProduct[] = [
   {
     "id": "ic_thinking_of_you_v2",
     "country": "Iceland",
-    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/LMxLvOerfLCsYDzO.png",
+    "image": "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/dkJdwahfheTMLVkM.png",
     "price": 599,
     "name": "Iceland Thinking of You Card v2"
   }
@@ -18821,8 +18919,9 @@ export interface SimpleProduct {
 }
 
 export const COLORING_BOOKS: SimpleProduct[] = [
-  { id: "coloring_africa",   country: "Africa",   image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/coloring_africa_cover.png",   price: 999, name: "Around the World Coloring Book — Africa Edition" },
-  { id: "coloring_americas", country: "Americas", image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/U2o3BSoD2csFZaGb6Y3o4M/coloring_americas_cover.png", price: 999, name: "Around the World Coloring Book — Americas Edition" },
+  { id: "coloring_africa",   country: "Africa",   image: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/QwwpBORXywSzwgCr.png",   price: 999, name: "Around the World Coloring Book — Africa Edition" },
+  // Americas Edition hidden until cover art is ready
+  // { id: "coloring_americas", country: "Americas", image: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663477175297/IqFezHBBQytmBwSB.png", price: 999, name: "Around the World Coloring Book — Americas Edition" },
 ];
 
 // ── Stickers ───────────────────────────────────────────────────────────────

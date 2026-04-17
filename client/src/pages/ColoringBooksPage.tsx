@@ -10,16 +10,16 @@ export default function ColoringBooksPage() {
   return (
     <div className="min-h-screen bg-[#faf8f4]">
       <NavBar />
-      <div className="bg-[#1a2744] text-white py-10 px-4 text-center">
+      <div className="bg-gradient-to-br from-[#faf8f4] to-[#f5f0e8] border-b border-[#d4af37]/30 py-10 px-4 text-center">
         <div className="flex items-center justify-center gap-2 mb-2">
           <Palette className="w-6 h-6 text-[#d4af37]" />
           <span className="text-[#d4af37] font-semibold text-sm uppercase tracking-widest">Coloring Books</span>
         </div>
-        <h1 className="text-3xl md:text-4xl font-bold font-serif mb-2">Around the World Coloring Books</h1>
-        <p className="text-white/70 text-lg max-w-xl mx-auto">
+        <h1 className="text-3xl md:text-4xl font-bold font-serif mb-2 text-[#1a2744]">Around the World Coloring Books</h1>
+        <p className="text-[#4a5568] text-lg max-w-xl mx-auto">
           100+ pages of beautiful illustrations celebrating cultures, landmarks, and wildlife from every continent.
         </p>
-        <p className="text-white/60 text-sm mt-2">
+        <p className="text-[#6b7280] text-sm mt-2">
           {COLORING_BOOKS.length} editions · $9.99 each · Instant PDF Download · Print at Home
         </p>
       </div>

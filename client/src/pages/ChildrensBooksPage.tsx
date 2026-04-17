@@ -5,13 +5,13 @@ export default function ChildrensBooksPage() {
   return (
     <div className="min-h-screen bg-[#faf8f4]">
       <NavBar />
-      <div className="bg-[#1a2744] text-white py-10 px-4 text-center">
+      <div className="bg-gradient-to-br from-[#faf8f4] to-[#f5f0e8] border-b border-[#d4af37]/30 py-10 px-4 text-center">
         <div className="flex items-center justify-center gap-2 mb-2">
           <BookOpen className="w-6 h-6 text-[#d4af37]" />
           <span className="text-[#d4af37] font-semibold text-sm uppercase tracking-widest">Children's Books</span>
         </div>
-        <h1 className="text-3xl md:text-4xl font-bold font-serif mb-2">Children's Books</h1>
-        <p className="text-white/70 text-lg max-w-xl mx-auto">
+        <h1 className="text-3xl md:text-4xl font-bold font-serif mb-2 text-[#1a2744]">Children's Books</h1>
+        <p className="text-[#4a5568] text-lg max-w-xl mx-auto">
           Illustrated children's books celebrating cultures from around the world.
         </p>
       </div>

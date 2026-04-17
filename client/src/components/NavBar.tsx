@@ -17,7 +17,6 @@ const CARD_LINKS = [
   { href: "/fathers-day",     label: "Father's Day" },
   { href: "/new-year",        label: "New Year" },
   { href: "/in-loving-memory",label: "In Loving Memory" },
-  { href: "/baby-shower",     label: "Baby Shower Games" },
 ];
 
 // ── Books & Resources dropdown ─────────────────────────────────────────────
@@ -26,7 +25,6 @@ const BOOKS_LINKS = [
   { href: "/flashcards",          label: "Flashcards" },
   { href: "/coloring-books",      label: "Coloring Books" },
   { href: "/cookbooks",           label: "Cookbooks" },
-  { href: "/children-books",      label: "Children's Books" },
   { href: "/wall-art",            label: "Wall Art" },
   { href: "/kids-classroom",      label: "Kids & Classroom" },
 ];
