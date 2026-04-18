@@ -6,6 +6,8 @@ import * as fs from 'fs';
  * Supports two modes:
  *   1. GOOGLE_SERVICE_ACCOUNT_KEY – full JSON string (production / env-var based)
  *   2. GOOGLE_SERVICE_ACCOUNT_KEY_PATH – path to a JSON file (local dev)
+ *
+ * This is called lazily (at runtime) to avoid build-time env var resolution.
  */
 function loadServiceAccountKey(): Record<string, string> {
   if (process.env.GOOGLE_SERVICE_ACCOUNT_KEY) {
@@ -19,43 +21,67 @@ function loadServiceAccountKey(): Record<string, string> {
   throw new Error('Missing GOOGLE_SERVICE_ACCOUNT_KEY or GOOGLE_SERVICE_ACCOUNT_KEY_PATH');
 }
 
-export const config = {
-  googleSheetId: process.env.GOOGLE_SHEET_ID ?? '',
-  databaseUrl: process.env.DATABASE_URL ?? '',
-  serviceAccountKey: loadServiceAccountKey(),
+/** Cached config instance — created on first access */
+let _config: ReturnType<typeof buildConfig> | null = null;
 
-  /** Sheet tab names */
-  productsTab: 'Sheet1',
-  syncLogTab: 'Sheet2',
+function buildConfig() {
+  return {
+    googleSheetId: process.env.GOOGLE_SHEET_ID ?? '',
+    databaseUrl: process.env.DATABASE_URL ?? '',
+    serviceAccountKey: loadServiceAccountKey(),
 
-  /** Column header names in exact order (19 columns) */
-  columnHeaders: [
-    'id',
-    'product_name',
-    'category',
-    'subcategory',
-    'country',
-    'price',
-    'gumroad_link',
-    'cover_image_url',
-    'pdf_url',
-    'description',
-    'seo_title',
-    'seo_description',
-    'tags',
-    'design',
-    'source_constant',
-    'status',
-    'sort_order',
-    'created_at',
-    'updated_at',
-  ] as const,
+    /** Sheet tab names */
+    productsTab: 'Sheet1' as const,
+    syncLogTab: 'Sheet2' as const,
 
-  /** Hard timeout for the entire sync operation (ms) */
-  syncTimeoutMs: 60_000,
-};
+    /** Column header names in exact order (19 columns) */
+    columnHeaders: [
+      'id',
+      'product_name',
+      'category',
+      'subcategory',
+      'country',
+      'price',
+      'gumroad_link',
+      'cover_image_url',
+      'pdf_url',
+      'description',
+      'seo_title',
+      'seo_description',
+      'tags',
+      'design',
+      'source_constant',
+      'status',
+      'sort_order',
+      'created_at',
+      'updated_at',
+    ] as const,
 
-export type ColumnHeader = (typeof config.columnHeaders)[number];
+    /** Hard timeout for the entire sync operation (ms) */
+    syncTimeoutMs: 60_000,
+  };
+}
+
+/**
+ * Lazy-loaded config — only resolves env vars when first accessed at runtime,
+ * not at module import time. This prevents Railway's builder from failing
+ * when env vars aren't available during the build step.
+ */
+export function getConfig() {
+  if (!_config) {
+    _config = buildConfig();
+  }
+  return _config;
+}
+
+/** @deprecated Use getConfig() instead — kept for backward compatibility */
+export const config = new Proxy({} as ReturnType<typeof buildConfig>, {
+  get(_target, prop) {
+    return getConfig()[prop as keyof ReturnType<typeof buildConfig>];
+  },
+});
+
+export type ColumnHeader = ReturnType<typeof buildConfig>['columnHeaders'][number];
 
 export interface ProductRow {
   id: string;
