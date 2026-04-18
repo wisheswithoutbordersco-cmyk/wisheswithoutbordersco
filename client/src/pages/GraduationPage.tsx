@@ -1,9 +1,9 @@
-import { useState } from "react";
+import { useState, useMemo } from "react";
 import { NavBar } from "@/components/NavBar";
 import { CardGallery } from "@/components/CardGallery";
-import { GRADUATION_CARDS } from "@/lib/productData";
-import { ShoppingCart, Gamepad2, Loader2 } from "lucide-react";
+import { LoadingGallery } from "@/components/LoadingGallery";
 import { trpc } from "@/lib/trpc";
+import { ShoppingCart, Gamepad2, Loader2 } from "lucide-react";
 import { toast } from "sonner";
 
 const GAMES_30 = [
@@ -45,11 +45,30 @@ const BUNDLE_PRICES: Record<string, number> = {
   "grad-games-10": 699,
 };
 
+// Graduation cards come from 3 source_constants merged together
+const GRAD_SOURCES = ["GRADUATION_BOY_CARDS", "GRADUATION_GIRL_CARDS", "GRADUATION_CONGRATS_CARDS"];
+
 export default function GraduationPage() {
   const [activeBundle, setActiveBundle] = useState("grad-games-30");
   const [checkingOut, setCheckingOut] = useState(false);
   const bundle = BUNDLES.find((b) => b.id === activeBundle)!;
   const checkoutMutation = trpc.shop.createCheckout.useMutation();
+
+  // Fetch graduation cards from DB
+  const { data, isLoading, error } = trpc.shop.getProductsBySources.useQuery({
+    sourceConstants: GRAD_SOURCES,
+  });
+
+  const cards = useMemo(() => {
+    if (!data) return [];
+    return data.map((row) => ({
+      id: row.id,
+      country: row.country ?? "",
+      image: row.coverImageUrl ?? "",
+    }));
+  }, [data]);
+
+  const isEmpty = !isLoading && !error && cards.length === 0;
 
   async function handleBundleBuy() {
     setCheckingOut(true);
@@ -79,13 +98,17 @@ export default function GraduationPage() {
       <NavBar />
 
       {/* Graduation Cards Section */}
-      <CardGallery
-        cards={GRADUATION_CARDS}
-        title="Graduation Cards"
-        subtitle="Celebrate graduates from around the world — in their language, with their culture. Culturally authentic designs for a monumental milestone."
-        priceInCents={599}
-        category="graduation"
-      />
+      {(isLoading || error || isEmpty) ? (
+        <LoadingGallery isLoading={isLoading} error={error} isEmpty={isEmpty} itemLabel="graduation cards" />
+      ) : (
+        <CardGallery
+          cards={cards}
+          title="Graduation Cards"
+          subtitle="Celebrate graduates from around the world — in their language, with their culture. Culturally authentic designs for a monumental milestone."
+          priceInCents={599}
+          category="graduation"
+        />
+      )}
 
       {/* ── Graduation Party Games ─────────────────────────────────── */}
       <section className="bg-[#0a0a0a] border-t border-white/5 py-20 px-4">

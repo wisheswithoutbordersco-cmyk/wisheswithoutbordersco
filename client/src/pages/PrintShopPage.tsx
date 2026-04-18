@@ -1,6 +1,7 @@
-import { useState } from "react";
+import { useState, useMemo } from "react";
 import { NavBar } from "@/components/NavBar";
-import { WALL_ART_PRINTS, BIRTHDAY_MOM_CARDS } from "@/lib/productData";
+import { LoadingGallery } from "@/components/LoadingGallery";
+import { trpc } from "@/lib/trpc";
 import { Search, Printer, Truck, Package, Globe, Heart } from "lucide-react";
 import {
   PhysicalPrintModal,
@@ -12,24 +13,57 @@ export default function PrintShopPage() {
   const [selectedProduct, setSelectedProduct] =
     useState<PhysicalPrintProduct | null>(null);
 
+  // Fetch wall art and birthday mom cards (first 12 for greeting card section)
+  const { data: wallArtData, isLoading: wallArtLoading, error: wallArtError } = trpc.shop.getProductsBySource.useQuery({ sourceConstant: "WALL_ART_PRINTS" });
+  const { data: greetingData, isLoading: greetingLoading, error: greetingError } = trpc.shop.getProductsBySource.useQuery({ sourceConstant: "BIRTHDAY_MOM_CARDS" });
+
+  const wallArtPrints = useMemo(() => {
+    if (!wallArtData) return [];
+    return wallArtData.map((r) => ({
+      id: r.id,
+      name: r.productName,
+      country: r.country ?? "",
+      image: r.coverImageUrl ?? "",
+    }));
+  }, [wallArtData]);
+
+  const greetingCards = useMemo(() => {
+    if (!greetingData) return [];
+    return greetingData.slice(0, 12).map((r) => ({
+      id: r.id,
+      country: r.country ?? "",
+      image: r.coverImageUrl ?? "",
+    }));
+  }, [greetingData]);
+
+  const isLoading = wallArtLoading || greetingLoading;
+  const hasError = wallArtError || greetingError;
+
   // Combine wall art and a selection of popular greeting cards for physical printing
-  const wallArtItems = WALL_ART_PRINTS.filter((c) =>
+  const wallArtItems = wallArtPrints.filter((c) =>
     c.country.toLowerCase().includes(search.toLowerCase()),
   );
   
-  // Just show the first 12 popular birthday cards as physical print options for now
-  const greetingCardItems = BIRTHDAY_MOM_CARDS.slice(0, 12).filter((c) =>
+  const greetingCardItems = greetingCards.filter((c) =>
     c.country.toLowerCase().includes(search.toLowerCase()),
   );
 
-  function handleProductClick(product: any, isWallArt: boolean) {
+  function handleProductClick(product: { id: string; name?: string; country: string; image: string }, isWallArt: boolean) {
     setSelectedProduct({
       productId: product.id,
-      name: isWallArt ? product.name : `${product.country} Physical Greeting Card`,
+      name: isWallArt ? (product.name ?? product.country) : `${product.country} Physical Greeting Card`,
       image: product.image,
       country: product.country,
-      // Add type if the modal supports it, otherwise name handles it
     });
+  }
+
+  if (isLoading || hasError) {
+    return (
+      <div className="min-h-screen bg-[#faf8f4]">
+        <NavBar />
+        <LoadingGallery isLoading={isLoading} error={hasError ?? undefined} isEmpty={false} itemLabel="print shop products" />
+      </div>
+    );
   }
 
   return (

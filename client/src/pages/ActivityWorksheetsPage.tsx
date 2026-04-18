@@ -1,19 +1,35 @@
-import { useState } from "react";
+import { useState, useMemo } from "react";
 import { NavBar } from "@/components/NavBar";
 import { ProductModal, type ProductInfo } from "@/components/ProductModal";
+import { LoadingGallery } from "@/components/LoadingGallery";
 import { Input } from "@/components/ui/input";
+import { trpc } from "@/lib/trpc";
 import { Search, BookOpen, ShoppingCart } from "lucide-react";
-import { ACTIVITY_WORKBOOKS } from "@/lib/productData";
 
 export default function ActivityWorksheetsPage() {
-  const [search, setSearch]         = useState("");
+  const [search, setSearch] = useState("");
   const [selectedProduct, setSelectedProduct] = useState<ProductInfo | null>(null);
 
-  const filtered = ACTIVITY_WORKBOOKS.filter((w) =>
+  const { data, isLoading, error } = trpc.shop.getProductsBySource.useQuery({ sourceConstant: "ACTIVITY_WORKBOOKS" });
+
+  const workbooks = useMemo(() => {
+    if (!data) return [];
+    return data.map((r) => ({
+      id: r.id,
+      country: r.country ?? "",
+      name: r.productName,
+      price: r.price,
+      image: r.coverImageUrl ?? "",
+    }));
+  }, [data]);
+
+  const filtered = workbooks.filter((w) =>
     w.country.toLowerCase().includes(search.toLowerCase())
   );
 
-  function handleClick(w: typeof ACTIVITY_WORKBOOKS[0]) {
+  const isEmpty = !isLoading && !error && workbooks.length === 0;
+
+  function handleClick(w: typeof filtered[0]) {
     setSelectedProduct({
       productId: w.id,
       name: w.name,
@@ -23,6 +39,15 @@ export default function ActivityWorksheetsPage() {
       category: "activity_workbook",
       description: `${w.country} Activity Workbook — explore ${w.country} through fun activities, puzzles, and cultural learning. Perfect for kids and families. Instant PDF download, print at home.`,
     });
+  }
+
+  if (isLoading || error || isEmpty) {
+    return (
+      <div>
+        <NavBar />
+        <LoadingGallery isLoading={isLoading} error={error} isEmpty={isEmpty} itemLabel="activity workbooks" />
+      </div>
+    );
   }
 
   return (
@@ -36,7 +61,7 @@ export default function ActivityWorksheetsPage() {
         <h1 className="text-3xl md:text-4xl font-bold font-serif mb-2">Country Activity Workbooks</h1>
         <p className="text-[#d4af37] text-lg">Explore every country through fun activities, puzzles &amp; cultural learning</p>
         <p className="text-white/70 text-sm mt-1">
-          {ACTIVITY_WORKBOOKS.length} countries · $9.99 each · Instant PDF Download · Print at Home
+          {workbooks.length} countries · $9.99 each · Instant PDF Download · Print at Home
         </p>
       </div>
 

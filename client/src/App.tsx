@@ -35,6 +35,8 @@ import MyOrdersPage from "./pages/MyOrdersPage";
 import PrintShopPage from "./pages/PrintShopPage";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
 import TermsOfService from "./pages/TermsOfService";
+import AdminCmsPage from "./pages/AdminCmsPage";
+import AdminCmsLoginPage from "./pages/AdminCmsLoginPage";
 
 function Router() {
   return (
@@ -68,6 +70,8 @@ function Router() {
       <Route path="/print-shop" component={PrintShopPage} />
       <Route path="/privacy-policy" component={PrivacyPolicy} />
       <Route path="/terms-of-service" component={TermsOfService} />
+      <Route path="/admin/cms" component={AdminCmsPage} />
+      <Route path="/admin/cms/login" component={AdminCmsLoginPage} />
       <Route path="/404" component={NotFound} />
       <Route component={NotFound} />
     </Switch>

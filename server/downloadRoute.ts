@@ -10,6 +10,7 @@
 import type { Express, Request, Response } from "express";
 import { verifyDownloadToken } from "./downloadTokens";
 import { PRODUCTS } from "./routers";
+import { getProductForCheckout } from "./productQueries";
 
 export function registerDownloadRoute(app: Express): void {
   app.get("/api/download/:token", async (req: Request, res: Response) => {
@@ -24,8 +25,9 @@ export function registerDownloadRoute(app: Express): void {
       return;
     }
 
-    // Look up the product
-    const product = PRODUCTS[payload.productId];
+    // Look up the product — DB-first, PRODUCTS fallback
+    const dbProduct = await getProductForCheckout(payload.productId);
+    const product = dbProduct ?? PRODUCTS[payload.productId];
     if (!product || !product.pdfLink) {
       res.status(404).json({
         error: "Product not found or download not available. Please contact support at info@wisheswithoutbordersco.com",

@@ -1,7 +1,8 @@
-import { useState } from "react";
+import { useState, useMemo } from "react";
 import { Link } from "wouter";
 import { NavBar } from "@/components/NavBar";
-import { WALL_ART_PRINTS } from "@/lib/productData";
+import { LoadingGallery } from "@/components/LoadingGallery";
+import { trpc } from "@/lib/trpc";
 import { Printer, Search, ShoppingCart, ImageIcon } from "lucide-react";
 import {
   PhysicalPrintModal,
@@ -10,12 +11,35 @@ import {
 
 const COUNTRIES = ["All", "Kenya", "Nigeria", "Jamaica", "India"] as const;
 
+type WallArtItem = {
+  id: string;
+  name: string;
+  country: string;
+  design: string;
+  image: string;
+};
+
 export default function WallArtPage() {
   const [printProduct, setPrintProduct] = useState<PhysicalPrintProduct | null>(null);
   const [selectedCountry, setSelectedCountry] = useState<string>("All");
   const [search, setSearch] = useState("");
 
-  const filtered = WALL_ART_PRINTS.filter((art) => {
+  const { data, isLoading, error } = trpc.shop.getProductsBySource.useQuery({ sourceConstant: "WALL_ART_PRINTS" });
+
+  const wallArt = useMemo<WallArtItem[]>(() => {
+    if (!data) return [];
+    return data.map((r) => ({
+      id: r.id,
+      name: r.productName,
+      country: r.country ?? "",
+      design: r.design ?? r.productName,
+      image: r.coverImageUrl ?? "",
+    }));
+  }, [data]);
+
+  const isEmpty = !isLoading && !error && wallArt.length === 0;
+
+  const filtered = wallArt.filter((art) => {
     const matchesCountry = selectedCountry === "All" || art.country === selectedCountry;
     const matchesSearch =
       search === "" ||
@@ -30,10 +54,19 @@ export default function WallArtPage() {
       acc[country] = filtered.filter((a) => a.country === country);
       return acc;
     },
-    {} as Record<string, typeof WALL_ART_PRINTS>,
+    {} as Record<string, WallArtItem[]>,
   );
 
   const showGrouped = selectedCountry === "All" && search === "";
+
+  if (isLoading || error || isEmpty) {
+    return (
+      <div className="min-h-screen bg-[#faf8f4]">
+        <NavBar />
+        <LoadingGallery isLoading={isLoading} error={error} isEmpty={isEmpty} itemLabel="wall art prints" />
+      </div>
+    );
+  }
 
   return (
     <div className="min-h-screen bg-[#faf8f4]">
@@ -51,7 +84,7 @@ export default function WallArtPage() {
           Cultural Wall Art Prints
         </h1>
         <p className="text-[#d4af37] text-lg mb-2">
-          52 Designs · 4 Countries · Museum-Quality Art
+          {wallArt.length} Designs · 4 Countries · Museum-Quality Art
         </p>
         <p className="text-white/60 text-sm max-w-2xl mx-auto">
           Beautiful 8×10 printable wall art celebrating the cultures of Kenya, Nigeria, Jamaica, and India.

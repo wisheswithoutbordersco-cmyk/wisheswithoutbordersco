@@ -1,7 +1,8 @@
 import { Link } from "wouter";
 import { useState, useRef, useEffect } from "react";
 import { NavBar } from "@/components/NavBar";
-import { BRAND } from "@/lib/productData";
+// BRAND inlined — no longer imported from productData
+const BRAND = { logo: "", name: "Wishes Without Borders Co" };
 import { Globe, BookOpen, Baby, Heart, GraduationCap, Star, Flower2, Sun, Smile, Ribbon, Search, Sparkles, Printer, ArrowRight, Gift, Palette, BookOpenCheck, CookingPot, Image as ImageIcon } from "lucide-react";
 import { trpc } from "@/lib/trpc";
 import { toast } from "sonner";

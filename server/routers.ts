@@ -6,10 +6,24 @@ import { getSessionCookieOptions } from "./_core/cookies";
 import { systemRouter } from "./_core/systemRouter";
 import { publicProcedure, adminProcedure, router } from "./_core/trpc";
 import { getDb } from "./db";
-import { orders, newsletterSubscribers } from "../drizzle/schema";
+import { orders, newsletterSubscribers, products } from "../drizzle/schema";
 import { notifyOwner } from "./_core/notification";
 import { generateDownloadToken } from "./downloadTokens";
 import { WALL_ART_CATALOG, PRINT_PRICES, GELATO_PRODUCT_UIDS, buildGelatoOrderRequest, createGelatoOrder, isGelatoLiveMode } from "./gelato";
+import { handleSync, getSyncState, fetchSyncLogRows } from "./sync";
+import {
+  getProductsBySourceConstant,
+  getProductsBySourceConstants,
+  getProductById as dbGetProductById,
+  getProductForCheckout,
+  getProductsForCheckout,
+  getRelatedProductsForOrder,
+  toCardItem,
+  toProductInfo,
+  toProductsEntry,
+  searchProducts,
+  invalidateProductCache,
+} from "./productQueries";
 
 const CDN = "https://d2xsxph8kpxj0f.cloudfront.net/310519663477175297/TYed9Vpg2AWmRK9jSnP39i";
 
@@ -4043,6 +4057,27 @@ function getStripe() {
   return new Stripe(key);
 }
 
+// ── Admin CMS auth helper ────────────────────────────────────────────────
+const ADMIN_TOKEN_PREFIX = "wwb-admin-";
+
+function verifyAdminToken(token: string): boolean {
+  // Token format: "wwb-admin-<timestamp>-<hash>"
+  // For simplicity, verify it starts with the prefix and was issued within 24h
+  if (!token.startsWith(ADMIN_TOKEN_PREFIX)) return false;
+  const parts = token.split("-");
+  if (parts.length < 4) return false;
+  const ts = Number(parts[2]);
+  if (isNaN(ts)) return false;
+  const age = Date.now() - ts;
+  return age >= 0 && age < 24 * 60 * 60 * 1000; // 24 hours
+}
+
+function generateAdminToken(): string {
+  const ts = Date.now();
+  const rand = Math.random().toString(36).slice(2, 10);
+  return `${ADMIN_TOKEN_PREFIX}${ts}-${rand}`;
+}
+
 export const appRouter = router({
   system: systemRouter,
   auth: router({
@@ -4054,10 +4089,156 @@ export const appRouter = router({
     }),
   }),
 
+  // ── Admin CMS Router ────────────────────────────────────────────────────
+  admin: router({
+    login: publicProcedure
+      .input(z.object({ email: z.string().email(), password: z.string() }))
+      .mutation(({ input }) => {
+        const adminEmail = process.env.ADMIN_EMAIL;
+        const adminPassword = process.env.ADMIN_PASSWORD;
+        if (!adminEmail || !adminPassword) {
+          return { success: false, token: null, message: "Admin credentials not configured" };
+        }
+        if (input.email !== adminEmail || input.password !== adminPassword) {
+          return { success: false, token: null, message: "Invalid email or password" };
+        }
+        const token = generateAdminToken();
+        return { success: true, token, message: "Login successful" };
+      }),
+
+    triggerSync: publicProcedure
+      .input(z.object({ token: z.string() }))
+      .mutation(async ({ input }) => {
+        if (!verifyAdminToken(input.token)) {
+          throw new Error("Unauthorized: invalid or expired admin token");
+        }
+        // Run sync in background and return immediately
+        // The client polls getSyncStatus for progress
+        const resultPromise = handleSync().then((result) => {
+          // Invalidate product cache after successful sync
+          if (result.success) {
+            invalidateProductCache();
+          }
+          return result;
+        });
+        // Wait for the result (sync is < 60s)
+        return resultPromise;
+      }),
+
+    getSyncStatus: publicProcedure
+      .input(z.object({ token: z.string() }))
+      .query(({ input }) => {
+        if (!verifyAdminToken(input.token)) {
+          throw new Error("Unauthorized: invalid or expired admin token");
+        }
+        return getSyncState();
+      }),
+
+    getSyncLogs: publicProcedure
+      .input(z.object({ token: z.string() }))
+      .query(async ({ input }) => {
+        if (!verifyAdminToken(input.token)) {
+          throw new Error("Unauthorized: invalid or expired admin token");
+        }
+        try {
+          const rows = await fetchSyncLogRows(10);
+          const logs = rows.map((row) => ({
+            timestamp: row[0] || "",
+            action: row[1] || "",
+            rows_affected: row[2] || "0",
+            status: row[3] || "",
+            error_details: row[4] || "",
+          }));
+          return { logs };
+        } catch (error: any) {
+          console.error("[sync-logs] Failed to fetch sync logs:", error.message);
+          return { logs: [] };
+        }
+      }),
+  }),
+
   shop: router({
     products: publicProcedure.query(() => {
       return Object.entries(PRODUCTS).map(([id, p]) => ({ id, ...p }));
     }),
+
+    // ── DB-backed product queries (Phase 5) ──────────────────────────────
+    getProductsBySource: publicProcedure
+      .input(z.object({ sourceConstant: z.string() }))
+      .query(async ({ input }) => {
+        const rows = await getProductsBySourceConstant(input.sourceConstant);
+        return rows.map((r) => ({
+          id: r.id,
+          productName: r.productName,
+          category: r.category,
+          subcategory: r.subcategory,
+          country: r.country,
+          price: r.price,
+          coverImageUrl: r.coverImageUrl,
+          description: r.description,
+          design: r.design,
+          sourceConstant: r.sourceConstant,
+          status: r.status,
+        }));
+      }),
+
+    getProductsBySources: publicProcedure
+      .input(z.object({ sourceConstants: z.array(z.string()) }))
+      .query(async ({ input }) => {
+        const rows = await getProductsBySourceConstants(input.sourceConstants);
+        return rows.map((r) => ({
+          id: r.id,
+          productName: r.productName,
+          category: r.category,
+          subcategory: r.subcategory,
+          country: r.country,
+          price: r.price,
+          coverImageUrl: r.coverImageUrl,
+          description: r.description,
+          design: r.design,
+          sourceConstant: r.sourceConstant,
+          status: r.status,
+        }));
+      }),
+
+    getProductById: publicProcedure
+      .input(z.object({ productId: z.string() }))
+      .query(async ({ input }) => {
+        const row = await dbGetProductById(input.productId);
+        if (!row) return null;
+        return {
+          id: row.id,
+          productName: row.productName,
+          category: row.category,
+          subcategory: row.subcategory,
+          country: row.country,
+          price: row.price,
+          coverImageUrl: row.coverImageUrl,
+          pdfUrl: row.pdfUrl,
+          description: row.description,
+          design: row.design,
+          sourceConstant: row.sourceConstant,
+          status: row.status,
+        };
+      }),
+
+    searchProducts: publicProcedure
+      .input(z.object({ query: z.string().min(1), category: z.string().optional() }))
+      .query(async ({ input }) => {
+        const rows = await searchProducts(input.query, input.category);
+        return rows.map((r) => ({
+          id: r.id,
+          productName: r.productName,
+          category: r.category,
+          country: r.country,
+          price: r.price,
+          coverImageUrl: r.coverImageUrl,
+          description: r.description,
+          design: r.design,
+          sourceConstant: r.sourceConstant,
+          status: r.status,
+        }));
+      }),
 
     createCheckout: publicProcedure
       .input(z.object({
@@ -4073,13 +4254,20 @@ export const appRouter = router({
       .mutation(async ({ input }) => {
         const stripe = getStripe();
 
+        // Batch-fetch product info from DB (with PRODUCTS fallback)
+        const allIds = input.cartItems?.map((i) => i.productId) ?? [input.productId];
+        const dbProducts = await getProductsForCheckout(allIds);
+
+        // Helper: DB-first lookup, PRODUCTS fallback
+        const lookupProduct = (pid: string) => dbProducts.get(pid) ?? PRODUCTS[pid] ?? null;
+
         // Multi-item cart checkout
         const cartItems = input.cartItems && input.cartItems.length > 0
           ? input.cartItems
-          : [{ productId: input.productId, name: PRODUCTS[input.productId]?.name ?? input.productId, price: PRODUCTS[input.productId]?.price ?? 399 }];
+          : [{ productId: input.productId, name: lookupProduct(input.productId)?.name ?? input.productId, price: lookupProduct(input.productId)?.price ?? 399 }];
 
         const lineItems = cartItems.map((item) => {
-          const product = PRODUCTS[item.productId];
+          const product = lookupProduct(item.productId);
           return {
             price_data: {
               currency: "usd" as const,
@@ -4114,7 +4302,7 @@ export const appRouter = router({
         if (db && session.id) {
           // Record each item as a separate order row
           for (const item of cartItems) {
-            const product = PRODUCTS[item.productId];
+            const product = lookupProduct(item.productId);
             await db.insert(orders).values({
               stripeSessionId: session.id,
               productId: item.productId,
@@ -4176,19 +4364,22 @@ export const appRouter = router({
 
     getRelatedProducts: publicProcedure
       .input(z.object({ productId: z.string() }))
-      .query(({ input }) => {
+      .query(async ({ input }) => {
+        // Try DB-backed related products first
+        const dbResult = await getRelatedProductsForOrder(input.productId);
+        if (dbResult.related.length > 0) return dbResult;
+
+        // Fallback to static PRODUCTS
         const source = PRODUCTS[input.productId];
         if (!source || source.category !== "individual_card") return { related: [] };
 
         const sourceCountry = source.country ?? "";
         const sourceCardType = source.cardType ?? "";
 
-        // All individual cards excluding the purchased one
         const allCards = Object.entries(PRODUCTS).filter(
           ([id, p]) => id !== input.productId && p.category === "individual_card"
         );
 
-        // 2 cards from same country, different cardType
         const sameCountry = allCards
           .filter(([, p]) => p.country === sourceCountry && p.cardType !== sourceCardType)
           .slice(0, 2)
@@ -4202,7 +4393,6 @@ export const appRouter = router({
             reason: "same_country" as const,
           }));
 
-        // 1 card from same cardType, different country
         const sameOccasion = allCards
           .filter(([, p]) => p.cardType === sourceCardType && p.country !== sourceCountry)
           .slice(0, 1)
@@ -4393,8 +4583,9 @@ export const appRouter = router({
 
         // ── Digital download order (existing flow) ──
         const productIds = (input.products ?? session.metadata?.productIds ?? "").split(",").filter(Boolean);
+        const dbCheckoutProducts = await getProductsForCheckout(productIds);
         const downloads = productIds.map((pid) => {
-          const product = PRODUCTS[pid];
+          const product = dbCheckoutProducts.get(pid) ?? PRODUCTS[pid];
           const hasFile = !!(product?.pdfLink);
           return {
             productId: pid,
@@ -4405,7 +4596,7 @@ export const appRouter = router({
           };
         });
 
-        const totalCents = productIds.reduce((sum, pid) => sum + (PRODUCTS[pid]?.price ?? 0), 0);
+        const totalCents = productIds.reduce((sum, pid) => sum + ((dbCheckoutProducts.get(pid) ?? PRODUCTS[pid])?.price ?? 0), 0);
 
         try {
           await notifyOwner({
@@ -4435,9 +4626,13 @@ export const appRouter = router({
           .orderBy(desc(orders.createdAt))
           .limit(100);
 
+        // Batch-fetch product info from DB for download token generation
+        const orderProductIds = userOrders.map((o) => o.productId);
+        const dbOrderProducts = await getProductsForCheckout(orderProductIds);
+
         // Generate fresh signed download tokens for paid orders
         const ordersWithTokens = userOrders.map((order) => {
-          const product = PRODUCTS[order.productId];
+          const product = dbOrderProducts.get(order.productId) ?? PRODUCTS[order.productId];
           const hasFile = order.status === "paid" && !!(product?.pdfLink);
           return {
             id: order.id,
@@ -4467,7 +4662,9 @@ export const appRouter = router({
           return { downloadUrl: null, error: "Payment not confirmed" };
         }
 
-        const product = PRODUCTS[input.productId];
+        // DB-first lookup, PRODUCTS fallback
+        const dbProduct = await getProductForCheckout(input.productId);
+        const product = dbProduct ?? PRODUCTS[input.productId];
         if (!product?.pdfLink) {
           return { downloadUrl: null, error: "Product not found" };
         }

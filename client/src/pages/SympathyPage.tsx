@@ -1,13 +1,16 @@
-import { useState, useEffect, useRef } from "react";
+import { useState, useEffect, useRef, useMemo } from "react";
 import { NavBar } from "@/components/NavBar";
 import { ProductModal, type ProductInfo } from "@/components/ProductModal";
-import { SYMPATHY_CARDS, IN_LOVING_MEMORY_CARDS } from "@/lib/productData";
+import { LoadingGallery } from "@/components/LoadingGallery";
+import { trpc } from "@/lib/trpc";
 import { Search, ShoppingCart } from "lucide-react";
 
-const TABS = [
-  { key: "sympathy", label: "Sympathy", cards: SYMPATHY_CARDS },
-  { key: "memory", label: "In Loving Memory", cards: IN_LOVING_MEMORY_CARDS },
-];
+type CardItem = { id: string; country: string; image: string };
+
+const TAB_CONFIG = [
+  { key: "sympathy", label: "Sympathy", source: "SYMPATHY_CARDS" },
+  { key: "memory", label: "In Loving Memory", source: "IN_LOVING_MEMORY_CARDS" },
+] as const;
 
 const PRICE = 599; // $5.99
 
@@ -27,21 +30,56 @@ export default function SympathyPage() {
     }
   }, []);
 
-  const current = TABS.find((t) => t.key === tab)!;
-  const filtered = current.cards.filter((c) =>
+  // Fetch both tabs in a single batch query
+  const { data, isLoading, error } = trpc.shop.getProductsBySources.useQuery({
+    sourceConstants: TAB_CONFIG.map((t) => t.source),
+  });
+
+  // Group products by source_constant into tab buckets
+  const tabCards = useMemo(() => {
+    const map: Record<string, CardItem[]> = {};
+    for (const t of TAB_CONFIG) {
+      map[t.key] = [];
+    }
+    if (!data) return map;
+    for (const row of data) {
+      const tabCfg = TAB_CONFIG.find((t) => t.source === row.sourceConstant);
+      if (tabCfg) {
+        map[tabCfg.key].push({
+          id: row.id,
+          country: row.country ?? "",
+          image: row.coverImageUrl ?? "",
+        });
+      }
+    }
+    return map;
+  }, [data]);
+
+  const currentTab = TAB_CONFIG.find((t) => t.key === tab)!;
+  const currentCards = tabCards[tab] ?? [];
+  const filtered = currentCards.filter((c) =>
     c.country.toLowerCase().includes(search.toLowerCase())
   );
 
-  function handleCardClick(card: { id: string; country: string; image: string }) {
+  function handleCardClick(card: CardItem) {
     setSelectedProduct({
       productId: card.id,
-      name: `${card.country} ${current.label} Card`,
+      name: `${card.country} ${currentTab.label} Card`,
       image: card.image,
       price: PRICE,
       country: card.country,
       category: "sympathy",
-      description: `${card.country} ${current.label.toLowerCase()} card — offer comfort and remembrance with this culturally authentic design. Instant PDF download. Print at home or any print shop.`,
+      description: `${card.country} ${currentTab.label.toLowerCase()} card — offer comfort and remembrance with this culturally authentic design. Instant PDF download. Print at home or any print shop.`,
     });
+  }
+
+  if (isLoading || error) {
+    return (
+      <div className="min-h-screen bg-[#0a0a0a] text-white">
+        <NavBar />
+        <LoadingGallery isLoading={isLoading} error={error} isEmpty={false} itemLabel="sympathy cards" />
+      </div>
+    );
   }
 
   return (
@@ -70,7 +108,7 @@ export default function SympathyPage() {
       {/* Filter + Search */}
       <section ref={gridRef} className="px-4 pb-6 max-w-6xl mx-auto">
         <div className="flex flex-wrap gap-2 justify-center mb-6">
-          {TABS.map((t) => (
+          {TAB_CONFIG.map((t) => (
             <button
               key={t.key}
               onClick={() => {
@@ -120,7 +158,7 @@ export default function SympathyPage() {
               <div className="relative overflow-hidden aspect-[3/4] bg-gradient-to-br from-[#C9A86A]/20 to-[#1a1a1a]">
                 <img
                   src={card.image}
-                  alt={`${card.country} ${current.label} card`}
+                  alt={`${card.country} ${currentTab.label} card`}
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                   loading="lazy"
                   onError={(e) => {
@@ -130,7 +168,7 @@ export default function SympathyPage() {
                 />
                 <div className="absolute top-2 right-2">
                   <span className="text-[10px] px-2 py-0.5 rounded-full font-bold uppercase tracking-wider bg-white/10 text-white/80 border border-white/10 backdrop-blur-sm">
-                    {current.label}
+                    {currentTab.label}
                   </span>
                 </div>
                 {/* Hover overlay */}
@@ -146,7 +184,7 @@ export default function SympathyPage() {
                   {card.country}
                 </h3>
                 <p className="text-white/40 text-[10px] mb-2">
-                  {current.label} Card
+                  {currentTab.label} Card
                 </p>
                 <div className="flex items-center justify-between">
                   <span className="text-[#C9A86A] font-bold text-sm">

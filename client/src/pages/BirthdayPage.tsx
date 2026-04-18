@@ -1,20 +1,18 @@
-import { useState, useEffect, useRef } from "react";
+import { useState, useEffect, useRef, useMemo } from "react";
 import { NavBar } from "@/components/NavBar";
 import { ProductModal, type ProductInfo } from "@/components/ProductModal";
-import {
-  BIRTHDAY_SON_CARDS,
-  BIRTHDAY_DAUGHTER_CARDS,
-  BIRTHDAY_MOM_CARDS,
-  BIRTHDAY_DAD_CARDS,
-} from "@/lib/productData";
+import { LoadingGallery } from "@/components/LoadingGallery";
+import { trpc } from "@/lib/trpc";
 import { Search, ShoppingCart } from "lucide-react";
 
-const TABS = [
-  { key: "son", label: "For Son", cards: BIRTHDAY_SON_CARDS },
-  { key: "daughter", label: "For Daughter", cards: BIRTHDAY_DAUGHTER_CARDS },
-  { key: "mom", label: "For Mom", cards: BIRTHDAY_MOM_CARDS },
-  { key: "dad", label: "For Dad", cards: BIRTHDAY_DAD_CARDS },
-];
+type CardItem = { id: string; country: string; image: string };
+
+const TAB_CONFIG = [
+  { key: "son", label: "For Son", source: "BIRTHDAY_SON_CARDS" },
+  { key: "daughter", label: "For Daughter", source: "BIRTHDAY_DAUGHTER_CARDS" },
+  { key: "mom", label: "For Mom", source: "BIRTHDAY_MOM_CARDS" },
+  { key: "dad", label: "For Dad", source: "BIRTHDAY_DAD_CARDS" },
+] as const;
 
 const PRICE = 599; // $5.99
 
@@ -39,22 +37,57 @@ export default function BirthdayPage() {
     }
   }, []);
 
+  // Fetch all 4 tabs in a single batch query
+  const { data, isLoading, error } = trpc.shop.getProductsBySources.useQuery({
+    sourceConstants: TAB_CONFIG.map((t) => t.source),
+  });
+
+  // Group products by source_constant into tab buckets
+  const tabCards = useMemo(() => {
+    const map: Record<string, CardItem[]> = {};
+    for (const t of TAB_CONFIG) {
+      map[t.key] = [];
+    }
+    if (!data) return map;
+    for (const row of data) {
+      const tabCfg = TAB_CONFIG.find((t) => t.source === row.sourceConstant);
+      if (tabCfg) {
+        map[tabCfg.key].push({
+          id: row.id,
+          country: row.country ?? "",
+          image: row.coverImageUrl ?? "",
+        });
+      }
+    }
+    return map;
+  }, [data]);
+
   const [selectedProduct, setSelectedProduct] = useState<ProductInfo | null>(null);
-  const current = TABS.find((t) => t.key === tab)!;
-  const filtered = current.cards.filter((c) =>
+  const currentTab = TAB_CONFIG.find((t) => t.key === tab)!;
+  const currentCards = tabCards[tab] ?? [];
+  const filtered = currentCards.filter((c) =>
     c.country.toLowerCase().includes(search.toLowerCase())
   );
 
-  function handleCardClick(card: { id: string; country: string; image: string }) {
+  function handleCardClick(card: CardItem) {
     setSelectedProduct({
       productId: card.id,
-      name: `${card.country} Birthday Card — ${current.label}`,
+      name: `${card.country} Birthday Card — ${currentTab.label}`,
       image: card.image,
       price: PRICE,
       country: card.country,
       category: "birthday",
-      description: `${card.country} birthday card ${current.label.toLowerCase()} — culturally authentic design with heartfelt birthday wishes. Instant PDF download. Print at home or any print shop.`,
+      description: `${card.country} birthday card ${currentTab.label.toLowerCase()} — culturally authentic design with heartfelt birthday wishes. Instant PDF download. Print at home or any print shop.`,
     });
+  }
+
+  if (isLoading || error) {
+    return (
+      <div className="min-h-screen bg-[#0a0a0a] text-white">
+        <NavBar />
+        <LoadingGallery isLoading={isLoading} error={error} isEmpty={false} itemLabel="birthday cards" />
+      </div>
+    );
   }
 
   return (
@@ -83,7 +116,7 @@ export default function BirthdayPage() {
       {/* Filter + Search */}
       <section ref={gridRef} className="px-4 pb-6 max-w-6xl mx-auto">
         <div className="flex flex-wrap gap-2 justify-center mb-6">
-          {TABS.map((t) => (
+          {TAB_CONFIG.map((t) => (
             <button
               key={t.key}
               onClick={() => {
@@ -143,7 +176,7 @@ export default function BirthdayPage() {
                 />
                 <div className="absolute top-2 right-2">
                   <span className="text-[10px] px-2 py-0.5 rounded-full font-bold uppercase tracking-wider bg-white/10 text-white/80 border border-white/10 backdrop-blur-sm">
-                    {current.label}
+                    {currentTab.label}
                   </span>
                 </div>
                 {/* Hover overlay */}
@@ -159,7 +192,7 @@ export default function BirthdayPage() {
                   {card.country}
                 </h3>
                 <p className="text-white/40 text-[10px] mb-2">
-                  Birthday {current.label}
+                  Birthday {currentTab.label}
                 </p>
                 <div className="flex items-center justify-between">
                   <span className="text-[#C9A86A] font-bold text-sm">

@@ -1,11 +1,36 @@
-import { useState } from "react";
+import { useState, useMemo } from "react";
 import { NavBar } from "@/components/NavBar";
 import { ProductModal, type ProductInfo } from "@/components/ProductModal";
+import { LoadingGallery } from "@/components/LoadingGallery";
+import { trpc } from "@/lib/trpc";
 import { Palette, ShoppingCart } from "lucide-react";
-import { COLORING_BOOKS } from "@/lib/productData";
 
 export default function ColoringBooksPage() {
   const [selectedProduct, setSelectedProduct] = useState<ProductInfo | null>(null);
+
+  const { data, isLoading, error } = trpc.shop.getProductsBySource.useQuery({ sourceConstant: "COLORING_BOOKS" });
+
+  const books = useMemo(() => {
+    if (!data) return [];
+    return data.map((r) => ({
+      id: r.id,
+      name: r.productName,
+      country: r.country ?? "",
+      image: r.coverImageUrl ?? "",
+      price: r.price,
+    }));
+  }, [data]);
+
+  const isEmpty = !isLoading && !error && books.length === 0;
+
+  if (isLoading || error || isEmpty) {
+    return (
+      <div className="min-h-screen bg-[#faf8f4]">
+        <NavBar />
+        <LoadingGallery isLoading={isLoading} error={error} isEmpty={isEmpty} itemLabel="coloring books" />
+      </div>
+    );
+  }
 
   return (
     <div className="min-h-screen bg-[#faf8f4]">
@@ -20,13 +45,13 @@ export default function ColoringBooksPage() {
           100+ pages of beautiful illustrations celebrating cultures, landmarks, and wildlife from every continent.
         </p>
         <p className="text-[#6b7280] text-sm mt-2">
-          {COLORING_BOOKS.length} editions · $9.99 each · Instant PDF Download · Print at Home
+          {books.length} editions · $9.99 each · Instant PDF Download · Print at Home
         </p>
       </div>
 
       <div className="max-w-3xl mx-auto px-4 py-10">
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-8">
-          {COLORING_BOOKS.map((book) => (
+          {books.map((book) => (
             <div
               key={book.id}
               className="bg-white rounded-2xl shadow-sm hover:shadow-md transition-all duration-200 overflow-hidden border border-gray-100 cursor-pointer group"
