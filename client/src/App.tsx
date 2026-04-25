@@ -37,6 +37,7 @@ import PrivacyPolicy from "./pages/PrivacyPolicy";
 import TermsOfService from "./pages/TermsOfService";
 import AdminCmsPage from "./pages/AdminCmsPage";
 import AdminCmsLoginPage from "./pages/AdminCmsLoginPage";
+import AdminProductsPage from "./pages/AdminProductsPage";
 
 function Router() {
   return (
@@ -71,6 +72,7 @@ function Router() {
       <Route path="/privacy-policy" component={PrivacyPolicy} />
       <Route path="/terms-of-service" component={TermsOfService} />
       <Route path="/admin/cms" component={AdminCmsPage} />
+      <Route path="/admin/products" component={AdminProductsPage} />
       <Route path="/admin/cms/login" component={AdminCmsLoginPage} />
       <Route path="/404" component={NotFound} />
       <Route component={NotFound} />

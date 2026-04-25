@@ -13,6 +13,7 @@ import { notifyOwner } from "./_core/notification";
 import { generateDownloadToken } from "./downloadTokens";
 import { WALL_ART_CATALOG, PRINT_PRICES, GELATO_PRODUCT_UIDS, buildGelatoOrderRequest, createGelatoOrder, isGelatoLiveMode } from "./gelato";
 import { handleSync, getSyncState, fetchSyncLogRows } from "./sync";
+import { createGumroadProduct } from "./gumroad";
 import {
   getProductsBySourceConstant,
   getProductsBySourceConstants,
@@ -4148,6 +4149,106 @@ export const appRouter = router({
         return { data: [] };
       }
     }),
+
+    // ── Product Command: list products for admin table ─────────────────
+    listProducts: adminProcedure
+      .input(
+        z.object({
+          page: z.number().int().min(1).default(1),
+          pageSize: z.number().int().min(1).max(200).default(50),
+          search: z.string().optional(),
+        }).optional(),
+      )
+      .query(async ({ input }) => {
+        const db = await getDb();
+        if (!db) return { products: [], total: 0 };
+
+        const page = input?.page ?? 1;
+        const pageSize = input?.pageSize ?? 50;
+        const offset = (page - 1) * pageSize;
+        const { asc, like, or, sql } = await import("drizzle-orm");
+
+        const searchPattern = input?.search ? `%${input.search}%` : null;
+        const whereClause = searchPattern
+          ? or(
+              like(products.productName, searchPattern),
+              like(products.description, searchPattern),
+            )
+          : undefined;
+
+        const rows = await db
+          .select()
+          .from(products)
+          .where(whereClause)
+          .orderBy(asc(products.productName))
+          .limit(pageSize)
+          .offset(offset);
+
+        const [countRow] = await db
+          .select({ count: sql<number>`count(*)` })
+          .from(products)
+          .where(whereClause);
+
+        return {
+          products: rows.map((r) => ({
+            id: r.id,
+            productName: r.productName,
+            category: r.category,
+            subcategory: r.subcategory,
+            country: r.country,
+            price: r.price,
+            gumroadLink: r.gumroadLink,
+            coverImageUrl: r.coverImageUrl,
+            pdfUrl: r.pdfUrl,
+            description: r.description,
+            status: r.status,
+          })),
+          total: Number(countRow?.count ?? 0),
+        };
+      }),
+
+    // ── Export to Gumroad: push a product to the Gumroad storefront ───
+    exportToGumroad: adminProcedure
+      .input(z.object({ productId: z.string() }))
+      .mutation(async ({ input }) => {
+        const db = await getDb();
+        if (!db) throw new Error("Database not available");
+
+        // Fetch the full product record
+        const [product] = await db
+          .select()
+          .from(products)
+          .where(eq(products.id, input.productId))
+          .limit(1);
+
+        if (!product) {
+          throw new Error(`Product not found: ${input.productId}`);
+        }
+
+        // Call the Gumroad API
+        const gumroadProduct = await createGumroadProduct({
+          name: product.productName,
+          description: product.description ?? undefined,
+          price: product.price,
+          url: product.pdfUrl ?? undefined,
+          preview: product.coverImageUrl ?? undefined,
+        });
+
+        // Persist the Gumroad short URL back into the products table
+        const gumroadUrl = gumroadProduct.short_url;
+        await db
+          .update(products)
+          .set({ gumroadLink: gumroadUrl })
+          .where(eq(products.id, input.productId));
+
+        // Invalidate product cache so subsequent reads see the new link
+        invalidateProductCache();
+
+        return {
+          gumroadUrl,
+          gumroadProductId: gumroadProduct.id,
+        };
+      }),
   }),
 
   shop: router({
