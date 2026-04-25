@@ -4057,26 +4057,7 @@ function getStripe() {
   return new Stripe(key);
 }
 
-// ── Admin CMS auth helper ────────────────────────────────────────────────
-const ADMIN_TOKEN_PREFIX = "wwb-admin-";
-
-function verifyAdminToken(token: string): boolean {
-  // Token format: "wwb-admin-<timestamp>-<hash>"
-  // For simplicity, verify it starts with the prefix and was issued within 24h
-  if (!token.startsWith(ADMIN_TOKEN_PREFIX)) return false;
-  const parts = token.split("-");
-  if (parts.length < 4) return false;
-  const ts = Number(parts[2]);
-  if (isNaN(ts)) return false;
-  const age = Date.now() - ts;
-  return age >= 0 && age < 24 * 60 * 60 * 1000; // 24 hours
-}
-
-function generateAdminToken(): string {
-  const ts = Date.now();
-  const rand = Math.random().toString(36).slice(2, 10);
-  return `${ADMIN_TOKEN_PREFIX}${ts}-${rand}`;
-}
+// ── Admin CMS auth (now uses standard cookie-backed adminProcedure) ─────
 
 export const appRouter = router({
   system: systemRouter,
@@ -4089,57 +4070,28 @@ export const appRouter = router({
     }),
   }),
 
-  // ── Admin CMS Router ────────────────────────────────────────────────────
+  // ── Admin CMS Router (cookie-backed session auth via adminProcedure) ────
   admin: router({
-    login: publicProcedure
-      .input(z.object({ email: z.string().email(), password: z.string() }))
-      .mutation(({ input }) => {
-        const adminEmail = process.env.ADMIN_EMAIL;
-        const adminPassword = process.env.ADMIN_PASSWORD;
-        if (!adminEmail || !adminPassword) {
-          return { success: false, token: null, message: "Admin credentials not configured" };
-        }
-        if (input.email !== adminEmail || input.password !== adminPassword) {
-          return { success: false, token: null, message: "Invalid email or password" };
-        }
-        const token = generateAdminToken();
-        return { success: true, token, message: "Login successful" };
-      }),
-
-    triggerSync: publicProcedure
-      .input(z.object({ token: z.string() }))
-      .mutation(async ({ input }) => {
-        if (!verifyAdminToken(input.token)) {
-          throw new Error("Unauthorized: invalid or expired admin token");
-        }
-        // Run sync in background and return immediately
-        // The client polls getSyncStatus for progress
-        const resultPromise = handleSync().then((result) => {
+    triggerSync: adminProcedure
+      .mutation(async () => {
+        // Run sync and return result
+        const result = await handleSync().then((r) => {
           // Invalidate product cache after successful sync
-          if (result.success) {
+          if (r.success) {
             invalidateProductCache();
           }
-          return result;
+          return r;
         });
-        // Wait for the result (sync is < 60s)
-        return resultPromise;
+        return result;
       }),
 
-    getSyncStatus: publicProcedure
-      .input(z.object({ token: z.string() }))
-      .query(({ input }) => {
-        if (!verifyAdminToken(input.token)) {
-          throw new Error("Unauthorized: invalid or expired admin token");
-        }
+    getSyncStatus: adminProcedure
+      .query(() => {
         return getSyncState();
       }),
 
-    getSyncLogs: publicProcedure
-      .input(z.object({ token: z.string() }))
-      .query(async ({ input }) => {
-        if (!verifyAdminToken(input.token)) {
-          throw new Error("Unauthorized: invalid or expired admin token");
-        }
+    getSyncLogs: adminProcedure
+      .query(async () => {
         try {
           const rows = await fetchSyncLogRows(10);
           const logs = rows.map((row) => ({

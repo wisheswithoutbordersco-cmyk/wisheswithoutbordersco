@@ -1,6 +1,7 @@
 import { useState, useEffect, useCallback, useRef } from "react";
-import { useLocation } from "wouter";
+import { useLocation, Link } from "wouter";
 import { trpc } from "@/lib/trpc";
+import { useAuth } from "@/_core/hooks/useAuth";
 import { Button } from "@/components/ui/button";
 import {
   Card,
@@ -48,6 +49,7 @@ interface SyncLogEntry {
 
 // ─── Dashboard Component ─────────────────────────────────────────────────────
 export default function AdminCmsPage() {
+  const { user, loading: authLoading, logout } = useAuth();
   const [, navigate] = useLocation();
   const [syncStatus, setSyncStatus] = useState<SyncStatus | null>(null);
   const [syncLogs, setSyncLogs] = useState<SyncLogEntry[]>([]);
@@ -56,52 +58,45 @@ export default function AdminCmsPage() {
   const [logError, setLogError] = useState<string | null>(null);
   const pollingRef = useRef<ReturnType<typeof setInterval> | null>(null);
 
-  const token = localStorage.getItem("admin-cms-token");
-
-  // Redirect unauthenticated users
-  useEffect(() => {
-    if (!token) {
-      navigate("/admin/cms/login");
-    }
-  }, [token, navigate]);
+  const isAdmin = user?.role === "admin";
 
   const utils = trpc.useUtils();
 
   // ── Fetch sync status ──
   const fetchSyncStatus = useCallback(async () => {
-    if (!token) return null;
+    if (!isAdmin) return null;
     try {
-      const data = await utils.admin.getSyncStatus.fetch({ token });
+      const data = await utils.admin.getSyncStatus.fetch();
       setSyncStatus(data as SyncStatus);
       return data;
     } catch (err) {
       console.error("Failed to fetch sync status:", err);
     }
     return null;
-  }, [token, utils]);
+  }, [isAdmin, utils]);
 
   // ── Fetch sync logs ──
   const fetchSyncLogs = useCallback(async () => {
-    if (!token) return;
+    if (!isAdmin) return;
     setIsLoadingLogs(true);
     setLogError(null);
     try {
-      const data = await utils.admin.getSyncLogs.fetch({ token });
+      const data = await utils.admin.getSyncLogs.fetch();
       setSyncLogs((data.logs as SyncLogEntry[]) || []);
     } catch (err) {
       setLogError("Failed to fetch sync logs");
     } finally {
       setIsLoadingLogs(false);
     }
-  }, [token, utils]);
+  }, [isAdmin, utils]);
 
   // Initial data load
   useEffect(() => {
-    if (token) {
+    if (isAdmin) {
       fetchSyncStatus();
       fetchSyncLogs();
     }
-  }, [token, fetchSyncStatus, fetchSyncLogs]);
+  }, [isAdmin, fetchSyncStatus, fetchSyncLogs]);
 
   // Polling during active sync
   useEffect(() => {
@@ -140,16 +135,44 @@ export default function AdminCmsPage() {
   });
 
   const handleTriggerSync = () => {
-    if (!token) return;
-    triggerSyncMutation.mutate({ token });
+    if (!isAdmin) return;
+    triggerSyncMutation.mutate();
   };
 
-  const handleSignOut = () => {
+  const handleSignOut = async () => {
+    // Clean up any stale localStorage token from old flow
     localStorage.removeItem("admin-cms-token");
-    navigate("/admin/cms/login");
+    await logout();
   };
 
-  if (!token) return null;
+  // ── Loading state ──
+  if (authLoading) {
+    return (
+      <div className="min-h-screen flex items-center justify-center bg-gray-50">
+        <Spinner className="h-8 w-8" />
+      </div>
+    );
+  }
+
+  // ── Not authenticated or not admin ──
+  if (!user || !isAdmin) {
+    return (
+      <div className="min-h-screen bg-gray-50">
+        <div className="max-w-md mx-auto mt-24 text-center px-4">
+          <div className="bg-white rounded-2xl p-10 shadow-sm border border-gray-200">
+            <Globe className="w-10 h-10 text-primary mx-auto mb-4" />
+            <h1 className="text-2xl font-bold text-gray-900 mb-2">Admin Only</h1>
+            <p className="text-gray-500 text-sm mb-6">
+              You need to sign in with an admin account to view the CMS dashboard.
+            </p>
+            <Link href="/" className="text-primary hover:underline text-sm font-semibold">
+              ← Back to Home
+            </Link>
+          </div>
+        </div>
+      </div>
+    );
+  }
 
   return (
     <div className="min-h-screen bg-gray-50">
