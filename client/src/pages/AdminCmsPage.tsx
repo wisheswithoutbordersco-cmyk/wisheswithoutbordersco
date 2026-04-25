@@ -25,6 +25,7 @@ import {
   ArrowDown,
   ArrowUp,
   Globe,
+  BarChart3,
 } from "lucide-react";
 
 // ─── Types ───────────────────────────────────────────────────────────────────
@@ -47,6 +48,12 @@ interface SyncLogEntry {
   error_details: string;
 }
 
+interface AnalyticsRow {
+  country: string;
+  userType: string;
+  users: number;
+}
+
 // ─── Dashboard Component ─────────────────────────────────────────────────────
 export default function AdminCmsPage() {
   const { user, loading: authLoading, logout } = useAuth();
@@ -57,6 +64,10 @@ export default function AdminCmsPage() {
   const [isLoadingLogs, setIsLoadingLogs] = useState(true);
   const [logError, setLogError] = useState<string | null>(null);
   const pollingRef = useRef<ReturnType<typeof setInterval> | null>(null);
+
+  // ── Analytics state ──
+  const [analyticsData, setAnalyticsData] = useState<AnalyticsRow[]>([]);
+  const [isLoadingAnalytics, setIsLoadingAnalytics] = useState(true);
 
   const isAdmin = user?.role === "admin";
 
@@ -90,13 +101,28 @@ export default function AdminCmsPage() {
     }
   }, [isAdmin, utils]);
 
+  // ── Fetch analytics data ──
+  const fetchAnalytics = useCallback(async () => {
+    if (!isAdmin) return;
+    setIsLoadingAnalytics(true);
+    try {
+      const res = await utils.admin.getAnalyticsData.fetch();
+      setAnalyticsData(res.data as AnalyticsRow[]);
+    } catch (err) {
+      console.error("Failed to fetch analytics:", err);
+    } finally {
+      setIsLoadingAnalytics(false);
+    }
+  }, [isAdmin, utils]);
+
   // Initial data load
   useEffect(() => {
     if (isAdmin) {
       fetchSyncStatus();
       fetchSyncLogs();
+      fetchAnalytics();
     }
-  }, [isAdmin, fetchSyncStatus, fetchSyncLogs]);
+  }, [isAdmin, fetchSyncStatus, fetchSyncLogs, fetchAnalytics]);
 
   // Polling during active sync
   useEffect(() => {
@@ -397,6 +423,81 @@ export default function AdminCmsPage() {
                             <span className="text-muted-foreground">-</span>
                           )}
                         </td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
+            )}
+          </CardContent>
+        </Card>
+
+        {/* Visitor Analytics Card */}
+        <Card>
+          <CardHeader>
+            <div className="flex items-center justify-between">
+              <div>
+                <CardTitle className="flex items-center gap-2">
+                  <BarChart3 className="h-5 w-5" />
+                  Visitor Analytics (Last 30 Days)
+                </CardTitle>
+                <CardDescription>
+                  User location and New vs. Returning visitors from Google Analytics
+                </CardDescription>
+              </div>
+              <Button
+                variant="outline"
+                size="sm"
+                onClick={fetchAnalytics}
+                disabled={isLoadingAnalytics}
+              >
+                <RefreshCw
+                  className={`h-4 w-4 mr-2 ${isLoadingAnalytics ? "animate-spin" : ""}`}
+                />
+                Refresh
+              </Button>
+            </div>
+          </CardHeader>
+          <CardContent>
+            {isLoadingAnalytics ? (
+              <div className="flex items-center justify-center py-8">
+                <Spinner className="h-8 w-8" />
+              </div>
+            ) : analyticsData.length === 0 ? (
+              <div className="text-center py-8 text-muted-foreground">
+                <BarChart3 className="h-8 w-8 mx-auto mb-2 opacity-50" />
+                <p>No analytics data available</p>
+              </div>
+            ) : (
+              <div className="overflow-x-auto">
+                <table className="w-full text-sm">
+                  <thead>
+                    <tr className="border-b bg-muted/50">
+                      <th className="text-left p-3 font-medium">Country / Region</th>
+                      <th className="text-left p-3 font-medium">User Type</th>
+                      <th className="text-right p-3 font-medium">Active Users</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {analyticsData.map((row, index) => (
+                      <tr
+                        key={index}
+                        className="border-b hover:bg-muted/30 transition-colors"
+                      >
+                        <td className="p-3">{row.country}</td>
+                        <td className="p-3">
+                          <Badge
+                            variant={row.userType === "new" ? "default" : "secondary"}
+                            className={
+                              row.userType === "new"
+                                ? "bg-green-100 text-green-800 hover:bg-green-100"
+                                : ""
+                            }
+                          >
+                            {row.userType === "new" ? "New" : row.userType === "returning" ? "Returning" : row.userType}
+                          </Badge>
+                        </td>
+                        <td className="p-3 text-right font-mono">{row.users}</td>
                       </tr>
                     ))}
                   </tbody>

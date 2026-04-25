@@ -5,6 +5,8 @@ import { COOKIE_NAME } from "@shared/const";
 import { getSessionCookieOptions } from "./_core/cookies";
 import { systemRouter } from "./_core/systemRouter";
 import { publicProcedure, adminProcedure, router } from "./_core/trpc";
+import { BetaAnalyticsDataClient } from "@google-analytics/data";
+import { ENV } from "./_core/env";
 import { getDb } from "./db";
 import { orders, newsletterSubscribers, products } from "../drizzle/schema";
 import { notifyOwner } from "./_core/notification";
@@ -4107,6 +4109,45 @@ export const appRouter = router({
           return { logs: [] };
         }
       }),
+
+    getAnalyticsData: adminProcedure.query(async () => {
+      try {
+        if (!ENV.googleServiceAccountJson) {
+          return { data: [] };
+        }
+        const credentials = JSON.parse(ENV.googleServiceAccountJson);
+        const analyticsDataClient = new BetaAnalyticsDataClient({ credentials });
+
+        const propertyId = "532509520";
+        const [response] = await analyticsDataClient.runReport({
+          property: `properties/${propertyId}`,
+          dateRanges: [
+            {
+              startDate: "30daysAgo",
+              endDate: "today",
+            },
+          ],
+          dimensions: [
+            { name: "country" },
+            { name: "newVsReturning" },
+          ],
+          metrics: [
+            { name: "activeUsers" },
+          ],
+        });
+
+        const data = response.rows?.map((row) => ({
+          country: row.dimensionValues?.[0]?.value || "Unknown",
+          userType: row.dimensionValues?.[1]?.value || "Unknown",
+          users: parseInt(row.metricValues?.[0]?.value || "0", 10),
+        })) || [];
+
+        return { data };
+      } catch (error: any) {
+        console.error("[analytics] Failed to fetch GA4 data:", error.message);
+        return { data: [] };
+      }
+    }),
   }),
 
   shop: router({
