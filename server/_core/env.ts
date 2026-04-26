@@ -8,4 +8,6 @@ export const ENV = {
   forgeApiUrl: process.env.BUILT_IN_FORGE_API_URL ?? "",
   forgeApiKey: process.env.BUILT_IN_FORGE_API_KEY ?? "",
   googleServiceAccountJson: process.env.GOOGLE_SERVICE_ACCOUNT_JSON ?? "",
+  adminEmail: process.env.ADMIN_EMAIL ?? "",
+  adminPassword: process.env.ADMIN_PASSWORD ?? "",
 };

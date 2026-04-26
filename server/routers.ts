@@ -1,8 +1,10 @@
 import Stripe from "stripe";
 import { z } from "zod";
 import { eq } from "drizzle-orm";
-import { COOKIE_NAME } from "@shared/const";
+import { COOKIE_NAME, ONE_YEAR_MS } from "@shared/const";
 import { getSessionCookieOptions } from "./_core/cookies";
+import { sdk } from "./_core/sdk";
+import { upsertUser, getUserByOpenId } from "./db";
 import { systemRouter } from "./_core/systemRouter";
 import { publicProcedure, adminProcedure, router } from "./_core/trpc";
 import { BetaAnalyticsDataClient } from "@google-analytics/data";
@@ -4071,6 +4073,58 @@ export const appRouter = router({
       ctx.res.clearCookie(COOKIE_NAME, { ...cookieOptions, maxAge: -1 });
       return { success: true };
     }),
+
+    // ── Password-based admin login ──────────────────────────────────────
+    // Bypasses external Manus OAuth. Checks ADMIN_EMAIL + ADMIN_PASSWORD
+    // env vars (already configured in Railway), upserts an admin user,
+    // and sets the standard session cookie that adminProcedure expects.
+    loginWithPassword: publicProcedure
+      .input(z.object({
+        email: z.string().email(),
+        password: z.string().min(1),
+      }))
+      .mutation(async ({ input, ctx }) => {
+        const expectedEmail = ENV.adminEmail.trim().toLowerCase();
+        const expectedPassword = ENV.adminPassword;
+
+        if (!expectedEmail || !expectedPassword) {
+          throw new Error("Admin credentials are not configured on the server");
+        }
+
+        const submittedEmail = input.email.trim().toLowerCase();
+        const emailOk = submittedEmail === expectedEmail;
+        const passwordOk = input.password === expectedPassword;
+
+        if (!emailOk || !passwordOk) {
+          // Generic error so we don't leak which field was wrong.
+          throw new Error("Invalid email or password");
+        }
+
+        // Use ownerOpenId if set, else derive a stable id from the email.
+        const openId = ENV.ownerOpenId || `admin:${submittedEmail}`;
+
+        await upsertUser({
+          openId,
+          email: submittedEmail,
+          name: "Admin",
+          loginMethod: "password",
+          role: "admin",
+          lastSignedIn: new Date(),
+        });
+
+        const sessionToken = await sdk.createSessionToken(openId, {
+          name: "Admin",
+          expiresInMs: ONE_YEAR_MS,
+        });
+
+        const cookieOptions = getSessionCookieOptions(ctx.req);
+        ctx.res.cookie(COOKIE_NAME, sessionToken, {
+          ...cookieOptions,
+          maxAge: ONE_YEAR_MS,
+        });
+
+        return { success: true };
+      }),
   }),
 
   // ── Admin CMS Router (cookie-backed session auth via adminProcedure) ────

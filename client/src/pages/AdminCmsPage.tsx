@@ -191,9 +191,17 @@ export default function AdminCmsPage() {
             <p className="text-gray-500 text-sm mb-6">
               You need to sign in with an admin account to view the CMS dashboard.
             </p>
-            <Link href="/" className="text-primary hover:underline text-sm font-semibold">
-              ← Back to Home
-            </Link>
+            <div className="flex flex-col gap-3">
+              <Link
+                href="/admin/cms/login"
+                className="inline-block w-full rounded-lg bg-primary hover:opacity-90 text-white font-semibold py-2.5 transition-opacity"
+              >
+                Sign In
+              </Link>
+              <Link href="/" className="text-primary hover:underline text-sm font-semibold">
+                ← Back to Home
+              </Link>
+            </div>
           </div>
         </div>
       </div>
