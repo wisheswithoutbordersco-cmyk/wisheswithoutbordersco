@@ -66,3 +66,19 @@ export const products = mysqlTable("products", {
 
 export type Product = typeof products.$inferSelect;
 export type InsertProduct = typeof products.$inferInsert;
+
+// ── Social media post log (Pinterest + Instagram auto-poster) ──────────
+export const socialPosts = mysqlTable("social_posts", {
+  id: int("id").autoincrement().primaryKey(),
+  platform: mysqlEnum("platform", ["pinterest", "instagram"]).notNull(),
+  productId: varchar("product_id", { length: 255 }).notNull(),
+  externalPostId: varchar("external_post_id", { length: 255 }),
+  externalUrl: text("external_url"),
+  status: mysqlEnum("status", ["queued", "posted", "failed"]).default("queued").notNull(),
+  errorMessage: text("error_message"),
+  postedAt: timestamp("posted_at"),
+  createdAt: timestamp("created_at").defaultNow().notNull(),
+});
+
+export type SocialPost = typeof socialPosts.$inferSelect;
+export type InsertSocialPost = typeof socialPosts.$inferInsert;

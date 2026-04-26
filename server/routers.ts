@@ -10,7 +10,9 @@ import { publicProcedure, adminProcedure, router } from "./_core/trpc";
 import { BetaAnalyticsDataClient } from "@google-analytics/data";
 import { ENV } from "./_core/env";
 import { getDb } from "./db";
-import { orders, newsletterSubscribers, products } from "../drizzle/schema";
+import { orders, newsletterSubscribers, products, socialPosts } from "../drizzle/schema";
+import { createPin, composePinCopy, getPinterestConfig } from "./social/pinterest";
+import { createInstagramPost, composeIgCaption, getInstagramConfig } from "./social/instagram";
 import { notifyOwner } from "./_core/notification";
 import { generateDownloadToken } from "./downloadTokens";
 import { WALL_ART_CATALOG, PRINT_PRICES, GELATO_PRODUCT_UIDS, buildGelatoOrderRequest, createGelatoOrder, isGelatoLiveMode } from "./gelato";
@@ -4458,6 +4460,190 @@ export const appRouter = router({
           .offset(offset);
         const countRows = await db.select({ count: newsletterSubscribers.id }).from(newsletterSubscribers);
         return { subscribers: rows, total: countRows.length };
+      }),
+
+    // ── Social Auto-Poster (Pinterest + Instagram) ──────────────────
+    /** One-shot: create the social_posts table if it doesn't exist. */
+    initSocialTable: adminProcedure.mutation(async () => {
+      const db = await getDb();
+      if (!db) throw new Error("Database not available");
+      const { sql } = await import("drizzle-orm");
+      await db.execute(sql`CREATE TABLE IF NOT EXISTS \`social_posts\` (
+        \`id\` int AUTO_INCREMENT NOT NULL,
+        \`platform\` enum('pinterest','instagram') NOT NULL,
+        \`product_id\` varchar(255) NOT NULL,
+        \`external_post_id\` varchar(255),
+        \`external_url\` text,
+        \`status\` enum('queued','posted','failed') NOT NULL DEFAULT 'queued',
+        \`error_message\` text,
+        \`posted_at\` timestamp NULL,
+        \`created_at\` timestamp NOT NULL DEFAULT (now()),
+        PRIMARY KEY(\`id\`)
+      )`);
+      return { ok: true };
+    }),
+
+    /** Status: are Pinterest/Instagram tokens configured? How many posts so far? */
+    getSocialStatus: adminProcedure.query(async () => {
+      const db = await getDb();
+      const pinterestConfigured = Boolean(getPinterestConfig());
+      const instagramConfigured = Boolean(getInstagramConfig());
+      let pinterestPosted = 0;
+      let instagramPosted = 0;
+      let recentPosts: any[] = [];
+      if (db) {
+        try {
+          const { desc, sql, eq: eqFn, and } = await import("drizzle-orm");
+          const [pCount] = await db.select({ count: sql<number>`count(*)` })
+            .from(socialPosts)
+            .where(and(eqFn(socialPosts.platform, "pinterest"), eqFn(socialPosts.status, "posted")));
+          const [iCount] = await db.select({ count: sql<number>`count(*)` })
+            .from(socialPosts)
+            .where(and(eqFn(socialPosts.platform, "instagram"), eqFn(socialPosts.status, "posted")));
+          pinterestPosted = Number(pCount?.count ?? 0);
+          instagramPosted = Number(iCount?.count ?? 0);
+          recentPosts = await db.select().from(socialPosts).orderBy(desc(socialPosts.createdAt)).limit(20);
+        } catch (err: any) {
+          // table may not exist yet
+        }
+      }
+      return {
+        pinterestConfigured,
+        instagramConfigured,
+        pinterestPosted,
+        instagramPosted,
+        recentPosts,
+      };
+    }),
+
+    /** Post one product to one platform. Used for testing or one-off pushes. */
+    postOneToSocial: adminProcedure
+      .input(z.object({
+        platform: z.enum(["pinterest", "instagram"]),
+        productId: z.string(),
+      }))
+      .mutation(async ({ input }) => {
+        const db = await getDb();
+        if (!db) throw new Error("Database not available");
+
+        const [product] = await db.select().from(products).where(eq(products.id, input.productId)).limit(1);
+        if (!product) throw new Error(`Product not found: ${input.productId}`);
+        if (!product.coverImageUrl) {
+          return { ok: false, error: "Product has no cover image URL — cannot post." };
+        }
+
+        const productUrl = `https://www.wisheswithoutbordersco.com/product/${product.id}`;
+
+        let result: { ok: boolean; postId?: string; pinId?: string; pinUrl?: string; error?: string };
+        if (input.platform === "pinterest") {
+          const copy = composePinCopy(product);
+          result = await createPin({
+            title: copy.title,
+            description: copy.description,
+            link: productUrl,
+            imageUrl: product.coverImageUrl,
+          });
+        } else {
+          const caption = composeIgCaption(product);
+          result = await createInstagramPost({
+            imageUrl: product.coverImageUrl,
+            caption,
+          });
+        }
+
+        // Log the attempt
+        try {
+          await db.insert(socialPosts).values({
+            platform: input.platform,
+            productId: input.productId,
+            externalPostId: result.pinId ?? result.postId ?? null,
+            externalUrl: result.pinUrl ?? null,
+            status: result.ok ? "posted" : "failed",
+            errorMessage: result.error ?? null,
+            postedAt: result.ok ? new Date() : null,
+          });
+        } catch (err: any) {
+          // table may not exist yet — caller should run initSocialTable
+        }
+
+        return result;
+      }),
+
+    /**
+     * Auto-post the next N un-posted products on a given platform.
+     * Designed to be called by a cron (Railway cron, GitHub Actions, etc).
+     */
+    runSocialBatch: adminProcedure
+      .input(z.object({
+        platform: z.enum(["pinterest", "instagram"]),
+        batchSize: z.number().int().min(1).max(20).default(3),
+      }))
+      .mutation(async ({ input }) => {
+        const db = await getDb();
+        if (!db) throw new Error("Database not available");
+
+        // Skip configuration check by attempting a config fetch
+        const config = input.platform === "pinterest" ? getPinterestConfig() : getInstagramConfig();
+        if (!config) {
+          return { ok: false, error: `${input.platform} not configured`, posted: 0, results: [] };
+        }
+
+        const { sql, notInArray } = await import("drizzle-orm");
+
+        // Find product IDs already posted to this platform
+        const alreadyPosted = await db.select({ productId: socialPosts.productId })
+          .from(socialPosts)
+          .where(eq(socialPosts.platform, input.platform));
+        const postedIds = alreadyPosted.map((r) => r.productId);
+
+        // Pick batchSize products that haven't been posted, prefer ones with cover images
+        const whereClause = postedIds.length > 0
+          ? sql`${products.coverImageUrl} IS NOT NULL AND ${products.coverImageUrl} != '' AND ${products.id} NOT IN (${sql.join(postedIds.map((id) => sql`${id}`), sql`, `)})`
+          : sql`${products.coverImageUrl} IS NOT NULL AND ${products.coverImageUrl} != ''`;
+
+        const batch = await db.select().from(products).where(whereClause).limit(input.batchSize);
+
+        const results = [];
+        for (const product of batch) {
+          const productUrl = `https://www.wisheswithoutbordersco.com/product/${product.id}`;
+          let result: { ok: boolean; postId?: string; pinId?: string; pinUrl?: string; error?: string };
+          if (input.platform === "pinterest") {
+            const copy = composePinCopy(product);
+            result = await createPin({
+              title: copy.title,
+              description: copy.description,
+              link: productUrl,
+              imageUrl: product.coverImageUrl!,
+            });
+          } else {
+            const caption = composeIgCaption(product);
+            result = await createInstagramPost({
+              imageUrl: product.coverImageUrl!,
+              caption,
+            });
+          }
+
+          await db.insert(socialPosts).values({
+            platform: input.platform,
+            productId: product.id,
+            externalPostId: result.pinId ?? result.postId ?? null,
+            externalUrl: result.pinUrl ?? null,
+            status: result.ok ? "posted" : "failed",
+            errorMessage: result.error ?? null,
+            postedAt: result.ok ? new Date() : null,
+          });
+
+          results.push({ productId: product.id, ...result });
+          // Small delay between posts to be a good API citizen
+          await new Promise((r) => setTimeout(r, 1500));
+        }
+
+        return {
+          ok: true,
+          posted: results.filter((r) => r.ok).length,
+          failed: results.filter((r) => !r.ok).length,
+          results,
+        };
       }),
   }),
 
