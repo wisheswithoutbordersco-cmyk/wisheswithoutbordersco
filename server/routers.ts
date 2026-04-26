@@ -4078,6 +4078,17 @@ export const appRouter = router({
     // (boolean only — never returns the actual values, safe to call from anywhere)
     envDebug: publicProcedure.query(() => {
       const allKeys = Object.keys(process.env).sort();
+      // Extract service account email so user knows what to authorize on GA4 property
+      let serviceAccountEmail = "";
+      try {
+        const json = process.env.GOOGLE_SERVICE_ACCOUNT_JSON;
+        if (json) {
+          const parsed = JSON.parse(json);
+          serviceAccountEmail = parsed.client_email ?? "";
+        }
+      } catch {
+        serviceAccountEmail = "<parse-error>";
+      }
       return {
         adminEmailSet: Boolean(process.env.ADMIN_EMAIL),
         adminEmailLen: (process.env.ADMIN_EMAIL ?? "").length,
@@ -4089,6 +4100,7 @@ export const appRouter = router({
         stripeKeySet: Boolean(process.env.STRIPE_SECRET_KEY),
         nodeEnv: process.env.NODE_ENV ?? "unset",
         envCount: allKeys.length,
+        serviceAccountEmail,
         // ALL env var names — hides values, just shows which keys exist
         allEnvKeys: allKeys,
       };
