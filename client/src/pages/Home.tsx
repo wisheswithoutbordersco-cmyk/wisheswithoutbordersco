@@ -873,16 +873,19 @@ export default function Home() {
           <h3 className="text-[#1a2744] font-bold font-serif text-xl mb-6">Find Us Wherever You Shop</h3>
           <div className="flex flex-wrap justify-center gap-4 md:gap-8">
             {[
-              { name: "Website", desc: "Official Store", icon: Globe },
-              { name: "Gumroad", desc: "Digital Downloads", icon: Download },
-              { name: "Amazon", desc: "Fast Shipping", icon: Gift },
-              { name: "Teachers Pay Teachers", desc: "Classroom Resources", icon: BookOpenCheck },
+              { name: "Website", desc: "Official Store", icon: Globe, href: "/", external: false },
+              { name: "Gumroad", desc: "Digital Downloads", icon: Download, href: "https://jump448.gumroad.com", external: true },
+              { name: "Teachers Pay Teachers", desc: "Classroom Resources", icon: BookOpenCheck, href: "https://www.teacherspayteachers.com/Store/Anthony-Lane", external: true },
+              // Etsy + Amazon: add real URLs here when stores go live.
             ].map((channel) => {
               const Icon = channel.icon;
               return (
-                <div
+                <a
                   key={channel.name}
-                  className="flex items-center gap-3 bg-white rounded-xl px-5 py-3 shadow-sm border border-[#e8dfc8]/60"
+                  href={channel.href}
+                  target={channel.external ? "_blank" : undefined}
+                  rel={channel.external ? "noopener noreferrer" : undefined}
+                  className="flex items-center gap-3 bg-white rounded-xl px-5 py-3 shadow-sm border border-[#e8dfc8]/60 hover:shadow-md hover:border-[#d4af37] transition-all"
                 >
                   <div className="w-10 h-10 rounded-lg bg-[#1a2744] flex items-center justify-center shrink-0">
                     <Icon className="w-5 h-5 text-[#d4af37]" />
@@ -891,7 +894,7 @@ export default function Home() {
                     <p className="font-bold text-[#1a2744] text-sm">{channel.name}</p>
                     <p className="text-gray-400 text-xs">{channel.desc}</p>
                   </div>
-                </div>
+                </a>
               );
             })}
           </div>
