@@ -4095,21 +4095,21 @@ export const appRouter = router({
     }),
 
     // ── Password-based admin login ──────────────────────────────────────
-    // Bypasses external Manus OAuth. Checks ADMIN_EMAIL + ADMIN_PASSWORD
-    // env vars (already configured in Railway), upserts an admin user,
-    // and sets the standard session cookie that adminProcedure expects.
+    // Bypasses external Manus OAuth. Credentials are hardcoded here
+    // (env-var injection on Railway was unreliable for these two specific
+    // vars). Email is fixed; password may be overridden via env if set.
     loginWithPassword: publicProcedure
       .input(z.object({
         email: z.string().email(),
         password: z.string().min(1),
       }))
       .mutation(async ({ input, ctx }) => {
-        const expectedEmail = ENV.adminEmail.trim().toLowerCase();
-        const expectedPassword = ENV.adminPassword;
+        // Hardcoded fallbacks — used when Railway env vars don't propagate.
+        const HARDCODED_ADMIN_EMAIL = "wisheswithoutbordersco@gmail.com";
+        const HARDCODED_ADMIN_PASSWORD = "Hurricane2026!";
 
-        if (!expectedEmail || !expectedPassword) {
-          throw new Error("Admin credentials are not configured on the server");
-        }
+        const expectedEmail = (ENV.adminEmail || HARDCODED_ADMIN_EMAIL).trim().toLowerCase();
+        const expectedPassword = ENV.adminPassword || HARDCODED_ADMIN_PASSWORD;
 
         const submittedEmail = input.email.trim().toLowerCase();
         const emailOk = submittedEmail === expectedEmail;
