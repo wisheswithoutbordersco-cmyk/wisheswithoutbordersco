@@ -4077,21 +4077,20 @@ export const appRouter = router({
     // ── Temporary diagnostic: shows which env vars the server can see ──
     // (boolean only — never returns the actual values, safe to call from anywhere)
     envDebug: publicProcedure.query(() => {
+      const allKeys = Object.keys(process.env).sort();
       return {
         adminEmailSet: Boolean(process.env.ADMIN_EMAIL),
         adminEmailLen: (process.env.ADMIN_EMAIL ?? "").length,
         adminPasswordSet: Boolean(process.env.ADMIN_PASSWORD),
         adminPasswordLen: (process.env.ADMIN_PASSWORD ?? "").length,
-        envAdminEmailSet: Boolean(ENV.adminEmail),
-        envAdminEmailLen: ENV.adminEmail.length,
-        envAdminPasswordSet: Boolean(ENV.adminPassword),
-        envAdminPasswordLen: ENV.adminPassword.length,
+        databaseUrlSet: Boolean(process.env.DATABASE_URL),
+        databaseUrlLen: (process.env.DATABASE_URL ?? "").length,
+        jwtSecretSet: Boolean(process.env.JWT_SECRET),
+        stripeKeySet: Boolean(process.env.STRIPE_SECRET_KEY),
         nodeEnv: process.env.NODE_ENV ?? "unset",
-        oauthServerUrlSet: Boolean(process.env.OAUTH_SERVER_URL),
-        // Sample of var names so we can see if Railway is injecting any:
-        envVarNamesPartial: Object.keys(process.env)
-          .filter(k => k.startsWith("ADMIN") || k.startsWith("VITE") || k.startsWith("OAUTH") || k.startsWith("OWNER"))
-          .sort(),
+        envCount: allKeys.length,
+        // ALL env var names — hides values, just shows which keys exist
+        allEnvKeys: allKeys,
       };
     }),
 
