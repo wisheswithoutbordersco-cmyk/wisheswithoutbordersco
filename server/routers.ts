@@ -4323,6 +4323,130 @@ export const appRouter = router({
           gumroadProductId: gumroadProduct.id,
         };
       }),
+
+    // ── Export to TPT: generate CSV for manual upload to TeachersPayTeachers ──
+    // TPT has no public API, so we produce a CSV the user can upload via the
+    // "Bulk Upload" tool inside their Seller Dashboard.
+    exportToTpt: adminProcedure
+      .input(z.object({
+        productIds: z.array(z.string()).optional(),
+        category: z.string().optional(),
+      }).optional())
+      .mutation(async ({ input }) => {
+        const db = await getDb();
+        if (!db) throw new Error("Database not available");
+
+        const { inArray } = await import("drizzle-orm");
+        let rows;
+        if (input?.productIds && input.productIds.length > 0) {
+          rows = await db.select().from(products).where(inArray(products.id, input.productIds));
+        } else if (input?.category) {
+          rows = await db.select().from(products).where(eq(products.category, input.category));
+        } else {
+          rows = await db.select().from(products);
+        }
+
+        // TPT bulk upload columns (per their seller documentation):
+        // Title, Description, Price, Grade Levels, Subjects, Resource Type, File URL, Cover Image URL, Tags
+        const escape = (v: string | null | undefined) => {
+          const s = (v ?? "").toString().replace(/"/g, '""');
+          return /[,"\n]/.test(s) ? `"${s}"` : s;
+        };
+
+        const header = [
+          "Title", "Description", "Price (USD)", "Grade Levels", "Subjects",
+          "Resource Type", "File URL", "Cover Image URL", "Tags",
+        ].join(",");
+
+        const inferGrade = (cat: string | null) => {
+          if (!cat) return "3rd, 4th, 5th";
+          if (cat.includes("workbook") || cat.includes("activity")) return "3rd, 4th, 5th";
+          if (cat.includes("coloring")) return "PreK, K, 1st, 2nd";
+          return "3rd, 4th, 5th, 6th";
+        };
+        const inferSubject = (cat: string | null) => {
+          if (!cat) return "Social Studies, Geography";
+          if (cat.includes("workbook") || cat.includes("activity")) return "Social Studies, Geography, World Language";
+          if (cat.includes("coloring")) return "Arts, Social Studies";
+          return "Social Studies";
+        };
+        const inferType = (cat: string | null) => {
+          if (!cat) return "Activities";
+          if (cat.includes("workbook")) return "Workbooks";
+          if (cat.includes("coloring")) return "Printables";
+          if (cat.includes("flashcard")) return "Flash Cards";
+          return "Activities";
+        };
+
+        const lines = rows.map((r) => [
+          escape(r.productName),
+          escape(r.description ?? `${r.productName} — printable activity from Wishes Without Borders.`),
+          ((r.price ?? 0) / 100).toFixed(2),
+          escape(inferGrade(r.category)),
+          escape(inferSubject(r.category)),
+          escape(inferType(r.category)),
+          escape(r.pdfUrl ?? ""),
+          escape(r.coverImageUrl ?? ""),
+          escape([r.country, r.category, r.subcategory].filter(Boolean).join(", ")),
+        ].join(","));
+
+        const csv = [header, ...lines].join("\n");
+        const filename = `tpt-export-${new Date().toISOString().slice(0, 10)}.csv`;
+
+        return {
+          csv,
+          filename,
+          rowCount: rows.length,
+        };
+      }),
+
+    // ── Admin Orders + Subscribers (proxy under admin: namespace) ────────
+    getOrders: adminProcedure
+      .input(z.object({
+        page: z.number().min(1).default(1),
+        pageSize: z.number().min(1).max(100).default(50),
+        status: z.enum(["all", "paid", "pending", "failed"]).default("all"),
+      }).optional())
+      .query(async ({ input }) => {
+        const db = await getDb();
+        if (!db) return { orders: [], total: 0, totalRevenueCents: 0 };
+        const { desc, sql } = await import("drizzle-orm");
+        const page = input?.page ?? 1;
+        const pageSize = input?.pageSize ?? 50;
+        const status = input?.status ?? "all";
+        const offset = (page - 1) * pageSize;
+        const whereClause = status === "all" ? undefined : eq(orders.status, status as "paid" | "pending" | "failed");
+        const allOrders = await db.select().from(orders)
+          .where(whereClause)
+          .orderBy(desc(orders.createdAt))
+          .limit(pageSize)
+          .offset(offset);
+        const [countRow] = await db.select({ count: sql<number>`count(*)` }).from(orders).where(whereClause);
+        const [revenueRow] = await db.select({ total: sql<number>`coalesce(sum(${orders.amountCents}), 0)` }).from(orders).where(eq(orders.status, "paid"));
+        return {
+          orders: allOrders,
+          total: Number(countRow?.count ?? 0),
+          totalRevenueCents: Number(revenueRow?.total ?? 0),
+        };
+      }),
+
+    getSubscribers: adminProcedure
+      .input(z.object({ page: z.number().int().min(1).default(1), pageSize: z.number().int().min(1).max(200).default(50) }).optional())
+      .query(async ({ input }) => {
+        const db = await getDb();
+        if (!db) return { subscribers: [], total: 0 };
+        const page = input?.page ?? 1;
+        const pageSize = input?.pageSize ?? 50;
+        const offset = (page - 1) * pageSize;
+        const rows = await db
+          .select()
+          .from(newsletterSubscribers)
+          .orderBy(newsletterSubscribers.createdAt)
+          .limit(pageSize)
+          .offset(offset);
+        const countRows = await db.select({ count: newsletterSubscribers.id }).from(newsletterSubscribers);
+        return { subscribers: rows, total: countRows.length };
+      }),
   }),
 
   shop: router({
@@ -4595,7 +4719,7 @@ export const appRouter = router({
           .limit(input.pageSize)
           .offset(offset);
         const [countRow] = await db.select({ count: sql<number>`count(*)` }).from(orders).where(whereClause);
-        const [revenueRow] = await db.select({ total: sql<number>`coalesce(sum(amount_cents), 0)` }).from(orders).where(eq(orders.status, "paid"));
+        const [revenueRow] = await db.select({ total: sql<number>`coalesce(sum(${orders.amountCents}), 0)` }).from(orders).where(eq(orders.status, "paid"));
         return {
           orders: allOrders,
           total: Number(countRow?.count ?? 0),
