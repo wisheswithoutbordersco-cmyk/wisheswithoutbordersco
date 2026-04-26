@@ -876,7 +876,8 @@ export default function Home() {
               { name: "Website", desc: "Official Store", icon: Globe, href: "/", external: false },
               { name: "Gumroad", desc: "Digital Downloads", icon: Download, href: "https://jump448.gumroad.com", external: true },
               { name: "Teachers Pay Teachers", desc: "Classroom Resources", icon: BookOpenCheck, href: "https://www.teacherspayteachers.com/Store/Anthony-Lane", external: true },
-              // Etsy + Amazon: add real URLs here when stores go live.
+              { name: "Etsy", desc: "Handmade & Templates", icon: Gift, href: "https://www.etsy.com/shop/ThreeMomentsCo", external: true },
+              // Amazon: add real Author Page URL when KDP titles go live.
             ].map((channel) => {
               const Icon = channel.icon;
               return (
