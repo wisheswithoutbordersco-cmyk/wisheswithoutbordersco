@@ -4074,6 +4074,27 @@ export const appRouter = router({
       return { success: true };
     }),
 
+    // ── Temporary diagnostic: shows which env vars the server can see ──
+    // (boolean only — never returns the actual values, safe to call from anywhere)
+    envDebug: publicProcedure.query(() => {
+      return {
+        adminEmailSet: Boolean(process.env.ADMIN_EMAIL),
+        adminEmailLen: (process.env.ADMIN_EMAIL ?? "").length,
+        adminPasswordSet: Boolean(process.env.ADMIN_PASSWORD),
+        adminPasswordLen: (process.env.ADMIN_PASSWORD ?? "").length,
+        envAdminEmailSet: Boolean(ENV.adminEmail),
+        envAdminEmailLen: ENV.adminEmail.length,
+        envAdminPasswordSet: Boolean(ENV.adminPassword),
+        envAdminPasswordLen: ENV.adminPassword.length,
+        nodeEnv: process.env.NODE_ENV ?? "unset",
+        oauthServerUrlSet: Boolean(process.env.OAUTH_SERVER_URL),
+        // Sample of var names so we can see if Railway is injecting any:
+        envVarNamesPartial: Object.keys(process.env)
+          .filter(k => k.startsWith("ADMIN") || k.startsWith("VITE") || k.startsWith("OAUTH") || k.startsWith("OWNER"))
+          .sort(),
+      };
+    }),
+
     // ── Password-based admin login ──────────────────────────────────────
     // Bypasses external Manus OAuth. Checks ADMIN_EMAIL + ADMIN_PASSWORD
     // env vars (already configured in Railway), upserts an admin user,
