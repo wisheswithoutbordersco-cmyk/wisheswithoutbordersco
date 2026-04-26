@@ -1,7 +1,0 @@
-User-agent: *
-Allow: /
-Disallow: /admin
-Disallow: /api/
-Disallow: /order/
-
-Sitemap: https://www.wisheswithoutbordersco.com/sitemap.xml
